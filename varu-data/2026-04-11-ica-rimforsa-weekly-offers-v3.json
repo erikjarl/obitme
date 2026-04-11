@@ -1,0 +1,349 @@
+{
+  "date": "2026-04-11",
+  "created_at": "2026-04-11T22:47:00+02:00",
+  "slug": "2026-04-11-ica-rimforsa-weekly-offers-v3",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v3)",
+  "summary": "Tre billiga, nyttiga recept på svenska för 3 vuxna plus 2 matlådor, byggda på verifierade ICA-erbjudanden i Rimforsa och kompletterade med tydligt märkta svenska webbpriser eller försiktiga uppskattningar där exakta webbpriser inte kunde hämtas stabilt i denna körning.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "ICA Handla-sidan för butik 1004066 gick att läsa men exponerade inte erbjudandekorten stabilt i läsbar extraktion. Kampanjpriser och ordinarie priser verifierades därför mot ICA:s publika erbjudandesida för Rimforsa och ett direkt HTML-utdrag av erbjudandekorten.",
+  "pricing_method": {
+    "ica_offers": "Kampanjpris och ordinarie pris hämtade från ICA:s erbjudandekort. Kampanjpris för gurka och lax är direkt läst som formatpriser (2 för 18 kr respektive 139 kr/kg). För lax är batchkostnaden härledd från ICA:s pris per kg multiplicerat med ca-vikten 1,2 kg som anges av ICA.",
+    "non_ica_items": "När ett exakt svenskt webbpris inte kunde hämtas snabbt och stabilt i denna körning markeras priset som uppskattat eller schablon. Inga aggressiva gissningar har gjorts för ordinarie ICA-priser.",
+    "rounding": "Totalsummor avrundade till två decimaler i batchkostnad och till hela kronor i löptext där det hjälper läsbarheten. Portionskostnad beräknas på 5 portioner."
+  },
+  "offer_review": {
+    "picked_offers": [
+      {
+        "product": "Färsk pasta ICA 200–250 g",
+        "campaign_price": {
+          "amount_sek": 10,
+          "unit": "st",
+          "status": "exact"
+        },
+        "ordinary_price": {
+          "amount_sek": 17.88,
+          "unit": "st",
+          "status": "exact"
+        },
+        "discount_sek": 7.88,
+        "source_reference": "ICA erbjudanden Rimforsa, erbjudandekort: Färsk pasta ICA 200–250 g, 10 kr/st, ord.pris 17:88 kr"
+      },
+      {
+        "product": "Fetaost ICA 150 g",
+        "campaign_price": {
+          "amount_sek": 15,
+          "unit": "st",
+          "status": "exact"
+        },
+        "ordinary_price": {
+          "amount_sek": 21.67,
+          "unit": "st",
+          "status": "exact"
+        },
+        "discount_sek": 6.67,
+        "source_reference": "ICA erbjudanden Rimforsa, erbjudandekort: Fetaost ICA 150 g, 15 kr/st, ord.pris 21:67 kr"
+      },
+      {
+        "product": "Salsiccia- och chorizofärs ICA 500 g",
+        "campaign_price": {
+          "amount_sek": 42,
+          "unit": "st",
+          "status": "exact"
+        },
+        "ordinary_price": {
+          "amount_sek": 50.06,
+          "unit": "st",
+          "status": "exact"
+        },
+        "discount_sek": 8.06,
+        "source_reference": "ICA erbjudanden Rimforsa, erbjudandekort: Salsiccia- och chorizofärs ICA 500 g, 42 kr/st, ord.pris 50:06 kr"
+      },
+      {
+        "product": "Svensk gurka Odlarna.se 250–500 g",
+        "campaign_price": {
+          "amount_sek": 18,
+          "unit": "2 st",
+          "status": "exact",
+          "display": "2 för 18 kr"
+        },
+        "ordinary_price": {
+          "amount_sek": 17.88,
+          "unit": "st",
+          "status": "exact"
+        },
+        "discount_sek": 17.76,
+        "normalized_campaign_price_per_piece_sek": 9,
+        "source_reference": "ICA erbjudanden Rimforsa, erbjudandekort: Svensk gurka, 2 för 18 kr, ord.pris 17:88 kr/st"
+      },
+      {
+        "product": "Laxsida ASC ca 1200 g",
+        "campaign_price": {
+          "amount_sek": 139,
+          "unit": "kg",
+          "status": "exact",
+          "display": "139 kr/kg"
+        },
+        "ordinary_price": {
+          "amount_sek": 235.65,
+          "unit": "ca 1,2 kg",
+          "status": "exact"
+        },
+        "derived_campaign_batch_cost_sek": 166.8,
+        "discount_sek": 68.85,
+        "source_reference": "ICA erbjudanden Rimforsa, erbjudandekort: Laxsida ASC ca 1200 g, 139 kr/kg, ord.pris 235:65 kr"
+      }
+    ],
+    "excluded_offers": [
+      "Glass, juice och dessertprodukter – bra kampanjer men svagare för nyttiga huvudrecept",
+      "Flap steak – användbar men dyrare per portion än veckans bättre fynd",
+      "Färsk schnitzel – okej pris men sämre värde än färs, pasta, feta och lax i denna meny"
+    ]
+  },
+  "recipes": [
+    {
+      "name": "Citronpasta med kikärter, spenat, feta och gurka",
+      "summary": "En mättande medelhavspasta där kampanjpasta och kampanjfeta bär smaken, medan kikärter och spenat håller nere portionskostnaden och höjer protein- och fiberinnehållet.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "25 minuter",
+      "ica_offer_products": [
+        {
+          "product": "Färsk pasta ICA 200–250 g",
+          "amount_used": "2 förpackningar / 500 g",
+          "campaign_price_sek": 10,
+          "ordinary_price_sek": 17.88,
+          "discount_sek": 7.88,
+          "line_cost_sek": 20,
+          "price_status": "exact",
+          "source": "ICA erbjudanden Rimforsa: Färsk pasta 10 kr/st, ord.pris 17:88 kr"
+        },
+        {
+          "product": "Fetaost ICA 150 g",
+          "amount_used": "1 förpackning / 150 g",
+          "campaign_price_sek": 15,
+          "ordinary_price_sek": 21.67,
+          "discount_sek": 6.67,
+          "line_cost_sek": 15,
+          "price_status": "exact",
+          "source": "ICA erbjudanden Rimforsa: Fetaost 15 kr/st, ord.pris 21:67 kr"
+        },
+        {
+          "product": "Svensk gurka Odlarna.se",
+          "amount_used": "1 st / ca 350 g",
+          "campaign_price_sek": 18,
+          "campaign_price_display": "2 för 18 kr",
+          "ordinary_price_sek": 17.88,
+          "discount_sek": 17.76,
+          "effective_recipe_cost_sek": 9,
+          "price_status": "exact campaign bundle; effective recipe cost derived as 9 kr/st",
+          "source": "ICA erbjudanden Rimforsa: Svensk gurka 2 för 18 kr, ord.pris 17:88 kr/st"
+        }
+      ],
+      "ingredients": [
+        { "item": "Färsk pasta ICA", "amount": "500 g" },
+        { "item": "Kikärter, kokta", "amount": "760 g avrunnen vikt (2 förpackningar/burkar à ca 380 g)" },
+        { "item": "Fryst bladspenat", "amount": "400 g" },
+        { "item": "Fetaost ICA", "amount": "150 g" },
+        { "item": "Svensk gurka", "amount": "1 st, ca 350 g" },
+        { "item": "Krossade tomater", "amount": "1000 g" },
+        { "item": "Gul lök", "amount": "180 g" },
+        { "item": "Vitlök", "amount": "15 g" },
+        { "item": "Citron", "amount": "1 st, ca 120 g" },
+        { "item": "Olivolja", "amount": "30 ml" },
+        { "item": "Torkad oregano", "amount": "4 g" },
+        { "item": "Chiliflakes", "amount": "1 g" },
+        { "item": "Salt", "amount": "6 g" },
+        { "item": "Svartpeppar", "amount": "2 g" }
+      ],
+      "estimated_non_ica_costs": [
+        { "item": "Kikärter 2 × ca 380 g", "cost_sek": 24, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Fryst bladspenat 400 g", "cost_sek": 20, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Krossade tomater 1000 g", "cost_sek": 16, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Lök, vitlök och citron", "cost_sek": 14, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Olivolja och kryddor", "cost_sek": 5, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "estimated_total_batch_cost_sek": 123,
+      "estimated_cost_per_portion_sek": 24.6,
+      "recipe": {
+        "steps": [
+          "Koka upp rikligt med lättsaltat vatten till pastan.",
+          "Hacka lök och vitlök fint. Riv det yttersta skalet från citronen och pressa ur saften. Tärna gurkan.",
+          "Värm olivolja i en stor gryta. Fräs lök i 3–4 minuter tills den mjuknar. Tillsätt vitlök, oregano och chiliflakes och fräs i 30 sekunder.",
+          "Tillsätt krossade tomater, kikärter och fryst bladspenat. Låt sjuda i 8–10 minuter tills spenaten är genomvarm och såsen blivit fylligare.",
+          "Smaka av med citronskal, citronsaft, salt och svartpeppar.",
+          "Koka pastan enligt förpackningen, vanligtvis 2–4 minuter. Spara 1 dl pastavatten.",
+          "Vänd ner pastan i såsen och justera konsistensen med lite pastavatten om det behövs.",
+          "Toppa med smulad feta och tärnad gurka precis före servering."
+        ]
+      },
+      "sources": [
+        "ICA erbjudanden Rimforsa: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "ICA Handla butikssida: https://handlaprivatkund.ica.se/stores/1004066"
+      ]
+    },
+    {
+      "name": "Bulgurgryta med salsicciafärs, vita bönor, tomat och feta",
+      "summary": "Kryddig men billig gryta där kampanjfärsen sträcks ut med bulgur, bönor och grönsaker så att fem rejäla portioner fortfarande landar lågt i pris.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "35 minuter",
+      "ica_offer_products": [
+        {
+          "product": "Salsiccia- och chorizofärs ICA 500 g",
+          "amount_used": "1 förpackning / 500 g",
+          "campaign_price_sek": 42,
+          "ordinary_price_sek": 50.06,
+          "discount_sek": 8.06,
+          "line_cost_sek": 42,
+          "price_status": "exact",
+          "source": "ICA erbjudanden Rimforsa: Salsiccia- och chorizofärs 42 kr/st, ord.pris 50:06 kr"
+        },
+        {
+          "product": "Fetaost ICA 150 g",
+          "amount_used": "1 förpackning / 150 g",
+          "campaign_price_sek": 15,
+          "ordinary_price_sek": 21.67,
+          "discount_sek": 6.67,
+          "line_cost_sek": 15,
+          "price_status": "exact",
+          "source": "ICA erbjudanden Rimforsa: Fetaost 15 kr/st, ord.pris 21:67 kr"
+        }
+      ],
+      "ingredients": [
+        { "item": "Salsiccia- och chorizofärs ICA", "amount": "500 g" },
+        { "item": "Bulgur", "amount": "350 g" },
+        { "item": "Vita bönor, kokta", "amount": "760 g avrunnen vikt (2 förpackningar/burkar à ca 380 g)" },
+        { "item": "Krossade tomater", "amount": "1000 g" },
+        { "item": "Paprika", "amount": "300 g" },
+        { "item": "Zucchini", "amount": "300 g" },
+        { "item": "Gul lök", "amount": "180 g" },
+        { "item": "Vitlök", "amount": "15 g" },
+        { "item": "Fetaost ICA", "amount": "150 g" },
+        { "item": "Olivolja", "amount": "15 ml" },
+        { "item": "Torkad oregano", "amount": "4 g" },
+        { "item": "Paprikapulver", "amount": "3 g" },
+        { "item": "Citron", "amount": "0.5 st, ca 60 g" },
+        { "item": "Persilja", "amount": "20 g" },
+        { "item": "Svartpeppar", "amount": "2 g" },
+        { "item": "Salt", "amount": "3 g eller efter smak" }
+      ],
+      "estimated_non_ica_costs": [
+        { "item": "Bulgur 350 g", "cost_sek": 17, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Vita bönor 2 × ca 380 g", "cost_sek": 24, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Krossade tomater 1000 g", "cost_sek": 16, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Paprika 300 g", "cost_sek": 18, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Zucchini 300 g", "cost_sek": 15, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Lök, vitlök, citron och persilja", "cost_sek": 18, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Olivolja och kryddor", "cost_sek": 6, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "estimated_total_batch_cost_sek": 171,
+      "estimated_cost_per_portion_sek": 34.2,
+      "recipe": {
+        "steps": [
+          "Koka bulgurn enligt paketets anvisning, cirka 10–12 minuter. Låt stå under lock.",
+          "Hacka lök och vitlök. Tärna paprika och zucchini smått.",
+          "Hetta upp olivoljan i en stor gryta eller djup stekpanna och bryn färsen i 5–6 minuter tills den får färg.",
+          "Tillsätt lök, vitlök, paprika och zucchini och stek i ytterligare 4–5 minuter.",
+          "Rör ner krossade tomater, vita bönor, oregano, paprikapulver och svartpeppar. Låt sjuda 12–15 minuter utan lock.",
+          "Smaka av med lite citronsaft och eventuellt lite salt; färsen och fetan bidrar redan med sälta.",
+          "Vänd ner bulgurn i grytan för en mer matlådevänlig helrätt, eller servera bredvid om du vill ha lösare gryta.",
+          "Toppa med smulad feta och hackad persilja vid servering."
+        ]
+      },
+      "sources": [
+        "ICA erbjudanden Rimforsa: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "ICA Handla butikssida: https://handlaprivatkund.ica.se/stores/1004066"
+      ]
+    },
+    {
+      "name": "Ugnslax med citronbulgur, gurksallad och yoghurtsås",
+      "summary": "Veckans dyraste rätt, men fortfarande klart prisvärd tack vare laxkampanjen. Bra protein, nyttiga fetter och en form som håller väl i lunchlåda.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "35 minuter",
+      "ica_offer_products": [
+        {
+          "product": "Laxsida ASC ca 1200 g",
+          "amount_used": "ca 1.2 kg",
+          "campaign_price_sek": 139,
+          "campaign_price_unit": "kg",
+          "ordinary_price_sek": 235.65,
+          "ordinary_price_unit": "ca 1.2 kg",
+          "discount_sek": 68.85,
+          "line_cost_sek": 166.8,
+          "price_status": "campaign exact; batch cost derived from 139 kr/kg × 1.2 kg",
+          "source": "ICA erbjudanden Rimforsa: Laxsida ASC 139 kr/kg, ca 1200 g, ord.pris 235:65 kr"
+        },
+        {
+          "product": "Svensk gurka Odlarna.se",
+          "amount_used": "2 st, ca 700 g",
+          "campaign_price_sek": 18,
+          "campaign_price_display": "2 för 18 kr",
+          "ordinary_price_sek": 17.88,
+          "discount_sek": 17.76,
+          "line_cost_sek": 18,
+          "price_status": "exact",
+          "source": "ICA erbjudanden Rimforsa: Svensk gurka 2 för 18 kr, ord.pris 17:88 kr/st"
+        }
+      ],
+      "ingredients": [
+        { "item": "Laxsida ASC", "amount": "ca 1200 g" },
+        { "item": "Bulgur", "amount": "350 g" },
+        { "item": "Svensk gurka", "amount": "2 st, ca 700 g" },
+        { "item": "Naturell grekisk eller turkisk yoghurt", "amount": "500 g" },
+        { "item": "Broccoli", "amount": "500 g" },
+        { "item": "Citron", "amount": "2 st, ca 240 g" },
+        { "item": "Rödlök", "amount": "80 g" },
+        { "item": "Färsk dill", "amount": "20 g" },
+        { "item": "Olivolja", "amount": "30 ml" },
+        { "item": "Dijonsenap", "amount": "15 g" },
+        { "item": "Salt", "amount": "6 g" },
+        { "item": "Svartpeppar", "amount": "2 g" }
+      ],
+      "estimated_non_ica_costs": [
+        { "item": "Bulgur 350 g", "cost_sek": 17, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Yoghurt 500 g", "cost_sek": 22, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Broccoli 500 g", "cost_sek": 25, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Citroner 2 st", "cost_sek": 8, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Rödlök och dill", "cost_sek": 19, "price_status": "estimated", "source": "svenskt dagligvarupris, försiktig uppskattning" },
+        { "item": "Olivolja, dijon, salt och peppar", "cost_sek": 5, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "estimated_total_batch_cost_sek": 280.8,
+      "estimated_cost_per_portion_sek": 56.16,
+      "recipe": {
+        "steps": [
+          "Sätt ugnen på 200 grader. Lägg laxen i en lätt inoljad ugnsform.",
+          "Blanda 15 ml olivolja, dijonsenap, finrivet skal från 1 citron, 15 ml citronsaft, salt och svartpeppar. Pensla över laxen.",
+          "Ugnsbaka laxen i 18–22 minuter tills den precis flikar sig.",
+          "Koka bulgurn enligt anvisningarna. Vänd sedan ner resten av olivoljan, lite citronsaft och hälften av den hackade dillen.",
+          "Koka eller ånga broccoli i 4–5 minuter tills den är mjuk men fortfarande spänstig.",
+          "Skiva gurkan tunt och blanda med finhackad rödlök, lite citronsaft och en nypa salt till en snabb sallad.",
+          "Rör ihop yoghurt med resten av dillen och lite citronsaft till en kall sås.",
+          "Servera laxen med citronbulgur, broccoli, gurksallad och yoghurtsås."
+        ]
+      },
+      "sources": [
+        "ICA erbjudanden Rimforsa: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "ICA Handla butikssida: https://handlaprivatkund.ica.se/stores/1004066"
+      ]
+    }
+  ],
+  "quality_check": {
+    "all_recipes_have_servings": true,
+    "all_ingredients_have_amounts": true,
+    "all_ica_products_have_campaign_price_and_source": true,
+    "ordinary_prices_are_clear_or_marked_uncertain": true,
+    "all_recipes_have_cost_per_portion": true,
+    "frontend_ready": true
+  },
+  "delivery_note": {
+    "discord_recipient": "Erik",
+    "discord_summary": "Varuövervakaren är uppdaterad. 1) Citronpasta med kikärter, spenat, feta och gurka – 24,60 kr/portion. 2) Bulgurgryta med salsicciafärs, vita bönor, tomat och feta – 34,20 kr/portion. 3) Ugnslax med citronbulgur, gurksallad och yoghurtsås – 56,16 kr/portion. Största fynden: färsk pasta 10 kr/st, feta 15 kr/st, salsicciafärs 42 kr/st, gurka 2 för 18 kr och lax 139 kr/kg.",
+    "not_sent_by_tooling": true
+  }
+}
