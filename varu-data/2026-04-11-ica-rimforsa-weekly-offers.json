@@ -1,0 +1,261 @@
+{
+  "date": "2026-04-11",
+  "created_at": "2026-04-11T21:57:00+02:00",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa",
+  "summary": "Tre prispressade veckorecept byggda runt Rimforsa-erbjudanden, med praktiska kostnadsuppskattningar för 3 vuxna plus 2 matlådor.",
+  "source": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "store": "ICA Supermarket Rimforsa",
+  "offer_review": "Jag prioriterade de erbjudanden som gick att göra vardagsnyttiga och relativt billiga måltider av: fetaost, färsk pasta, gurka och lax. Jag hoppade över glass, portionsrätter och rengöring; salsiccia användes bara som möjlig prisjämförelse men föll bort till slut eftersom linser/kikärter gav bättre budget och WW-känsla.",
+  "offers_considered": [
+    {
+      "name": "Fetaost ICA 150 g",
+      "offer_price_sek": 15,
+      "basis": "jämförpris 100 kr/kg på ICA-sidan"
+    },
+    {
+      "name": "Färsk pasta ICA 200–250 g",
+      "offer_price_sek": 10,
+      "basis": "jämförpris 40–50 kr/kg på ICA-sidan"
+    },
+    {
+      "name": "Salsiccia-/chorizofärs ICA 500 g",
+      "offer_price_sek": 42,
+      "basis": "jämförpris 84 kr/kg på ICA-sidan"
+    },
+    {
+      "name": "Svensk gurka",
+      "offer_price_sek": 17,
+      "basis": "jämförpris 39,13 kr/kg och normalvikt ca 0,43 kg"
+    },
+    {
+      "name": "Laxsida ASC ca 1,2 kg",
+      "offer_price_sek": 180,
+      "basis": "praktisk uppskattning: tydligt kampanjpris under ord. 235,65 kr"
+    }
+  ],
+  "pricing_note": "Priserna är avsiktligt praktiska snarare än perfekta. ICA-erbjudanden tolkades från nuvarande listning och saknade ingredienser skattades mot svenska dagligvarupriser på webben, främst Coop-snippets samt rimliga lågprisschabloner för standardvaror.",
+  "recipes": [
+    {
+      "name": "Medelhavspasta med feta, kikärter och gurka",
+      "summary": "Billig vegetarisk pastasallad i medelhavsstil med mycket protein från kikärter och sälta från kampanjfeta. Räcker till middag för 3 vuxna plus 2 matlådor.",
+      "inspiration": "Medelhav / viktvänlig vardagsmat",
+      "servings": "3 vuxna + 2 lunchlådor",
+      "uses_offers": [
+        "Fetaost ICA 150 g",
+        "Färsk pasta ICA 200–250 g × 2",
+        "Svensk gurka"
+      ],
+      "ingredients_used": [
+        {
+          "item": "Färsk pasta ICA",
+          "qty": "2 förp á ca 250 g",
+          "cost_sek": 20
+        },
+        {
+          "item": "Fetaost ICA",
+          "qty": "1 förp 150 g",
+          "cost_sek": 15
+        },
+        {
+          "item": "Svensk gurka",
+          "qty": "1 st",
+          "cost_sek": 17
+        },
+        {
+          "item": "Kikärter, kokta",
+          "qty": "2 förp/burkar",
+          "cost_sek": 24,
+          "price_source": "praktiskt webbankare: svenska lågpriskedjor ligger ofta runt 10–12 kr/st"
+        },
+        {
+          "item": "Passerade tomater Coop 500 g",
+          "qty": "1 st",
+          "cost_sek": 8.33,
+          "price_source": "Coop-webbsnippet: 3 för 25 kr"
+        },
+        {
+          "item": "Gul lök",
+          "qty": "2 st",
+          "cost_sek": 5,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Vitlök",
+          "qty": "3 klyftor",
+          "cost_sek": 2,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Citron",
+          "qty": "1 st",
+          "cost_sek": 4,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Olivolja + oregano/chili",
+          "qty": "skafferi",
+          "cost_sek": 4,
+          "price_source": "schablon"
+        }
+      ],
+      "missing_ingredients": [
+        {
+          "item": "Kikärter",
+          "approx_price_sek": 24,
+          "source": "andra svenska matbutiker på webben, ca 2 × 10–12 kr"
+        },
+        {
+          "item": "Passerade tomater 500 g",
+          "approx_price_sek": 8.33,
+          "source": "Coop-webbsnippet: 3 för 25 kr"
+        },
+        {
+          "item": "Lök, vitlök, citron, kryddor",
+          "approx_price_sek": 15,
+          "source": "praktisk schablon från svensk dagligvaruhandel"
+        }
+      ],
+      "estimated_total_batch_cost_sek": 95,
+      "estimated_cost_per_portion_sek": 19,
+      "method": "Stek lök och vitlök mjuk. Häll i tomat, kikärter, oregano och lite chili. Vänd ner kokt pasta. Toppa med gurka, citron och smulad feta."
+    },
+    {
+      "name": "Tomatig linsgryta med feta och morot",
+      "summary": "Mycket mat för pengarna: röda linser, tomat och morot ger hög mättnad och bra fiber. Fetan används som liten smakförstärkare i stället för stor ostmängd.",
+      "inspiration": "Weight Watchers-ish / fiberrik gryta",
+      "servings": "3 vuxna + 2 lunchlådor",
+      "uses_offers": [
+        "Fetaost ICA 150 g"
+      ],
+      "ingredients_used": [
+        {
+          "item": "Fetaost ICA",
+          "qty": "1 förp 150 g",
+          "cost_sek": 15
+        },
+        {
+          "item": "Röda linser Risenta 500 g",
+          "qty": "1 påse",
+          "cost_sek": 33.95,
+          "price_source": "Coop-webbsnippet: 33,95 kr/st"
+        },
+        {
+          "item": "Passerade tomater Coop 500 g",
+          "qty": "2 st",
+          "cost_sek": 16.66,
+          "price_source": "Coop-webbsnippet: 3 för 25 kr"
+        },
+        {
+          "item": "Morötter",
+          "qty": "1 kg",
+          "cost_sek": 15,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Gul lök",
+          "qty": "2 st",
+          "cost_sek": 5,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Buljong, vitlök, spiskummin",
+          "qty": "skafferi",
+          "cost_sek": 7,
+          "price_source": "schablon"
+        }
+      ],
+      "missing_ingredients": [
+        {
+          "item": "Röda linser 500 g",
+          "approx_price_sek": 33.95,
+          "source": "Coop-webbsnippet: 33,95 kr/st"
+        },
+        {
+          "item": "Passerade tomater 2 × 500 g",
+          "approx_price_sek": 16.66,
+          "source": "Coop-webbsnippet: 3 för 25 kr"
+        },
+        {
+          "item": "Morötter, lök, kryddor",
+          "approx_price_sek": 27,
+          "source": "praktisk schablon från svensk dagligvaruhandel"
+        }
+      ],
+      "estimated_total_batch_cost_sek": 78,
+      "estimated_cost_per_portion_sek": 16,
+      "method": "Fräs lök, vitlök och morot. Tillsätt linser, tomat, buljong och kryddor. Sjud tills lent. Toppa med lite smulad feta vid servering."
+    },
+    {
+      "name": "Ugnslax med bulgur, gurka och citronyoghurt",
+      "summary": "Dyrast av tre men fortfarande rimlig portionskostnad tack vare kampanjlax. Mycket protein, bra fetter och enkel matlåda dagen efter.",
+      "inspiration": "Medelhav / viktvänlig fiskmiddag",
+      "servings": "3 vuxna + 2 lunchlådor",
+      "uses_offers": [
+        "Laxsida ASC ca 1,2 kg",
+        "Svensk gurka"
+      ],
+      "ingredients_used": [
+        {
+          "item": "Laxsida ASC kampanj",
+          "qty": "ca 1,2 kg",
+          "cost_sek": 180
+        },
+        {
+          "item": "Svensk gurka",
+          "qty": "1 st",
+          "cost_sek": 17
+        },
+        {
+          "item": "Bulgur",
+          "qty": "500 g",
+          "cost_sek": 15,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Grekisk/turkisk yoghurt",
+          "qty": "500 g",
+          "cost_sek": 20,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Citron",
+          "qty": "2 st",
+          "cost_sek": 8,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Fryst spenat eller broccoli",
+          "qty": "500–750 g",
+          "cost_sek": 18,
+          "price_source": "praktisk lågprisnivå i svensk dagligvaruhandel"
+        },
+        {
+          "item": "Lök, dill/persilja, senap/olja",
+          "qty": "småmängder",
+          "cost_sek": 12,
+          "price_source": "schablon"
+        }
+      ],
+      "missing_ingredients": [
+        {
+          "item": "Bulgur 500 g",
+          "approx_price_sek": 15,
+          "source": "andra svenska matbutiker på webben, praktiskt lågprisintervall"
+        },
+        {
+          "item": "Yoghurt 500 g",
+          "approx_price_sek": 20,
+          "source": "andra svenska matbutiker på webben, praktiskt lågprisintervall"
+        },
+        {
+          "item": "Citroner, grönt och kryddor",
+          "approx_price_sek": 38,
+          "source": "praktisk schablon från svensk dagligvaruhandel"
+        }
+      ],
+      "estimated_total_batch_cost_sek": 270,
+      "estimated_cost_per_portion_sek": 54,
+      "method": "Baka laxen med citron, lite senap och svartpeppar. Koka bulgur. Blanda yoghurt med citron och örter. Servera med gurka och grönt."
+    }
+  ]
+}
