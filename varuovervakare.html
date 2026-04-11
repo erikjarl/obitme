@@ -11,19 +11,40 @@
       <header class="hero">
         <div class="eyebrow">Övervakningsprojekt</div>
         <h1>Varuövervakare</h1>
-        <p>Här kan framtida funktioner för varuövervakning och bevakning av produkter byggas ut.</p>
+        <p>Veckovis bevakning av billiga varor, receptförslag och portionskostnad.</p>
         <div class="chips">
           <a class="chip-link" href="./portal.html">← Till projektportalen</a>
         </div>
       </header>
 
       <main class="grid">
+        <section class="card half">
+          <h2>Mål</h2>
+          <ul>
+            <li>Hitta billiga erbjudanden från ICA Supermarket Rimforsa</li>
+            <li>Ta fram 3 billiga och nyttiga recept</li>
+            <li>Räkna ut portionskostnad inklusive kompletterande ingredienser</li>
+            <li>Publicera både här på sidan och i Discord</li>
+          </ul>
+        </section>
+
+        <section class="card half">
+          <h2>Format</h2>
+          <ul>
+            <li>3 vuxna personer + 2 matlådor per recept</li>
+            <li>Gärna inspirerat av medelhavskost eller viktväktarna</li>
+            <li>Fokus på låg kostnad och rimlig näringsprofil</li>
+          </ul>
+        </section>
+
         <section class="card">
-          <h2>Status</h2>
-          <p>Strukturen är skapad. Nästa steg är att definiera vilka varor som ska bevakas, från vilka källor och med vilket uppdateringsflöde.</p>
+          <h2>Senaste veckorapporter</h2>
+          <div class="article-list" id="varuPostList"></div>
         </section>
       </main>
     </div>
+
     <script src="./portal.js"></script>
+    <script src="./varu.js"></script>
   </body>
 </html>
