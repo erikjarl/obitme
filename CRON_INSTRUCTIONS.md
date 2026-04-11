@@ -3,6 +3,9 @@
 ## Goal
 Every weekday at 20:00 Europe/Stockholm, generate one new psychology research article briefing for the dashboard site.
 
+## Note
+Separate from this file, the varuövervakare project has its own publishing requirements for weekly grocery/recipe posts.
+
 ## Scope
 - Focus on psychology research with emphasis on CBT
 - Prioritize interventions with the strongest evidence and best clinical effect
