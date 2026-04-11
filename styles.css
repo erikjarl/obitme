@@ -138,8 +138,28 @@ p, li, label { color: var(--muted); }
 .error-text {
   color: #ff9b9b;
 }
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 14px 0 20px;
+}
+.detail-card, .recipe-card {
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  border-radius: 16px;
+  padding: 16px;
+}
+.recipe-card {
+  margin: 16px 0;
+}
+.small-muted {
+  color: var(--muted);
+  font-size: .9rem;
+}
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 @media (max-width: 900px) {
-  .card.half, .project-grid .project-link { grid-column: span 12; }
+  .card.half, .project-grid .project-link, .detail-grid > * { grid-column: span 12; }
+  .detail-grid { grid-template-columns: 1fr; }
 }
