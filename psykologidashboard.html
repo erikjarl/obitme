@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Psykologidashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hero">
+        <div class="eyebrow">Psykologiprojekt</div>
+        <h1>Psykologidashboard</h1>
+        <p>Dagliga forskningsbriefs om psykologi med fokus på KBT, evidensstyrka, interventioner och klinisk användbarhet.</p>
+        <div class="chips">
+          <a class="chip-link" href="./portal.html">← Till projektportalen</a>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="card half">
+          <h2>Om dashboarden</h2>
+          <ul>
+            <li>Dagliga artikelsammanfattningar i bloggformat</li>
+            <li>Fokus på interventioner, effekt och klinisk relevans</li>
+            <li>Korta ingresser + längre briefingtext</li>
+            <li>Länkar till PubMed och fulltext när möjligt</li>
+          </ul>
+        </section>
+
+        <section class="card half">
+          <h2>Bevakningsspår</h2>
+          <ul>
+            <li>Depression</li>
+            <li>Ångestsyndrom</li>
+            <li>OCD</li>
+            <li>PTSD</li>
+            <li>Internet-KBT</li>
+            <li>Transdiagnostiska mekanismer</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Senaste poster</h2>
+          <div class="article-list" id="postList"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./portal.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

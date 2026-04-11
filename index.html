@@ -3,53 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Psykologi / KBT Dashboard</title>
+    <title>Jarl/Adamsson – Entré</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header class="hero">
-        <div class="eyebrow">Psykologi briefings</div>
-        <h1>Psykologi / KBT Dashboard</h1>
-        <p>En enkel dashboard för dagliga forskningsbriefs om psykologi med fokus på KBT, interventioner med stark effekt och verksamma mekanismer.</p>
-        <div class="chips">
-          <span class="chip">Språk: svenska</span>
-          <span class="chip">Fokus: KBT</span>
-          <span class="chip">Källor: PubMed + fulltext</span>
-          <span class="chip">Format: kort klinisk briefing</span>
-        </div>
-      </header>
-
-      <main class="grid">
-        <section class="card half">
-          <h2>Vad dashboarden ska ge</h2>
-          <ul>
-            <li>Korta dagliga briefs om nya eller viktiga artiklar</li>
-            <li>Fokus på vilka interventioner som har bäst effekt</li>
-            <li>Korta och korrekta sammanfattningar direkt i dashboarden</li>
-            <li>Länkar till PubMed och fulltext när möjligt</li>
-          </ul>
-        </section>
-
-        <section class="card half">
-          <h2>Bevakningsspår</h2>
-          <ul>
-            <li>Depression</li>
-            <li>Ångestsyndrom</li>
-            <li>OCD</li>
-            <li>PTSD</li>
-            <li>Internet-KBT</li>
-            <li>Transdiagnostiska mekanismer</li>
-          </ul>
-        </section>
-
-        <section class="card">
-          <h2>Startartiklar</h2>
-          <div class="article-list" id="articleList"></div>
-        </section>
+    <div class="wrap gate-wrap">
+      <main class="gate-card house-card">
+        <div class="eyebrow">Privat entré</div>
+        <h1>Jarl/Adamsson</h1>
+        <p>Välkommen in. Den här entrésidan fungerar som dörren in till huset och dess projekt.</p>
+        <form id="loginForm" class="login-form">
+          <label for="password">Lösenord</label>
+          <input id="password" name="password" type="password" placeholder="Ange lösenord" autocomplete="current-password" />
+          <button type="submit">Gå in</button>
+          <p id="loginError" class="error-text" hidden>Fel lösenord.</p>
+        </form>
       </main>
     </div>
-
-    <script src="./app.js"></script>
+    <script src="./portal.js"></script>
   </body>
 </html>
