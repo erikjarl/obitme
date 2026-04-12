@@ -51,10 +51,12 @@ Varje recept ska avse:
 
 ## Discord-meddelande
 Discord-sammanfattningen ska:
-- vara kort och intresseväckande
-- nämna att veckans recept nu är klara
+- vara kort men mer levande än ett rent testsms
+- följa samma typ av upplägg varje vecka
+- nämna att veckans recept nu är här
 - lyfta 1–3 särskilt starka rabatter i kronor
-- nämna minst 1 recept med låg portionskostnad
+- nämna minst 1–2 konkreta recept med namn
+- nämna portionskostnad för minst ett recept
 - gärna nämna uppskattat kaloriinnehåll per portion om det går att uppskatta rimligt utan onödig loopning
 - alltid innehålla direktlänk till varuövervakaren
 
@@ -62,9 +64,17 @@ Discord-sammanfattningen ska:
 Använd denna länk i Discord-meddelandet:
 - https://erikjarl.github.io/obitme/varuovervakare.html
 
-### Tonexempel
-Exempel på stil:
+### Mall för Discord-meddelandet
+Använd denna typ av mall och fyll i verkliga data från veckans körning:
 - Nu är veckans recept här.
-- ICA i Rimforsa har den här veckan X kr rabatt på Y och Z kr rabatt på W.
-- Med detta kan du laga en härlig och fräsch rätt för bara P kr per portion.
+- ICA i Rimforsa har denna vecka X kr rabatt på Y produkt och Z kr rabatt på W produkt.
+- Med detta kan du göra exempelvis RECEPTNAMN för P kr per portion.
+- Om det går rimligt snabbt: lägg till uppskattat kaloriinnehåll per portion för minst ett recept.
 - Följ länken till varuövervakaren: https://erikjarl.github.io/obitme/varuovervakare.html
+
+### Innehållsregler
+- använd riktiga siffror från veckans data, inte platshållare
+- välj de mest intresseväckande fynden, inte bara de första i listan
+- välj helst det billigaste eller mest lockande receptet som exempel
+- skriv naturligt på svenska, inte stelt rapportspråk
+- håll det fortfarande ganska kort så att det passar bra i Discord
