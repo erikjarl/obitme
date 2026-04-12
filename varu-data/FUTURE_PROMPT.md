@@ -21,14 +21,17 @@ Skapa en veckopost för varuövervakaren baserat på ICA Supermarket Rimforsas a
 
 ## Viktiga förbättringar att genomföra
 ### A. Bättre scraping av ICA-data
-- Försök först använda ICA:s butikslänk: `https://handlaprivatkund.ica.se/stores/1004066`
-- Om den inte går att läsa stabilt, använd `https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/`
+- Använd i första hand ICA:s kategorisida för butiken: `https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation`
+- Prova det som fungerar bäst och mest stabilt: källkod, läsbar extraktion, direkt sökning på sidan eller annan lämplig metod
+- Använd även butikens grundsida `https://handlaprivatkund.ica.se/stores/1004066` när det hjälper
+- Använd erbjudandesidan `https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/` för att hitta veckans kampanjer när den ger bättre överblick
 - För varje ICA-produkt ska du försöka få fram:
   - produktnamn
   - kampanjpris
   - ordinarie pris
   - rabatt i kronor
   - tydlig källreferens
+  - gärna direkt produktlänk eller tydligt källutdrag
 - Om ordinarie pris inte går att fastställa säkert: skriv tydligt att det är oklart eller härlett
 - Gissa inte aggressivt
 
@@ -44,10 +47,12 @@ För varje recept ska det finnas:
 - tydligt markerade ICA-erbjudanden som används
 
 ### C. Bättre prisunderlag för kompletterande ingredienser
-- För ingredienser som inte köps på kampanj hos ICA: hitta i första hand faktiska svenska webbpriser
+- För ingredienser som inte köps på kampanj hos ICA: försök först hitta ordinarie pris i ICA-butikens kategorisida `https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation`
+- Om det inte går snabbt och stabilt, hitta i andra hand faktiska svenska webbpriser
 - Ange källa för dessa priser
 - Markera tydligt när ett pris är:
   - exakt
+  - härlett
   - uppskattat
   - schablon
 - Minimera användning av schabloner när riktiga priser går att hitta utan onödig loopning
@@ -91,7 +96,9 @@ Innan du sparar posten, kontrollera:
 - Har varje recept tydlig portionsstorlek?
 - Har varje ingrediens tydlig mängd?
 - Har ICA-produkterna kampanjpris och källa?
+- Har kompletterande ingredienser i första hand kontrollerats mot ICA:s kategorisida?
 - Är ordinarie pris tydligt eller tydligt osäkert?
+- Är prisstatus tydligt markerad som exakt, härlett, uppskattat eller schablon?
 - Är portionskostnaden uträknad?
 - Är outputen lätt att visa på webben?
 
