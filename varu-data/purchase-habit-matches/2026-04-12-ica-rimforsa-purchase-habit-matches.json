@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-12",
+  "created_at": "2026-04-12T15:21:40.413Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 6 köpvanevaror. Starkaste träffar: Byxblöjor → ICA Blöjor 28-56 p (-12,40 kr); Pasta → ICA Färsk pasta 200-250 g (-7,88 kr); Chips → Tortilla Chips Sour Cream Chiv 200 g, 320 g, 230 g, 185 g Santa Maria (rabatt okänd).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Byxblöjor",
+      "matched_product_name": "ICA Blöjor 28-56 p",
+      "match_type": "alias",
+      "ordinary_price": 84.9,
+      "campaign_price": 72.5,
+      "campaign_label": "2 för 145 kr",
+      "discount_sek": 12.4,
+      "discount_percent": 14.61,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=ICA%20Bl%C3%B6jor%2028-56%20p",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Blöjor | 2 för 145 kr | Ord.pris 84:90 kr. | 28-56 p | ICA | Match: blöjor finns i ICA Blöjor 28-56 p",
+      "category": "Hem & fritid",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "1:29-2:59/st",
+      "raw_offer_id": "5003932477"
+    },
+    {
+      "habit_name": "Pasta",
+      "matched_product_name": "ICA Färsk pasta 200-250 g",
+      "match_type": "keyword",
+      "ordinary_price": 17.88,
+      "campaign_price": 10,
+      "campaign_label": "10 kr/st",
+      "discount_sek": 7.88,
+      "discount_percent": 44.07,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=ICA%20F%C3%A4rsk%20pasta%20200-250",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färsk pasta | 10 kr/st | Ord.pris 17:88 kr. | 200-250 g | ICA | Match: Pasta finns i ICA Färsk pasta 200-250 g",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "40:00-50:00/kg",
+      "raw_offer_id": "5003932425"
+    },
+    {
+      "habit_name": "Chips",
+      "matched_product_name": "Tortilla Chips Sour Cream Chiv 200 g, 320 g, 230 g, 185 g Santa Maria",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 12,
+      "campaign_label": "5 för 60 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Tortilla%20Chips%20Sour%20Cream",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Tortillabröd, Tacosås, Chips | 5 för 60 kr | Ord.pris 14:10-23:56 kr. | 200 g, 320 g, 230 g, 185 g | Santa Maria | Match: Chips finns i Tortilla Chips Sour Cream Chiv 200 g, 320 g, 230 g, 185 g Santa Maria",
+      "category": "Skafferivaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "37:50-64:86/kg",
+      "raw_offer_id": "5003997808"
+    },
+    {
+      "habit_name": "Tortilla",
+      "matched_product_name": "Tortilla Original Small 200 g, 320 g, 230 g, 185 g Santa Maria",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 12,
+      "campaign_label": "5 för 60 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Tortilla%20Original%20Small%20200",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Tortillabröd, Tacosås, Chips | 5 för 60 kr | Ord.pris 14:10-23:56 kr. | 200 g, 320 g, 230 g, 185 g | Santa Maria | Match: Tortilla finns i Tortilla Original Small 200 g, 320 g, 230 g, 185 g Santa Maria",
+      "category": "Skafferivaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "37:50-64:86/kg",
+      "raw_offer_id": "5003997808"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Smör Gårdsgoda Mellan Normalsa 400-500 g Valio",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 35,
+      "campaign_label": "35 kr/st",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Sm%C3%B6r%20G%C3%A5rdsgoda%20Mellan%20Normalsa",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Gårdsgoda | 35 kr/st | Ord.pris 43:43-45:33 kr. | 400-500 g | Valio | Match: Smör finns i Smör Gårdsgoda Mellan Normalsa 400-500 g Valio",
+      "category": "Mejeri",
+      "restriction": null,
+      "comparison_price": "70:00-87:50/kg",
+      "raw_offer_id": "5003932483"
+    },
+    {
+      "habit_name": "Falukorv",
+      "matched_product_name": "Falukorv ring 420g, 500g, 800 g ICA",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 28.33,
+      "campaign_label": "3 för 85 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Falukorv%20ring%20420g%2C%20500g%2C",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Falukorv, Kycklingköttbullar, Bacon | 3 för 85 kr | Ord.pris 34:92-49:11 kr. | 420g, 500g, 800 g | ICA | Match: Falukorv finns i Falukorv ring 420g, 500g, 800 g ICA",
+      "category": "Färskvaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "35:42-67:46/kg",
+      "raw_offer_id": "5003932436"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara. Byxblöjor: ICA Blöjor 28-56 p (ord. 84,90 kr, 2 för 145 kr, -12,40 kr, 15 %) · Pasta: ICA Färsk pasta 200-250 g (ord. 17,88 kr, 10 kr/st, -7,88 kr, 44 %) · Chips: Tortilla Chips Sour Cream Chiv 200 g, 320 g, 230 g, 185 g Santa Maria (5 för 60 kr) · Tortilla: Tortilla Original Small 200 g, 320 g, 230 g, 185 g Santa Maria (5 för 60 kr) · Smör: Smör Gårdsgoda Mellan Normalsa 400-500 g Valio (35 kr/st) · Falukorv: Falukorv ring 420g, 500g, 800 g ICA (3 för 85 kr) Hela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html ICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 394
+}
