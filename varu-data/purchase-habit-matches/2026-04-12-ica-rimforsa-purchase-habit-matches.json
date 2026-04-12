@@ -1,6 +1,6 @@
 {
   "date": "2026-04-12",
-  "created_at": "2026-04-12T15:21:40.413Z",
+  "created_at": "2026-04-12T15:24:52.359Z",
   "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
   "summary": "Matchade 6 köpvanevaror. Starkaste träffar: Byxblöjor → ICA Blöjor 28-56 p (-12,40 kr); Pasta → ICA Färsk pasta 200-250 g (-7,88 kr); Chips → Tortilla Chips Sour Cream Chiv 200 g, 320 g, 230 g, 185 g Santa Maria (rabatt okänd).",
   "source_links": [
@@ -136,7 +136,7 @@
       "raw_offer_id": "5003932436"
     }
   ],
-  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara. Byxblöjor: ICA Blöjor 28-56 p (ord. 84,90 kr, 2 för 145 kr, -12,40 kr, 15 %) · Pasta: ICA Färsk pasta 200-250 g (ord. 17,88 kr, 10 kr/st, -7,88 kr, 44 %) · Chips: Tortilla Chips Sour Cream Chiv 200 g, 320 g, 230 g, 185 g Santa Maria (5 för 60 kr) · Tortilla: Tortilla Original Small 200 g, 320 g, 230 g, 185 g Santa Maria (5 för 60 kr) · Smör: Smör Gårdsgoda Mellan Normalsa 400-500 g Valio (35 kr/st) · Falukorv: Falukorv ring 420g, 500g, 800 g ICA (3 för 85 kr) Hela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html ICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Byxblöjor: ICA Blöjor 28-56 p (ord. 84,90 kr, 2 för 145 kr, -12,40 kr, 15 %)\n• Pasta: ICA Färsk pasta 200-250 g (ord. 17,88 kr, 10 kr/st, -7,88 kr, 44 %)\n• Chips: Tortilla Chips Sour Cream Chiv 200 g, 320 g, 230 g, 185 g Santa Maria (5 för 60 kr)\n• Tortilla: Tortilla Original Small 200 g, 320 g, 230 g, 185 g Santa Maria (5 för 60 kr)\n• Smör: Smör Gårdsgoda Mellan Normalsa 400-500 g Valio (35 kr/st)\n• Falukorv: Falukorv ring 420g, 500g, 800 g ICA (3 för 85 kr)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
   "discord_destination": {
     "channel_id": "1490438999494492415",
     "channel_name": "#allmänt",

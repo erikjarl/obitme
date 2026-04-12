@@ -362,10 +362,11 @@ function buildDiscordMessage(matches, config) {
   if (!matches.length) {
     return [
       'Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara.',
-      'Jag hittade inga tillräckligt säkra matchningar den här veckan.',
-      `Kolla gärna hela varuövervakaren: ${directLink}`,
+      '• Inga tillräckligt säkra matchningar hittades den här veckan.',
+      '',
+      `Hela veckorapporten: ${directLink}`,
       `ICA-erbjudanden: ${offersLink}`
-    ].join(' ');
+    ].join('\n');
   }
 
   const lines = matches.slice(0, 6).map(item => {
@@ -375,15 +376,16 @@ function buildDiscordMessage(matches, config) {
     if (item.discount_sek != null) pricingBits.push(`-${formatSek(item.discount_sek)}`);
     const percent = formatPercent(item.discount_percent);
     if (percent) pricingBits.push(percent);
-    return `${item.habit_name}: ${item.matched_product_name} (${pricingBits.join(', ')})`;
+    return `• ${item.habit_name}: ${item.matched_product_name} (${pricingBits.join(', ')})`;
   });
 
   return [
-    'Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara.',
-    lines.join(' · '),
+    'Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:',
+    ...lines,
+    '',
     `Hela veckorapporten: ${directLink}`,
     `ICA-erbjudanden: ${offersLink}`
-  ].join(' ');
+  ].join('\n');
 }
 
 function buildSummary(matches) {
