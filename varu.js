@@ -12,21 +12,50 @@ async function loadVaruPost(file) {
 
 function formatSek(value) {
   if (value === undefined || value === null || value === '') return 'okänt';
-  return new Intl.NumberFormat('sv-SE', { style: 'currency', currency: 'SEK', maximumFractionDigits: 0 }).format(value);
+  return new Intl.NumberFormat('sv-SE', { style: 'currency', currency: 'SEK', maximumFractionDigits: value % 1 === 0 ? 0 : 2 }).format(value);
+}
+
+function escapeHtml(value) {
+  return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function getStoreName(post) {
+  if (typeof post.store === 'string') return post.store;
+  return post.store?.name || '';
+}
+
+function getPrimaryStoreUrl(post) {
+  return post.primary_store_url || post.store?.primary_store_url || post.store?.store_url || '';
+}
+
+function getOfferUrl(post) {
+  return post.offer_source_url || post.store?.offers_url || '';
+}
+
+function normalizeOffer(offer) {
+  return {
+    product: offer.product,
+    campaign: offer.campaign_price_sek ?? offer.campaign_price?.amount_sek ?? offer.derived_campaign_batch_cost_sek ?? offer.normalized_campaign_price_per_piece_sek,
+    campaignLabel: offer.campaign_price?.display || offer.campaign_format || offer.price_basis || '',
+    ordinary: offer.ordinary_price_sek ?? offer.ordinary_price?.amount_sek,
+    discount: offer.discount_sek,
+    source: typeof offer.source === 'string' ? offer.source : offer.source?.evidence || offer.source_reference || ''
+  };
 }
 
 function renderOfferList(post) {
-  const offers = post.offer_review?.picked_offers || [];
+  const rawOffers = post.offer_review?.picked_offers || post.offer_review?.picked_products || [];
+  const offers = rawOffers.map(normalizeOffer);
   if (!offers.length) return '<p>Inga tydliga erbjudanden listade.</p>';
   return `
     <div class="detail-grid">
       ${offers.map(offer => `
         <div class="detail-card">
-          <h5>${offer.product}</h5>
-          <p><strong>Kampanj:</strong> ${formatSek(offer.campaign_price_sek)}</p>
-          <p><strong>Ordinarie:</strong> ${formatSek(offer.ordinary_price_sek)}</p>
-          <p><strong>Rabatt:</strong> ${formatSek(offer.discount_sek)}</p>
-          <p class="small-muted">${offer.source || ''}</p>
+          <h5>${escapeHtml(offer.product)}</h5>
+          <p><strong>Kampanj:</strong> ${formatSek(offer.campaign)}${offer.campaignLabel ? ` <span class="small-muted">(${escapeHtml(offer.campaignLabel)})</span>` : ''}</p>
+          <p><strong>Ordinarie:</strong> ${formatSek(offer.ordinary)}</p>
+          <p><strong>Rabatt:</strong> ${formatSek(offer.discount)}</p>
+          <p class="small-muted">${escapeHtml(offer.source)}</p>
         </div>
       `).join('')}
     </div>
@@ -34,49 +63,72 @@ function renderOfferList(post) {
 }
 
 function renderRecipe(recipe) {
-  const offerProducts = (recipe.ica_offer_products || []).map(item => `
-    <li><strong>${item.product}</strong> – kampanj ${formatSek(item.campaign_price_sek)}, ordinarie ${formatSek(item.ordinary_price_sek)}, rabatt ${formatSek(item.discount_sek)}<br /><span class="small-muted">${item.source_reference || ''}</span></li>
-  `).join('');
+  const title = recipe.name || recipe.title || 'Recept';
+  const summary = recipe.summary || recipe.description || '';
+  const servings = recipe.servings_label || recipe.servings || '';
+  const portionCost = recipe.estimated_cost_per_portion_sek ?? recipe.cost_per_portion_sek;
+  const totalCost = recipe.estimated_total_batch_cost_sek ?? recipe.batch_cost_sek;
+  const offerProductsRaw = recipe.ica_offer_products || recipe.ica_offer_products_used || [];
+  const offerProducts = offerProductsRaw.map(item => {
+    const campaign = item.campaign_price_sek ?? item.campaign_price?.amount_sek ?? item.effective_recipe_cost_sek;
+    const ordinary = item.ordinary_price_sek ?? item.ordinary_reference_price_sek ?? item.campaign_price?.ordinary_price?.amount_sek;
+    const discount = item.discount_sek ?? item.discount_reference_sek;
+    const source = item.source_reference || item.source || '';
+    const amountUsed = item.amount_used ? ` – ${item.amount_used}` : '';
+    return `<li><strong>${escapeHtml(item.product)}</strong>${escapeHtml(amountUsed)}<br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(source)}</span></li>`;
+  }).join('');
 
-  const ingredients = (recipe.ingredients || []).map(item => `<li>${item.item}: ${item.amount}</li>`).join('');
-  const extraCosts = (recipe.estimated_non_ica_costs || []).map(item => `<li>${item.item}: ${formatSek(item.cost_sek)} <span class="small-muted">(${item.estimated ? 'uppskattat' : 'exakt'}${item.source ? `, ${item.source}` : ''})</span></li>`).join('');
-  const steps = (recipe.recipe?.steps || []).map(step => `<li>${step}</li>`).join('');
+  const ingredients = (recipe.ingredients || []).map(item => {
+    const priceBits = [];
+    if (item.line_cost_sek !== undefined) priceBits.push(`kostnad ${formatSek(item.line_cost_sek)}`);
+    if (item.price_status) priceBits.push(item.price_status);
+    if (item.source) priceBits.push(item.source);
+    return `<li>${escapeHtml(item.item)}: ${escapeHtml(item.amount)}${priceBits.length ? ` <span class="small-muted">(${escapeHtml(priceBits.join(' · '))})</span>` : ''}</li>`;
+  }).join('');
+
+  const extraCostsRaw = recipe.estimated_non_ica_costs || [];
+  const extraCosts = extraCostsRaw.map(item => `<li>${escapeHtml(item.item)}: ${formatSek(item.cost_sek)} <span class="small-muted">(${escapeHtml(item.price_status || (item.estimated ? 'uppskattat' : 'exakt'))}${item.source ? `, ${escapeHtml(item.source)}` : ''})</span></li>`).join('');
+
+  const stepsRaw = recipe.recipe?.steps || recipe.method || [];
+  const steps = stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('');
 
   return `
     <section class="recipe-card">
-      <h4>${recipe.name}</h4>
-      <p>${recipe.summary || ''}</p>
+      <h4>${escapeHtml(title)}</h4>
+      <p>${escapeHtml(summary)}</p>
       <div class="meta-row">
-        <span class="badge">${recipe.servings || ''}</span>
-        <span class="badge">Tillagningstid: ${recipe.cook_time || 'okänd'}</span>
-        <span class="badge">Portionskostnad: ${formatSek(recipe.estimated_cost_per_portion_sek)}</span>
-        <span class="badge">Totalkostnad: ${formatSek(recipe.estimated_total_batch_cost_sek)}</span>
+        <span class="badge">${escapeHtml(servings)}</span>
+        <span class="badge">Tillagningstid: ${escapeHtml(recipe.cook_time || 'okänd')}</span>
+        <span class="badge">Portionskostnad: ${formatSek(portionCost)}</span>
+        <span class="badge">Totalkostnad: ${formatSek(totalCost)}</span>
       </div>
       <h5>ICA-produkter i receptet</h5>
-      <ul>${offerProducts}</ul>
+      ${offerProducts ? `<ul>${offerProducts}</ul>` : '<p>Inga ICA-produkter listade.</p>'}
       <h5>Ingredienser</h5>
       <ul>${ingredients}</ul>
       <h5>Kompletterande ingredienspriser</h5>
-      <ul>${extraCosts}</ul>
+      ${extraCosts ? `<ul>${extraCosts}</ul>` : '<p>Inga separata kompletterande ingredienspriser listade.</p>'}
       <h5>Tillvägagångssätt</h5>
-      <ol>${steps}</ol>
+      ${steps ? `<ol>${steps}</ol>` : '<p>Inget tillvägagångssätt listat.</p>'}
     </section>
   `;
 }
 
 function renderVaruPost(post) {
   const recipes = (post.recipes || []).map(renderRecipe).join('');
+  const primaryStoreUrl = getPrimaryStoreUrl(post);
+  const offerUrl = getOfferUrl(post);
 
   return `
     <article class="article">
-      <div class="meta-row"><span class="badge">${post.date}</span><span class="badge">${post.store || ''}</span></div>
-      <h3>${post.title}</h3>
-      <p>${post.summary}</p>
+      <div class="meta-row"><span class="badge">${escapeHtml(post.date)}</span><span class="badge">${escapeHtml(getStoreName(post))}</span></div>
+      <h3>${escapeHtml(post.title)}</h3>
+      <p>${escapeHtml(post.summary)}</p>
       <p>
-        ${post.primary_store_url ? `<a href="${post.primary_store_url}" target="_blank" rel="noopener">ICA butik</a>` : ''}
-        ${post.offer_source_url ? ` · <a href="${post.offer_source_url}" target="_blank" rel="noopener">ICA erbjudanden</a>` : ''}
+        ${primaryStoreUrl ? `<a href="${primaryStoreUrl}" target="_blank" rel="noopener">ICA butik</a>` : ''}
+        ${offerUrl ? ` · <a href="${offerUrl}" target="_blank" rel="noopener">ICA erbjudanden</a>` : ''}
       </p>
-      ${post.source_note ? `<p class="small-muted">${post.source_note}</p>` : ''}
+      ${post.source_note ? `<p class="small-muted">${escapeHtml(post.source_note)}</p>` : ''}
       <h4>Veckans erbjudanden som användes</h4>
       ${renderOfferList(post)}
       <h4>Recept</h4>
