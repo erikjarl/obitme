@@ -137,16 +137,42 @@ function renderVaruPost(post) {
   `;
 }
 
+function renderPostErrorCard(file, error) {
+  return `
+    <article class="article">
+      <h3>Kunde inte visa ${escapeHtml(file)}</h3>
+      <p class="small-muted">${escapeHtml(error?.message || String(error))}</p>
+    </article>
+  `;
+}
+
 async function initVaru() {
   const root = document.getElementById('varuPostList');
   if (!root) return;
   try {
     const index = await loadVaruIndex();
-    const posts = await Promise.all(index.map(item => loadVaruPost(item.file)));
-    root.innerHTML = posts.sort((a, b) => b.date.localeCompare(a.date)).map(renderVaruPost).join('');
+    if (!Array.isArray(index) || index.length === 0) {
+      root.innerHTML = '<p>Inga veckorapporter publicerade ännu.</p>';
+      return;
+    }
+
+    const ordered = [...index].sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+    const rendered = [];
+
+    for (const item of ordered) {
+      try {
+        const post = await loadVaruPost(item.file);
+        rendered.push(renderVaruPost(post));
+      } catch (error) {
+        console.error('Fel vid rendering av post', item.file, error);
+        rendered.push(renderPostErrorCard(item.file, error));
+      }
+    }
+
+    root.innerHTML = rendered.join('') || '<p>Inga veckorapporter publicerade ännu.</p>';
   } catch (error) {
     console.error(error);
-    root.innerHTML = '<p>Inga veckorapporter publicerade ännu.</p>';
+    root.innerHTML = '<p>Kunde inte läsa veckorapporter just nu.</p>';
   }
 }
 
