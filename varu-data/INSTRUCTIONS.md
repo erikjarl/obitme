@@ -6,6 +6,7 @@ Varje veckorapport ska:
 2. skriva 3 billiga men nyttiga recept
 3. räkna ut total kostnad och portionskostnad
 4. publicera resultatet både på hemsidan och i Discord
+5. skicka ett kort, intresseväckande Discord-meddelande med direktlänk till varuövervakaren
 
 ## Receptkrav
 För varje recept måste det framgå:
@@ -47,3 +48,23 @@ Varje recept ska avse:
 - tydlig portionskostnad
 - tydlig total kostnad
 - tydlig markering av vilka ICA-erbjudanden som används
+
+## Discord-meddelande
+Discord-sammanfattningen ska:
+- vara kort och intresseväckande
+- nämna att veckans recept nu är klara
+- lyfta 1–3 särskilt starka rabatter i kronor
+- nämna minst 1 recept med låg portionskostnad
+- gärna nämna uppskattat kaloriinnehåll per portion om det går att uppskatta rimligt utan onödig loopning
+- alltid innehålla direktlänk till varuövervakaren
+
+### Direktlänk
+Använd denna länk i Discord-meddelandet:
+- https://erikjarl.github.io/obitme/varuovervakare.html
+
+### Tonexempel
+Exempel på stil:
+- Nu är veckans recept här.
+- ICA i Rimforsa har den här veckan X kr rabatt på Y och Z kr rabatt på W.
+- Med detta kan du laga en härlig och fräsch rätt för bara P kr per portion.
+- Följ länken till varuövervakaren: https://erikjarl.github.io/obitme/varuovervakare.html
