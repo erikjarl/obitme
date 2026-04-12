@@ -1,5 +1,11 @@
 [
   {
+    "file": "2026-04-12-ica-rimforsa-weekly-offers-v6.json",
+    "date": "2026-04-12",
+    "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v6)",
+    "summary": "Tre vardagsrimliga recept för 3 vuxna plus 2 matlådor, byggda på verifierade erbjudanden och ordinarie priser från ICA Supermarket Rimforsa. Stabilt frontend-kompatibelt JSON-schema med tydliga mängder, steg och portionskostnader."
+  },
+  {
     "file": "2026-04-12-ica-rimforsa-weekly-offers-v5.json",
     "date": "2026-04-12",
     "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v5)",
