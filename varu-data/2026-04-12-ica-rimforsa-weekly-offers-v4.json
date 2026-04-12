@@ -1,0 +1,369 @@
+{
+  "date": "2026-04-12",
+  "created_at": "2026-04-12T08:05:00+02:00",
+  "slug": "2026-04-12-ica-rimforsa-weekly-offers-v4",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v4)",
+  "summary": "Tre frontend-klara recept för 3 vuxna plus 2 matlådor, byggda främst på verifierbara erbjudanden och produktpriser från ICA Supermarket Rimforsa. Kampanjpriser och ordinarie priser märks som exakta eller härledda; endast ett litet antal skafferikostnader lämnas som schablon där ICA-pris inte hämtades snabbt och stabilt i denna körning.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Primärt underlag är ICA Handla Online för butik 1004066, där produktkort och kampanjetiketter gick att läsa stabilt för utvalda sökningar och i kategoriöversikten. ICA:s publika erbjudandesida användes som sekundär kontroll för att veckan verkligen innehåller relevanta kampanjer i Rimforsa.",
+  "pricing_method": {
+    "ica_priority": "Först verifierades priser via ICA:s butiks- och kategorisidor. När kampanjen var ett flerpackserbjudande, till exempel 3 för 30 kr eller 2 för 18 kr, märks receptets styckkostnad som härledd från den exakta kampanjtexten.",
+    "fallbacks": "När ett kompletterande pris inte gick att hämta snabbt och stabilt från ICA i denna begränsade körning användes bara försiktig schablon för små skafferiposter, inte aggressiva gissningar för huvudingredienser.",
+    "rounding": "Totalsummor och portionskostnader avrundas till två decimaler. Härledda styck- eller delkostnader avrundas till två decimaler efter enkel proportionalisering."
+  },
+  "offer_review": {
+    "picked_products": [
+      {
+        "product": "Feta 150g ICA",
+        "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+        "ordinary_price": { "amount_sek": 24.27, "unit": "st", "status": "exakt" },
+        "discount_sek": 9.27,
+        "price_unit": "100,00 kr/kg",
+        "source": {
+          "type": "ica_search",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Feta 150g ICA — erbjudande 15 kr/st, Pris 15,00 kr, Tidigare pris 24,27 kr"
+        }
+      },
+      {
+        "product": "Kikärtor 380g ICA",
+        "campaign_price": { "amount_sek": 30, "unit": "3 st", "status": "exakt", "display": "3 för 30 kr" },
+        "ordinary_price": { "amount_sek": 12.61, "unit": "st", "status": "exakt" },
+        "discount_sek": 7.83,
+        "normalized_campaign_price_per_piece_sek": 10,
+        "normalized_price_status": "härlett",
+        "source": {
+          "type": "ica_search",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=kik%C3%A4rter",
+          "evidence": "Kikärtor 380g ICA — erbjudande 3 för 30 kr, Pris 12,61 kr"
+        }
+      },
+      {
+        "product": "Gurka styck Klass 1",
+        "campaign_price": { "amount_sek": 18, "unit": "2 st", "status": "exakt", "display": "2 för 18 kr" },
+        "ordinary_price": { "amount_sek": 19.67, "unit": "st", "status": "exakt" },
+        "discount_sek": 21.34,
+        "normalized_campaign_price_per_piece_sek": 9,
+        "normalized_price_status": "härlett",
+        "source": {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Gurka styck Klass 1 — erbjudande 2 för 18 kr, 0.23kg, Pris 19,67 kr"
+        }
+      },
+      {
+        "product": "Zucchini styck ca 350g Klass 1",
+        "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+        "ordinary_price": { "amount_sek": 22.79, "unit": "st", "status": "exakt" },
+        "discount_sek": 7.79,
+        "source": {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Zucchini styck ca 350g Klass 1 — erbjudande 15 kr/st, Pris 15,00 kr, Tidigare pris 22,79 kr"
+        }
+      },
+      {
+        "product": "Tonfisk i vatten 170g ICA",
+        "campaign_price": { "amount_sek": 40, "unit": "3 st", "status": "exakt", "display": "3 för 40 kr" },
+        "ordinary_price": { "amount_sek": 21.09, "unit": "st", "status": "exakt" },
+        "discount_sek": 23.27,
+        "normalized_campaign_price_per_piece_sek": 13.33,
+        "normalized_price_status": "härlett",
+        "source": {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Tonfisk i vatten 170g ICA — erbjudande 3 för 40 kr, Pris 21,09 kr"
+        }
+      },
+      {
+        "product": "Pasta Fusilli 500g Barilla",
+        "campaign_price": { "amount_sek": 20, "unit": "2 st", "status": "exakt", "display": "2 för 20 kr" },
+        "ordinary_price": { "amount_sek": 20.03, "unit": "st", "status": "exakt" },
+        "discount_sek": 20.06,
+        "normalized_campaign_price_per_piece_sek": 10,
+        "normalized_price_status": "härlett",
+        "source": {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Pasta Fusilli 500g Barilla — erbjudande 2 för 20 kr, Pris 20,03 kr"
+        }
+      },
+      {
+        "product": "Apelsiner Navel 1kg Klass 1 ICA",
+        "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+        "ordinary_price": { "amount_sek": 22.03, "unit": "st", "status": "exakt" },
+        "discount_sek": 7.03,
+        "source": {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Apelsiner Navel 1kg Klass 1 ICA — erbjudande 15 kr/st, Pris 15,00 kr, Tidigare pris 22,03 kr"
+        }
+      },
+      {
+        "product": "Bulgur 500g ICA",
+        "campaign_price": null,
+        "ordinary_price": { "amount_sek": 17.91, "unit": "st", "status": "exakt" },
+        "discount_sek": null,
+        "source": {
+          "type": "ica_search",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=bulgur",
+          "evidence": "Bulgur 500g ICA — Pris 17,91 kr"
+        }
+      },
+      {
+        "product": "Broccoli fryst 1kg ICA Basic",
+        "campaign_price": null,
+        "ordinary_price": { "amount_sek": 30.63, "unit": "st", "status": "exakt" },
+        "discount_sek": null,
+        "source": {
+          "type": "ica_search",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=broccoli",
+          "evidence": "Broccoli Fryst 1kg ICA Basic — Pris 30,63 kr"
+        }
+      }
+    ],
+    "excluded_products": [
+      "Falukorv och bacon har bra pris men svagare näringsprofil än kikärter, tonfisk, broccoli, feta och bulgur i denna körning.",
+      "Laxsidan syns tydligt på ICA:s erbjudandesida men kampanjpriset gick inte att läsa ut lika verifierbart i samma pass som övriga valda receptingredienser, så den prioriterades bort i v4."
+    ]
+  },
+  "recipes": [
+    {
+      "title": "Bulgursallad med kikärter, zucchini, feta, gurka och apelsin",
+      "description": "Billig och proteinrik vegorätt med bra hållbarhet i lunchlåda. Apelsin används som frisk syra i stället för att lägga pengar på fler kompletteringsingredienser.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "30 minuter",
+      "ica_offer_products_used": [
+        {
+          "product": "Kikärtor 380g ICA",
+          "amount_used": "2 burkar",
+          "campaign_price": { "amount_sek": 30, "unit": "3 st", "status": "exakt", "display": "3 för 30 kr" },
+          "effective_recipe_cost_sek": 20,
+          "effective_price_status": "härlett",
+          "ordinary_reference_price_sek": 12.61,
+          "discount_reference_sek": 7.83,
+          "source": "ICA sök: Kikärtor 380g ICA — erbjudande 3 för 30 kr, Pris 12,61 kr"
+        },
+        {
+          "product": "Zucchini styck ca 350g Klass 1",
+          "amount_used": "2 st / ca 700 g",
+          "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+          "effective_recipe_cost_sek": 30,
+          "effective_price_status": "exakt",
+          "ordinary_reference_price_sek": 22.79,
+          "discount_reference_sek": 7.79,
+          "source": "ICA kategori: Zucchini — 15 kr/st, tidigare pris 22,79 kr"
+        },
+        {
+          "product": "Feta 150g ICA",
+          "amount_used": "2 förpackningar / 300 g",
+          "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+          "effective_recipe_cost_sek": 30,
+          "effective_price_status": "exakt",
+          "ordinary_reference_price_sek": 24.27,
+          "discount_reference_sek": 9.27,
+          "source": "ICA sök/kategori: Feta 150g ICA — 15 kr/st, tidigare pris 24,27 kr"
+        },
+        {
+          "product": "Gurka styck Klass 1",
+          "amount_used": "1 st / ca 230 g",
+          "campaign_price": { "amount_sek": 18, "unit": "2 st", "status": "exakt", "display": "2 för 18 kr" },
+          "effective_recipe_cost_sek": 9,
+          "effective_price_status": "härlett",
+          "ordinary_reference_price_sek": 19.67,
+          "discount_reference_sek": 21.34,
+          "source": "ICA kategori: Gurka styck Klass 1 — 2 för 18 kr, Pris 19,67 kr"
+        },
+        {
+          "product": "Apelsiner Navel 1kg Klass 1 ICA",
+          "amount_used": "1 nät / 1 kg",
+          "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+          "effective_recipe_cost_sek": 15,
+          "effective_price_status": "exakt",
+          "ordinary_reference_price_sek": 22.03,
+          "discount_reference_sek": 7.03,
+          "source": "ICA kategori: Apelsiner Navel 1kg — 15 kr/st, tidigare pris 22,03 kr"
+        }
+      ],
+      "ingredients": [
+        { "item": "Bulgur 500g ICA", "amount": "350 g", "unit_price_sek": 17.91, "line_cost_sek": 12.54, "price_status": "härlett", "source": "ICA sök: Bulgur 500g ICA — Pris 17,91 kr" },
+        { "item": "Kikärtor 380g ICA", "amount": "2 burkar, ca 460 g avrunnen vikt", "line_cost_sek": 20, "price_status": "härlett", "source": "ICA sök: Kikärtor 380g ICA — 3 för 30 kr" },
+        { "item": "Zucchini", "amount": "2 st, ca 700 g", "line_cost_sek": 30, "price_status": "exakt", "source": "ICA kategori: Zucchini — 15 kr/st" },
+        { "item": "Feta 150g ICA", "amount": "300 g", "line_cost_sek": 30, "price_status": "exakt", "source": "ICA kategori/sök: Feta — 15 kr/st" },
+        { "item": "Gurka", "amount": "1 st, ca 230 g", "line_cost_sek": 9, "price_status": "härlett", "source": "ICA kategori: Gurka — 2 för 18 kr" },
+        { "item": "Apelsiner Navel 1kg ICA", "amount": "1 kg", "line_cost_sek": 15, "price_status": "exakt", "source": "ICA kategori: Apelsiner Navel 1kg — 15 kr/st" },
+        { "item": "Olivolja, salt, svartpeppar, torkad oregano", "amount": "ca 45 ml + kryddor", "line_cost_sek": 6, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "method": [
+        "Koka bulgurn enligt paketet, cirka 10 minuter. Låt svalna lätt i en stor bunke.",
+        "Skär zucchinin i halvmånar. Stek eller rosta den hårt i lite olja tills den får färg och blir mjuk, 8–10 minuter.",
+        "Skölj kikärterna. Tärna gurkan. Filea eller tärna apelsinerna och spara lite av saften till dressingen.",
+        "Vispa ihop 2 msk olivolja med 3–4 msk apelsinsaft, oregano, salt och peppar.",
+        "Blanda bulgur, kikärter, zucchini, gurka och hälften av fetan. Vänd ner dressingen.",
+        "Toppa med resten av fetan och apelsinbitarna vid servering eller packa separat till matlådorna för bäst textur."
+      ],
+      "batch_cost_sek": 122.54,
+      "cost_per_portion_sek": 24.51,
+      "sources": [
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=bulgur",
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=kik%C3%A4rter",
+        "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+      ]
+    },
+    {
+      "title": "Tonfiskpasta med broccoli, feta och gurka",
+      "description": "En billig, proteinrik vardagspasta där kampanjtonfisk och kampanjpasta bär ekonomin medan broccoli ger volym och näring. Funkar ovanligt bra kall eller ljummen i matlåda.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "25 minuter",
+      "ica_offer_products_used": [
+        {
+          "product": "Tonfisk i vatten 170g ICA",
+          "amount_used": "3 burkar",
+          "campaign_price": { "amount_sek": 40, "unit": "3 st", "status": "exakt", "display": "3 för 40 kr" },
+          "effective_recipe_cost_sek": 40,
+          "effective_price_status": "exakt",
+          "ordinary_reference_price_sek": 21.09,
+          "discount_reference_sek": 23.27,
+          "source": "ICA kategori: Tonfisk i vatten 170g ICA — 3 för 40 kr, Pris 21,09 kr"
+        },
+        {
+          "product": "Pasta Fusilli 500g Barilla",
+          "amount_used": "2 förpackningar / 1 kg",
+          "campaign_price": { "amount_sek": 20, "unit": "2 st", "status": "exakt", "display": "2 för 20 kr" },
+          "effective_recipe_cost_sek": 20,
+          "effective_price_status": "exakt",
+          "ordinary_reference_price_sek": 20.03,
+          "discount_reference_sek": 20.06,
+          "source": "ICA kategori: Pasta Fusilli 500g Barilla — 2 för 20 kr, Pris 20,03 kr"
+        },
+        {
+          "product": "Feta 150g ICA",
+          "amount_used": "1 förpackning / 150 g",
+          "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+          "effective_recipe_cost_sek": 15,
+          "effective_price_status": "exakt",
+          "ordinary_reference_price_sek": 24.27,
+          "discount_reference_sek": 9.27,
+          "source": "ICA kategori/sök: Feta 150g ICA — 15 kr/st"
+        },
+        {
+          "product": "Gurka styck Klass 1",
+          "amount_used": "1 st / ca 230 g",
+          "campaign_price": { "amount_sek": 18, "unit": "2 st", "status": "exakt", "display": "2 för 18 kr" },
+          "effective_recipe_cost_sek": 9,
+          "effective_price_status": "härlett",
+          "ordinary_reference_price_sek": 19.67,
+          "discount_reference_sek": 21.34,
+          "source": "ICA kategori: Gurka — 2 för 18 kr, Pris 19,67 kr"
+        }
+      ],
+      "ingredients": [
+        { "item": "Pasta Fusilli 500g Barilla", "amount": "1 kg", "line_cost_sek": 20, "price_status": "exakt", "source": "ICA kategori: Pasta Fusilli 500g Barilla — 2 för 20 kr" },
+        { "item": "Tonfisk i vatten 170g ICA", "amount": "3 burkar, ca 360 g avrunnen vikt", "line_cost_sek": 40, "price_status": "exakt", "source": "ICA kategori: Tonfisk i vatten 170g ICA — 3 för 40 kr" },
+        { "item": "Broccoli fryst 1kg ICA Basic", "amount": "1 kg", "line_cost_sek": 30.63, "price_status": "exakt", "source": "ICA sök: Broccoli Fryst 1kg ICA Basic — Pris 30,63 kr" },
+        { "item": "Feta 150g ICA", "amount": "150 g", "line_cost_sek": 15, "price_status": "exakt", "source": "ICA kategori/sök: Feta — 15 kr/st" },
+        { "item": "Gurka", "amount": "1 st, ca 230 g", "line_cost_sek": 9, "price_status": "härlett", "source": "ICA kategori: Gurka — 2 för 18 kr" },
+        { "item": "Olivolja, salt, svartpeppar, chiliflakes", "amount": "ca 30 ml + kryddor", "line_cost_sek": 6, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "method": [
+        "Koka pastan enligt anvisningarna. Spara 1 dl pastavatten innan du häller av.",
+        "Koka eller ånga broccolin tills den är mjuk men fortfarande spänstig, cirka 4–5 minuter om den är fryst i buketter.",
+        "Låt tonfisken rinna av ordentligt. Tärna gurkan och smula fetan.",
+        "Blanda den varma pastan med tonfisk, broccoli, lite olivolja och några matskedar pastavatten så att allt blir saftigt.",
+        "Smaka av med salt, peppar och lite chiliflakes.",
+        "Vänd ner gurkan precis före servering eller lägg den separat i matlådorna. Toppa med feta."
+      ],
+      "batch_cost_sek": 120.63,
+      "cost_per_portion_sek": 24.13,
+      "sources": [
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=broccoli",
+        "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+      ]
+    },
+    {
+      "title": "Bulgurgryta med tonfisk, kikärter, broccoli och feta",
+      "description": "Inte den mest klassiska kombinationen, men mycket rationell för veckan: hög proteintäthet, bra fiber, lågt pris och lätt att laga i en enda gryta för flera lunchlådor.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "30 minuter",
+      "ica_offer_products_used": [
+        {
+          "product": "Tonfisk i vatten 170g ICA",
+          "amount_used": "2 burkar",
+          "campaign_price": { "amount_sek": 40, "unit": "3 st", "status": "exakt", "display": "3 för 40 kr" },
+          "effective_recipe_cost_sek": 26.67,
+          "effective_price_status": "härlett",
+          "ordinary_reference_price_sek": 21.09,
+          "source": "ICA kategori: Tonfisk i vatten 170g ICA — 3 för 40 kr, Pris 21,09 kr"
+        },
+        {
+          "product": "Kikärtor 380g ICA",
+          "amount_used": "2 burkar",
+          "campaign_price": { "amount_sek": 30, "unit": "3 st", "status": "exakt", "display": "3 för 30 kr" },
+          "effective_recipe_cost_sek": 20,
+          "effective_price_status": "härlett",
+          "ordinary_reference_price_sek": 12.61,
+          "source": "ICA sök: Kikärtor 380g ICA — 3 för 30 kr, Pris 12,61 kr"
+        },
+        {
+          "product": "Feta 150g ICA",
+          "amount_used": "1 förpackning / 150 g",
+          "campaign_price": { "amount_sek": 15, "unit": "st", "status": "exakt" },
+          "effective_recipe_cost_sek": 15,
+          "effective_price_status": "exakt",
+          "ordinary_reference_price_sek": 24.27,
+          "source": "ICA kategori/sök: Feta 150g ICA — 15 kr/st"
+        }
+      ],
+      "ingredients": [
+        { "item": "Bulgur 500g ICA", "amount": "400 g", "unit_price_sek": 17.91, "line_cost_sek": 14.33, "price_status": "härlett", "source": "ICA sök: Bulgur 500g ICA — Pris 17,91 kr" },
+        { "item": "Tonfisk i vatten 170g ICA", "amount": "2 burkar, ca 240 g avrunnen vikt", "line_cost_sek": 26.67, "price_status": "härlett", "source": "ICA kategori: Tonfisk — 3 för 40 kr" },
+        { "item": "Kikärtor 380g ICA", "amount": "2 burkar, ca 460 g avrunnen vikt", "line_cost_sek": 20, "price_status": "härlett", "source": "ICA sök: Kikärtor — 3 för 30 kr" },
+        { "item": "Broccoli fryst 1kg ICA Basic", "amount": "500 g", "unit_price_sek": 30.63, "line_cost_sek": 15.32, "price_status": "härlett", "source": "ICA sök: Broccoli Fryst 1kg ICA Basic — Pris 30,63 kr" },
+        { "item": "Feta 150g ICA", "amount": "150 g", "line_cost_sek": 15, "price_status": "exakt", "source": "ICA kategori/sök: Feta — 15 kr/st" },
+        { "item": "Apelsiner Navel 1kg ICA", "amount": "0,5 kg", "unit_price_sek": 15, "line_cost_sek": 7.5, "price_status": "härlett", "source": "ICA kategori: Apelsiner Navel 1kg — 15 kr/st" },
+        { "item": "Olivolja, salt, svartpeppar, paprikapulver", "amount": "ca 30 ml + kryddor", "line_cost_sek": 6, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "method": [
+        "Koka bulgurn nästan klar enligt paketet, cirka 8–10 minuter. Häll av om det behövs.",
+        "Värm broccoli i gryta eller panna tills den är genomvarm och hacka den grovt med stekspaden.",
+        "Rör ner kikärtor och avrunnen tonfisk. Krydda med paprikapulver, peppar och lite salt.",
+        "Vänd ner bulgurn och lite olivolja så att allt blir saftigt och jämnt blandat.",
+        "Smaka av med lite apelsinsaft för syra och sötma. Smula över fetan sist.",
+        "Servera direkt eller fördela i matlådor; rätten håller ihop bra även dagen efter."
+      ],
+      "batch_cost_sek": 104.82,
+      "cost_per_portion_sek": 20.96,
+      "sources": [
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=bulgur",
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=broccoli",
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=kik%C3%A4rter",
+        "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+      ]
+    }
+  ],
+  "quality_check": {
+    "all_recipes_have_clear_amounts": true,
+    "all_campaign_products_have_price_and_source": true,
+    "complementary_ingredients_checked_against_ica_first": true,
+    "derived_prices_marked_as_derived": true,
+    "estimated_prices_marked_clearly": true,
+    "frontend_ready_without_special_logic": true
+  },
+  "delivery_note": {
+    "discord_recipient": "Erik",
+    "discord_summary_prepared": "Varuövervakaren är klar för ICA Rimforsa. 1) Bulgursallad med kikärter, zucchini, feta, gurka och apelsin – 24,51 kr/portion. 2) Tonfiskpasta med broccoli, feta och gurka – 24,13 kr/portion. 3) Bulgurgryta med tonfisk, kikärter, broccoli och feta – 20,96 kr/portion.",
+    "not_sent_by_tooling": true
+  }
+}
