@@ -1,0 +1,459 @@
+{
+  "date": "2026-04-12",
+  "created_at": "2026-04-12T08:44:00+02:00",
+  "slug": "2026-04-12-ica-rimforsa-weekly-offers-v5",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v5)",
+  "summary": "Tre vardagsrimliga recept för 3 vuxna plus 2 matlådor, byggda på verifierade erbjudanden och ordinarie priser från ICA Supermarket Rimforsa. Urvalet prioriterar riktiga familjerätter med bättre smakbalans och textur än ren lågprismatris.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Ordinarie pris och produktkontroll togs i första hand från ICA Handla Online för butik 1004066, främst via kategoriöversikt och ett fåtal riktade sökningar. Veckans erbjudandesida användes parallellt för att bekräfta kampanjer och läsa kampanjtext för utvalda erbjudanden.",
+  "pricing_method": {
+    "ica_priority": "ICA:s egen butikssida användes först för ordinarie priser och för kampanjer som kunde läsas direkt på produktkort. När erbjudandet bara visades som viktbaserad kampanj på ICA:s erbjudandesida härleddes kampanjpriset transparent från jmfpris och angiven vikt.",
+    "fallbacks": "Kompletterande ingredienser söktes först hos ICA. Schablon används bara för små skafferiposter som olja, vitlök, kryddor och en mindre mängd soja eller ketchup.",
+    "rounding": "Belopp avrundas till två decimaler. Härledda delkostnader bygger på enkel proportionalisering av verifierat styck- eller kilopris."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Salsiccia- och chorizofärs ICA, Ursprung Sverige, 500 g",
+      "campaign_price": { "amount_sek": 42.0, "unit": "st", "status": "härlett", "display": "Jmfpris 84:00/kg på 500 g" },
+      "ordinary_price": { "amount_sek": 50.06, "unit": "st", "status": "exakt" },
+      "discount_sek": 8.06,
+      "price_status": "härlett",
+      "source": {
+        "type": "ica_offers_page",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Salsiccia- och chorizofärs — ICA. Ursprung Sverige. 500 g. Jmfpris 84:00/kg. Ord.pris 50:06 kr."
+      }
+    },
+    {
+      "product_name": "Tortilla Original Medium 8-p 320g Santa Maria",
+      "campaign_price": { "amount_sek": 10.0, "unit": "st", "status": "härlett", "display": "10 för 100 kr" },
+      "ordinary_price": { "amount_sek": 16.84, "unit": "st", "status": "exakt" },
+      "discount_sek": 6.84,
+      "price_status": "härlett",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Tortilla Original Medium 8-p 320g Santa Maria — Namn på erbjudande: 10 för 100 kr -- Max 1 erbj/hushåll, Stammispris ... Pris 16,84 kr"
+      }
+    },
+    {
+      "product_name": "Taco sauce Medium 230g Santa Maria",
+      "campaign_price": { "amount_sek": 10.0, "unit": "st", "status": "härlett", "display": "10 för 100 kr" },
+      "ordinary_price": { "amount_sek": 17.91, "unit": "st", "status": "exakt" },
+      "discount_sek": 7.91,
+      "price_status": "härlett",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Taco sauce Medium 230g Santa Maria — Namn på erbjudande: 10 för 100 kr -- Max 1 erbj/hushåll, Stammispris ... Pris 17,91 kr"
+      }
+    },
+    {
+      "product_name": "Tonfisk i vatten 170g ICA",
+      "campaign_price": { "amount_sek": 13.33, "unit": "st", "status": "härlett", "display": "3 för 40 kr" },
+      "ordinary_price": { "amount_sek": 21.09, "unit": "st", "status": "exakt" },
+      "discount_sek": 7.76,
+      "price_status": "härlett",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Tonfisk i vatten 170g ICA — Namn på erbjudande: 3 för 40 kr ... Pris 21,09 kr"
+      }
+    },
+    {
+      "product_name": "Pasta Fusilli 500g Barilla",
+      "campaign_price": { "amount_sek": 10.0, "unit": "st", "status": "härlett", "display": "2 för 20 kr" },
+      "ordinary_price": { "amount_sek": 20.03, "unit": "st", "status": "exakt" },
+      "discount_sek": 10.03,
+      "price_status": "härlett",
+      "source": {
+        "type": "ica_search",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=pasta",
+        "evidence": "Pasta Fusilli 500g Barilla — Namn på erbjudande: 2 för 20 kr ... Pris 20,03 kr"
+      }
+    },
+    {
+      "product_name": "Feta 150g ICA",
+      "campaign_price": { "amount_sek": 15.0, "unit": "st", "status": "exakt" },
+      "ordinary_price": { "amount_sek": 24.27, "unit": "st", "status": "exakt" },
+      "discount_sek": 9.27,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Feta 150g ICA — Namn på erbjudande: 15 kr/st ... Pris 15,00 kr Tidigare pris 24,27 kr"
+      }
+    },
+    {
+      "product_name": "Gurka styck Klass 1",
+      "campaign_price": { "amount_sek": 9.0, "unit": "st", "status": "härlett", "display": "2 för 18 kr" },
+      "ordinary_price": { "amount_sek": 19.67, "unit": "st", "status": "exakt" },
+      "discount_sek": 10.67,
+      "price_status": "härlett",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Gurka styck Klass 1 — Namn på erbjudande: 2 för 18 kr ... Pris 19,67 kr"
+      }
+    },
+    {
+      "product_name": "Zucchini styck ca 350g Klass 1",
+      "campaign_price": { "amount_sek": 15.0, "unit": "st", "status": "exakt" },
+      "ordinary_price": { "amount_sek": 22.79, "unit": "st", "status": "exakt" },
+      "discount_sek": 7.79,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Zucchini styck ca 350g Klass 1 — Namn på erbjudande: 15 kr/st ... Pris 15,00 kr Tidigare pris 22,79 kr"
+      }
+    },
+    {
+      "product_name": "Broccoli fryst 1kg ICA Basic",
+      "campaign_price": null,
+      "ordinary_price": { "amount_sek": 30.63, "unit": "st", "status": "exakt" },
+      "discount_sek": null,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_search",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=broccoli",
+        "evidence": "Broccoli Fryst 1kg ICA Basic — Pris 30,63 kr"
+      }
+    },
+    {
+      "product_name": "Gul lök 1kg Klass 1 ICA",
+      "campaign_price": null,
+      "ordinary_price": { "amount_sek": 12.71, "unit": "st", "status": "exakt" },
+      "discount_sek": null,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_search",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=gul+l%C3%B6k",
+        "evidence": "Gul lök 1kg Klass 1 ICA — 1kg (12,71 kr/kg) Pris 12,71 kr"
+      }
+    },
+    {
+      "product_name": "Jasminris 2kg ICA Basic",
+      "campaign_price": null,
+      "ordinary_price": { "amount_sek": 52.89, "unit": "st", "status": "exakt" },
+      "discount_sek": null,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_search",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=jasminris",
+        "evidence": "Jasminris 2kg ICA Basic — 2kg (26,45 kr/kg) Pris 52,89 kr"
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Krämig salsicciapasta med zucchini och feta",
+      "description": "En riktig vardagspasta: kryddig korvfärs, sötstekt lök, mjuk zucchini och salt feta som rundar av. Smakar som middag, inte som kompromissmat, och håller fint i matlåda.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "30 minuter",
+      "meal_flags": ["familjevänlig", "matlådevänlig", "hög proteinhalt"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Salsiccia- och chorizofärs ICA, Ursprung Sverige, 500 g",
+          "buy_amount": "2 fp",
+          "campaign_price": 42.0,
+          "ordinary_price": 50.06,
+          "discount_sek": 8.06,
+          "price_status": "härlett",
+          "source": "ICA erbjudandesida",
+          "evidence": "500 g, jmfpris 84:00/kg, ord.pris 50:06 kr"
+        },
+        {
+          "product_name": "Pasta Fusilli 500g Barilla",
+          "buy_amount": "2 fp",
+          "campaign_price": 10.0,
+          "ordinary_price": 20.03,
+          "discount_sek": 10.03,
+          "price_status": "härlett",
+          "source": "ICA sök/kategori",
+          "evidence": "2 för 20 kr, pris 20,03 kr"
+        },
+        {
+          "product_name": "Zucchini styck ca 350g Klass 1",
+          "buy_amount": "2 st",
+          "campaign_price": 15.0,
+          "ordinary_price": 22.79,
+          "discount_sek": 7.79,
+          "price_status": "exakt",
+          "source": "ICA kategori",
+          "evidence": "15 kr/st, tidigare pris 22,79 kr"
+        },
+        {
+          "product_name": "Feta 150g ICA",
+          "buy_amount": "1 fp",
+          "campaign_price": 15.0,
+          "ordinary_price": 24.27,
+          "discount_sek": 9.27,
+          "price_status": "exakt",
+          "source": "ICA kategori",
+          "evidence": "15 kr/st, tidigare pris 24,27 kr"
+        },
+        {
+          "product_name": "Gul lök 1kg Klass 1 ICA",
+          "buy_amount": "1 nät",
+          "campaign_price": null,
+          "ordinary_price": 12.71,
+          "discount_sek": null,
+          "price_status": "exakt",
+          "source": "ICA sök",
+          "evidence": "1kg, pris 12,71 kr"
+        }
+      ],
+      "ingredients": [
+        { "item": "Salsiccia- och chorizofärs", "amount": "1000 g", "unit": "g", "line_cost_sek": 84.0, "campaign_price": 42.0, "ordinary_price": 50.06, "discount_sek": 8.06, "price_status": "härlett", "source": "ICA erbjudandesida" },
+        { "item": "Pasta Fusilli 500g Barilla", "amount": "800 g", "unit": "g", "line_cost_sek": 16.0, "campaign_price": 10.0, "ordinary_price": 20.03, "discount_sek": 10.03, "price_status": "härlett", "source": "ICA sök/kategori" },
+        { "item": "Zucchini", "amount": "700 g", "unit": "g", "line_cost_sek": 30.0, "campaign_price": 15.0, "ordinary_price": 22.79, "discount_sek": 7.79, "price_status": "exakt", "source": "ICA kategori" },
+        { "item": "Gul lök", "amount": "300 g", "unit": "g", "line_cost_sek": 3.81, "campaign_price": null, "ordinary_price": 12.71, "discount_sek": null, "price_status": "härlett", "source": "ICA sök" },
+        { "item": "Feta 150g ICA", "amount": "150 g", "unit": "g", "line_cost_sek": 15.0, "campaign_price": 15.0, "ordinary_price": 24.27, "discount_sek": 9.27, "price_status": "exakt", "source": "ICA kategori" },
+        { "item": "Olivolja, vitlök, svartpeppar, chiliflakes", "amount": "ca 45 ml + kryddor", "unit": "schablon", "line_cost_sek": 6.0, "campaign_price": null, "ordinary_price": null, "discount_sek": null, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "method": [
+        "Koka pastan till al dente. Spara 1,5 dl pastavatten.",
+        "Stek salsicciafärsen hårt i omgångar så den får färg och rostad smak.",
+        "Lägg i finhackad lök och skivad zucchini och stek vidare tills löken mjuknar och zucchinin får lite yta.",
+        "Tillsätt finhackad vitlök, svartpeppar och lite chiliflakes. Rör om kort.",
+        "Vänd ner den kokta pastan och en skvätt pastavatten så att stekskyn binder ihop allt till en saftig, nästan krämig pasta.",
+        "Smula över feta precis före servering. Spara gärna lite feta till toppen i matlådorna för bättre textur dagen efter."
+      ],
+      "costs": {
+        "campaign_total_sek": 154.81,
+        "ordinary_total_sek": 202.4,
+        "total_discount_sek": 47.59,
+        "cost_per_portion_sek": 30.96
+      },
+      "sources": [
+        "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=pasta",
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=gul+l%C3%B6k",
+        "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      ]
+    },
+    {
+      "title": "Tonfiskpasta med broccoli, gurka och feta",
+      "description": "En ljusare och friskare vardagspasta där tonfisk och broccoli ger protein och volym, medan gurka och feta gör att den inte känns torr eller tråkig. Bra både varm och ljummen i lunchlåda.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "25 minuter",
+      "meal_flags": ["familjevänlig", "matlådevänlig", "proteinrik"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Tonfisk i vatten 170g ICA",
+          "buy_amount": "3 burkar",
+          "campaign_price": 13.33,
+          "ordinary_price": 21.09,
+          "discount_sek": 7.76,
+          "price_status": "härlett",
+          "source": "ICA kategori",
+          "evidence": "3 för 40 kr, pris 21,09 kr"
+        },
+        {
+          "product_name": "Pasta Fusilli 500g Barilla",
+          "buy_amount": "2 fp",
+          "campaign_price": 10.0,
+          "ordinary_price": 20.03,
+          "discount_sek": 10.03,
+          "price_status": "härlett",
+          "source": "ICA sök/kategori",
+          "evidence": "2 för 20 kr, pris 20,03 kr"
+        },
+        {
+          "product_name": "Broccoli fryst 1kg ICA Basic",
+          "buy_amount": "1 fp",
+          "campaign_price": null,
+          "ordinary_price": 30.63,
+          "discount_sek": null,
+          "price_status": "exakt",
+          "source": "ICA sök",
+          "evidence": "Broccoli Fryst 1kg ICA Basic — pris 30,63 kr"
+        },
+        {
+          "product_name": "Feta 150g ICA",
+          "buy_amount": "1 fp",
+          "campaign_price": 15.0,
+          "ordinary_price": 24.27,
+          "discount_sek": 9.27,
+          "price_status": "exakt",
+          "source": "ICA kategori",
+          "evidence": "15 kr/st, tidigare pris 24,27 kr"
+        },
+        {
+          "product_name": "Gurka styck Klass 1",
+          "buy_amount": "1 st",
+          "campaign_price": 9.0,
+          "ordinary_price": 19.67,
+          "discount_sek": 10.67,
+          "price_status": "härlett",
+          "source": "ICA kategori",
+          "evidence": "2 för 18 kr, pris 19,67 kr"
+        }
+      ],
+      "ingredients": [
+        { "item": "Tonfisk i vatten 170g ICA", "amount": "3 burkar", "unit": "st", "line_cost_sek": 40.0, "campaign_price": 13.33, "ordinary_price": 21.09, "discount_sek": 7.76, "price_status": "exakt", "source": "ICA kategori" },
+        { "item": "Pasta Fusilli 500g Barilla", "amount": "1000 g", "unit": "g", "line_cost_sek": 20.0, "campaign_price": 10.0, "ordinary_price": 20.03, "discount_sek": 10.03, "price_status": "exakt", "source": "ICA sök/kategori" },
+        { "item": "Broccoli fryst 1kg ICA Basic", "amount": "1000 g", "unit": "g", "line_cost_sek": 30.63, "campaign_price": null, "ordinary_price": 30.63, "discount_sek": null, "price_status": "exakt", "source": "ICA sök" },
+        { "item": "Feta 150g ICA", "amount": "150 g", "unit": "g", "line_cost_sek": 15.0, "campaign_price": 15.0, "ordinary_price": 24.27, "discount_sek": 9.27, "price_status": "exakt", "source": "ICA kategori" },
+        { "item": "Gurka", "amount": "230 g", "unit": "g", "line_cost_sek": 9.0, "campaign_price": 9.0, "ordinary_price": 19.67, "discount_sek": 10.67, "price_status": "härlett", "source": "ICA kategori" },
+        { "item": "Olivolja, citron eller lite vinäger, svartpeppar", "amount": "ca 30 ml + kryddor", "unit": "schablon", "line_cost_sek": 6.0, "campaign_price": null, "ordinary_price": null, "discount_sek": null, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "method": [
+        "Koka pastan enligt paketet. Spara 1 dl pastavatten.",
+        "Koka eller ånga broccolin tills den är genomvarm men fortfarande spänstig. Dela större buketter grovt.",
+        "Låt tonfisken rinna av ordentligt. Tärna gurkan och smula fetan.",
+        "Blanda varm pasta med tonfisk, broccoli, lite olivolja och några matskedar pastavatten så att allt blir saftigt.",
+        "Smaka av med svartpeppar och en liten skvätt citron eller vinäger för friskhet.",
+        "Vänd ner gurkan allra sist eller lägg den separat i matlådorna. Toppa med feta vid servering."
+      ],
+      "costs": {
+        "campaign_total_sek": 120.63,
+        "ordinary_total_sek": 160.6,
+        "total_discount_sek": 39.97,
+        "cost_per_portion_sek": 24.13
+      },
+      "sources": [
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=broccoli",
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=pasta",
+        "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+      ]
+    },
+    {
+      "title": "Mjuka tacos med salsicciafärs, zucchini, gurka, feta och tacosås",
+      "description": "Veckans mest familjevänliga plockmiddag. Kryddig färs möter sval gurka, salt feta och mjuka tortillabröd, vilket ger bättre balans än att bara bygga på billig färs och sås.",
+      "servings": 5,
+      "servings_label": "3 vuxna + 2 matlådor",
+      "cook_time": "25 minuter",
+      "meal_flags": ["familjevänlig", "fredagsvänlig", "matlådevänlig"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Salsiccia- och chorizofärs ICA, Ursprung Sverige, 500 g",
+          "buy_amount": "1 fp",
+          "campaign_price": 42.0,
+          "ordinary_price": 50.06,
+          "discount_sek": 8.06,
+          "price_status": "härlett",
+          "source": "ICA erbjudandesida",
+          "evidence": "500 g, jmfpris 84:00/kg, ord.pris 50:06 kr"
+        },
+        {
+          "product_name": "Tortilla Original Medium 8-p 320g Santa Maria",
+          "buy_amount": "2 fp",
+          "campaign_price": 10.0,
+          "ordinary_price": 16.84,
+          "discount_sek": 6.84,
+          "price_status": "härlett",
+          "source": "ICA kategori",
+          "evidence": "10 för 100 kr, pris 16,84 kr"
+        },
+        {
+          "product_name": "Taco sauce Medium 230g Santa Maria",
+          "buy_amount": "1 burk",
+          "campaign_price": 10.0,
+          "ordinary_price": 17.91,
+          "discount_sek": 7.91,
+          "price_status": "härlett",
+          "source": "ICA kategori",
+          "evidence": "10 för 100 kr, pris 17,91 kr"
+        },
+        {
+          "product_name": "Gurka styck Klass 1",
+          "buy_amount": "1 st",
+          "campaign_price": 9.0,
+          "ordinary_price": 19.67,
+          "discount_sek": 10.67,
+          "price_status": "härlett",
+          "source": "ICA kategori",
+          "evidence": "2 för 18 kr, pris 19,67 kr"
+        },
+        {
+          "product_name": "Feta 150g ICA",
+          "buy_amount": "1 fp",
+          "campaign_price": 15.0,
+          "ordinary_price": 24.27,
+          "discount_sek": 9.27,
+          "price_status": "exakt",
+          "source": "ICA kategori",
+          "evidence": "15 kr/st, tidigare pris 24,27 kr"
+        },
+        {
+          "product_name": "Zucchini styck ca 350g Klass 1",
+          "buy_amount": "1 st",
+          "campaign_price": 15.0,
+          "ordinary_price": 22.79,
+          "discount_sek": 7.79,
+          "price_status": "exakt",
+          "source": "ICA kategori",
+          "evidence": "15 kr/st, tidigare pris 22,79 kr"
+        },
+        {
+          "product_name": "Gul lök 1kg Klass 1 ICA",
+          "buy_amount": "1 nät",
+          "campaign_price": null,
+          "ordinary_price": 12.71,
+          "discount_sek": null,
+          "price_status": "exakt",
+          "source": "ICA sök",
+          "evidence": "1kg, pris 12,71 kr"
+        }
+      ],
+      "ingredients": [
+        { "item": "Salsiccia- och chorizofärs", "amount": "500 g", "unit": "g", "line_cost_sek": 42.0, "campaign_price": 42.0, "ordinary_price": 50.06, "discount_sek": 8.06, "price_status": "härlett", "source": "ICA erbjudandesida" },
+        { "item": "Tortilla Original Medium 8-p 320g Santa Maria", "amount": "16 tortillas", "unit": "st", "line_cost_sek": 20.0, "campaign_price": 10.0, "ordinary_price": 16.84, "discount_sek": 6.84, "price_status": "exakt", "source": "ICA kategori" },
+        { "item": "Taco sauce Medium 230g Santa Maria", "amount": "230 g", "unit": "g", "line_cost_sek": 10.0, "campaign_price": 10.0, "ordinary_price": 17.91, "discount_sek": 7.91, "price_status": "härlett", "source": "ICA kategori" },
+        { "item": "Zucchini", "amount": "350 g", "unit": "g", "line_cost_sek": 15.0, "campaign_price": 15.0, "ordinary_price": 22.79, "discount_sek": 7.79, "price_status": "exakt", "source": "ICA kategori" },
+        { "item": "Gul lök", "amount": "200 g", "unit": "g", "line_cost_sek": 2.54, "campaign_price": null, "ordinary_price": 12.71, "discount_sek": null, "price_status": "härlett", "source": "ICA sök" },
+        { "item": "Gurka", "amount": "230 g", "unit": "g", "line_cost_sek": 9.0, "campaign_price": 9.0, "ordinary_price": 19.67, "discount_sek": 10.67, "price_status": "härlett", "source": "ICA kategori" },
+        { "item": "Feta 150g ICA", "amount": "150 g", "unit": "g", "line_cost_sek": 15.0, "campaign_price": 15.0, "ordinary_price": 24.27, "discount_sek": 9.27, "price_status": "exakt", "source": "ICA kategori" },
+        { "item": "Rapsolja, vitlök, spiskummin, paprikapulver", "amount": "ca 30 ml + kryddor", "unit": "schablon", "line_cost_sek": 5.0, "campaign_price": null, "ordinary_price": null, "discount_sek": null, "price_status": "schablon", "source": "skafferischablon" }
+      ],
+      "method": [
+        "Stek salsicciafärsen så att den får ordentlig färg. Tillsätt hackad lök och små tärningar zucchini och stek mjukt.",
+        "Krydda med vitlök, paprikapulver och lite spiskummin. Rör ner tacosåsen och låt allt koka ihop ett par minuter.",
+        "Tärna gurkan fint och smula fetan.",
+        "Värm tortillabröden snabbt i panna eller ugn så att de blir mjuka och följsamma.",
+        "Servera med varm färsfyllning, gurka, feta och extra tacosås om något finns kvar.",
+        "För matlåda: packa fyllning och kalla tillbehör separat, så håller tortillorna och gurkan bättre textur."
+      ],
+      "costs": {
+        "campaign_total_sek": 118.54,
+        "ordinary_total_sek": 159.55,
+        "total_discount_sek": 41.01,
+        "cost_per_portion_sek": 23.71
+      },
+      "sources": [
+        "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "https://handlaprivatkund.ica.se/stores/1004066/search?q=gul+l%C3%B6k",
+        "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      ]
+    }
+  ],
+  "quality_check": {
+    "real_meals_not_just_cheapest_matrix": true,
+    "family_would_reasonably_cook_this": true,
+    "flavor_balance_checked": true,
+    "texture_variation_checked": true,
+    "matlador_rimliga": true,
+    "notes": [
+      "Två recept bygger på prisstarka kampanjproteiner men balanseras med fräschör, sälta och olika texturer.",
+      "Wraps valdes framför ännu en ren gryta eftersom de ger tydligare familjekänsla och bättre variation i veckans meny.",
+      "Schnitzel valdes bort i denna körning: verifierbart erbjudande fanns, men portionskostnaden blev sämre än alternativen utan att ge tydligt bättre helhetsmåltid."
+    ]
+  },
+  "delivery_note": {
+    "discord_recipient": "Erik",
+    "discord_channel": "nuvarande Discord-tråd/kanal för denna cronrapport",
+    "discord_summary_prepared": "Varuövervakaren är klar. 1) Krämig salsicciapasta med zucchini och feta – 30,96 kr/portion. 2) Tonfiskpasta med broccoli, gurka och feta – 24,13 kr/portion. 3) Mjuka tacos med salsicciafärs, zucchini, gurka, feta och tacosås – 23,71 kr/portion.",
+    "not_sent_by_tooling": true
+  }
+}
