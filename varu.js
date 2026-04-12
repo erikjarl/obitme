@@ -34,7 +34,7 @@ function getOfferUrl(post) {
 
 function normalizeOffer(offer) {
   return {
-    product: offer.product,
+    product: offer.product || offer.product_name,
     campaign: offer.campaign_price_sek ?? offer.campaign_price?.amount_sek ?? offer.derived_campaign_batch_cost_sek ?? offer.normalized_campaign_price_per_piece_sek,
     campaignLabel: offer.campaign_price?.display || offer.campaign_format || offer.price_basis || '',
     ordinary: offer.ordinary_price_sek ?? offer.ordinary_price?.amount_sek,
@@ -44,7 +44,7 @@ function normalizeOffer(offer) {
 }
 
 function renderOfferList(post) {
-  const rawOffers = post.offer_review?.picked_offers || post.offer_review?.picked_products || [];
+  const rawOffers = post.offer_review?.picked_offers || post.offer_review?.picked_products || post.fyndlista || [];
   const offers = rawOffers.map(normalizeOffer);
   if (!offers.length) return '<p>Inga tydliga erbjudanden listade.</p>';
   return `
@@ -66,19 +66,22 @@ function renderRecipe(recipe) {
   const title = recipe.name || recipe.title || 'Recept';
   const summary = recipe.summary || recipe.description || '';
   const servings = recipe.servings_label || recipe.servings || '';
-  const portionCost = recipe.estimated_cost_per_portion_sek ?? recipe.cost_per_portion_sek;
-  const totalCost = recipe.estimated_total_batch_cost_sek ?? recipe.batch_cost_sek;
-  const offerProductsRaw = recipe.ica_offer_products || recipe.ica_offer_products_used || [];
+  const portionCost = recipe.estimated_cost_per_portion_sek ?? recipe.cost_per_portion_sek ?? recipe.costs?.cost_per_portion_sek;
+  const totalCost = recipe.estimated_total_batch_cost_sek ?? recipe.batch_cost_sek ?? recipe.costs?.campaign_total_sek;
+  const offerProductsRaw = recipe.ica_offer_products || recipe.ica_offer_products_used || recipe.ica_products_to_buy || [];
   const offerProducts = offerProductsRaw.map(item => {
-    const campaign = item.campaign_price_sek ?? item.campaign_price?.amount_sek ?? item.effective_recipe_cost_sek;
-    const ordinary = item.ordinary_price_sek ?? item.ordinary_reference_price_sek ?? item.campaign_price?.ordinary_price?.amount_sek;
+    const campaign = item.campaign_price_sek ?? item.campaign_price?.amount_sek ?? item.effective_recipe_cost_sek ?? item.campaign_price;
+    const ordinary = item.ordinary_price_sek ?? item.ordinary_reference_price_sek ?? item.campaign_price?.ordinary_price?.amount_sek ?? item.ordinary_price;
     const discount = item.discount_sek ?? item.discount_reference_sek;
     const source = item.source_reference || item.source || '';
-    const amountUsed = item.amount_used ? ` – ${item.amount_used}` : '';
-    return `<li><strong>${escapeHtml(item.product)}</strong>${escapeHtml(amountUsed)}<br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(source)}</span></li>`;
+    const name = item.product || item.product_name || 'Produkt';
+    const amountUsed = item.amount_used || item.buy_amount || '';
+    const evidence = item.evidence ? ` · ${item.evidence}` : '';
+    return `<li><strong>${escapeHtml(name)}</strong>${amountUsed ? ` – ${escapeHtml(amountUsed)}` : ''}<br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(source)}${escapeHtml(evidence)}</span></li>`;
   }).join('');
 
-  const ingredients = (recipe.ingredients || []).map(item => {
+  const ingredientsRaw = recipe.ingredients || [];
+  const ingredients = ingredientsRaw.map(item => {
     const priceBits = [];
     if (item.line_cost_sek !== undefined) priceBits.push(`kostnad ${formatSek(item.line_cost_sek)}`);
     if (item.price_status) priceBits.push(item.price_status);
@@ -86,11 +89,19 @@ function renderRecipe(recipe) {
     return `<li>${escapeHtml(item.item)}: ${escapeHtml(item.amount)}${priceBits.length ? ` <span class="small-muted">(${escapeHtml(priceBits.join(' · '))})</span>` : ''}</li>`;
   }).join('');
 
-  const extraCostsRaw = recipe.estimated_non_ica_costs || [];
-  const extraCosts = extraCostsRaw.map(item => `<li>${escapeHtml(item.item)}: ${formatSek(item.cost_sek)} <span class="small-muted">(${escapeHtml(item.price_status || (item.estimated ? 'uppskattat' : 'exakt'))}${item.source ? `, ${escapeHtml(item.source)}` : ''})</span></li>`).join('');
+  const extraCostsRaw = recipe.estimated_non_ica_costs || ingredientsRaw.filter(item => !item.campaign_price && item.ordinary_price == null ? item.price_status === 'schablon' : false);
+  const extraCosts = extraCostsRaw.map(item => `<li>${escapeHtml(item.item)}: ${formatSek(item.cost_sek ?? item.line_cost_sek)} <span class="small-muted">(${escapeHtml(item.price_status || (item.estimated ? 'uppskattat' : 'exakt'))}${item.source ? `, ${escapeHtml(item.source)}` : ''})</span></li>`).join('');
 
   const stepsRaw = recipe.recipe?.steps || recipe.method || [];
   const steps = stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('');
+  const costSummary = recipe.costs ? `
+      <div class="detail-card">
+        <h5>Kostnadssammanfattning</h5>
+        <p><strong>Kampanjtotal:</strong> ${formatSek(recipe.costs.campaign_total_sek)}</p>
+        <p><strong>Ordinarie total:</strong> ${formatSek(recipe.costs.ordinary_total_sek)}</p>
+        <p><strong>Besparing:</strong> ${formatSek(recipe.costs.total_discount_sek)}</p>
+      </div>
+  ` : '';
 
   return `
     <section class="recipe-card">
@@ -102,12 +113,13 @@ function renderRecipe(recipe) {
         <span class="badge">Portionskostnad: ${formatSek(portionCost)}</span>
         <span class="badge">Totalkostnad: ${formatSek(totalCost)}</span>
       </div>
-      <h5>ICA-produkter i receptet</h5>
+      ${costSummary}
+      <h5>ICA-produkter att köpa</h5>
       ${offerProducts ? `<ul>${offerProducts}</ul>` : '<p>Inga ICA-produkter listade.</p>'}
       <h5>Ingredienser</h5>
       <ul>${ingredients}</ul>
       <h5>Kompletterande ingredienspriser</h5>
-      ${extraCosts ? `<ul>${extraCosts}</ul>` : '<p>Inga separata kompletterande ingredienspriser listade.</p>'}
+      ${extraCosts ? `<ul>${extraCosts}</ul>` : '<p>Inga separata kompletterande ingredienspriser användes i denna post; kompletterande kostnader ligger redan inbakade i ingredienslistan eller som små schablonposter.</p>'}
       <h5>Tillvägagångssätt</h5>
       ${steps ? `<ol>${steps}</ol>` : '<p>Inget tillvägagångssätt listat.</p>'}
     </section>
