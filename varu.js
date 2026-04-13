@@ -97,7 +97,7 @@ function renderRecipe(recipe) {
   const extraCosts = extraCostsRaw.map(item => `<li>${escapeHtml(item.item)}: ${formatSek(item.cost_sek ?? item.line_cost_sek)} <span class="small-muted">(${escapeHtml(item.price_status || (item.estimated ? 'uppskattat' : 'exakt'))}${item.source ? `, ${escapeHtml(item.source)}` : ''})</span></li>`).join('');
 
   const stepsRaw = recipe.recipe?.steps || recipe.method || [];
-  const steps = stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('');
+  const steps = Array.isArray(stepsRaw) ? stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('') : `<li>${escapeHtml(stepsRaw)}</li>`;
   const costSummary = recipe.costs ? `
       <div class="detail-card">
         <h5>Kostnadssammanfattning</h5>
