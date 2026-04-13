@@ -1,7 +1,7 @@
 {
   "date": "2026-04-13",
-  "created_at": "2026-04-13T22:40:00+02:00",
-  "slug": "2026-04-13-ica-rimforsa-weekly-offers-final",
+  "created_at": "2026-04-13T22:56:15.381280+02:00",
+  "slug": "2026-04-13-ica-rimforsa-weekly-offers",
   "title": "Veckans familjerecept – ICA Supermarket Rimforsa (aprilvecka 2)",
   "summary": "Tre prisvärda familjerätter byggda på veckans bästa ICA-erbjudanden i Rimforsa. Recepten är anpassade för 3 vuxna plus 2 matlådor med tydliga mängder, tillvägagångssätt och verifierade portionskostnader.",
   "store": {
@@ -20,8 +20,17 @@
   "fyndlista": [
     {
       "product_name": "Kycklingfilé Färsk ca 925g Kronfågel",
-      "campaign_price": { "amount_sek": 91.58, "unit": "st", "status": "exakt", "display": "99 kr/kg på ca 925 g" },
-      "ordinary_price": { "amount_sek": 148.91, "unit": "st", "status": "exakt" },
+      "campaign_price": {
+        "amount_sek": 91.58,
+        "unit": "st",
+        "status": "exakt",
+        "display": "99 kr/kg på ca 925 g"
+      },
+      "ordinary_price": {
+        "amount_sek": 148.91,
+        "unit": "st",
+        "status": "exakt"
+      },
       "discount_sek": 57.33,
       "price_status": "exakt",
       "source": {
@@ -32,8 +41,17 @@
     },
     {
       "product_name": "Präst® ost mellan 31% ca 720g Arla Ko®",
-      "campaign_price": { "amount_sek": 56.87, "unit": "st", "status": "exakt", "display": "79 kr/kg på ca 720 g" },
-      "ordinary_price": { "amount_sek": 96.16, "unit": "st", "status": "exakt" },
+      "campaign_price": {
+        "amount_sek": 56.87,
+        "unit": "st",
+        "status": "exakt",
+        "display": "79 kr/kg på ca 720 g"
+      },
+      "ordinary_price": {
+        "amount_sek": 96.16,
+        "unit": "st",
+        "status": "exakt"
+      },
       "discount_sek": 39.29,
       "price_status": "exakt",
       "source": {
@@ -44,8 +62,16 @@
     },
     {
       "product_name": "Plommontomater 500g Klass 1 ICA",
-      "campaign_price": { "amount_sek": 25.0, "unit": "st", "status": "exakt" },
-      "ordinary_price": { "amount_sek": 34.24, "unit": "st", "status": "exakt" },
+      "campaign_price": {
+        "amount_sek": 25.0,
+        "unit": "st",
+        "status": "exakt"
+      },
+      "ordinary_price": {
+        "amount_sek": 34.24,
+        "unit": "st",
+        "status": "exakt"
+      },
       "discount_sek": 9.24,
       "price_status": "exakt",
       "source": {
@@ -62,7 +88,11 @@
       "servings": 5,
       "servings_label": "3 vuxna + 2 matlådor",
       "cook_time": "30 min",
-      "meal_flags": ["kött", "pasta", "familjevänlig"],
+      "meal_flags": [
+        "kött",
+        "pasta",
+        "familjevänlig"
+      ],
       "ica_products_to_buy": [
         {
           "product_name": "Kycklingfilé Färsk ca 925g Kronfågel",
@@ -124,15 +154,15 @@
           "item": "Pasta",
           "amount": 300,
           "unit": "g",
-          "line_cost_sek": 6.0,
-          "campaign_price": null,
-          "ordinary_price": 6.0,
-          "discount_sek": null,
-          "price_status": "uppskattat",
+          "line_cost_sek": 8.33,
+          "campaign_price": 8.33,
+          "ordinary_price": 15.0,
+          "discount_sek": 6.67,
+          "price_status": "härlett",
           "source": {
-            "type": "schablon",
-            "url": null,
-            "evidence": "Uppskattat pris för pasta"
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+            "evidence": "Pasta ICA 500g - 3 för 25 kr (max 1 köp/hushåll)"
           }
         },
         {
@@ -151,18 +181,23 @@
           }
         }
       ],
-      "method": "1. Skär kycklingfiléerna i bitar och krydda.\n2. Halvera plommontomaterna.\n3. Stek kyckling tills den är genomstekt.\n4. Tillsätt tomater och låt puttra.\n5. Koka pastan.\n6. Servera ihop.",
+      "method": "1. Skär kycklingfiléerna i bitar och krydda med salt och peppar.\n2. Halvera plommontomaterna.\n3. Finhacka löken.\n4. Värm olja i en stekpanna och stek kyckling tills den är genomstekt, ca 8-10 minuter.\n5. Ta upp kycklingen och stek löken i samma panna tills den mjuknar.\n6. Tillsätt tomater och låt puttra i 5 minuter.\n7. Koka pastan enligt anvisning på förpackningen.\n8. Blanda ihop kyckling med tomatsåsen och servera med pasta.",
       "costs": {
-        "campaign_total_sek": 127.58,
-        "ordinary_total_sek": 194.15,
-        "total_discount_sek": 66.57,
-        "cost_per_portion_sek": 25.52
+        "campaign_total_sek": 129.91,
+        "ordinary_total_sek": 202.15,
+        "total_discount_sek": 72.24,
+        "cost_per_portion_sek": 25.98
       },
       "sources": [
         {
           "type": "ica_category",
           "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
           "evidence": "Huvudingredienser från ICA"
+        },
+        {
+          "type": "ica_offers",
+          "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+          "evidence": "Pastaerbjudande från veckans erbjudanden"
         }
       ]
     }
