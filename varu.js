@@ -33,13 +33,17 @@ function getOfferUrl(post) {
 }
 
 function normalizeOffer(offer) {
+  const campaign = offer.campaign_price_sek ?? (typeof offer.campaign_price === 'object' ? offer.campaign_price?.amount_sek : offer.campaign_price) ?? offer.derived_campaign_batch_cost_sek ?? offer.normalized_campaign_price_per_piece_sek;
+  const ordinary = offer.ordinary_price_sek ?? (typeof offer.ordinary_price === 'object' ? offer.ordinary_price?.amount_sek : offer.ordinary_price);
+  const campaignLabel = (typeof offer.campaign_price === 'object' ? offer.campaign_price?.display : '') || offer.campaign_format || offer.price_basis || '';
+  const source = typeof offer.source === 'string' ? offer.source : offer.source?.evidence || offer.source_reference || '';
   return {
     product: offer.product || offer.product_name,
-    campaign: offer.campaign_price_sek ?? offer.campaign_price?.amount_sek ?? offer.derived_campaign_batch_cost_sek ?? offer.normalized_campaign_price_per_piece_sek,
-    campaignLabel: offer.campaign_price?.display || offer.campaign_format || offer.price_basis || '',
-    ordinary: offer.ordinary_price_sek ?? offer.ordinary_price?.amount_sek,
+    campaign,
+    campaignLabel,
+    ordinary,
     discount: offer.discount_sek,
-    source: typeof offer.source === 'string' ? offer.source : offer.source?.evidence || offer.source_reference || ''
+    source
   };
 }
 
