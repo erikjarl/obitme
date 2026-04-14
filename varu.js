@@ -22,7 +22,7 @@ function formatSek(value) {
       // Try to extract number from display string
       const match = String(value.display).match(/[\d.,]+/);
       if (match) value = parseFloat(match[0].replace(',', '.'));
-      else value = null;
+      else return 'okänt';
     } else {
       // Unknown object, try to convert to string and extract number
       const str = JSON.stringify(value);
