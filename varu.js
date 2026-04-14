@@ -33,16 +33,35 @@ function getOfferUrl(post) {
 }
 
 function normalizeOffer(offer) {
-  const campaign = offer.campaign_price_sek ?? (typeof offer.campaign_price === 'object' ? offer.campaign_price?.amount_sek : offer.campaign_price) ?? offer.derived_campaign_batch_cost_sek ?? offer.normalized_campaign_price_per_piece_sek;
-  const ordinary = offer.ordinary_price_sek ?? (typeof offer.ordinary_price === 'object' ? offer.ordinary_price?.amount_sek : offer.ordinary_price);
-  const campaignLabel = (typeof offer.campaign_price === 'object' ? offer.campaign_price?.display : '') || offer.campaign_format || offer.price_basis || '';
+  let campaign = offer.campaign_price_sek;
+  if (campaign === undefined || campaign === null) {
+    if (typeof offer.campaign_price === 'object' && offer.campaign_price !== null) {
+      campaign = offer.campaign_price?.amount_sek;
+    } else {
+      campaign = offer.campaign_price;
+    }
+  }
+  campaign = campaign ?? offer.derived_campaign_batch_cost_sek ?? offer.normalized_campaign_price_per_piece_sek;
+  
+  let ordinary = offer.ordinary_price_sek;
+  if (ordinary === undefined || ordinary === null) {
+    if (typeof offer.ordinary_price === 'object' && offer.ordinary_price !== null) {
+      ordinary = offer.ordinary_price?.amount_sek;
+    } else {
+      ordinary = offer.ordinary_price;
+    }
+  }
+  
+  const campaignLabel = (typeof offer.campaign_price === 'object' && offer.campaign_price !== null ? offer.campaign_price?.display : '') || offer.campaign_format || offer.price_basis || '';
   const source = typeof offer.source === 'string' ? offer.source : offer.source?.evidence || offer.source_reference || '';
+  
+  // Ensure we return numbers, not objects
   return {
     product: offer.product || offer.product_name,
-    campaign,
+    campaign: typeof campaign === 'number' ? campaign : null,
     campaignLabel,
-    ordinary,
-    discount: offer.discount_sek,
+    ordinary: typeof ordinary === 'number' ? ordinary : null,
+    discount: typeof offer.discount_sek === 'number' ? offer.discount_sek : null,
     source
   };
 }
