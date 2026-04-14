@@ -12,33 +12,61 @@ async function loadVaruPost(file) {
 
 function formatSek(value) {
   if (value === undefined || value === null || value === '') return 'okänt';
-  // If value is an object, try to extract amount_sek
+  
+  // If value is an object, try to extract numeric value
   if (typeof value === 'object' && value !== null) {
     // Handle nested objects like campaign_price: { amount_sek: 91.58, ... }
     if ('amount_sek' in value) {
       value = value.amount_sek;
     } else if ('display' in value) {
-      // If it's a display object, maybe we should show display?
-      // But for numeric formatting, try to extract number
+      // Try to extract number from display string
       const match = String(value.display).match(/[\d.,]+/);
       if (match) value = parseFloat(match[0].replace(',', '.'));
+      else value = null;
     } else {
-      // Unknown object, return 'okänt'
-      return 'okänt';
+      // Unknown object, try to convert to string and extract number
+      const str = JSON.stringify(value);
+      const match = str.match(/[\d.,]+/);
+      if (match) value = parseFloat(match[0].replace(',', '.'));
+      else return 'okänt';
     }
   }
+  
   // Ensure it's a number
   const num = Number(value);
   if (isNaN(num)) return 'okänt';
-  return new Intl.NumberFormat('sv-SE', { style: 'currency', currency: 'SEK', maximumFractionDigits: num % 1 === 0 ? 0 : 2 }).format(num);
+  
+  return new Intl.NumberFormat('sv-SE', { 
+    style: 'currency', 
+    currency: 'SEK', 
+    maximumFractionDigits: num % 1 === 0 ? 0 : 2 
+  }).format(num);
 }
 
 function extractPrice(value) {
   if (value === undefined || value === null) return null;
+  
   if (typeof value === 'object' && value !== null) {
-    return value.amount_sek ?? null;
+    // Handle nested objects
+    if ('amount_sek' in value) {
+      return value.amount_sek;
+    } else if ('display' in value) {
+      // Try to extract number from display
+      const match = String(value.display).match(/[\d.,]+/);
+      if (match) return parseFloat(match[0].replace(',', '.'));
+      return null;
+    } else {
+      // Unknown object, try to find any numeric property
+      for (const key in value) {
+        if (typeof value[key] === 'number') return value[key];
+      }
+      return null;
+    }
   }
-  return Number(value);
+  
+  // Direct number or string
+  const num = Number(value);
+  return isNaN(num) ? null : num;
 }
 
 function escapeHtml(value) {
@@ -59,35 +87,63 @@ function getOfferUrl(post) {
 }
 
 function normalizeOffer(offer) {
-  let campaign = offer.campaign_price_sek;
-  if (campaign === undefined || campaign === null) {
-    if (typeof offer.campaign_price === 'object' && offer.campaign_price !== null) {
-      campaign = offer.campaign_price?.amount_sek;
-    } else {
-      campaign = offer.campaign_price;
+  // Helper to extract numeric value from price field
+  const extractNumeric = (field) => {
+    if (field === undefined || field === null) return null;
+    if (typeof field === 'number') return field;
+    if (typeof field === 'object' && field !== null) {
+      if ('amount_sek' in field) return field.amount_sek;
+      if ('display' in field) {
+        const match = String(field.display).match(/[\d.,]+/);
+        if (match) return parseFloat(match[0].replace(',', '.'));
+      }
+      // Try to find any numeric property
+      for (const key in field) {
+        if (typeof field[key] === 'number') return field[key];
+      }
     }
+    return null;
+  };
+  
+  // Try multiple possible fields for campaign price
+  let campaign = extractNumeric(offer.campaign_price_sek);
+  if (campaign === null) campaign = extractNumeric(offer.campaign_price);
+  if (campaign === null) campaign = extractNumeric(offer.derived_campaign_batch_cost_sek);
+  if (campaign === null) campaign = extractNumeric(offer.normalized_campaign_price_per_piece_sek);
+  
+  // Try multiple possible fields for ordinary price
+  let ordinary = extractNumeric(offer.ordinary_price_sek);
+  if (ordinary === null) ordinary = extractNumeric(offer.ordinary_price);
+  
+  // Extract discount
+  const discount = extractNumeric(offer.discount_sek);
+  
+  // Get campaign label
+  let campaignLabel = '';
+  if (typeof offer.campaign_price === 'object' && offer.campaign_price !== null && offer.campaign_price.display) {
+    campaignLabel = offer.campaign_price.display;
+  } else if (offer.campaign_format) {
+    campaignLabel = offer.campaign_format;
+  } else if (offer.price_basis) {
+    campaignLabel = offer.price_basis;
   }
-  campaign = campaign ?? offer.derived_campaign_batch_cost_sek ?? offer.normalized_campaign_price_per_piece_sek;
   
-  let ordinary = offer.ordinary_price_sek;
-  if (ordinary === undefined || ordinary === null) {
-    if (typeof offer.ordinary_price === 'object' && offer.ordinary_price !== null) {
-      ordinary = offer.ordinary_price?.amount_sek;
-    } else {
-      ordinary = offer.ordinary_price;
-    }
+  // Get source
+  let source = '';
+  if (typeof offer.source === 'string') {
+    source = offer.source;
+  } else if (offer.source?.evidence) {
+    source = offer.source.evidence;
+  } else if (offer.source_reference) {
+    source = offer.source_reference;
   }
   
-  const campaignLabel = (typeof offer.campaign_price === 'object' && offer.campaign_price !== null ? offer.campaign_price?.display : '') || offer.campaign_format || offer.price_basis || '';
-  const source = typeof offer.source === 'string' ? offer.source : offer.source?.evidence || offer.source_reference || '';
-  
-  // Ensure we return numbers, not objects
   return {
-    product: offer.product || offer.product_name,
-    campaign: typeof campaign === 'number' ? campaign : null,
+    product: offer.product || offer.product_name || 'Produkt',
+    campaign,
     campaignLabel,
-    ordinary: typeof ordinary === 'number' ? ordinary : null,
-    discount: typeof offer.discount_sek === 'number' ? offer.discount_sek : null,
+    ordinary,
+    discount,
     source
   };
 }
