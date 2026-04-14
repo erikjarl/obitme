@@ -12,7 +12,33 @@ async function loadVaruPost(file) {
 
 function formatSek(value) {
   if (value === undefined || value === null || value === '') return 'okänt';
-  return new Intl.NumberFormat('sv-SE', { style: 'currency', currency: 'SEK', maximumFractionDigits: value % 1 === 0 ? 0 : 2 }).format(value);
+  // If value is an object, try to extract amount_sek
+  if (typeof value === 'object' && value !== null) {
+    // Handle nested objects like campaign_price: { amount_sek: 91.58, ... }
+    if ('amount_sek' in value) {
+      value = value.amount_sek;
+    } else if ('display' in value) {
+      // If it's a display object, maybe we should show display?
+      // But for numeric formatting, try to extract number
+      const match = String(value.display).match(/[\d.,]+/);
+      if (match) value = parseFloat(match[0].replace(',', '.'));
+    } else {
+      // Unknown object, return 'okänt'
+      return 'okänt';
+    }
+  }
+  // Ensure it's a number
+  const num = Number(value);
+  if (isNaN(num)) return 'okänt';
+  return new Intl.NumberFormat('sv-SE', { style: 'currency', currency: 'SEK', maximumFractionDigits: num % 1 === 0 ? 0 : 2 }).format(num);
+}
+
+function extractPrice(value) {
+  if (value === undefined || value === null) return null;
+  if (typeof value === 'object' && value !== null) {
+    return value.amount_sek ?? null;
+  }
+  return Number(value);
 }
 
 function escapeHtml(value) {
@@ -93,8 +119,8 @@ function renderRecipe(recipe) {
   const totalCost = recipe.estimated_total_batch_cost_sek ?? recipe.batch_cost_sek ?? recipe.costs?.campaign_total_sek;
   const offerProductsRaw = recipe.ica_offer_products || recipe.ica_offer_products_used || recipe.ica_products_to_buy || [];
   const offerProducts = offerProductsRaw.map(item => {
-    const campaign = item.campaign_price_sek ?? item.campaign_price?.amount_sek ?? item.effective_recipe_cost_sek ?? item.campaign_price;
-    const ordinary = item.ordinary_price_sek ?? item.ordinary_reference_price_sek ?? item.campaign_price?.ordinary_price?.amount_sek ?? item.ordinary_price;
+    const campaign = extractPrice(item.campaign_price_sek ?? item.campaign_price);
+    const ordinary = extractPrice(item.ordinary_price_sek ?? item.ordinary_price);
     const discount = item.discount_sek ?? item.discount_reference_sek;
     const source = item.source_reference || item.source || '';
     const name = item.product || item.product_name || 'Produkt';
