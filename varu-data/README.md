@@ -28,3 +28,12 @@ Utöver receptutskicket finns nu även underlag för en separat veckofunktion so
 - sammanställer relevanta fynd
 - skickar resultatet till samma Discord-destination som receptutskicket
 - är tänkt att köras på tisdagar kl. 19:00 Europe/Stockholm
+
+## Ny funktion: Kaloriuppskattning
+
+Framtida cron-körningar kommer även att inkludera realistisk kaloriuppskattning per portion för varje recept:
+- Baserat på ingredienser och mängder
+- Visar spann (t.ex. "450–550 kcal")
+- Lagras i `recipe.nutrition_estimates`
+- Visas i frontend på varuövervakaren.html
+- Dokumentation: `CALORIE_ESTIMATION_README.md`

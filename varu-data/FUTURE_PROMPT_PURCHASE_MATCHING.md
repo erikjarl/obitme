@@ -102,6 +102,24 @@ Varje objekt i `matched_items` bör minst innehålla:
 - `source`
 - `evidence`
 
+## Kaloriuppskattning per portion
+Lägg till realistisk kaloriuppskattning för varje recept som genereras. Se separat dokument `CALORIE_ESTIMATION_README.md` för detaljerade krav och implementering.
+
+### Krav på kaloriberäkning
+- **Realistiska uppskattningar**: Baserat på ingredienser och mängder
+- **Spann istället för exakta värden**: T.ex. "450–550 kcal" eller "ca 500 kcal"
+- **Ingår i varje cron-körning**: Automatisk beräkning när recept genereras
+- **Lagras i JSON-utdata**: Spara som `recipe.nutrition_estimates`
+- **Visa i frontend**: Inkludera i renderingen på varuövervakaren.html
+
+### Implementationssteg
+1. Skapa kaloridatabas med typiska värden för vanliga ingredienser
+2. Implementera matchningslogik mellan ingrediensnamn och kalorivärden
+3. Beräkna totala kalorier baserat på mängder
+4. Dela med antal portioner
+5. Lägg till osäkerhetsspann (±10–15%)
+6. Spara i receptobjektet och rendera i frontend
+
 ## Designprinciper
 - separera scraping, normalisering, matchning och formattering i olika steg
 - håll lösningen testbar
