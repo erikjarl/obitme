@@ -1,0 +1,316 @@
+{
+  "date": "2026-04-14",
+  "created_at": "2026-04-14T19:15:00+02:00",
+  "slug": "2026-04-14-ica-rimforsa-weekly-offers-new",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade recept med fokus på medelhavskostens principer och viktväktarvänliga ingredienser. Byggda på veckans bästa ICA-erbjudanden i Rimforsa med tydliga portionskostnader för 4 portioner.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Ordinarie priser hämtades från ICA Handla Online för butik 1004066. Kampanjpriser verifierades mot ICA:s erbjudandesida. Schablon används endast för små skafferiposter.",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes för kampanjpriser, ICA Handla Online för ordinarie priser.",
+    "fallbacks": "Schablon används bara för små skafferiposter som vitlök, citron och grundkryddor.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Färsk Kycklingfilé Kronfågel ca 925g",
+      "campaign_price": 153.31,
+      "ordinary_price": 153.31,
+      "discount_sek": 0,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Färsk Kycklingfilé Kronfågel ca 925g — Ord.pris 153.31 kr"
+      }
+    },
+    {
+      "product_name": "Plommontomater i ask ICA Spanien 500g",
+      "campaign_price": 31.13,
+      "ordinary_price": 34.87,
+      "discount_sek": 3.74,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Plommontomater i ask ICA Spanien 500g — Jmfpris 50:00/kg, Ord.pris 31:13-34:87 kr"
+      }
+    },
+    {
+      "product_name": "Pasta ICA 500g",
+      "campaign_price": 13.15,
+      "ordinary_price": 14.10,
+      "discount_sek": 0.95,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Pasta ICA 500g — Jmfpris 16:67/kg, Ord.pris 13:15-14:10 kr"
+      }
+    },
+    {
+      "product_name": "Krossade, passerade tomater ICA 390g",
+      "campaign_price": 11.26,
+      "ordinary_price": 12.20,
+      "discount_sek": 0.94,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Krossade, passerade tomater ICA 390g — Jmfpris 19:23/kg, Ord.pris 11:26-12:20 kr"
+      }
+    },
+    {
+      "product_name": "Tunna skivor Pärsons 150-200g",
+      "campaign_price": 29.24,
+      "ordinary_price": 37.76,
+      "discount_sek": 8.52,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Tunna skivor Pärsons 150-200g — Jmfpris 125:00-166:67/kg, Ord.pris 29:24-37:76 kr"
+      }
+    },
+    {
+      "product_name": "Smör- & rapsolja Arla 500ml",
+      "campaign_price": 25.45,
+      "ordinary_price": 33.97,
+      "discount_sek": 8.52,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Smör- & rapsolja Arla 500ml — Jmfpris 46:00/liter, Ord.pris 25:45-33:97 kr"
+      }
+    },
+    {
+      "product_name": "Gul lök i knippe Italien 250g",
+      "campaign_price": 20.72,
+      "ordinary_price": 20.72,
+      "discount_sek": 0,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Gul lök i knippe Italien 250g — Jmfpris 52:00/kg, Ord.pris 20:72 kr"
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Medelhavsstekt kyckling med rostade plommontomater",
+      "description": "Saftig kycklingfilé stekt med mediterrana kryddor och serverad med söta, rostade plommontomater och färsk basilika. En lätt och nyttig vårrätt med perfekt balans mellan syra, sötma och umami som passar både vardag och helg.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["kött", "nyttig", "medelhavsinspirerad", "snabb"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Färsk Kycklingfilé Kronfågel ca 925g",
+          "buy_amount": 1,
+          "campaign_price": 153.31,
+          "ordinary_price": 153.31,
+          "discount_sek": 0,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+            "evidence": "Färsk Kycklingfilé Kronfågel ca 925g — Ord.pris 153.31 kr"
+          }
+        },
+        {
+          "product_name": "Plommontomater i ask ICA Spanien 500g",
+          "buy_amount": 1,
+          "campaign_price": 31.13,
+          "ordinary_price": 34.87,
+          "discount_sek": 3.74,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+            "evidence": "Plommontomater i ask ICA Spanien 500g — Jmfpris 50:00/kg"
+          }
+        },
+        {
+          "product_name": "Smör- & rapsolja Arla 500ml",
+          "buy_amount": 1,
+          "campaign_price": 25.45,
+          "ordinary_price": 33.97,
+          "discount_sek": 8.52,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+            "evidence": "Smör- & rapsolja Arla 500ml — Jmfpris 46:00/liter"
+          }
+        },
+        {
+          "product_name": "Gul lök i knippe Italien 250g",
+          "buy_amount": 1,
+          "campaign_price": 20.72,
+          "ordinary_price": 20.72,
+          "discount_sek": 0,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+            "evidence": "Gul lök i knippe Italien 250g — Jmfpris 52:00/kg"
+          }
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kycklingfilé [KAMPANJ]",
+          "amount": 925,
+          "unit": "g",
+          "line_cost_sek": 153.31,
+          "campaign_price": 153.31,
+          "ordinary_price": 153.31,
+          "discount_sek": 0,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+          }
+        },
+        {
+          "item": "Plommontomater [KAMPANJ]",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 31.13,
+          "campaign_price": 31.13,
+          "ordinary_price": 34.87,
+          "discount_sek": 3.74,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+          }
+        },
+        {
+          "item": "Gul lök [KAMPANJ]",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 20.72,
+          "campaign_price": 20.72,
+          "ordinary_price": 20.72,
+          "discount_sek": 0,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+          }
+        },
+        {
+          "item": "Vitlök",
+          "amount": 3,
+          "unit": "klyftor",
+          "line_cost_sek": 1.5,
+          "campaign_price": null,
+          "ordinary_price": 1.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för vitlök"
+          }
+        },
+        {
+          "item": "Färsk basilika (eller torkad)",
+          "amount": 1,
+          "unit": "kvist",
+          "line_cost_sek": 2.0,
+          "campaign_price": null,
+          "ordinary_price": 2.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för örter"
+          }
+        },
+        {
+          "item": "Citron",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 5.0,
+          "campaign_price": null,
+          "ordinary_price": 5.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för citron"
+          }
+        },
+        {
+          "item": "Olja [KAMPANJ]",
+          "amount": 3,
+          "unit": "msk",
+          "line_cost_sek": 2.29,
+          "campaign_price": 2.29,
+          "ordinary_price": 3.06,
+          "discount_sek": 0.77,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+            "evidence": "Del av Smör- & rapsolja Arla 500ml"
+          }
+        },
+        {
+          "item": "Salt och peppar",
+          "amount": 1,
+          "unit": "portion",
+          "line_cost_sek": 0.5,
+          "campaign_price": null,
+          "ordinary_price": 0.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för salt och peppar"
+          }
+        },
+        {
+          "item": "Torkad oregano",
+          "amount": 1,
+          "unit": "tsk",
+          "line_cost_sek": 0.5,
+          "campaign_price": null,
+          "ordinary_price": 0.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för kryddor"
+          }
+        }
+      ],
+      "method": "1. Skär kycklingfiléerna i bitar om ca 3-4 cm. Krydda med salt, peppar och oregano.\n2. Skär plommontomaterna på hälften. Skala och hacka löken grovt. Finhacka vitlöken.\n3. Värm ugnen till 200°C. Lägg plommontomaterna och löken på en plåt med bakplåtspapper. Ringla över 1 msk olja och krydda med salt och peppar. Rosta i ugnen i 15 minuter.\n4. Medan grönsakerna rostar: Värm 2 msk olja i en stor stekpanna på medelhög värme. Stek kycklingen i omgångar tills den är gyllenbrun och genomstekt, ca 8-10 minuter totalt. Ta upp och lägg åt sidan.\n5. I samma panna, tillsätt vitlök och stek i 1 minut tills den doftar.\n6. Ta ut de rostade grönsakerna från ugnen. Blanda ihop kycklingen, rostade grönsaker och vitlök i pannan.\n7. Pressa över saften från halva citronen. Rör i färsk basilika (eller torkad). Rör om försiktigt och värm genom i 1-2 minuter.\n8. Smaka av med mer salt, peppar eller citron om önskas. Servera direkt med resten av citronen i klyftor.",
+      "costs": {
+        "campaign_total_sek": 216.95,
+        "ordinary_total_sek": 225.36,
+        "total_discount_sek": 8.41,
+        "cost_per_portion_sek": 54.24
+      },
+      "sources": [
+        {
+          "type": "ica_offers",
+          "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+          "evidence": "Huvudingredienser från veckans erbjudanden"
+        }
+      ],
+      "taste_balance": "**Syra:** Citron och plommontomater ger frisk syra som balanserar kycklingens rikhet.\n**Sälta:** Salt och kyckling
