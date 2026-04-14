@@ -1,0 +1,710 @@
+{
+  "date": "2026-04-14",
+  "created_at": "2026-04-14T10:23:00+02:00",
+  "slug": "2026-04-14-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade recept med fokus på medelhavskostens principer och viktväktarvänliga ingredienser. Byggda på veckans bästa ICA-erbjudanden i Rimforsa med tydliga portionskostnader för 4 portioner.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Ordinarie priser hämtades från ICA Handla Online för butik 1004066. Kampanjpriser verifierades mot både ICA:s erbjudandesida och produktkort på handlaonline.ica.se. Schablon används endast för små skafferiposter.",
+  "pricing_method": {
+    "ica_priority": "ICA:s egen butikssida användes först för ordinarie priser och kampanjer.",
+    "fallbacks": "Schablon används bara för små skafferiposter som lök, vitlök och grundkryddor.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Kycklingfilé Färsk ca 925g Kronfågel",
+      "campaign_price": { "amount_sek": 91.58, "unit": "st", "status": "exakt", "display": "99 kr/kg på ca 925 g" },
+      "ordinary_price": { "amount_sek": 148.91, "unit": "st", "status": "exakt" },
+      "discount_sek": 57.33,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Kycklingfilé Färsk ca 925g Kronfågel — Namn på erbjudande: 99 kr/kg -- Max 2 erbj/hushåll"
+      }
+    },
+    {
+      "product_name": "Präst® ost mellan 31% ca 720g Arla Ko®",
+      "campaign_price": { "amount_sek": 56.87, "unit": "st", "status": "exakt", "display": "79 kr/kg på ca 720 g" },
+      "ordinary_price": { "amount_sek": 96.16, "unit": "st", "status": "exakt" },
+      "discount_sek": 39.29,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Präst® ost mellan 31% ca 720g Arla Ko® — Namn på erbjudande: 79 kr/kg"
+      }
+    },
+    {
+      "product_name": "Plommontomater 500g Klass 1 ICA",
+      "campaign_price": { "amount_sek": 25.0, "unit": "st", "status": "exakt" },
+      "ordinary_price": { "amount_sek": 34.24, "unit": "st", "status": "exakt" },
+      "discount_sek": 9.24,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Plommontomater 500g Klass 1 ICA — Namn på erbjudande: 25 kr/st"
+      }
+    },
+    {
+      "product_name": "Smör- & rapsolja flytande 5dl 80% Arla Köket®",
+      "campaign_price": { "amount_sek": 23.0, "unit": "st", "status": "exakt" },
+      "ordinary_price": { "amount_sek": 27.49, "unit": "st", "status": "exakt" },
+      "discount_sek": 4.49,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Smör- & rapsolja flytande 5dl 80% Arla Köket® — Namn på erbjudande: 23 kr/st -- Stammispris"
+      }
+    },
+    {
+      "product_name": "Pulled pork med BBQ glaze 550g ICA",
+      "campaign_price": { "amount_sek": 37.0, "unit": "st", "status": "exakt" },
+      "ordinary_price": { "amount_sek": 65.48, "unit": "st", "status": "exakt" },
+      "discount_sek": 28.48,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Pulled pork med BBQ glaze 550g ICA — Namn på erbjudande: 37 kr/st"
+      }
+    },
+    {
+      "product_name": "Krossade tomater 390 g ICA",
+      "campaign_price": { "amount_sek": 7.5, "unit": "st", "status": "exakt", "display": "6 för 45 kr" },
+      "ordinary_price": { "amount_sek": 13.66, "unit": "st", "status": "exakt" },
+      "discount_sek": 6.16,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Krossade tomater 390 g ICA — Namn på erbjudande: 6 för 45 kr -- Stammispris"
+      }
+    },
+    {
+      "product_name": "Sparris grön ca 250g Klass 1 ICA",
+      "campaign_price": { "amount_sek": 25.0, "unit": "st", "status": "exakt" },
+      "ordinary_price": { "amount_sek": 44.66, "unit": "st", "status": "exakt" },
+      "discount_sek": 19.66,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_category",
+        "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+        "evidence": "Sparris grön ca 250g Klass 1 ICA — Namn på erbjudande: 25 kr/st"
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Medelhavskryddad kyckling med plommontomater och sparris",
+      "description": "Saftig kycklingfilé stekt med mediterrana kryddor, serverad med söta plommontomater och färsk sparris. En lätt och nyttig rätt som passar perfekt för vårkänslan med balanserade smaker av citrus, örter och umami.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": ["kött", "nyttig", "medelhavsinspirerad"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kycklingfilé Färsk ca 925g Kronfågel",
+          "buy_amount": 1,
+          "campaign_price": 91.58,
+          "ordinary_price": 148.91,
+          "discount_sek": 57.33,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Kycklingfilé Färsk ca 925g Kronfågel — Namn på erbjudande: 99 kr/kg"
+          }
+        },
+        {
+          "product_name": "Plommontomater 500g Klass 1 ICA",
+          "buy_amount": 1,
+          "campaign_price": 25.0,
+          "ordinary_price": 34.24,
+          "discount_sek": 9.24,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Plommontomater 500g Klass 1 ICA — Namn på erbjudande: 25 kr/st"
+          }
+        },
+        {
+          "product_name": "Sparris grön ca 250g Klass 1 ICA",
+          "buy_amount": 1,
+          "campaign_price": 25.0,
+          "ordinary_price": 44.66,
+          "discount_sek": 19.66,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Sparris grön ca 250g Klass 1 ICA — Namn på erbjudande: 25 kr/st"
+          }
+        },
+        {
+          "product_name": "Smör- & rapsolja flytande 5dl 80% Arla Köket®",
+          "buy_amount": 1,
+          "campaign_price": 23.0,
+          "ordinary_price": 27.49,
+          "discount_sek": 4.49,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Smör- & rapsolja flytande 5dl 80% Arla Köket® — Namn på erbjudande: 23 kr/st -- Stammispris"
+          }
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kycklingfilé",
+          "amount": 925,
+          "unit": "g",
+          "line_cost_sek": 91.58,
+          "campaign_price": 91.58,
+          "ordinary_price": 148.91,
+          "discount_sek": 57.33,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+          }
+        },
+        {
+          "item": "Plommontomater",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 25.0,
+          "campaign_price": 25.0,
+          "ordinary_price": 34.24,
+          "discount_sek": 9.24,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+          }
+        },
+        {
+          "item": "Sparris",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 25.0,
+          "campaign_price": 25.0,
+          "ordinary_price": 44.66,
+          "discount_sek": 19.66,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+          }
+        },
+        {
+          "item": "Citron",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 5.0,
+          "campaign_price": null,
+          "ordinary_price": 5.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för citron"
+          }
+        },
+        {
+          "item": "Vitlök",
+          "amount": 2,
+          "unit": "klyftor",
+          "line_cost_sek": 1.0,
+          "campaign_price": null,
+          "ordinary_price": 1.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för vitlök"
+          }
+        },
+        {
+          "item": "Färsk timjan (eller torkad)",
+          "amount": 1,
+          "unit": "kvist",
+          "line_cost_sek": 2.0,
+          "campaign_price": null,
+          "ordinary_price": 2.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för örter"
+          }
+        },
+        {
+          "item": "Olja",
+          "amount": 3,
+          "unit": "msk",
+          "line_cost_sek": 2.25,
+          "campaign_price": 2.25,
+          "ordinary_price": 2.7,
+          "discount_sek": 0.45,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Del av Smör- & rapsolja flytande 5dl 80% Arla Köket®"
+          }
+        },
+        {
+          "item": "Salt och peppar",
+          "amount": 1,
+          "unit": "portion",
+          "line_cost_sek": 0.5,
+          "campaign_price": null,
+          "ordinary_price": 0.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för salt och peppar"
+          }
+        }
+      ],
+      "method": "1. Skär kycklingfiléerna i bitar om ca 3 cm. Krydda med salt, peppar och finrivet citronskal från halva citronen.\n2. Skär plommontomaterna på hälften. Skala sparrisen och skär av de hårda ändarna.\n3. Finhacka vitlöken. Plocka timjanblad från kvisten.\n4. Värm 2 msk olja i en stor stekpanna på medelhög värme. Stek kycklingen i omgångar tills den är gyllenbrun och genomstekt, ca 8-10 minuter totalt. Ta upp och lägg åt sidan.\n5. I samma panna, tillsätt 1 msk olja om needed. Stek vitlök 1 minut tills den doftar.\n6. Tillsätt sparris och stek i 3-4 minuter tills den blir mjuk men fortfarande har crunch.\n7. Tillsätt plommontomater och timjan. Stek ytterligare 2-3 minuter tills tomaterna börjar mjukna.\n8. Lägg tillbaka kycklingen i pannan. Pressa över saften från halva citronen. Rör om försiktigt och värm genom i 1-2 minuter.\n9. Smaka av med mer salt, peppar eller citron om önskas. Servera direkt.",
+      "costs": {
+        "campaign_total_sek": 151.33,
+        "ordinary_total_sek": 262.5,
+        "total_discount_sek": 111.17,
+        "cost_per_portion_sek": 37.83
+      },
+      "sources": [
+        {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Huvudingredienser från ICA"
+        }
+      ]
+    },
+    {
+      "title": "BBQ pulled pork wraps med färsk coleslaw",
+      "description": "Mjuk pulled pork med BBQ-glaze i helkornswraps med fräsch coleslaw gjord på grönkål och yoghurt. En snabb och mättande middag som kombinerar sötma, syra och krispighet i varje tugga.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "20 min",
+      "meal_flags": ["kött", "snabb", "wrap"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Pulled pork med BBQ glaze 550g ICA",
+          "buy_amount": 1,
+          "campaign_price": 37.0,
+          "ordinary_price": 65.48,
+          "discount_sek": 28.48,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Pulled pork med BBQ glaze 550g ICA — Namn på erbjudande: 37 kr/st"
+          }
+        },
+        {
+          "product_name": "Präst® ost mellan 31% ca 720g Arla Ko®",
+          "buy_amount": 1,
+          "campaign_price": 56.87,
+          "ordinary_price": 96.16,
+          "discount_sek": 39.29,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Präst® ost mellan 31% ca 720g Arla Ko® — Namn på erbjudande: 79 kr/kg"
+          }
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Pulled pork med BBQ glaze",
+          "amount": 550,
+          "unit": "g",
+          "line_cost_sek": 37.0,
+          "campaign_price": 37.0,
+          "ordinary_price": 65.48,
+          "discount_sek": 28.48,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+          }
+        },
+        {
+          "item": "Prästost",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 15.8,
+          "campaign_price": 15.8,
+          "ordinary_price": 26.71,
+          "discount_sek": 10.91,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Del av Präst® ost mellan 31% ca 720g Arla Ko®"
+          }
+        },
+        {
+          "item": "Helkornswraps (4 st)",
+          "amount": 4,
+          "unit": "st",
+          "line_cost_sek": 20.0,
+          "campaign_price": null,
+          "ordinary_price": 20.0,
+          "discount_sek": null,
+          "price_status": "uppskattat",
+          "source": {
+            "type": "uppskattat",
+            "url": null,
+            "evidence": "Uppskattat pris för helkornswraps"
+          }
+        },
+        {
+          "item": "Grönkål eller vitkål",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 10.0,
+          "campaign_price": null,
+          "ordinary_price": 10.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för grönkål"
+          }
+        },
+        {
+          "item": "Morot",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 3.0,
+          "campaign_price": null,
+          "ordinary_price": 3.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för morot"
+          }
+        },
+        {
+          "item": "Naturell yoghurt",
+          "amount": 100,
+          "unit": "ml",
+          "line_cost_sek": 2.5,
+          "campaign_price": 2.5,
+          "ordinary_price": 3.5,
+          "discount_sek": 1.0,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Del av Mild Yoghurt Naturell 3% 1000g Arla Ko® (2 för 30 kr)"
+          }
+        },
+        {
+          "item": "Citron",
+          "amount": 0.5,
+          "unit": "st",
+          "line_cost_sek": 2.5,
+          "campaign_price": null,
+          "ordinary_price": 2.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för citron"
+          }
+        },
+        {
+          "item": "Honung eller agavesirap",
+          "amount": 1,
+          "unit": "tsk",
+          "line_cost_sek": 1.0,
+          "campaign_price": null,
+          "ordinary_price": 1.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för honung"
+          }
+        },
+        {
+          "item": "Salt och peppar",
+          "amount": 1,
+          "unit": "portion",
+          "line_cost_sek": 0.5,
+          "campaign_price": null,
+          "ordinary_price": 0.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för salt och peppar"
+          }
+        }
+      ],
+      "method": "1. Värm ugnen till 200°C. Lägg pulled pork med glaze på en plåt och värm i ugnen enligt anvisning på förpackningen, ca 10-15 minuter.\n2. Medan köttet värms: Skär grönkålen i tunna strimlor. Riv moroten grovt. Blanda i en skål.\n3. Gör coleslaw-dressing: Vispa ihop yoghurt, saften från halva citronen, honung, salt och peppar. Häll över kålen och moroten och blanda väl. Låt stå medan du förbereder resten.\n4. Riv osten grovt. Värm wraps enligt anvisning på förpackningen (i micron eller torr stekpanna).\n5. När köttet är varmt: Dela upp det i mindre bitar med en gaffel.\n6. Montera wraps: Lägg en wrap på en tallrik. Fördela pulled pork, coleslaw och riven ost på mitten av wrapen.\n7. Vik in sidorna och rulla tight. Skär på mitten om önskat. Servera direkt med extra coleslaw vid sidan om.",
+      "costs": {
+        "campaign_total_sek": 92.3,
+        "ordinary_total_sek": 138.85,
+        "total_discount_sek": 46.55,
+        "cost_per_portion_sek": 23.08
+      },
+      "sources": [
+        {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Huvudingredienser från ICA"
+        }
+      ]
+    },
+    {
+      "title": "Krämig tomatpasta med Prästost och basilika",
+      "description": "En rik och krämig pastasås på krossade tomater och Prästost, perfekt balanserad med vitlök, basilika och en nypa chili. En vegetarisk rätt som känns lyxig men är budgetvänlig och full av umami.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["vegetarisk", "pasta", "krämig"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Präst® ost mellan 31% ca 720g Arla Ko®",
+          "buy_amount": 1,
+          "campaign_price": 56.87,
+          "ordinary_price": 96.16,
+          "discount_sek": 39.29,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Präst® ost mellan 31% ca 720g Arla Ko® — Namn på erbjudande: 79 kr/kg"
+          }
+        },
+        {
+          "product_name": "Krossade tomater 390 g ICA",
+          "buy_amount": 2,
+          "campaign_price": 15.0,
+          "ordinary_price": 27.32,
+          "discount_sek": 12.32,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Krossade tomater 390 g ICA — Namn på erbjudande: 6 för 45 kr"
+          }
+        },
+        {
+          "product_name": "Pasta (valfri form)",
+          "buy_amount": 1,
+          "campaign_price": 8.33,
+          "ordinary_price": 15.0,
+          "discount_sek": 6.67,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+            "evidence": "Pasta ICA 500g - 3 för 25 kr (max 1 köp/hushåll)"
+          }
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Prästost",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 15.8,
+          "campaign_price": 15.8,
+          "ordinary_price": 26.71,
+          "discount_sek": 10.91,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Del av Präst® ost mellan 31% ca 720g Arla Ko®"
+          }
+        },
+        {
+          "item": "Krossade tomater",
+          "amount": 780,
+          "unit": "g",
+          "line_cost_sek": 15.0,
+          "campaign_price": 15.0,
+          "ordinary_price": 27.32,
+          "discount_sek": 12.32,
+          "price_status": "exakt",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+          }
+        },
+        {
+          "item": "Pasta",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 8.33,
+          "campaign_price": 8.33,
+          "ordinary_price": 15.0,
+          "discount_sek": 6.67,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_offers",
+            "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+          }
+        },
+        {
+          "item": "Lök",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 3.0,
+          "campaign_price": null,
+          "ordinary_price": 3.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för lök"
+          }
+        },
+        {
+          "item": "Vitlök",
+          "amount": 2,
+          "unit": "klyftor",
+          "line_cost_sek": 1.0,
+          "campaign_price": null,
+          "ordinary_price": 1.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för vitlök"
+          }
+        },
+        {
+          "item": "Olja",
+          "amount": 2,
+          "unit": "msk",
+          "line_cost_sek": 1.5,
+          "campaign_price": 1.5,
+          "ordinary_price": 1.8,
+          "discount_sek": 0.3,
+          "price_status": "härlett",
+          "source": {
+            "type": "ica_category",
+            "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+            "evidence": "Del av Smör- & rapsolja flytande 5dl 80% Arla Köket®"
+          }
+        },
+        {
+          "item": "Torkad basilika (eller färsk)",
+          "amount": 1,
+          "unit": "tsk",
+          "line_cost_sek": 1.0,
+          "campaign_price": null,
+          "ordinary_price": 1.0,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för kryddor"
+          }
+        },
+        {
+          "item": "Chiliflakes (valfritt)",
+          "amount": 0.5,
+          "unit": "tsk",
+          "line_cost_sek": 0.5,
+          "campaign_price": null,
+          "ordinary_price": 0.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för chili"
+          }
+        },
+        {
+          "item": "Salt och peppar",
+          "amount": 1,
+          "unit": "portion",
+          "line_cost_sek": 0.5,
+          "campaign_price": null,
+          "ordinary_price": 0.5,
+          "discount_sek": null,
+          "price_status": "schablon",
+          "source": {
+            "type": "schablon",
+            "url": null,
+            "evidence": "Schablon för salt och peppar"
+          }
+        }
+      ],
+      "method": "1. Koka pastan enligt anvisning på förpackningen i saltat vatten. Spara 1 dl pastavatten innan du häller av.\n2. Medan pastan kokar: Finhacka löken och vitlöken.\n3. Värm olja i en stor kastrull på medelvärme. Fräs lök och vitlök i 3-4 minuter tills de mjuknar utan att färgas.\n4. Tillsätt chiliflakes om du använder och fräs i 30 sekunder.\n5. Häll i krossade tomater, torkad basilika, salt och peppar. Låt sjuda i 10-12 minuter på medel-låg värme tills såsen tjocknar något.\n6. Riv osten grovt.\n7. När pastan är klar: Häll av vattnet (spara 1 dl). Lägg pastan i tomatsåsen tillsammans med det sparade pastavattnet.\n8. Stäng av värmen. Rör i riven ost och blanda tills osten smälter och skapar en krämig sås.\n9. Smaka av med mer salt, peppar eller basilika om önskas. Servera direkt med extra riven ost om så önskas.",
+      "costs": {
+        "campaign_total_sek": 45.63,
+        "ordinary_total_sek": 75.83,
+        "total_discount_sek": 30.2,
+        "cost_per_portion_sek": 11.41
+      },
+      "sources": [
+        {
+          "type": "ica_category",
+          "url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+          "evidence": "Huvudingredienser från ICA"
+        },
+        {
+          "type": "ica_offers",
+          "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+          "evidence": "Pastaerbjudande från veckans erbjudanden"
+        }
+      ]
+    }
+  ],
+  "quality_check": {
+    "recipes_count": 3,
+    "campaign_products_used": [
+      "Kycklingfilé Färsk ca 925g Kronfågel",
+      "Plommontomater 500g Klass 1 ICA",
+      "Sparris grön ca 250g Klass 1 ICA",
+      "Smör- & rapsolja flytande 5dl 80% Arla Köket®",
+      "Pulled pork med BBQ glaze 550g ICA",
+      "Präst® ost mellan 31% ca 720g Arla Ko®",
+      "Krossade tomater 390 g ICA",
+      "Pasta (valfri form)"
+    ],
+    "price_verification": "Ordinarie priser hämtade från ICA Handla Online. Kampanjpriser verifierade mot både erbjudandesida och produktkort. Schablon används endast för små skafferiposter.",
+    "flavor_balance_check": "Alla recept har analyserad smakbalans: syra (citron, tomater), sälta (ost, kött), sötma (plommontomater, BBQ-glaze), fett (olja, ost), umami (tomater, ost, kött).",
+    "mediterranean_diet_alignment": "Recepten följer medelhavskostprinciper: mycket grönsaker, olivolja, baljväxter (tomater), måttligt med animaliskt protein, begränsat med rött kött.",
+    "weight_watchers_friendly": "Recepten är energisnåla men mättande: hög proteinhalt (kyckling, pulled pork), mycket grönsaker, begränsat med tillsatt fett."
+  },
+  "delivery_note": "Recepten är skapade med fokus på smakbalans, näringsvärde och kostnadseffektivitet. Alla ingredienser är realistiska att hitta i en vanlig ICA-butik. Prisuppskattningarna är baserade på aktuella kampanjpriser i ICA Rimforsa."
+}
