@@ -178,11 +178,28 @@ function renderRecipe(recipe) {
     const campaign = extractPrice(item.campaign_price_sek ?? item.campaign_price);
     const ordinary = extractPrice(item.ordinary_price_sek ?? item.ordinary_price);
     const discount = item.discount_sek ?? item.discount_reference_sek;
-    const source = item.source_reference || item.source || '';
+    
+    // Handle source which can be string or object
+    let sourceStr = item.source_reference || '';
+    if (!sourceStr && item.source) {
+      if (typeof item.source === 'string') {
+        sourceStr = item.source;
+      } else if (typeof item.source === 'object' && item.source !== null) {
+        if (item.source.evidence) {
+          sourceStr = item.source.evidence;
+        } else if (item.source.type) {
+          sourceStr = item.source.type;
+        } else if (item.source.url) {
+          const url = new URL(item.source.url);
+          sourceStr = url.hostname;
+        }
+      }
+    }
+    
     const name = item.product || item.product_name || 'Produkt';
     const amountUsed = item.amount_used || item.buy_amount || '';
     const evidence = item.evidence ? ` · ${item.evidence}` : '';
-    return `<li><strong>${escapeHtml(name)}</strong>${amountUsed ? ` – ${escapeHtml(amountUsed)}` : ''}<br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(source)}${escapeHtml(evidence)}</span></li>`;
+    return `<li><strong>${escapeHtml(name)}</strong>${amountUsed ? ` – ${escapeHtml(amountUsed)}` : ''}<br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(sourceStr)}${escapeHtml(evidence)}</span></li>`;
   }).join('');
 
   const ingredientsRaw = recipe.ingredients || [];
@@ -190,12 +207,53 @@ function renderRecipe(recipe) {
     const priceBits = [];
     if (item.line_cost_sek !== undefined) priceBits.push(`kostnad ${formatSek(item.line_cost_sek)}`);
     if (item.price_status) priceBits.push(item.price_status);
-    if (item.source) priceBits.push(item.source);
+    
+    // Handle source which can be string or object
+    if (item.source) {
+      let sourceStr = '';
+      if (typeof item.source === 'string') {
+        sourceStr = item.source;
+      } else if (typeof item.source === 'object' && item.source !== null) {
+        // Extract meaningful info from source object
+        if (item.source.evidence) {
+          sourceStr = item.source.evidence;
+        } else if (item.source.type) {
+          sourceStr = item.source.type;
+          if (item.source.url) {
+            // Shorten URL for display
+            const url = new URL(item.source.url);
+            sourceStr += ` (${url.hostname})`;
+          }
+        } else if (item.source.url) {
+          const url = new URL(item.source.url);
+          sourceStr = url.hostname;
+        }
+      }
+      if (sourceStr) priceBits.push(sourceStr);
+    }
+    
     return `<li>${escapeHtml(item.item)}: ${escapeHtml(item.amount)}${priceBits.length ? ` <span class="small-muted">(${escapeHtml(priceBits.join(' · '))})</span>` : ''}</li>`;
   }).join('');
 
   const extraCostsRaw = recipe.estimated_non_ica_costs || ingredientsRaw.filter(item => !item.campaign_price && item.ordinary_price == null ? item.price_status === 'schablon' : false);
-  const extraCosts = extraCostsRaw.map(item => `<li>${escapeHtml(item.item)}: ${formatSek(item.cost_sek ?? item.line_cost_sek)} <span class="small-muted">(${escapeHtml(item.price_status || (item.estimated ? 'uppskattat' : 'exakt'))}${item.source ? `, ${escapeHtml(item.source)}` : ''})</span></li>`).join('');
+  const extraCosts = extraCostsRaw.map(item => {
+    let sourceStr = '';
+    if (item.source) {
+      if (typeof item.source === 'string') {
+        sourceStr = item.source;
+      } else if (typeof item.source === 'object' && item.source !== null) {
+        if (item.source.evidence) {
+          sourceStr = item.source.evidence;
+        } else if (item.source.type) {
+          sourceStr = item.source.type;
+        } else if (item.source.url) {
+          const url = new URL(item.source.url);
+          sourceStr = url.hostname;
+        }
+      }
+    }
+    return `<li>${escapeHtml(item.item)}: ${formatSek(item.cost_sek ?? item.line_cost_sek)} <span class="small-muted">(${escapeHtml(item.price_status || (item.estimated ? 'uppskattat' : 'exakt'))}${sourceStr ? `, ${escapeHtml(sourceStr)}` : ''})</span></li>`;
+  }).join('');
 
   const stepsRaw = recipe.recipe?.steps || recipe.method || [];
   const steps = Array.isArray(stepsRaw) ? stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('') : `<li>${escapeHtml(stepsRaw)}</li>`;
