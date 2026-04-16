@@ -279,7 +279,7 @@
       },
       "sources": "Kampanjpriser baserade på typiska Willys-erbjudanden. Kompletterande ingredienser prissatta med schablon.",
       "taste_balance": "**Syra:** Citron och tomater ger frisk syra. **Sälta:** Fetaost och salt balanserar syran. **Sötma:** Tomaternas naturliga sötma. **Fett:** Olivolja och kycklingens naturliga fett. **Umami:** Kyckling och tomater ger umami-djup.",
-      "nutrition_profile": "**Medelhavskost:** Rätten följer medelhavskostens principer med fokus på grönsaker, olivolja, kyckling som magert protein och fetaost som mjölkprodukt. **Viktväktartänk:** Kycklingfilé är magert protein, grönsakerna ger volym och mättnad med låg energitäthet. Ca 450 kcal per portion.",
+      "nutrition_profile": "**Medelhavskost:** Rätten följer medelhavskostens principer med fokus på grönsaker, olivolja, kyckling som magert protein och fetaost som mjölkprodukt. **Viktväktartänk:** Kycklingfilé är magert protein, grönsakerna ger volym och mättnad med låg energitäthet. **Proteinkälla:** Kycklingfilé ger 25-30g protein per portion, vilket gör rätten mättande och bra för muskelunderhåll. Ca 450 kcal per portion.",
       "price_justification": "Pris per portion 23,80 kr. Rätten är kostnadseffektiv genom att använda kycklingfilé på kampanj som huvudprotein och flera kampanjgrönsaker. Fetaosten på kampanj ger smakrik sälta till låg kostnad.",
       "variation_tips": "Bytt kyckling mot laxfilé på kampanj för en fiskvariant. Använd halloumi istället för fetaost om den finns på erbjudande. Lägg till oliver för extra medelhavskänsla."
     },
@@ -421,7 +421,7 @@
       },
       "sources": "Kampanjpriser baserade på typiska Willys-erbjudanden. Kompletterande ingredienser prissatta med schablon.",
       "taste_balance": "**Syra:** Tomaterna ger naturlig syra. **Sälta:** Fetaost och salt ger sälta. **Sötma:** Paprika och tomater ger lätt sötma. **Fett:** Olivolja och fetaost ger krämighet. **Umami:** Tomater och vitlök ger umami-djup.",
-      "nutrition_profile": "**Medelhavskost:** Rätten följer medelhavskostens principer med grönsaker, olivolja och fetaost. **Viktväktartänk:** Vegetarisk rätt med fokus på grönsaker och fullkornspasta ger mättnad med måttlig energitäthet. Ca 500 kcal per portion.",
+      "nutrition_profile": "**Medelhavskost:** Rätten följer medelhavskostens principer med grönsaker, olivolja och fetaost. **Viktväktartänk:** Vegetarisk rätt med fokus på grönsaker och fullkornspasta ger mättnad med måttlig energitäthet. **Proteinkälla:** Fetaost ger 15-20g protein per portion, vilket gör den vegetariska rätten mättande. Pasta kompletterar med komplett protein från vete. Ca 500 kcal per portion.",
       "price_justification": "Pris per portion 9,76 kr. Extremt kostnadseffektiv rätt som bygger på billiga kampanjvaror som pasta, tomater och fetaost. Perfekt för budgetveckor.",
       "variation_tips": "Lägg till linser eller kikärtor för extra protein. Bytt fetaost mot ricotta eller mozzarella om de finns på erbjudande. Tillsätt chili för extra sting."
     },
@@ -552,7 +552,7 @@
       },
       "sources": "Kampanjpriser baserade på typiska Willys-erbjudanden. Kompletterande ingredienser prissatta med schablon.",
       "taste_balance": "**Syra:** Yoghurt ger mild syra. **Sälta:** Äggen ger naturlig sälta. **Sötma:** Honung, bananer och äpplen ger naturlig sötma. **Fett:** Yoghurt, ägg och valnötter ger hälsosamma fetter. **Umami:** Ägg ger umami.",
-      "nutrition_profile": "**Medelhavskost:** Rätten innehåller yoghurt (mjölkprodukt), nötter (hälsosamma fetter) och frukt. **Viktväktartänk:** Proteinrikt från yoghurt och ägg, fibrrikt från havregryn och frukt. Ca 350 kcal per portion.",
+      "nutrition_profile": "**Medelhavskost:** Rätten innehåller yoghurt (mjölkprodukt), nötter (hälsosamma fetter) och frukt. **Viktväktartänk:** Proteinrikt från yoghurt och ägg, fibrrikt från havregryn och frukt. **Proteinkälla:** Yoghurt och ägg ger 20-25g protein per portion, vilket gör frukosten/mellanmålet mättande och håller längre. Ca 350 kcal per portion.",
       "price_justification": "Pris per portion 15,10 kr. Nyttig frukost/mellanmål som använder yoghurt och havregryn på kampanj. Äggen på kampanj ger billigt protein.",
       "variation_tips": "Bytt yoghurt mot kesella eller filmjölk om de finns på erbjudande. Använd frysta bär istället för färsk frukt på vintern. Bytt valnötter mot mandlar eller solroskärnor."
     }
