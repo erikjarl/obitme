@@ -1,0 +1,238 @@
+{
+  "date": "2026-04-20",
+  "created_at": "2026-04-20T20:02:00+02:00",
+  "slug": "2026-04-20-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade lunch- och middagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på mättande protein, grönsaker, medelhavskänsla och rimlig portionskostnad.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser verifierades mot ICA Rimforsas erbjudandesida. Ordinarie priser användes när de framgick tydligt på erbjudandekortet; annars användes försiktig schablon för små kompletterande basvaror.",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Små skafferiposter som citron, lök, vitlök, yoghurt, bönor och kryddor har schablon eller uppskattat pris när exakt butiksvärde inte framgick tydligt.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Mogen avokado 3-pack ICA",
+      "campaign_price": 25,
+      "ordinary_price": 38.69,
+      "discount_sek": 13.69,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Mogen avokado 3-pack — 25 kr/st. Ord.pris 38:69 kr."
+      }
+    },
+    {
+      "product_name": "Socker- och salladsärtor i påse ICA 150 g",
+      "campaign_price": 20,
+      "ordinary_price": 30.19,
+      "discount_sek": 10.19,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Socker- och salladsärtor i påse 150 g — 20 kr/st. Ord.pris 30:19 kr."
+      }
+    },
+    {
+      "product_name": "Rädisor i knippe 180 g",
+      "campaign_price": 9,
+      "ordinary_price": 14.1,
+      "discount_sek": 5.1,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Rädisor i knippe 180 g — 9 kr/st. Ord.pris 14:10 kr."
+      }
+    },
+    {
+      "product_name": "Benfri kotlett ICA Sverige ca 800 g",
+      "campaign_price": 67.2,
+      "ordinary_price": 82.52,
+      "discount_sek": 15.32,
+      "price_status": "härlett",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Benfri kotlett — 84 kr/kg. Ord.pris 103:15 kr för ca 800 g, härlett kampanjpris 67,20 kr för ca 800 g."
+      }
+    },
+    {
+      "product_name": "Romanticatomater i ask ICA 400 g",
+      "campaign_price": 30,
+      "ordinary_price": 46.6,
+      "discount_sek": 16.6,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Romanticatomater i ask 400 g — 30 kr/st. Ord.pris 46:60-61:24 kr; lägsta tydligt angivna ord.pris 46:60 kr använd."
+      }
+    },
+    {
+      "product_name": "Hushållsost Arla ca 1,1-2,2 kg",
+      "campaign_price": 79,
+      "ordinary_price": 115.46,
+      "discount_sek": 36.46,
+      "price_status": "exakt",
+      "source": {
+        "type": "ica_offers",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "evidence": "Hushållsost — 79 kr/kg. Ord.pris 115:46-118:30 kr; lägsta tydligt angivna ord.pris 115:46 kr/kg använd."
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Citronkotlett med varm ärt- och rädisallad",
+      "description": "Benfri kotlett får en snabb citron- och örtkryddning och serveras med en ljummen sallad på sockerärtor, rädisor och potatis. Resultatet blir friskt, mättande och ganska lätt trots att det känns som riktig vardagslyx.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": ["middag", "kött", "medelhavsinspirerad", "proteinrik"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Benfri kotlett ICA Sverige ca 800 g",
+          "buy_amount": 1,
+          "campaign_price": 67.2,
+          "ordinary_price": 82.52,
+          "discount_sek": 15.32,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "84 kr/kg. Ord.pris 103:15 kr för ca 800 g, härlett kampanjpris 67,20 kr för ca 800 g."
+        },
+        {
+          "product_name": "Socker- och salladsärtor i påse ICA 150 g",
+          "buy_amount": 2,
+          "campaign_price": 20,
+          "ordinary_price": 30.19,
+          "discount_sek": 10.19,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "20 kr/st. Ord.pris 30:19 kr."
+        },
+        {
+          "product_name": "Rädisor i knippe 180 g",
+          "buy_amount": 1,
+          "campaign_price": 9,
+          "ordinary_price": 14.1,
+          "discount_sek": 5.1,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "9 kr/st. Ord.pris 14:10 kr."
+        }
+      ],
+      "ingredients": [
+        {"item": "Benfri kotlett [KAMPANJ]", "amount": 800, "unit": "g", "line_cost_sek": 67.2, "campaign_price": 67.2, "ordinary_price": 82.52, "discount_sek": 15.32, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Socker- och salladsärtor [KAMPANJ]", "amount": 300, "unit": "g", "line_cost_sek": 40, "campaign_price": 40, "ordinary_price": 60.38, "discount_sek": 20.38, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Rädisor [KAMPANJ]", "amount": 180, "unit": "g", "line_cost_sek": 9, "campaign_price": 9, "ordinary_price": 14.1, "discount_sek": 5.1, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Potatis", "amount": 700, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Gul lök", "amount": 1, "unit": "st", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 2, "unit": "klyftor", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 2, "unit": "msk", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Torkad oregano", "amount": 1, "unit": "tsk", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt och svartpeppar", "amount": 1, "unit": "portion", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Koka potatisen mjuk i lättsaltat vatten, 15–18 minuter beroende på storlek. Häll av och låt ånga av.\n2. Krydda kotletterna med salt, peppar, oregano, finriven vitlök och finrivet citronskal.\n3. Hetta upp 1 msk olivolja i en stor stekpanna. Stek kotletterna 3–4 minuter per sida tills de fått färg och är genomstekta. Lägg åt sidan och låt vila.\n4. Skiva rädisorna tunt och strimla löken. Dela sockerärtorna grovt på snedden.\n5. Hetta upp resten av oljan i pannan. Fräs lök och sockerärtor 2 minuter. Vänd ner rädisor och kokt potatis, stek ytterligare 2 minuter.\n6. Pressa över citronsaft, smaka av med salt och svartpeppar och vänd runt så att salladen blir glansig men fortfarande krispig.\n7. Skiva kotletterna och servera ovanpå den varma salladen.",
+      "costs": {"campaign_total_sek": 140.7, "ordinary_total_sek": 181.5, "total_discount_sek": 40.8, "cost_per_portion_sek": 35.18},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra: citron lyfter både kött och den ljumma salladen. Sälta: saltningen av kotlett och potatis ger ryggrad. Sötma: lök och potatis rundar av. Fett: lite olivolja binder ihop rätten utan att göra den tung. Umami: stekytan på kotletten ger djup och rostad smak.",
+      "nutrition_profile": "Medelhavskost: mycket grönsaker, olivolja, potatis som enkel kolhydratkälla och måttlig mängd kött. Viktväktartänk: bra andel protein, hög mättnad från potatis och grönsaker, begränsad mängd fett. Proteinkälla: benfri kotlett ger tydligt protein och gör rätten mättande nog som fullständig middag.",
+      "price_justification": "Ca 35.18 kr per portion. Rätten är kostnadseffektiv eftersom både kotlett, ärtor och rädisor är kampanjvaror och resten består av billiga basvaror som potatis, lök och citron.",
+      "variation_tips": "Byt kotlett mot kyckling om det finns hemma. Lägg till vita bönor i salladen om du vill öka fibermängden och göra rätten ännu mer mättande."
+    },
+    {
+      "title": "Bönig tomatpasta med rostade romanticatomater och hushållsost",
+      "description": "En enkel men väldigt välbalanserad vegetarisk pasta där rostade romanticatomater står för sötma och syra, medan vita bönor och ost ger kropp och protein. Det här är en billig vardagsrätt som ändå känns generös och smakrik.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["lunch", "middag", "vegetarisk", "proteinrik"],
+      "ica_products_to_buy": [
+        {"product_name": "Romanticatomater i ask ICA 400 g", "buy_amount": 2, "campaign_price": 30, "ordinary_price": 46.6, "discount_sek": 16.6, "price_status": "exakt", "source": "ica_offers", "evidence": "30 kr/st. Ord.pris 46:60 kr använd."},
+        {"product_name": "Hushållsost Arla ca 1,1-2,2 kg", "buy_amount": 1, "campaign_price": 79, "ordinary_price": 115.46, "discount_sek": 36.46, "price_status": "exakt", "source": "ica_offers", "evidence": "79 kr/kg. Ord.pris 115:46 kr/kg använd."}
+      ],
+      "ingredients": [
+        {"item": "Romanticatomater [KAMPANJ]", "amount": 800, "unit": "g", "line_cost_sek": 60, "campaign_price": 60, "ordinary_price": 93.2, "discount_sek": 33.2, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Hushållsost [KAMPANJ]", "amount": 120, "unit": "g", "line_cost_sek": 9.48, "campaign_price": 9.48, "ordinary_price": 13.86, "discount_sek": 4.38, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Pasta", "amount": 320, "unit": "g", "line_cost_sek": 9, "campaign_price": null, "ordinary_price": 9, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Vita bönor, kokta", "amount": 380, "unit": "g", "line_cost_sek": 13, "campaign_price": null, "ordinary_price": 13, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Gul lök", "amount": 1, "unit": "st", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 3, "unit": "klyftor", "line_cost_sek": 1.5, "campaign_price": null, "ordinary_price": 1.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 2, "unit": "msk", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Rödvinsvinäger", "amount": 1, "unit": "msk", "line_cost_sek": 0.8, "campaign_price": null, "ordinary_price": 0.8, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Torkad basilika eller oregano", "amount": 1, "unit": "tsk", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Chiliflakes", "amount": 0.5, "unit": "tsk", "line_cost_sek": 0.4, "campaign_price": null, "ordinary_price": 0.4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt och svartpeppar", "amount": 1, "unit": "portion", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225 grader. Lägg romanticatomater på en plåt, ringla över 1 msk olivolja och salta lätt. Rosta 15 minuter tills de spricker och får söt koncentrerad smak.\n2. Koka pastan enligt anvisningarna. Spara 1 dl pastavatten.\n3. Hacka lök och vitlök fint. Fräs dem mjuka i resterande olja i en stor panna, 3–4 minuter.\n4. Tillsätt bönor, vinäger, chiliflakes och örter. Vänd sedan ner de rostade tomaterna och mosa ungefär en tredjedel av dem lätt med sked så att en snabb sås bildas.\n5. Lägg i den kokta pastan och lite pastavatten. Rör ihop tills allt blir saftigt och glansigt.\n6. Riv över hushållsosten och vänd runt precis innan servering så att den smälter lätt men fortfarande känns i stråk.\n7. Smaka av med salt och svartpeppar.",
+      "costs": {"campaign_total_sek": 100.18, "ordinary_total_sek": 137.26, "total_discount_sek": 37.08, "cost_per_portion_sek": 25.05},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra: tomater och lite rödvinsvinäger håller rätten pigg. Sälta: hushållsost och salt ger tydlig struktur. Sötma: rostade tomater och lök rundar av syran. Fett: en liten mängd olivolja och ost ger fyllighet. Umami: rostad tomat, ost och bönor tillsammans gör att pastan inte känns tunn trots enkelheten.",
+      "nutrition_profile": "Medelhavskost: tomater, bönor, olivolja och måttlig mängd ost ligger nära ett medelhavsinspirerat sätt att laga vardagsmat. Viktväktartänk: mycket volym från tomater och bönor, hyggligt med protein och fiber, utan tung gräddsås. Proteinkälla: vita bönor tillsammans med ost gör rätten betydligt mer mättande än en vanlig tomatpasta.",
+      "price_justification": "Ca 25.05 kr per portion. Kostnaden hålls nere genom att kampanjtomater står för mycket smak och volym, medan bönor och pasta är billiga basvaror som ger mättnad.",
+      "variation_tips": "Byt vita bönor mot kikärter om du vill ha mer tuggmotstånd. Tillsätt spenat eller zucchini om du vill få in ännu mer grönt utan att dra upp priset mycket."
+    },
+    {
+      "title": "Avokado- och böntallrik med krispiga rädisor och örtig citronyoghurt",
+      "description": "En snabb lunch eller lätt middag där avokado, bönor och kokt ägg bygger mättnad medan rädisor och citron håller allt friskt. Den passar bra när man vill äta lätt men ändå få en rejäl tallrik med protein och bra fetter.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "20 min",
+      "meal_flags": ["lunch", "middag", "vegetarisk", "proteinrik", "snabb"],
+      "ica_products_to_buy": [
+        {"product_name": "Mogen avokado 3-pack ICA", "buy_amount": 1, "campaign_price": 25, "ordinary_price": 38.69, "discount_sek": 13.69, "price_status": "exakt", "source": "ica_offers", "evidence": "25 kr/st. Ord.pris 38:69 kr."},
+        {"product_name": "Rädisor i knippe 180 g", "buy_amount": 2, "campaign_price": 9, "ordinary_price": 14.1, "discount_sek": 5.1, "price_status": "exakt", "source": "ica_offers", "evidence": "9 kr/st. Ord.pris 14:10 kr."}
+      ],
+      "ingredients": [
+        {"item": "Mogen avokado 3-pack [KAMPANJ]", "amount": 3, "unit": "st", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 38.69, "discount_sek": 13.69, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Rädisor [KAMPANJ]", "amount": 360, "unit": "g", "line_cost_sek": 18, "campaign_price": 18, "ordinary_price": 28.2, "discount_sek": 10.2, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Kokta kikärter", "amount": 380, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Ägg", "amount": 4, "unit": "st", "line_cost_sek": 16, "campaign_price": null, "ordinary_price": 16, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Gurka", "amount": 300, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Naturell yoghurt", "amount": 200, "unit": "g", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 1, "unit": "msk", "line_cost_sek": 1.2, "campaign_price": null, "ordinary_price": 1.2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Persilja eller dill", "amount": 0.5, "unit": "kruka", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt och svartpeppar", "amount": 1, "unit": "portion", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Koka äggen 8–9 minuter. Spola kalla och skala.\n2. Skölj kikärterna och låt dem rinna av ordentligt.\n3. Skiva rädisor och gurka tunt. Dela avokadon i bitar.\n4. Blanda yoghurt med finhackade örter, citronsaft, lite citronskal, salt och peppar till en frisk sås.\n5. Lägg kikärter, gurka, rädisor och avokado på tallrikar eller i en stor skål. Ringla över lite olivolja och en nypa salt.\n6. Toppa med halverade ägg och klicka över citronyoghurten.\n7. Smaka av med extra citron och svartpeppar precis före servering.",
+      "costs": {"campaign_total_sek": 94.7, "ordinary_total_sek": 117.59, "total_discount_sek": 22.89, "cost_per_portion_sek": 23.68},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra: citron i yoghurten skär igenom avokado och ägg. Sälta: lätt saltning gör att grönsakerna smakar mer. Sötma: gurka och yoghurt ger mild rundning. Fett: avokado och lite olivolja ger mjuk, behaglig fyllighet. Umami: ägg och kikärter ger djupare mättnad och gör tallriken mer komplett.",
+      "nutrition_profile": "Medelhavskost: baljväxter, grönsaker, yoghurt, olivolja och avokado passar väl in i en modern medelhavsinspirerad måltid. Viktväktartänk: hög mättnad från ägg, kikärter och avokado i rimliga mängder, plus mycket råa grönsaker med låg energitäthet. Proteinkälla: ägg och kikärter tillsammans ger ett tydligt proteininslag som gör att rätten fungerar som full lunch eller lätt middag.",
+      "price_justification": "Ca 23.68 kr per portion. Kampanjavokado och billiga rädisor gör att en annars ganska dyr salladstyp blir prisvärd, och kikärter samt ägg håller proteinkostnaden nere.",
+      "variation_tips": "Byt ägg mot stekt halloumi eller tonfisk om du vill variera proteinet. Lägg till kokt bulgur om du vill göra rätten ännu matigare för middag."
+    }
+  ],
+  "quality_check": {
+    "recipes_count": 3,
+    "campaign_products_used": [
+      "Benfri kotlett ICA Sverige ca 800 g",
+      "Socker- och salladsärtor i påse ICA 150 g",
+      "Rädisor i knippe 180 g",
+      "Romanticatomater i ask ICA 400 g",
+      "Hushållsost Arla ca 1,1-2,2 kg",
+      "Mogen avokado 3-pack ICA"
+    ],
+    "price_verification": "Kampanjpriser kommer från ICA Rimforsas erbjudandesida. När ordinarie pris angavs som intervall användes lägsta tydligt visade ordinarie pris och märkningen sattes till exakt eller härlett beroende på beräkningen.",
+    "flavor_balance_check": "Alla tre recept innehåller tydlig syra, sälta, sötma, fett och umami samt minst en tydlig proteinkälla.",
+    "mediterranean_diet_alignment": "Recepten prioriterar grönsaker, baljväxter, olivolja, måttlig ost och proteinrika men vardagsrimliga råvaror.",
+    "weight_watchers_friendly": "Rätterna håller mättnaden uppe via protein, baljväxter, ägg, potatis och grönsaker snarare än stora mängder fett eller grädde."
+  },
+  "delivery_note": {
+    "discord_summary": "Nu är veckans recept här. ICA i Rimforsa har denna vecka 16,60 kr rabatt på romanticatomater och 13,69 kr rabatt på avokado 3-pack. Med detta kan du göra exempelvis Avokado- och böntallrik med krispiga rädisor och örtig citronyoghurt för 23,68 kr per portion (ca 480 kcal per portion). Hela veckans recept finns här: https://erikjarl.github.io/obitme/varuovervakare.html",
+    "discord_destination": "#allmänt (channel-id 1490438999494492415)",
+    "note": "Extern Discord-publicering är inte skickad här; sammanfattningen ovan är avsedd för den kanalen."
+  }
+}
