@@ -107,6 +107,59 @@ function extractCaloriesText(recipe) {
   return '';
 }
 
+function estimateIngredientPoints(item) {
+  const name = String(item?.item || '').toLowerCase();
+  const cost = Number(item?.line_cost_sek || 0);
+  const amount = Number(item?.amount || 0);
+  const unit = String(item?.unit || '').toLowerCase();
+
+  const zeroishFoods = ['gurka', 'tomat', 'tomater', 'rädis', 'lök', 'vitlök', 'citron', 'zucchini', 'paprika', 'salladsärtor', 'sockerärtor', 'örter'];
+  const leanProteinFoods = ['kycklingfilé', 'kyckling', 'ägg', 'kikärter', 'vita bönor', 'linser', 'potatis'];
+  const higherPointFoods = ['olivolja', 'rapsolja', 'smör', 'fetaost', 'ost', 'lax', 'gräddfil', 'avokado', 'pasta'];
+
+  if (zeroishFoods.some(x => name.includes(x))) return 0;
+  if (leanProteinFoods.some(x => name.includes(x))) {
+    if (name.includes('ägg')) return Math.max(0, Math.round(amount * 0.5));
+    if (unit === 'g' || unit === 'gram') return Math.max(0, Math.round(amount / 250));
+    return Math.max(0, Math.round(cost / 12));
+  }
+  if (higherPointFoods.some(x => name.includes(x))) {
+    if (name.includes('olivolja') || name.includes('rapsolja') || name.includes('smör')) {
+      if (unit === 'msk') return Math.max(1, Math.round(amount * 2));
+      if (unit === 'ml') return Math.max(1, Math.round(amount / 7));
+      return Math.max(1, Math.round(cost / 3));
+    }
+    if (name.includes('ost') || name.includes('fetaost')) {
+      if (unit === 'g' || unit === 'gram') return Math.max(1, Math.round(amount / 35));
+    }
+    if (name.includes('avokado')) return Math.max(1, Math.round(amount));
+    if (name.includes('pasta')) {
+      if (unit === 'g' || unit === 'gram') return Math.max(1, Math.round(amount / 55));
+    }
+    if (name.includes('lax')) {
+      if (unit === 'g' || unit === 'gram') return Math.max(1, Math.round(amount / 80));
+    }
+    return Math.max(1, Math.round(cost / 8));
+  }
+
+  if (cost <= 1) return 0;
+  return Math.max(0, Math.round(cost / 10));
+}
+
+function estimateRecipePoints(recipe) {
+  const ingredients = Array.isArray(recipe?.ingredients) ? recipe.ingredients : [];
+  const servings = Number(recipe?.servings || 4) || 4;
+  const total = ingredients.reduce((sum, item) => sum + estimateIngredientPoints(item), 0);
+  const perPortion = Math.max(0, Math.round((total / servings) * 10) / 10);
+  const uncertainty = ingredients.length >= 8 ? 'medel' : 'hög';
+  return {
+    total,
+    perPortion,
+    uncertainty,
+    note: 'uppskattning'
+  };
+}
+
 function recipeStoreLabel(post) {
   const name = getStoreName(post).toLowerCase();
   if (name.includes('ica') || name.includes('willys')) return 'Butiksvaror att köpa';
@@ -229,7 +282,6 @@ function renderRecipe(recipe) {
     const ordinary = extractPrice(item.ordinary_price_sek ?? item.ordinary_price);
     const discount = item.discount_sek ?? item.discount_reference_sek;
     
-    // Handle source which can be string or object
     let sourceStr = item.source_reference || '';
     if (!sourceStr && item.source) {
       if (typeof item.source === 'string') {
@@ -259,9 +311,10 @@ function renderRecipe(recipe) {
   const ingredients = ingredientsRaw.map(item => {
     const priceBits = [];
     if (item.line_cost_sek !== undefined) priceBits.push(`kostnad ${formatSek(item.line_cost_sek)}`);
+    const ingredientPoints = estimateIngredientPoints(item);
+    priceBits.push(`ca ${ingredientPoints} p`);
     if (item.price_status) priceBits.push(item.price_status);
     
-    // Handle source which can be string or object
     if (item.source) {
       let sourceStr = '';
       if (typeof item.source === 'string') {
@@ -317,6 +370,7 @@ function renderRecipe(recipe) {
   const stepsRaw = recipe.recipe?.steps || recipe.method || [];
   const steps = Array.isArray(stepsRaw) ? stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('') : `<li>${escapeHtml(stepsRaw)}</li>`;
   const caloriesText = extractCaloriesText(recipe);
+  const pointsEstimate = estimateRecipePoints(recipe);
 
   return `
     <section class="recipe-card">
@@ -327,6 +381,9 @@ function renderRecipe(recipe) {
         <span class="badge">Tillagningstid: ${escapeHtml(recipe.cook_time || 'okänd')}</span>
         <span class="badge">Portionskostnad: ${formatSek(portionCost)}</span>
         ${caloriesText ? `<span class="badge">Kalorier: ${escapeHtml(caloriesText)}/portion</span>` : ''}
+        <span class="badge">Points: ca ${escapeHtml(pointsEstimate.perPortion)} p/portion</span>
+        <span class="badge">Totalt ca ${escapeHtml(pointsEstimate.total)} p</span>
+        <span class="badge">Osäkerhet: ${escapeHtml(pointsEstimate.uncertainty)}</span>
         <span class="badge">Totalkostnad: ${formatSek(totalCost)}</span>
       </div>
       <h5>Butiksvaror att köpa</h5>
