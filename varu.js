@@ -304,7 +304,7 @@ function renderRecipe(recipe) {
     
     const name = item.product || item.product_name || 'Produkt';
     const evidence = item.evidence ? ` · ${item.evidence}` : '';
-    return `<li><strong>${escapeHtml(name)}</strong><br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(sourceStr)}${escapeHtml(evidence)}</span></li>`;
+    return `<li><strong>${escapeHtml(name)}</strong><br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}</li>`;
   }).join('');
 
   const ingredientsRaw = recipe.ingredients || [];
@@ -312,8 +312,7 @@ function renderRecipe(recipe) {
     const priceBits = [];
     if (item.line_cost_sek !== undefined) priceBits.push(`kostnad ${formatSek(item.line_cost_sek)}`);
     const ingredientPoints = estimateIngredientPoints(item);
-    priceBits.push(`ca ${ingredientPoints} p`);
-    if (item.price_status) priceBits.push(item.price_status);
+    priceBits.push(`≈ ${ingredientPoints} p`);
     
     if (item.source) {
       let sourceStr = '';
@@ -380,9 +379,9 @@ function renderRecipe(recipe) {
         <span class="badge">${escapeHtml(servings)}</span>
         <span class="badge">Tillagningstid: ${escapeHtml(recipe.cook_time || 'okänd')}</span>
         <span class="badge">Portionskostnad: ${formatSek(portionCost)}</span>
-        ${caloriesText ? `<span class="badge">Kalorier: ${escapeHtml(caloriesText)}/portion</span>` : ''}
-        <span class="badge">Points: ca ${escapeHtml(pointsEstimate.perPortion)} p/portion</span>
-        <span class="badge">Totalt ca ${escapeHtml(pointsEstimate.total)} p</span>
+        ${caloriesText ? `<span class="badge">Kalorier: ${escapeHtml(caloriesText.replace(/^ca\s*/i, '≈ '))}/portion</span>` : ''}
+        <span class="badge">Points: ≈ ${escapeHtml(pointsEstimate.perPortion)} p/portion</span>
+        <span class="badge">Totalt ≈ ${escapeHtml(pointsEstimate.total)} p</span>
         <span class="badge">Osäkerhet: ${escapeHtml(pointsEstimate.uncertainty)}</span>
         <span class="badge">Totalkostnad: ${formatSek(totalCost)}</span>
       </div>
