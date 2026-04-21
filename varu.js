@@ -282,29 +282,17 @@ function renderRecipe(recipe) {
     const ordinary = extractPrice(item.ordinary_price_sek ?? item.ordinary_price);
     const discount = item.discount_sek ?? item.discount_reference_sek;
     
-    let sourceStr = item.source_reference || '';
-    if (!sourceStr && item.source) {
-      if (typeof item.source === 'string') {
-        sourceStr = item.source;
-      } else if (typeof item.source === 'object' && item.source !== null) {
-        if (item.source.evidence) {
-          sourceStr = item.source.evidence;
-        } else if (item.source.type) {
-          sourceStr = item.source.type;
-        } else if (item.source.url) {
-          if (isValidUrl(item.source.url)) {
-            const url = new URL(item.source.url);
-            sourceStr = url.hostname;
-          } else {
-            sourceStr = String(item.source.url);
-          }
-        }
-      }
-    }
-    
     const name = item.product || item.product_name || 'Produkt';
-    const evidence = item.evidence ? ` · ${item.evidence}` : '';
-    return `<li><strong>${escapeHtml(name)}</strong><br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}</li>`;
+    const ingredientLike = {
+      item: name,
+      amount: item.buy_amount,
+      unit: item.unit,
+      line_cost_sek: campaign,
+      ordinary_price: ordinary,
+      discount_sek: discount
+    };
+    const itemPoints = estimateIngredientPoints(ingredientLike);
+    return `<li><strong>${escapeHtml(name)}</strong><br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)} · ≈ ${escapeHtml(itemPoints)} p</li>`;
   }).join('');
 
   const ingredientsRaw = recipe.ingredients || [];

@@ -185,6 +185,17 @@
       ],
       "ingredients": [
         {
+          "item": "Kycklingfilé [KAMPANJ]",
+          "amount": 600,
+          "unit": "g",
+          "line_cost_sek": 53.4,
+          "campaign_price": 89,
+          "ordinary_price": 129,
+          "discount_sek": 40,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
           "item": "Fetaost [KAMPANJ]",
           "amount": 200,
           "unit": "g",
@@ -297,10 +308,10 @@
       ],
       "method": "1. Hacka lök och vitlök fint. Skär paprika i bitar och tomater i klyftor.\n2. Fräs lök och vitlök i olivolja i en gryta i 3-4 minuter. Tillsätt paprika och fräs ytterligare 3 minuter.\n3. Rör i tomater, röda linser, paprikapulver, spiskummin, koriander, salt och peppar. Häll på 600 ml vatten.\n4. Koka upp och sänk sedan värmen. Låt puttra i 20-25 minuter tills linserna är mjuka och grytan har tjocknat.\n5. Smaka av med citronsaft. Servera grytan toppad med krossad fetaost.",
       "costs": {
-        "campaign_total_sek": 70.34,
-        "ordinary_total_sek": 97.4,
-        "total_discount_sek": 27.06,
-        "cost_per_portion_sek": 17.59
+        "campaign_total_sek": 123.74,
+        "ordinary_total_sek": 174.8,
+        "total_discount_sek": 51.06,
+        "cost_per_portion_sek": 30.94
       },
       "sources": "Willys typiska kampanjpriser",
       "taste_balance": "**Syra:** Citronsaft och tomater ger frisk syra.\n**Sälta:** Fetaost och salt ger balanserad sälta.\n**Sötma:** Paprika och lök utvecklar naturlig sötma vid stekning.\n**Fett:** Olivolja och fetaost ger hälsosamma fetter.\n**Umami:** Tomater och linser bidrar med umami.",
