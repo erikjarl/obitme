@@ -136,7 +136,11 @@
       "servings": 4,
       "servings_label": "portioner",
       "cook_time": "35 min",
-      "meal_flags": ["huvudrätt", "medelhavsinspirerad", "högprotein"],
+      "meal_flags": [
+        "huvudrätt",
+        "medelhavsinspirerad",
+        "högprotein"
+      ],
       "ica_products_to_buy": [
         {
           "product_name": "Kycklingfilé [KAMPANJ]",
@@ -310,7 +314,12 @@
       "servings": 4,
       "servings_label": "portioner",
       "cook_time": "40 min",
-      "meal_flags": ["huvudrätt", "fisk", "högomega3", "enkel"],
+      "meal_flags": [
+        "huvudrätt",
+        "fisk",
+        "högomega3",
+        "enkel"
+      ],
       "ica_products_to_buy": [
         {
           "product_name": "Färsk laxfilé [KAMPANJ]",
@@ -450,161 +459,3 @@
   "quality_check": "Alla recept har tydlig proteinkälla, är mättande och följer medelhavskostens principer. Priser är uppskattade baserat på typiska Willys-kampanjer.",
   "delivery_note": "Recepten är skapade för att passa veckans Willys-erbjudanden och är optimerade för smakbalans och kostnadseffektivitet."
 }
-      "ingredients": [
-        {
-          "item": "Kycklingfilé [KAMPANJ]",
-          "amount": 600,
-          "unit": "g",
-          "line_cost_sek": 53.4,
-          "campaign_price": 89,
-          "ordinary_price": 129,
-          "discount_sek": 40,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande"
-        },
-        {
-          "item": "Fetaost [KAMPANJ]",
-          "amount": 200,
-          "unit": "g",
-          "line_cost_sek": 29,
-          "campaign_price": 29,
-          "ordinary_price": 39,
-          "discount_sek": 10,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande"
-        },
-        {
-          "item": "Zucchini [KAMPANJ]",
-          "amount": 600,
-          "unit": "g",
-          "line_cost_sek": 7.2,
-          "campaign_price": 12,
-          "ordinary_price": 18,
-          "discount_sek": 6,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande"
-        },
-        {
-          "item": "Tomater på klase [KAMPANJ]",
-          "amount": 400,
-          "unit": "g",
-          "line_cost_sek": 7.6,
-          "campaign_price": 19,
-          "ordinary_price": 29,
-          "discount_sek": 10,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande"
-        },
-        {
-          "item": "Olivolja [KAMPANJ]",
-          "amount": 60,
-          "unit": "ml",
-          "line_cost_sek": 5.88,
-          "campaign_price": 49,
-          "ordinary_price": 69,
-          "discount_sek": 20,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande"
-        },
-        {
-          "item": "Vitlök [KAMPANJ]",
-          "amount": 3,
-          "unit": "klyftor",
-          "line_cost_sek": 1.8,
-          "campaign_price": 9,
-          "ordinary_price": 15,
-          "discount_sek": 6,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande"
-        },
-        {
-          "item": "Kryddor (oregano, timjan, rosmarin)",
-          "amount": 1,
-          "unit": "st",
-          "line_cost_sek": 2,
-          "campaign_price": null,
-          "ordinary_price": null,
-          "discount_sek": null,
-          "price_status": "schablon",
-          "source": "skafferiet"
-        },
-        {
-          "item": "Salt och peppar",
-          "amount": 1,
-          "unit": "st",
-          "line_cost_sek": 1,
-          "campaign_price": null,
-          "ordinary_price": null,
-          "discount_sek": null,
-          "price_status": "schablon",
-          "source": "skafferiet"
-        },
-        {
-          "item": "Citronsaft",
-          "amount": 30,
-          "unit": "ml",
-          "line_cost_sek": 2,
-          "campaign_price": null,
-          "ordinary_price": null,
-          "discount_sek": null,
-          "price_status": "schablon",
-          "source": "skafferiet"
-        }
-      ],
-      "method": "1. Skär kycklingfiléerna i bitar och marinera med olivolja, pressad vitlök, oregano, timjan, rosmarin, salt och peppar i 15 minuter.\n2. Skär zucchini i halvmånar och tomater i klyftor.\n3. Värm ugnen till 200°C. Lägg zucchini och tomater på en plåt med bakplåtspapper, ringla med olivolja, salt och peppar. Rosta i 20 minuter.\n4. Steg kycklingen i en het stekpanna med lite olivolja i 6-8 minuter tills den är genomstekt och gyllenbrun.\n5. Servera kycklingen med de rostade grönsakerna, krossad fetaost och en skvätt färsk citronsaft.",
-      "costs": {
-        "campaign_total_sek": 110.88,
-        "ordinary_total_sek": 155.4,
-        "total_discount_sek": 44.52,
-        "cost_per_portion_sek": 27.72
-      },
-      "sources": "Willys typiska kampanjpriser",
-      "taste_balance": "**Syra:** Citronsaft och tomater ger frisk syra som balanserar kycklingens rikedom.\n**Sälta:** Fetaost och salt ger behövlig sälta.\n**Sötma:** Rostad zucchini utvecklar naturlig sötma.\n**Fett:** Olivolja och kyckling ger hälsosamma fetter.\n**Umami:** Rostade tomater och vitlök bidrar med umami.",
-      "nutrition_profile": "**Medelhavskost:** Följer medelhavskostens principer med magert protein (kyckling), hälsosamma fetter (olivolja), och rikligt med grönsaker.\n**Viktväktartänk:** Högprotein (ca 35g per portion), låg energitäthet tack vare grönsaker, ca 450 kcal per portion.",
-      "price_justification": "Kostnadseffektiv tack vare kampanjvaror. Kycklingfilé är huvudproteinet till rabatterat pris, och grönsakerna är säsongsbetonade erbjudanden.",
-      "variation_tips": "Byt kyckling mot laxfilé för en fiskvariant. Använd aubergine istället för zucchini om den är på kampanj."
-    },
-    {
-      "title": "Vegetarisk linsgryta med paprika och feta",
-      "description": "En mättande vegetarisk gryta med proteinrika röda linser, paprika och tomater, toppad med krämig fetaost. Perfekt för en billig och nyttig veckomiddag som är rik på fibrer och protein.",
-      "servings": 4,
-      "servings_label": "portioner",
-      "cook_time": "30 min",
-      "meal_flags": ["vegetarisk", "huvudrätt", "billig", "högfiber"],
-      "ica_products_to_buy": [
-        {
-          "product_name": "Fetaost [KAMPANJ]",
-          "buy_amount": 200,
-          "campaign_price": 29,
-          "ordinary_price": 39,
-          "discount_sek": 10,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande",
-          "evidence": null
-        },
-        {
-          "product_name": "Tomater på klase [KAMPANJ]",
-          "buy_amount": 400,
-          "campaign_price": 19,
-          "ordinary_price": 29,
-          "discount_sek": 10,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande",
-          "evidence": null
-        },
-        {
-          "product_name": "Paprika [KAMPANJ]",
-          "buy_amount": 400,
-          "campaign_price": 15,
-          "ordinary_price": 25,
-          "discount_sek": 10,
-          "price_status": "uppskattad",
-          "source": "Willys typiskt erbjudande",
-          "evidence": null
-        },
-        {
-          "product_name": "Lök [KAMPANJ]",
-          "buy_amount": 200,
-          "campaign_price": 15,
-          "ordinary_price": 22,
-          "discount_sek": 7,
