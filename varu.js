@@ -301,32 +301,6 @@ function renderRecipe(recipe) {
     if (item.line_cost_sek !== undefined) priceBits.push(`kostnad ${formatSek(item.line_cost_sek)}`);
     const ingredientPoints = estimateIngredientPoints(item);
     priceBits.push(`≈ ${ingredientPoints} p`);
-    
-    if (item.source) {
-      let sourceStr = '';
-      if (typeof item.source === 'string') {
-        sourceStr = item.source;
-      } else if (typeof item.source === 'object' && item.source !== null) {
-        if (item.source.evidence) {
-          sourceStr = item.source.evidence;
-        } else if (item.source.type) {
-          sourceStr = item.source.type;
-          if (item.source.url && isValidUrl(item.source.url)) {
-            const url = new URL(item.source.url);
-            sourceStr += ` (${url.hostname})`;
-          }
-        } else if (item.source.url) {
-          if (isValidUrl(item.source.url)) {
-            const url = new URL(item.source.url);
-            sourceStr = url.hostname;
-          } else {
-            sourceStr = String(item.source.url);
-          }
-        }
-      }
-      if (sourceStr) priceBits.push(sourceStr);
-    }
-    
     return `<li>${escapeHtml(item.item)}: ${escapeHtml(formatAmount(item.amount, item.unit))}${priceBits.length ? ` <span class="small-muted">(${escapeHtml(priceBits.join(' · '))})</span>` : ''}</li>`;
   }).join('');
 
