@@ -78,12 +78,24 @@ function getStoreName(post) {
   return post.store?.name || '';
 }
 
+function isValidUrl(value) {
+  if (!value || typeof value !== 'string') return false;
+  try {
+    new URL(value);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function getPrimaryStoreUrl(post) {
-  return post.primary_store_url || post.store?.primary_store_url || post.store?.store_url || '';
+  const candidate = post.primary_store_url || post.store?.primary_store_url || post.store?.store_url || '';
+  return isValidUrl(candidate) ? candidate : '';
 }
 
 function getOfferUrl(post) {
-  return post.offer_source_url || post.store?.offers_url || '';
+  const candidate = post.offer_source_url || post.store?.offers_url || '';
+  return isValidUrl(candidate) ? candidate : '';
 }
 
 function normalizeOffer(offer) {
@@ -190,8 +202,12 @@ function renderRecipe(recipe) {
         } else if (item.source.type) {
           sourceStr = item.source.type;
         } else if (item.source.url) {
-          const url = new URL(item.source.url);
-          sourceStr = url.hostname;
+          if (isValidUrl(item.source.url)) {
+            const url = new URL(item.source.url);
+            sourceStr = url.hostname;
+          } else {
+            sourceStr = String(item.source.url);
+          }
         }
       }
     }
@@ -219,14 +235,17 @@ function renderRecipe(recipe) {
           sourceStr = item.source.evidence;
         } else if (item.source.type) {
           sourceStr = item.source.type;
-          if (item.source.url) {
-            // Shorten URL for display
+          if (item.source.url && isValidUrl(item.source.url)) {
             const url = new URL(item.source.url);
             sourceStr += ` (${url.hostname})`;
           }
         } else if (item.source.url) {
-          const url = new URL(item.source.url);
-          sourceStr = url.hostname;
+          if (isValidUrl(item.source.url)) {
+            const url = new URL(item.source.url);
+            sourceStr = url.hostname;
+          } else {
+            sourceStr = String(item.source.url);
+          }
         }
       }
       if (sourceStr) priceBits.push(sourceStr);
@@ -247,8 +266,12 @@ function renderRecipe(recipe) {
         } else if (item.source.type) {
           sourceStr = item.source.type;
         } else if (item.source.url) {
-          const url = new URL(item.source.url);
-          sourceStr = url.hostname;
+          if (isValidUrl(item.source.url)) {
+            const url = new URL(item.source.url);
+            sourceStr = url.hostname;
+          } else {
+            sourceStr = String(item.source.url);
+          }
         }
       }
     }
