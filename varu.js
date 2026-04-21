@@ -76,7 +76,24 @@ function escapeHtml(value) {
 function formatAmount(amount, unit) {
   if (amount === undefined || amount === null || amount === '') return '';
   if (!unit) return String(amount);
-  return `${amount} ${unit}`;
+  const normalizedUnit = String(unit).trim().toLowerCase();
+  const unitMap = {
+    g: 'gram',
+    gram: 'gram',
+    ml: 'ml',
+    l: 'liter',
+    dl: 'dl',
+    cl: 'cl',
+    st: 'st',
+    tsk: 'tsk',
+    msk: 'msk',
+    kruka: 'kruka',
+    klyfta: 'klyfta',
+    klyftor: 'klyftor',
+    portion: 'portion'
+  };
+  const displayUnit = unitMap[normalizedUnit] || unit;
+  return `${amount} ${displayUnit}`;
 }
 
 function extractCaloriesText(recipe) {
@@ -188,17 +205,15 @@ function renderOfferList(post) {
   const offers = rawOffers.map(normalizeOffer);
   if (!offers.length) return '<p>Inga tydliga erbjudanden listade.</p>';
   return `
-    <div class="detail-grid">
+    <ul>
       ${offers.map(offer => `
-        <div class="detail-card">
-          <h5>${escapeHtml(offer.product)}</h5>
-          <p><strong>Kampanj:</strong> ${formatSek(offer.campaign)}${offer.campaignLabel ? ` <span class="small-muted">(${escapeHtml(offer.campaignLabel)})</span>` : ''}</p>
-          <p><strong>Ordinarie:</strong> ${formatSek(offer.ordinary)}</p>
-          <p><strong>Rabatt:</strong> ${formatSek(offer.discount)}</p>
-          <p class="small-muted">${escapeHtml(offer.source)}</p>
-        </div>
+        <li>
+          <strong>${escapeHtml(offer.product)}</strong>: ${formatSek(offer.campaign)}
+          ${offer.ordinary !== null ? ` <span class="small-muted">(ord. ${formatSek(offer.ordinary)})</span>` : ''}
+          ${offer.discount !== null ? ` <span class="small-muted">· spar ${formatSek(offer.discount)}</span>` : ''}
+        </li>
       `).join('')}
-    </div>
+    </ul>
   `;
 }
 
@@ -303,20 +318,6 @@ function renderRecipe(recipe) {
   const stepsRaw = recipe.recipe?.steps || recipe.method || [];
   const steps = Array.isArray(stepsRaw) ? stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('') : `<li>${escapeHtml(stepsRaw)}</li>`;
   const caloriesText = extractCaloriesText(recipe);
-  const costSummary = recipe.costs ? `
-      <div class="detail-card">
-        <h5>Kostnadssammanfattning</h5>
-        <p><strong>Kampanjtotal:</strong> ${formatSek(recipe.costs.campaign_total_sek)}</p>
-        <p><strong>Ordinarie total:</strong> ${formatSek(recipe.costs.ordinary_total_sek)}</p>
-        <p><strong>Besparing:</strong> ${formatSek(recipe.costs.total_discount_sek)}</p>
-      </div>
-  ` : '';
-  const insights = [
-    recipe.taste_balance ? `<div class="detail-card"><h5>Smakbalans</h5><p>${escapeHtml(recipe.taste_balance)}</p></div>` : '',
-    recipe.nutrition_profile ? `<div class="detail-card"><h5>Näringsprofil</h5><p>${escapeHtml(recipe.nutrition_profile)}</p></div>` : '',
-    recipe.price_justification ? `<div class="detail-card"><h5>Prisvärde</h5><p>${escapeHtml(recipe.price_justification)}</p></div>` : '',
-    recipe.variation_tips ? `<div class="detail-card"><h5>Variation</h5><p>${escapeHtml(recipe.variation_tips)}</p></div>` : ''
-  ].filter(Boolean).join('');
 
   return `
     <section class="recipe-card">
@@ -329,8 +330,6 @@ function renderRecipe(recipe) {
         ${caloriesText ? `<span class="badge">Kalorier: ${escapeHtml(caloriesText)}/portion</span>` : ''}
         <span class="badge">Totalkostnad: ${formatSek(totalCost)}</span>
       </div>
-      ${costSummary}
-      ${insights ? `<div class="detail-grid">${insights}</div>` : ''}
       <h5>Butiksvaror att köpa</h5>
       ${offerProducts ? `<ul>${offerProducts}</ul>` : '<p>Inga butiksvaror listade.</p>'}
       <h5>Ingredienser</h5>
