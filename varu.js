@@ -73,6 +73,29 @@ function escapeHtml(value) {
   return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+function formatAmount(amount, unit) {
+  if (amount === undefined || amount === null || amount === '') return '';
+  if (!unit) return String(amount);
+  return `${amount} ${unit}`;
+}
+
+function extractCaloriesText(recipe) {
+  const text = [recipe.nutrition_profile, recipe.nutrition_estimates?.calories_per_portion?.display]
+    .filter(Boolean)
+    .join(' ');
+  const rangeMatch = text.match(/(ca\s*)?(\d{3,4})\s*[–-]\s*(\d{3,4})\s*kcal/i);
+  if (rangeMatch) return `${rangeMatch[2]}–${rangeMatch[3]} kcal`;
+  const singleMatch = text.match(/ca\s*(\d{3,4})\s*kcal/i) || text.match(/(\d{3,4})\s*kcal/i);
+  if (singleMatch) return `ca ${singleMatch[1]} kcal`;
+  return '';
+}
+
+function recipeStoreLabel(post) {
+  const name = getStoreName(post).toLowerCase();
+  if (name.includes('ica') || name.includes('willys')) return 'Butiksvaror att köpa';
+  return 'Varor att köpa';
+}
+
 function getStoreName(post) {
   if (typeof post.store === 'string') return post.store;
   return post.store?.name || '';
@@ -230,7 +253,6 @@ function renderRecipe(recipe) {
       if (typeof item.source === 'string') {
         sourceStr = item.source;
       } else if (typeof item.source === 'object' && item.source !== null) {
-        // Extract meaningful info from source object
         if (item.source.evidence) {
           sourceStr = item.source.evidence;
         } else if (item.source.type) {
@@ -251,7 +273,7 @@ function renderRecipe(recipe) {
       if (sourceStr) priceBits.push(sourceStr);
     }
     
-    return `<li>${escapeHtml(item.item)}: ${escapeHtml(item.amount)}${priceBits.length ? ` <span class="small-muted">(${escapeHtml(priceBits.join(' · '))})</span>` : ''}</li>`;
+    return `<li>${escapeHtml(item.item)}: ${escapeHtml(formatAmount(item.amount, item.unit))}${priceBits.length ? ` <span class="small-muted">(${escapeHtml(priceBits.join(' · '))})</span>` : ''}</li>`;
   }).join('');
 
   const extraCostsRaw = recipe.estimated_non_ica_costs || ingredientsRaw.filter(item => !item.campaign_price && item.ordinary_price == null ? item.price_status === 'schablon' : false);
@@ -280,6 +302,7 @@ function renderRecipe(recipe) {
 
   const stepsRaw = recipe.recipe?.steps || recipe.method || [];
   const steps = Array.isArray(stepsRaw) ? stepsRaw.map(step => `<li>${escapeHtml(step)}</li>`).join('') : `<li>${escapeHtml(stepsRaw)}</li>`;
+  const caloriesText = extractCaloriesText(recipe);
   const costSummary = recipe.costs ? `
       <div class="detail-card">
         <h5>Kostnadssammanfattning</h5>
@@ -288,6 +311,12 @@ function renderRecipe(recipe) {
         <p><strong>Besparing:</strong> ${formatSek(recipe.costs.total_discount_sek)}</p>
       </div>
   ` : '';
+  const insights = [
+    recipe.taste_balance ? `<div class="detail-card"><h5>Smakbalans</h5><p>${escapeHtml(recipe.taste_balance)}</p></div>` : '',
+    recipe.nutrition_profile ? `<div class="detail-card"><h5>Näringsprofil</h5><p>${escapeHtml(recipe.nutrition_profile)}</p></div>` : '',
+    recipe.price_justification ? `<div class="detail-card"><h5>Prisvärde</h5><p>${escapeHtml(recipe.price_justification)}</p></div>` : '',
+    recipe.variation_tips ? `<div class="detail-card"><h5>Variation</h5><p>${escapeHtml(recipe.variation_tips)}</p></div>` : ''
+  ].filter(Boolean).join('');
 
   return `
     <section class="recipe-card">
@@ -297,15 +326,17 @@ function renderRecipe(recipe) {
         <span class="badge">${escapeHtml(servings)}</span>
         <span class="badge">Tillagningstid: ${escapeHtml(recipe.cook_time || 'okänd')}</span>
         <span class="badge">Portionskostnad: ${formatSek(portionCost)}</span>
+        ${caloriesText ? `<span class="badge">Kalorier: ${escapeHtml(caloriesText)}/portion</span>` : ''}
         <span class="badge">Totalkostnad: ${formatSek(totalCost)}</span>
       </div>
       ${costSummary}
-      <h5>ICA-produkter att köpa</h5>
-      ${offerProducts ? `<ul>${offerProducts}</ul>` : '<p>Inga ICA-produkter listade.</p>'}
+      ${insights ? `<div class="detail-grid">${insights}</div>` : ''}
+      <h5>Butiksvaror att köpa</h5>
+      ${offerProducts ? `<ul>${offerProducts}</ul>` : '<p>Inga butiksvaror listade.</p>'}
       <h5>Ingredienser</h5>
       <ul>${ingredients}</ul>
       <h5>Kompletterande ingredienspriser</h5>
-      ${extraCosts ? `<ul>${extraCosts}</ul>` : '<p>Inga separata kompletterande ingredienspriser användes i denna post; kompletterande kostnader ligger redan inbakade i ingredienslistan eller som små schablonposter.</p>'}
+      ${extraCosts ? `<ul>${extraCosts}</ul>` : '<p>Kompletterande kostnader ingår redan i receptet.</p>'}
       <h5>Tillvägagångssätt</h5>
       ${steps ? `<ol>${steps}</ol>` : '<p>Inget tillvägagångssätt listat.</p>'}
     </section>
@@ -323,8 +354,8 @@ function renderVaruPost(post) {
       <h3>${escapeHtml(post.title)}</h3>
       <p>${escapeHtml(post.summary)}</p>
       <p>
-        ${primaryStoreUrl ? `<a href="${primaryStoreUrl}" target="_blank" rel="noopener">ICA butik</a>` : ''}
-        ${offerUrl ? ` · <a href="${offerUrl}" target="_blank" rel="noopener">ICA erbjudanden</a>` : ''}
+        ${primaryStoreUrl ? `<a href="${primaryStoreUrl}" target="_blank" rel="noopener">Butik</a>` : ''}
+        ${offerUrl ? ` · <a href="${offerUrl}" target="_blank" rel="noopener">Erbjudanden</a>` : ''}
       </p>
       ${post.source_note ? `<p class="small-muted">${escapeHtml(post.source_note)}</p>` : ''}
       <h4>Veckans erbjudanden som användes</h4>
