@@ -251,9 +251,8 @@ function renderRecipe(recipe) {
     }
     
     const name = item.product || item.product_name || 'Produkt';
-    const amountUsed = item.amount_used || item.buy_amount || '';
     const evidence = item.evidence ? ` · ${item.evidence}` : '';
-    return `<li><strong>${escapeHtml(name)}</strong>${amountUsed ? ` – ${escapeHtml(amountUsed)}` : ''}<br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(sourceStr)}${escapeHtml(evidence)}</span></li>`;
+    return `<li><strong>${escapeHtml(name)}</strong><br />Kampanj: ${formatSek(campaign)} · Ordinarie: ${formatSek(ordinary)} · Rabatt: ${formatSek(discount)}<br /><span class="small-muted">${escapeHtml(sourceStr)}${escapeHtml(evidence)}</span></li>`;
   }).join('');
 
   const ingredientsRaw = recipe.ingredients || [];
