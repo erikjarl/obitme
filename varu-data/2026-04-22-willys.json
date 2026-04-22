@@ -1,0 +1,585 @@
+{
+  "date": "2026-04-22",
+  "created_at": "2026-04-22T18:03:00Z",
+  "slug": "willys-2026-04-22",
+  "title": "Willys vecka 16: Medelhavsmat, vegetariskt och enkel frukost",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden denna vecka. Priser är uppskattade baserat på historiska kampanjer.",
+  "store": {
+    "name": "Willys",
+    "url": "https://www.willys.se/erbjudanden"
+  },
+  "source_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik.",
+  "pricing_method": "uppskattad",
+  "fyndlista": [
+    {
+      "product_name": "Kycklingfilé",
+      "campaign_price": 89.9,
+      "ordinary_price": 119.9,
+      "discount_sek": 30.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Färsk spenat 250g",
+      "campaign_price": 19.9,
+      "ordinary_price": 24.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Fetaost 200g",
+      "campaign_price": 24.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Ris 1kg",
+      "campaign_price": 29.9,
+      "ordinary_price": 34.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Tomater 500g",
+      "campaign_price": 24.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Gurka",
+      "campaign_price": 12.9,
+      "ordinary_price": 14.9,
+      "discount_sek": 2.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Ägg 12-pack",
+      "campaign_price": 34.9,
+      "ordinary_price": 39.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Havregryn 1kg",
+      "campaign_price": 19.9,
+      "ordinary_price": 22.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Bananer 1kg",
+      "campaign_price": 24.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Yoghurt naturell 1kg",
+      "campaign_price": 29.9,
+      "ordinary_price": 34.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Linser gröna 500g",
+      "campaign_price": 22.9,
+      "ordinary_price": 26.9,
+      "discount_sek": 4.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Lök 1kg",
+      "campaign_price": 14.9,
+      "ordinary_price": 17.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Vitlök 3-pack",
+      "campaign_price": 12.9,
+      "ordinary_price": 14.9,
+      "discount_sek": 2.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Citron",
+      "campaign_price": 4.9,
+      "ordinary_price": 5.9,
+      "discount_sek": 1.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Olivolja 500ml",
+      "campaign_price": 49.9,
+      "ordinary_price": 59.9,
+      "discount_sek": 10.0,
+      "price_status": "uppskattad",
+      "source": null
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Medelhavskylling med spenat och feta",
+      "description": "Saftig kycklingfilé med krämig spenat och smulig fetaost. Serveras med ris för en mättande måltid.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["huvudrätt", "kyckling", "medelhav"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kycklingfilé",
+          "buy_amount": "600 g",
+          "campaign_price": 89.9,
+          "ordinary_price": 119.9,
+          "discount_sek": 30.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt Willys-erbjudande för kyckling"
+        },
+        {
+          "product_name": "Färsk spenat 250g",
+          "buy_amount": "2 förpackningar",
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Vanligt grönsakspris på Willys"
+        },
+        {
+          "product_name": "Fetaost 200g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för fetaost"
+        },
+        {
+          "product_name": "Ris 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Vitlök 3-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kryddpris"
+        },
+        {
+          "product_name": "Olivolja 500ml",
+          "buy_amount": "1 flaska",
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt kampanjpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kycklingfilé",
+          "amount": 600,
+          "unit": "g",
+          "line_cost_sek": 53.94,
+          "campaign_price": 89.9,
+          "ordinary_price": 119.9,
+          "discount_sek": 30.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Färsk spenat",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 39.8,
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Fetaost",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 24.9,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Ris",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 8.97,
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Vitlök",
+          "amount": 3,
+          "unit": "klyftor",
+          "line_cost_sek": 4.3,
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Olivolja",
+          "amount": 30,
+          "unit": "ml",
+          "line_cost_sek": 2.99,
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Citron",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 4.9,
+          "campaign_price": 4.9,
+          "ordinary_price": 5.9,
+          "discount_sek": 1.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Skär kycklingfiléerna i bitar och stek dem i olivolja tills de är gyllenbruna.",
+        "Tillsätt finhackad vitlök och stek i 1 minut tills den doftar.",
+        "Lägg i spenaten och låt den sjunka ihop under omrörning.",
+        "Smula ner fetaosten över kycklingen och spenaten.",
+        "Koka ris enligt anvisning på förpackningen.",
+        "Pressa citron över rätten före servering med ris."
+      ],
+      "costs": {
+        "campaign_total_sek": 139.8,
+        "ordinary_total_sek": 175.3,
+        "total_discount_sek": 35.5,
+        "cost_per_portion_sek": 34.95
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 450 kcal per portion",
+      "points_estimate": "Uppskattat WW-värde: ~8 points"
+    },
+    {
+      "title": "Linsgryta med tomater och spenat",
+      "description": "Mättande vegetarisk gryta med gröna linser, tomater och spenat. Perfekt för batchlagning.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["vegetariskt", "huvudrätt", "billigt"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Linser gröna 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 22.9,
+          "ordinary_price": 26.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för baljväxter"
+        },
+        {
+          "product_name": "Tomater 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt pris för tomater"
+        },
+        {
+          "product_name": "Färsk spenat 250g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Vanligt grönsakspris"
+        },
+        {
+          "product_name": "Lök 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Vitlök 3-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kryddpris"
+        },
+        {
+          "product_name": "Olivolja 500ml",
+          "buy_amount": "1 flaska",
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt kampanjpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Gröna linser",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 13.74,
+          "campaign_price": 22.9,
+          "ordinary_price": 26.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Tomater",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 24.9,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Färsk spenat",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 19.9,
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Lök",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 2.98,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Vitlök",
+          "amount": 3,
+          "unit": "klyftor",
+          "line_cost_sek": 4.3,
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Olivolja",
+          "amount": 20,
+          "unit": "ml",
+          "line_cost_sek": 2.0,
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Hacka lök och vitlök fint.",
+        "Fräs löken i olivolja tills den mjuknar.",
+        "Tillsätt tomater (hackade) och låt koka i 5 minuter.",
+        "Rör i linserna och 500 ml vatten. Låt koka under lock i 15 minuter.",
+        "Rör ner spenaten och låt den sjunka ihop.",
+        "Smaka av med salt och peppar."
+      ],
+      "costs": {
+        "campaign_total_sek": 67.82,
+        "ordinary_total_sek": 81.4,
+        "total_discount_sek": 13.58,
+        "cost_per_portion_sek": 16.96
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 350 kcal per portion",
+      "points_estimate": "Uppskattat WW-värde: ~6 points"
+    },
+    {
+      "title": "Yoghurt med havregryn och banan",
+      "description": "Enkel och mättande frukost eller mellanmål med långsamma kolhydrater och protein.",
+      "servings": 2,
+      "servings_label": "2 portioner",
+      "cook_time": "5 min",
+      "meal_flags": ["frukost", "mellanmål", "enkel"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Yoghurt naturell 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för yoghurt"
+        },
+        {
+          "product_name": "Havregryn 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 22.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Bananer 1kg",
+          "buy_amount": "1 kg",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt fruktpris"
+        },
+        {
+          "product_name": "Ägg 12-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 34.9,
+          "ordinary_price": 39.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standard äggpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Yoghurt naturell",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 11.96,
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Havregryn",
+          "amount": 100,
+          "unit": "g",
+          "line_cost_sek": 1.99,
+          "campaign_price": 19.9,
+          "ordinary_price": 22.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Banan",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 4.98,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Ägg",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 5.82,
+          "campaign_price": 34.9,
+          "ordinary_price": 39.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Blanda yoghurt och havregryn i en skål.",
+        "Låt stå i 5 minuter så att havregrynen mjuknar.",
+        "Skiva banan och lägg ovanpå.",
+        "Koka äggen mjuka (6-7 minuter) om du vill ha extra protein.",
+        "Servera direkt."
+      ],
+      "costs": {
+        "campaign_total_sek": 24.75,
+        "ordinary_total_sek": 29.6,
+        "total_discount_sek": 4.85,
+        "cost_per_portion_sek": 12.38
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 300–350 kcal per portion",
+      "points_estimate": "Uppskattat WW-värde: ~5 points"
+    }
+  ],
+  "quality_check": {
+    "json_valid": true,
+    "price_status_consistent": true,
+    "all_prices_simple": true,
+    "all_sources_simple": true,
+    "store_structure_valid": true,
+    "method_structure_valid": true
+  },
+  "delivery_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik eller på willys.se."
+}
