@@ -27,15 +27,23 @@ def cd2dt(ts):
     if not ts: return None
     return CD_REF + datetime.timedelta(seconds=ts)
 
-def get_cal(days=14):
+def get_next_monday(base_date=None):
+    base = base_date or datetime.datetime.now()
+    base = base.replace(hour=0, minute=0, second=0, microsecond=0)
+    days_until_monday = (7 - base.weekday()) % 7
+    if days_until_monday == 0:
+        days_until_monday = 7
+    return base + datetime.timedelta(days=days_until_monday)
+
+
+def get_cal(days=7, start_dt=None):
     if not os.path.exists(CAL_CACHE): return None, "Cache saknas"
     conn = sqlite3.connect(CAL_CACHE)
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     cur.execute("SELECT Z_PK,ZTITLE FROM ZNODE WHERE ZISEVENTCONTAINER=1 AND ZTITLE NOT NULL")
     cals = {r['Z_PK']:r['ZTITLE'] for r in cur.fetchall()}
-    now = datetime.datetime.now()
-    start_dt = now.replace(hour=0,minute=0,second=0,microsecond=0)
+    start_dt = (start_dt or get_next_monday()).replace(hour=0,minute=0,second=0,microsecond=0)
     end_dt = start_dt + datetime.timedelta(days=days)
     scd = (start_dt-CD_REF).total_seconds(); ecd = (end_dt-CD_REF).total_seconds()
     cur.execute("SELECT Z_PK,ZTITLE,ZSTARTDATE,ZENDDATE,ZISALLDAY,ZCALENDAR,ZNOTES FROM ZCALENDARITEM WHERE ZENDDATE>=? AND ZSTARTDATE<=? ORDER BY ZSTARTDATE", (scd,ecd))
@@ -127,11 +135,10 @@ def build_narrative(days_data):
     return ' '.join(parts)
 
 
-def build(days=14):
-    evs, err = get_cal(days)
+def build(days=7):
+    start = get_next_monday()
+    evs, err = get_cal(days, start)
     if err: return {'error':err}
-    now = datetime.datetime.now()
-    start = now.replace(hour=0,minute=0,second=0,microsecond=0)
     used = set(); days_data = []
     for i in range(days):
         day = start + datetime.timedelta(days=i)
@@ -160,10 +167,11 @@ def build(days=14):
                 used.add(p[0])
         days_data.append({'date':dk,'weekday':wd,'events':de,'has_events':len(de)>0,'summary':summary,'suggestions':suggestions})
     busy = sum(1 for d in days_data if d['has_events']); free = days-busy
-    return {'generated_at':datetime.datetime.now().isoformat(),'week_start':start.strftime('%Y-%m-%d'),'week_end':(start+datetime.timedelta(days=days-1)).strftime('%Y-%m-%d'),'days_covered':days,'busy_days':busy,'free_days':free,'total_events':len(evs),'week_overview':build_narrative(days_data),'days':days_data}
+    iso_week = start.isocalendar()[1]
+    return {'generated_at':datetime.datetime.now().isoformat(),'publish_mode':'next_calendar_week','week_number':iso_week,'week_start':start.strftime('%Y-%m-%d'),'week_end':(start+datetime.timedelta(days=days-1)).strftime('%Y-%m-%d'),'days_covered':days,'busy_days':busy,'free_days':free,'total_events':len(evs),'week_overview':build_narrative(days_data),'days':days_data}
 
 if __name__=='__main__':
-    days = int(sys.argv[1]) if len(sys.argv)>1 else 14
+    days = int(sys.argv[1]) if len(sys.argv)>1 else 7
     data = build(days)
     with open(OUTPUT,'w',encoding='utf-8') as f: json.dump(data,f,ensure_ascii=False,indent=2)
     print(json.dumps({'status':'ok','output':OUTPUT,'busy':data['busy_days'],'free':data['free_days'],'overview':data['week_overview']},ensure_ascii=False))
