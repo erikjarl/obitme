@@ -8,19 +8,29 @@ OUTPUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'veckoda
 
 WEEKDAY_SV = {'Monday':'måndag','Tuesday':'tisdag','Wednesday':'onsdag','Thursday':'torsdag','Friday':'fredag','Saturday':'lördag','Sunday':'söndag'}
 POOL = [
-    ("Ta en promenad i skogen","ute","45 min"),("Åk till simhallen","aktivitet","1,5 h"),
-    ("Städa ett rum i taget","hemma","30 min"),("Laga en nyttig middag","mat","1 h"),
-    ("Läs en bok på balkongen","återhämtning","1 h"),("Boka in en massage","välmående","1 h"),
-    ("Åk och handla veckans mat","ärenden","1,5 h"),("Rensa garderoben","hemma","2 h"),
-    ("Gör rygg- och coreövningar","träning","20 min"),("Middag med vänner","socialt","3 h"),
-    ("Spela ett brädspel","hemma","1 h"),("Testa ett nytt gympapass","träning","30 min"),
-    ("Åk till återvinningsstationen","ärenden","30 min"),("Boka tid hos frisör","ärenden","15 min"),
-    ("Gå på loppis","ute","1,5 h"),("Plantera om växter","ute","1 h"),
-    ("Skriv en veckoplan för nästa vecka","planering","30 min"),("Bjud in någon på fika","socialt","1,5 h"),
-    ("Testa ett nytt recept","mat","1 h"),("Åk till biblioteket","ute","1 h"),
-    ("Gå en runda på stan","ute","1,5 h"),("Titta på en dokumentär","hemma","1 h"),
-    ("Gör en ansiktsmask/hemmaspa","välmående","30 min"),("Åk och bada (sommar)","ute","3 h"),
-    ("Plocka svamp/bär (höst)","ute","2 h"),
+    ("gå på loppis i trakten","loppis","1,5 h"),
+    ("ta en familjeutflykt i naturen","natur","2 h"),
+    ("leta upp en lekpark för en enkel utflykt","barnaktivitet","1 h"),
+    ("gå på ett barnvänligt arrangemang i närområdet","barnaktivitet","2 h"),
+    ("titta efter en liten utställning eller konstupplevelse","konst","1,5 h"),
+    ("hitta någon musikupplevelse eller konsert i närheten","musik","2 h"),
+    ("ta en promenad i skogen","natur","45 min"),
+    ("åka till simhallen","aktivitet","1,5 h"),
+    ("laga en nyttig middag tillsammans","mat","1 h"),
+    ("läsa bok och ta det lugnt hemma","återhämtning","1 h"),
+    ("åka och handla veckans mat i lugn takt","ärenden","1,5 h"),
+    ("spela ett brädspel hemma","hemma","1 h"),
+    ("testa ett nytt recept tillsammans","mat","1 h"),
+    ("åka till biblioteket","barnaktivitet","1 h"),
+    ("gå en runda på stan och fika","socialt","1,5 h"),
+    ("göra hemmaspa eller lugn återhämtning hemma","välmående","30 min"),
+    ("åka och bada om vädret tillåter","natur","3 h"),
+    ("plocka svamp eller bär i säsong","natur","2 h")
+]
+
+LOCAL_EVENT_SOURCES = [
+    {"name": "Visit Linköping", "url": "https://visitlinkoping.se/evenemang/", "area": "Linköping"},
+    {"name": "Visit Kinda", "url": "https://www.visitkinda.se/evenemang", "area": "Kinda/Rimforsa/Kisa"}
 ]
 
 def cd2dt(ts):
@@ -163,12 +173,12 @@ def build(days=7):
             if len(avail)<3: used.clear(); avail=POOL
             picks = random.sample(avail,min(3,len(avail)))
             for p in picks:
-                suggestions.append({'activity':p[0],'category':p[1],'duration':p[2]})
+                suggestions.append({'activity':p[0],'category':p[1],'duration':p[2], 'family_fit': 'familjevänligt'})
                 used.add(p[0])
         days_data.append({'date':dk,'weekday':wd,'events':de,'has_events':len(de)>0,'summary':summary,'suggestions':suggestions})
     busy = sum(1 for d in days_data if d['has_events']); free = days-busy
     iso_week = start.isocalendar()[1]
-    return {'generated_at':datetime.datetime.now().isoformat(),'publish_mode':'next_calendar_week','week_number':iso_week,'week_start':start.strftime('%Y-%m-%d'),'week_end':(start+datetime.timedelta(days=days-1)).strftime('%Y-%m-%d'),'days_covered':days,'busy_days':busy,'free_days':free,'total_events':len(evs),'week_overview':build_narrative(days_data),'days':days_data}
+    return {'generated_at':datetime.datetime.now().isoformat(),'publish_mode':'next_calendar_week','week_number':iso_week,'week_start':start.strftime('%Y-%m-%d'),'week_end':(start+datetime.timedelta(days=days-1)).strftime('%Y-%m-%d'),'days_covered':days,'busy_days':busy,'free_days':free,'total_events':len(evs),'family_profile':{'interests':['loppisar','naturupplevelser','lekparker','barnaktiviteter','konst','musik'],'areas':['Linköping','Rimforsa','Kisa']},'local_event_sources':LOCAL_EVENT_SOURCES,'week_overview':build_narrative(days_data),'days':days_data}
 
 if __name__=='__main__':
     days = int(sys.argv[1]) if len(sys.argv)>1 else 7

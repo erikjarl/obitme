@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T14:31:01.844190",
+  "generated_at": "2026-04-24T14:48:51.701695",
   "publish_mode": "next_calendar_week",
   "week_number": 18,
   "week_start": "2026-04-27",
@@ -8,7 +8,34 @@
   "busy_days": 4,
   "free_days": 3,
   "total_events": 4,
-  "week_overview": "Veckan innehåller några fasta punkter, bland annat 12:30 bvc 10 mån besök på onsdag, 20:00 brasa på åsundabadet på torsdag, Marknad stäfsäter  på fredag och Hjalmar kalas förmiddag när? på lördag. Lördagen har redan saker på gång, som Hjalmar kalas förmiddag när?, medan söndagen ser lugnare ut och kan passa för återhämtning. En av de lediga dagarna skulle kunna passa för att åk till simhallen eller bjud in någon på fika. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress.",
+  "family_profile": {
+    "interests": [
+      "loppisar",
+      "naturupplevelser",
+      "lekparker",
+      "barnaktiviteter",
+      "konst",
+      "musik"
+    ],
+    "areas": [
+      "Linköping",
+      "Rimforsa",
+      "Kisa"
+    ]
+  },
+  "local_event_sources": [
+    {
+      "name": "Visit Linköping",
+      "url": "https://visitlinkoping.se/evenemang/",
+      "area": "Linköping"
+    },
+    {
+      "name": "Visit Kinda",
+      "url": "https://www.visitkinda.se/evenemang",
+      "area": "Kinda/Rimforsa/Kisa"
+    }
+  ],
+  "week_overview": "Veckan innehåller några fasta punkter, bland annat 12:30 bvc 10 mån besök på onsdag, 20:00 brasa på åsundabadet på torsdag, Marknad stäfsäter  på fredag och Hjalmar kalas förmiddag när? på lördag. Lördagen har redan saker på gång, som Hjalmar kalas förmiddag när?, medan söndagen ser lugnare ut och kan passa för återhämtning. En av de lediga dagarna skulle kunna passa för att åka till simhallen eller åka till biblioteket. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress.",
   "days": [
     {
       "date": "2026-04-27",
@@ -18,19 +45,22 @@
       "summary": "Måndag 04-27 – ledig",
       "suggestions": [
         {
-          "activity": "Åk till simhallen",
+          "activity": "åka till simhallen",
           "category": "aktivitet",
-          "duration": "1,5 h"
+          "duration": "1,5 h",
+          "family_fit": "familjevänligt"
         },
         {
-          "activity": "Bjud in någon på fika",
-          "category": "socialt",
-          "duration": "1,5 h"
+          "activity": "åka till biblioteket",
+          "category": "barnaktivitet",
+          "duration": "1 h",
+          "family_fit": "familjevänligt"
         },
         {
-          "activity": "Middag med vänner",
-          "category": "socialt",
-          "duration": "3 h"
+          "activity": "göra hemmaspa eller lugn återhämtning hemma",
+          "category": "välmående",
+          "duration": "30 min",
+          "family_fit": "familjevänligt"
         }
       ]
     },
@@ -42,19 +72,22 @@
       "summary": "Tisdag 04-28 – ledig",
       "suggestions": [
         {
-          "activity": "Städa ett rum i taget",
-          "category": "hemma",
-          "duration": "30 min"
+          "activity": "gå på loppis i trakten",
+          "category": "loppis",
+          "duration": "1,5 h",
+          "family_fit": "familjevänligt"
         },
         {
-          "activity": "Testa ett nytt recept",
-          "category": "mat",
-          "duration": "1 h"
+          "activity": "ta en familjeutflykt i naturen",
+          "category": "natur",
+          "duration": "2 h",
+          "family_fit": "familjevänligt"
         },
         {
-          "activity": "Gör en ansiktsmask/hemmaspa",
-          "category": "välmående",
-          "duration": "30 min"
+          "activity": "gå en runda på stan och fika",
+          "category": "socialt",
+          "duration": "1,5 h",
+          "family_fit": "familjevänligt"
         }
       ]
     },
@@ -130,19 +163,22 @@
       "summary": "Söndag 05-03 – ledig",
       "suggestions": [
         {
-          "activity": "Gå på loppis",
-          "category": "ute",
-          "duration": "1,5 h"
+          "activity": "ta en promenad i skogen",
+          "category": "natur",
+          "duration": "45 min",
+          "family_fit": "familjevänligt"
         },
         {
-          "activity": "Boka in en massage",
-          "category": "välmående",
-          "duration": "1 h"
+          "activity": "leta upp en lekpark för en enkel utflykt",
+          "category": "barnaktivitet",
+          "duration": "1 h",
+          "family_fit": "familjevänligt"
         },
         {
-          "activity": "Åk och bada (sommar)",
-          "category": "ute",
-          "duration": "3 h"
+          "activity": "hitta någon musikupplevelse eller konsert i närheten",
+          "category": "musik",
+          "duration": "2 h",
+          "family_fit": "familjevänligt"
         }
       ]
     }
