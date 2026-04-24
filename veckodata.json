@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T14:48:51.701695",
+  "generated_at": "2026-04-24T14:55:59.032499",
   "publish_mode": "next_calendar_week",
   "week_number": 18,
   "week_start": "2026-04-27",
@@ -9,6 +9,30 @@
   "free_days": 3,
   "total_events": 4,
   "family_profile": {
+    "members": [
+      {
+        "name": "Erik",
+        "role": "pappa",
+        "notes": "psykolog"
+      },
+      {
+        "name": "Ida",
+        "role": "mamma",
+        "notes": "mammaledig nu, senare inredningsarkitekt hemifrån"
+      },
+      {
+        "name": "Lage",
+        "role": "son",
+        "born": 2022
+      },
+      {
+        "name": "Elliott",
+        "role": "son",
+        "born": 2025
+      }
+    ],
+    "home": "hus i Rimforsa",
+    "car": "Passat GTE 2020",
     "interests": [
       "loppisar",
       "naturupplevelser",
@@ -18,9 +42,15 @@
       "musik"
     ],
     "areas": [
-      "Linköping",
       "Rimforsa",
-      "Kisa"
+      "Kisa",
+      "Linköping"
+    ],
+    "max_trip_area": "Linköping eller Kisa med omnejd",
+    "projects": [
+      "renovera stugan för att sälja eller hyra ut den",
+      "bygga trall på baksidan",
+      "färdigställa vardagsrummet"
     ]
   },
   "local_event_sources": [
@@ -35,7 +65,39 @@
       "area": "Kinda/Rimforsa/Kisa"
     }
   ],
-  "week_overview": "Veckan innehåller några fasta punkter, bland annat 12:30 bvc 10 mån besök på onsdag, 20:00 brasa på åsundabadet på torsdag, Marknad stäfsäter  på fredag och Hjalmar kalas förmiddag när? på lördag. Lördagen har redan saker på gång, som Hjalmar kalas förmiddag när?, medan söndagen ser lugnare ut och kan passa för återhämtning. En av de lediga dagarna skulle kunna passa för att åka till simhallen eller åka till biblioteket. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress.",
+  "local_event_candidates": [
+    {
+      "title": "Marknad &amp; loppis",
+      "source": "Visit Linköping",
+      "area": "Linköping"
+    },
+    {
+      "title": "Gamla Linköpings Antik- &#038; Retromarknad",
+      "source": "Visit Linköping",
+      "area": "Linköping"
+    },
+    {
+      "title": "Teater och underhållning",
+      "source": "Visit Linköping",
+      "area": "Linköping"
+    },
+    {
+      "title": "Levande musik från stadens mindre scener",
+      "source": "Visit Linköping",
+      "area": "Linköping"
+    },
+    {
+      "title": "Festivaler",
+      "source": "Visit Linköping",
+      "area": "Linköping"
+    },
+    {
+      "title": "Alla Musikgenrer",
+      "source": "Visit Linköping",
+      "area": "Linköping"
+    }
+  ],
+  "week_overview": "Vecka 18 innehåller några fasta punkter, bland annat 12:30 bvc 10 mån besök på onsdag, 20:00 brasa på åsundabadet på torsdag, Marknad stäfsäter  på fredag och Hjalmar kalas förmiddag när? på lördag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. Lördagen har redan saker på gång, som Hjalmar kalas förmiddag när?, medan söndagen ser lugnare ut och kan passa för återhämtning eller något enkelt tillsammans. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund. Vårdbesök och tider mitt på dagen brukar bli enklare om resten av dagen hålls ganska mjuk och förutsägbar. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress med små barn.",
   "days": [
     {
       "date": "2026-04-27",
@@ -45,22 +107,25 @@
       "summary": "Måndag 04-27 – ledig",
       "suggestions": [
         {
-          "activity": "åka till simhallen",
-          "category": "aktivitet",
-          "duration": "1,5 h",
-          "family_fit": "familjevänligt"
+          "activity": "gå på en barnvänlig aktivitet i närområdet",
+          "category": "barnaktivitet",
+          "duration": "2 h",
+          "family_fit": "familjevänligt",
+          "reason": "är rimligt för Lage och går ofta att göra utan stor apparat"
         },
         {
-          "activity": "åka till biblioteket",
+          "activity": "åka till biblioteket eller sagostund",
           "category": "barnaktivitet",
           "duration": "1 h",
-          "family_fit": "familjevänligt"
+          "family_fit": "familjevänligt",
+          "reason": "är rimligt för Lage och går ofta att göra utan stor apparat"
         },
         {
-          "activity": "göra hemmaspa eller lugn återhämtning hemma",
-          "category": "välmående",
-          "duration": "30 min",
-          "family_fit": "familjevänligt"
+          "activity": "avsätta ett pass för stugan eller vardagsrummet",
+          "category": "hemmaprojekt",
+          "duration": "2–3 h",
+          "family_fit": "familjevänligt",
+          "reason": "hjälper er framåt i stug- eller husprojekten"
         }
       ]
     },
@@ -72,22 +137,25 @@
       "summary": "Tisdag 04-28 – ledig",
       "suggestions": [
         {
-          "activity": "gå på loppis i trakten",
+          "activity": "ta ett lugnt pass med planering av trallbygget",
+          "category": "hemmaprojekt",
+          "duration": "1 h",
+          "family_fit": "familjevänligt",
+          "reason": "hjälper er framåt i stug- eller husprojekten"
+        },
+        {
+          "activity": "ta det lugnt hemma och prioritera återhämtning",
+          "category": "återhämtning",
+          "duration": "flex",
+          "family_fit": "familjevänligt",
+          "reason": "kan vara klokt när veckan redan innehåller en del"
+        },
+        {
+          "activity": "åka på loppis i trakten",
           "category": "loppis",
           "duration": "1,5 h",
-          "family_fit": "familjevänligt"
-        },
-        {
-          "activity": "ta en familjeutflykt i naturen",
-          "category": "natur",
-          "duration": "2 h",
-          "family_fit": "familjevänligt"
-        },
-        {
-          "activity": "gå en runda på stan och fika",
-          "category": "socialt",
-          "duration": "1,5 h",
-          "family_fit": "familjevänligt"
+          "family_fit": "familjevänligt",
+          "reason": "passar era intressen och går att göra som enkel familjeutflykt"
         }
       ]
     },
@@ -121,7 +189,29 @@
       ],
       "has_events": true,
       "summary": "Torsdag 04-30 – 20:00 brasa på åsundabadet 18:00–19:00 [Ida&Erik Jarls familjekalender ]",
-      "suggestions": []
+      "suggestions": [
+        {
+          "activity": "ta en kort familjeutflykt i naturen",
+          "category": "natur",
+          "duration": "2 h",
+          "family_fit": "familjevänligt",
+          "reason": "brukar vara snällt för småbarn och funkar nära Rimforsa"
+        },
+        {
+          "activity": "leta upp en lekpark för en enkel utflykt med Lage",
+          "category": "lekpark",
+          "duration": "1 h",
+          "family_fit": "familjevänligt",
+          "reason": "passar särskilt bra med små barn"
+        },
+        {
+          "activity": "titta efter en liten utställning eller konstupplevelse",
+          "category": "konst",
+          "duration": "1,5 h",
+          "family_fit": "familjevänligt",
+          "reason": "ligger nära era intressen och kan ge en lagom utflykt"
+        }
+      ]
     },
     {
       "date": "2026-05-01",
@@ -163,22 +253,25 @@
       "summary": "Söndag 05-03 – ledig",
       "suggestions": [
         {
-          "activity": "ta en promenad i skogen",
-          "category": "natur",
-          "duration": "45 min",
-          "family_fit": "familjevänligt"
+          "activity": "kolla om Marknad &amp; loppis passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "nära Linköping och i linje med era intressen"
         },
         {
-          "activity": "leta upp en lekpark för en enkel utflykt",
-          "category": "barnaktivitet",
-          "duration": "1 h",
-          "family_fit": "familjevänligt"
+          "activity": "kolla om Gamla Linköpings Antik- &#038; Retromarknad passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "nära Linköping och i linje med era intressen"
         },
         {
-          "activity": "hitta någon musikupplevelse eller konsert i närheten",
+          "activity": "hitta någon musikupplevelse i närheten",
           "category": "musik",
           "duration": "2 h",
-          "family_fit": "familjevänligt"
+          "family_fit": "familjevänligt",
+          "reason": "passar ert intresse för musik om veckan känns lagom luftig"
         }
       ]
     }
