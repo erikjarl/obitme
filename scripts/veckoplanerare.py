@@ -49,6 +49,84 @@ def get_cal(days=14):
         events.append({'title':r['ZTITLE'],'start':s.isoformat() if s else None,'end':e.isoformat() if e else None,'is_all_day':bool(r['ZISALLDAY']),'calendar':cn})
     return events, None
 
+def build_narrative(days_data):
+    names = []
+    weekend = {'lördag': None, 'söndag': None}
+    reflections = []
+
+    for day in days_data:
+        if day['has_events']:
+            for e in day['events']:
+                names.append((day['weekday'], e['title']))
+                title_lower = (e['title'] or '').lower()
+                if 'prov' in title_lower or 'seminarie' in title_lower or 'ansökan' in title_lower:
+                    reflections.append('Det finns en punkt senare i perioden som kan må bra av lite lugn och återhämtning kvällen innan.')
+                if 'kalas' in title_lower or 'marknad' in title_lower or 'antik' in title_lower:
+                    reflections.append('Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress.')
+        if day['weekday'] in weekend:
+            weekend[day['weekday']] = day
+
+    first_events = []
+    for wd, title in names[:4]:
+        first_events.append(f"{title} på {wd}")
+
+    intro = ''
+    if first_events:
+        if len(first_events) == 1:
+            intro = f"Veckan ser ganska lugn ut men har ändå en tydlig hållpunkt i form av {first_events[0]}."
+        else:
+            intro = 'Veckan innehåller några fasta punkter, bland annat ' + ', '.join(first_events[:-1]) + ' och ' + first_events[-1] + '.'
+    else:
+        intro = 'Veckan ser ovanligt luftig ut just nu, med gott om plats för både återhämtning och spontana planer.'
+
+    middle = []
+    busy_days = sum(1 for d in days_data if d['has_events'])
+    free_days = sum(1 for d in days_data if not d['has_events'])
+    if busy_days >= 8:
+        middle.append('Det är ganska mycket inbokat under perioden, så det vore klokt att skydda någon lugn stund för återhämtning.')
+    elif free_days >= 6:
+        middle.append('Det finns flera öppna dagar, vilket ger bra utrymme för både praktiska ärenden och något trevligt tillsammans.')
+
+    sat = weekend.get('lördag')
+    sun = weekend.get('söndag')
+    if sat and not sat['has_events']:
+        if sun and sun['has_events']:
+            sun_titles = ', '.join(e['title'] for e in sun['events'][:2])
+            middle.append(f'Framåt helgen är lördagen fortfarande öppen, medan söndagen redan rymmer {sun_titles}.')
+        else:
+            middle.append('Helgen ser fortfarande ganska öppen ut, särskilt lördagen, vilket lämnar plats för något spontant eller bara vila hemma.')
+    elif sat and sat['has_events'] and sun and not sun['has_events']:
+        sat_titles = ', '.join(e['title'] for e in sat['events'][:2])
+        middle.append(f'Lördagen har redan saker på gång, som {sat_titles}, medan söndagen ser lugnare ut och kan passa för återhämtning.')
+
+    suggestion_lines = []
+    for day in days_data:
+        if not day['has_events'] and day['suggestions']:
+            acts = [s['activity'] for s in day['suggestions'][:2]]
+            if day['weekday'] == 'lördag':
+                suggestion_lines.append(f'På lördagen skulle ni antingen kunna {acts[0].lower()} eller, om ni hellre vill ta det lugnt, {acts[1].lower()}.' if len(acts) > 1 else f'På lördagen skulle ni kunna {acts[0].lower()}.')
+                break
+    if not suggestion_lines:
+        for day in days_data:
+            if not day['has_events'] and day['suggestions']:
+                acts = [s['activity'] for s in day['suggestions'][:2]]
+                suggestion_lines.append(f'En av de lediga dagarna skulle kunna passa för att {acts[0].lower()} eller {acts[1].lower()}.' if len(acts) > 1 else f'En av de lediga dagarna skulle kunna passa för att {acts[0].lower()}.')
+                break
+
+    seen = set()
+    uniq_reflections = []
+    for r in reflections:
+        if r not in seen:
+            uniq_reflections.append(r)
+            seen.add(r)
+
+    parts = [intro]
+    parts.extend(middle[:2])
+    parts.extend(suggestion_lines[:1])
+    parts.extend(uniq_reflections[:2])
+    return ' '.join(parts)
+
+
 def build(days=14):
     evs, err = get_cal(days)
     if err: return {'error':err}
@@ -82,8 +160,7 @@ def build(days=14):
                 used.add(p[0])
         days_data.append({'date':dk,'weekday':wd,'events':de,'has_events':len(de)>0,'summary':summary,'suggestions':suggestions})
     busy = sum(1 for d in days_data if d['has_events']); free = days-busy
-    parts = [d['summary'] for d in days_data]
-    return {'generated_at':datetime.datetime.now().isoformat(),'week_start':start.strftime('%Y-%m-%d'),'week_end':(start+datetime.timedelta(days=days-1)).strftime('%Y-%m-%d'),'days_covered':days,'busy_days':busy,'free_days':free,'total_events':len(evs),'week_overview':' | '.join(parts),'days':days_data}
+    return {'generated_at':datetime.datetime.now().isoformat(),'week_start':start.strftime('%Y-%m-%d'),'week_end':(start+datetime.timedelta(days=days-1)).strftime('%Y-%m-%d'),'days_covered':days,'busy_days':busy,'free_days':free,'total_events':len(evs),'week_overview':build_narrative(days_data),'days':days_data}
 
 if __name__=='__main__':
     days = int(sys.argv[1]) if len(sys.argv)>1 else 14

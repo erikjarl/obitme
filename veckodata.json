@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-24T13:56:28.924946",
+  "generated_at": "2026-04-24T14:27:57.251406",
   "week_start": "2026-04-24",
   "week_end": "2026-05-07",
   "days_covered": 14,
   "busy_days": 7,
   "free_days": 7,
   "total_events": 8,
-  "week_overview": "Fredag 04-24 – ledig | Lördag 04-25 – ledig | Söndag 04-26 – Gamla linköping antikmarknad 11-16 09:00–10:00 [Ida&Erik Jarls familjekalender ] | Måndag 04-27 – ledig | Tisdag 04-28 – ledig | Onsdag 04-29 – 12:30 bvc 10 mån besök 10:30–11:30 [Ida&Erik Jarls familjekalender ] | Torsdag 04-30 – 20:00 brasa på åsundabadet 18:00–19:00 [Ida&Erik Jarls familjekalender ] | Fredag 05-01 – Marknad stäfsäter  07:00–08:00 [Ida&Erik Jarls familjekalender ] | Lördag 05-02 – Hjalmar kalas förmiddag när? 08:00–09:00 [Ida&Erik Jarls familjekalender ] | Söndag 05-03 – ledig | Måndag 05-04 – Ansökan stänger utbildning platschef 16:00–17:00 [Ida&Erik Jarls familjekalender ] | Tisdag 05-05 – ledig | Onsdag 05-06 – ledig | Torsdag 05-07 – Seminariegrupp 18-20 08:00–09:00 [Ida&Erik Jarls familjekalender ]",
+  "week_overview": "Veckan innehåller några fasta punkter, bland annat Gamla linköping antikmarknad 11-16 på söndag, 12:30 bvc 10 mån besök på onsdag, 20:00 brasa på åsundabadet på torsdag och Marknad stäfsäter  på fredag. Det finns flera öppna dagar, vilket ger bra utrymme för både praktiska ärenden och något trevligt tillsammans. Lördagen har redan saker på gång, som Hjalmar kalas förmiddag när?, medan söndagen ser lugnare ut och kan passa för återhämtning. På lördagen skulle ni antingen kunna åk till simhallen eller, om ni hellre vill ta det lugnt, åk och handla veckans mat. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress. Det finns en punkt senare i perioden som kan må bra av lite lugn och återhämtning kvällen innan.",
   "days": [
     {
       "date": "2026-04-24",
@@ -16,14 +16,14 @@
       "summary": "Fredag 04-24 – ledig",
       "suggestions": [
         {
-          "activity": "Boka tid hos frisör",
-          "category": "ärenden",
-          "duration": "15 min"
+          "activity": "Gör en ansiktsmask/hemmaspa",
+          "category": "välmående",
+          "duration": "30 min"
         },
         {
-          "activity": "Middag med vänner",
-          "category": "socialt",
-          "duration": "3 h"
+          "activity": "Testa ett nytt gympapass",
+          "category": "träning",
+          "duration": "30 min"
         },
         {
           "activity": "Gå på loppis",
@@ -40,19 +40,19 @@
       "summary": "Lördag 04-25 – ledig",
       "suggestions": [
         {
-          "activity": "Åk till biblioteket",
-          "category": "ute",
-          "duration": "1 h"
+          "activity": "Åk till simhallen",
+          "category": "aktivitet",
+          "duration": "1,5 h"
         },
         {
-          "activity": "Titta på en dokumentär",
+          "activity": "Åk och handla veckans mat",
+          "category": "ärenden",
+          "duration": "1,5 h"
+        },
+        {
+          "activity": "Städa ett rum i taget",
           "category": "hemma",
-          "duration": "1 h"
-        },
-        {
-          "activity": "Gör rygg- och coreövningar",
-          "category": "träning",
-          "duration": "20 min"
+          "duration": "30 min"
         }
       ]
     },
@@ -85,14 +85,14 @@
           "duration": "1,5 h"
         },
         {
-          "activity": "Plocka svamp/bär (höst)",
-          "category": "ute",
-          "duration": "2 h"
+          "activity": "Åk till återvinningsstationen",
+          "category": "ärenden",
+          "duration": "30 min"
         },
         {
-          "activity": "Testa ett nytt gympapass",
-          "category": "träning",
-          "duration": "30 min"
+          "activity": "Plantera om växter",
+          "category": "ute",
+          "duration": "1 h"
         }
       ]
     },
@@ -104,19 +104,19 @@
       "summary": "Tisdag 04-28 – ledig",
       "suggestions": [
         {
-          "activity": "Åk till simhallen",
-          "category": "aktivitet",
-          "duration": "1,5 h"
+          "activity": "Rensa garderoben",
+          "category": "hemma",
+          "duration": "2 h"
         },
         {
-          "activity": "Åk till återvinningsstationen",
-          "category": "ärenden",
+          "activity": "Skriv en veckoplan för nästa vecka",
+          "category": "planering",
           "duration": "30 min"
         },
         {
-          "activity": "Ta en promenad i skogen",
-          "category": "ute",
-          "duration": "45 min"
+          "activity": "Spela ett brädspel",
+          "category": "hemma",
+          "duration": "1 h"
         }
       ]
     },
@@ -192,19 +192,19 @@
       "summary": "Söndag 05-03 – ledig",
       "suggestions": [
         {
-          "activity": "Läs en bok på balkongen",
-          "category": "återhämtning",
+          "activity": "Gör rygg- och coreövningar",
+          "category": "träning",
+          "duration": "20 min"
+        },
+        {
+          "activity": "Åk till biblioteket",
+          "category": "ute",
           "duration": "1 h"
         },
         {
-          "activity": "Gå en runda på stan",
-          "category": "ute",
-          "duration": "1,5 h"
-        },
-        {
-          "activity": "Åk och handla veckans mat",
-          "category": "ärenden",
-          "duration": "1,5 h"
+          "activity": "Läs en bok på balkongen",
+          "category": "återhämtning",
+          "duration": "1 h"
         }
       ]
     },
@@ -232,17 +232,17 @@
       "summary": "Tisdag 05-05 – ledig",
       "suggestions": [
         {
-          "activity": "Skriv en veckoplan för nästa vecka",
-          "category": "planering",
-          "duration": "30 min"
-        },
-        {
-          "activity": "Städa ett rum i taget",
-          "category": "hemma",
-          "duration": "30 min"
+          "activity": "Plocka svamp/bär (höst)",
+          "category": "ute",
+          "duration": "2 h"
         },
         {
           "activity": "Testa ett nytt recept",
+          "category": "mat",
+          "duration": "1 h"
+        },
+        {
+          "activity": "Laga en nyttig middag",
           "category": "mat",
           "duration": "1 h"
         }
@@ -256,19 +256,19 @@
       "summary": "Onsdag 05-06 – ledig",
       "suggestions": [
         {
+          "activity": "Gå en runda på stan",
+          "category": "ute",
+          "duration": "1,5 h"
+        },
+        {
           "activity": "Boka in en massage",
           "category": "välmående",
           "duration": "1 h"
         },
         {
-          "activity": "Åk och bada (sommar)",
-          "category": "ute",
-          "duration": "3 h"
-        },
-        {
-          "activity": "Laga en nyttig middag",
-          "category": "mat",
-          "duration": "1 h"
+          "activity": "Boka tid hos frisör",
+          "category": "ärenden",
+          "duration": "15 min"
         }
       ]
     },
