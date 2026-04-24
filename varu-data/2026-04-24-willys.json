@@ -1,0 +1,641 @@
+{
+  "date": "2026-04-24",
+  "created_at": "2026-04-24T11:00:00Z",
+  "slug": "willys-2026-04-24",
+  "title": "Willys vecka 17: Medelhavsklassiker, vegetarisk curry och superfrukost",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden denna vecka. Priser är uppskattade baserat på historiska kampanjer.",
+  "store": {
+    "name": "Willys",
+    "url": "https://www.willys.se/erbjudanden"
+  },
+  "source_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik.",
+  "pricing_method": "uppskattad",
+  "fyndlista": [
+    {
+      "product_name": "Kycklinglårfilé",
+      "campaign_price": 79.9,
+      "ordinary_price": 99.9,
+      "discount_sek": 20.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Krossade tomater 500g",
+      "campaign_price": 12.9,
+      "ordinary_price": 15.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Kikärtor 400g",
+      "campaign_price": 14.9,
+      "ordinary_price": 18.9,
+      "discount_sek": 4.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Sötpotatis",
+      "campaign_price": 24.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Kokosmjölk 400ml",
+      "campaign_price": 19.9,
+      "ordinary_price": 24.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Röda linser 500g",
+      "campaign_price": 19.9,
+      "ordinary_price": 23.9,
+      "discount_sek": 4.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Fullkornspasta 500g",
+      "campaign_price": 16.9,
+      "ordinary_price": 19.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Morötter 1kg",
+      "campaign_price": 14.9,
+      "ordinary_price": 17.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Paprika 3-pack",
+      "campaign_price": 29.9,
+      "ordinary_price": 34.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Gul lök 1kg",
+      "campaign_price": 14.9,
+      "ordinary_price": 17.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Vitlök 3-pack",
+      "campaign_price": 12.9,
+      "ordinary_price": 14.9,
+      "discount_sek": 2.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Havregryn 1kg",
+      "campaign_price": 19.9,
+      "ordinary_price": 22.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Ägg 12-pack",
+      "campaign_price": 34.9,
+      "ordinary_price": 39.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Fryst mango 500g",
+      "campaign_price": 29.9,
+      "ordinary_price": 35.9,
+      "discount_sek": 6.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Matlagningsyoghurt 500g",
+      "campaign_price": 24.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Tagine-inspirerad kycklinggryta med sötpotatis",
+      "description": "Värmande nordafrikansk-inspirerad gryta med kycklinglårfilé, sötpotatis och kikärtor i tomatbas. Serveras med matlagningsyoghurt.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "40 min",
+      "meal_flags": ["huvudrätt", "kyckling", "medelhav", "tagine"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kycklinglårfilé",
+          "buy_amount": "600 g",
+          "campaign_price": 79.9,
+          "ordinary_price": 99.9,
+          "discount_sek": 20.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt Willys-erbjudande för kycklinglår"
+        },
+        {
+          "product_name": "Sötpotatis",
+          "buy_amount": "500 g",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris säsongsgrönsak"
+        },
+        {
+          "product_name": "Krossade tomater 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 15.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Kikärtor 400g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 18.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för konserver"
+        },
+        {
+          "product_name": "Gul lök 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Vitlök 3-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Morötter 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Matlagningsyoghurt 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Tillbehör till servering"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kycklinglårfilé",
+          "amount": 600,
+          "unit": "g",
+          "line_cost_sek": 79.9,
+          "campaign_price": 79.9,
+          "ordinary_price": 99.9,
+          "discount_sek": 20.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Sötpotatis",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 24.9,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Gul lök",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 2.98,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Vitlök",
+          "amount": 3,
+          "unit": "klyftor",
+          "line_cost_sek": 4.3,
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Morötter",
+          "amount": 3,
+          "unit": "st",
+          "line_cost_sek": 2.98,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Krossade tomater",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 12.9,
+          "campaign_price": 12.9,
+          "ordinary_price": 15.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Kikärtor (avrunna)",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 7.45,
+          "campaign_price": 14.9,
+          "ordinary_price": 18.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Matlagningsyoghurt",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 9.96,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Skär kycklinglårfiléerna i grova bitar. Salta och peppra.",
+        "Skala och tärna sötpotatisen, hacka lök och vitlök, skiva morötterna.",
+        "Bryn kycklingen i omgångar i en stor gryta. Ta upp och ställ åt sidan.",
+        "Fräs lök, vitlök och morötter i grytan i 3-4 minuter.",
+        "Lägg tillbaka kycklingen, tillsätt sötpotatis, krossade tomater och 2 dl vatten.",
+        "Låt sjuda under lock i 20 minuter tills sötpotatisen är mjuk.",
+        "Rör ner kikärtorna och låt bli varmt i 5 minuter.",
+        "Servera med en klick matlagningsyoghurt."
+      ],
+      "costs": {
+        "campaign_total_sek": 145.37,
+        "ordinary_total_sek": 183.2,
+        "total_discount_sek": 37.83,
+        "cost_per_portion_sek": 36.34
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 490 kcal per portion",
+      "points_estimate": "Uppskattat WW-värde: ~10 points"
+    },
+    {
+      "title": "Krämig röd lins- och sötpotatiscurry",
+      "description": "Billig och mättande vegetarisk curry med röda linser, sötpotatis och kokosmjölk. Perfekt att göra stor sats av.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["vegetariskt", "huvudrätt", "billigt", "curry"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Röda linser 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 23.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för baljväxter"
+        },
+        {
+          "product_name": "Sötpotatis",
+          "buy_amount": "500 g",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Kokosmjölk 400ml",
+          "buy_amount": "1 burk",
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Gul lök 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Vitlök 3-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kryddpris"
+        },
+        {
+          "product_name": "Morötter 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Röda linser",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 11.94,
+          "campaign_price": 19.9,
+          "ordinary_price": 23.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Sötpotatis",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 19.92,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Kokosmjölk",
+          "amount": 400,
+          "unit": "ml",
+          "line_cost_sek": 19.9,
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Gul lök",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 1.49,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Vitlök",
+          "amount": 2,
+          "unit": "klyftor",
+          "line_cost_sek": 2.87,
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Morötter",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 1.99,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Skala och tärna sötpotatis och morötter. Hacka lök och vitlök fint.",
+        "Fräs lök och vitlök i olja i 2 minuter i en gryta.",
+        "Tillsätt sötpotatis, morötter, röda linser och kokosmjölk.",
+        "Häll på 4 dl vatten, koka upp och låt sjuda under lock i 15-20 minuter.",
+        "Krydda med curry, spiskummin, gurkmeja, salt och peppar.",
+        "Rör om då och då. Låt puttra tills sötpotatisen är mjuk och linserna mosiga.",
+        "Smaka av och servera som den är, gärna med bröd eller ris."
+      ],
+      "costs": {
+        "campaign_total_sek": 58.11,
+        "ordinary_total_sek": 71.5,
+        "total_discount_sek": 13.39,
+        "cost_per_portion_sek": 14.53
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 370 kcal per portion",
+      "points_estimate": "Uppskattat WW-värde: ~5 points"
+    },
+    {
+      "title": "Mango-havrefrukost med krispig äggtoast",
+      "description": "Lyxig start på dagen med härlig mango-yoghurtbowl och krispig äggtoast. Proteinrikt och mättande.",
+      "servings": 2,
+      "servings_label": "2 portioner",
+      "cook_time": "10 min",
+      "meal_flags": ["frukost", "mellanmål", "enkel", "proteinrik"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Fryst mango 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 35.9,
+          "discount_sek": 6.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för fryst frukt"
+        },
+        {
+          "product_name": "Matlagningsyoghurt 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för mejeri"
+        },
+        {
+          "product_name": "Havregryn 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 22.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris basvara"
+        },
+        {
+          "product_name": "Ägg 12-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 34.9,
+          "ordinary_price": 39.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris ägg"
+        },
+        {
+          "product_name": "Fullkornspasta 500g",
+          "buy_amount": "1 förpackning (för brödet)",
+          "campaign_price": 16.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Används inte i detta recept"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Fryst mango",
+          "amount": 150,
+          "unit": "g",
+          "line_cost_sek": 8.97,
+          "campaign_price": 29.9,
+          "ordinary_price": 35.9,
+          "discount_sek": 6.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Matlagningsyoghurt",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 14.94,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Havregryn",
+          "amount": 80,
+          "unit": "g",
+          "line_cost_sek": 1.59,
+          "campaign_price": 19.9,
+          "ordinary_price": 22.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Ägg",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 5.82,
+          "campaign_price": 34.9,
+          "ordinary_price": 39.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Bröd (antaget hemma)",
+          "amount": 2,
+          "unit": "skivor",
+          "line_cost_sek": 0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": null,
+          "source": null
+        }
+      ],
+      "method": [
+        "Dela mangon om bitarna är stora. Mixa 100 g mango med yoghurt till en slät smoothiebowl.",
+        "Blanda havregryn med resterande mango (skuren i mindre bitar).",
+        "Rosta brödet i brödrost eller stekpanna.",
+        "Stek äggen i lite smör tills vitan stelnat men gulan är rinnig.",
+        "Häll yoghurt-mangobowlen i en skål, toppa med havre-mango och resten av mangobitarna.",
+        "Servera med ägg och rostat bröd vid sidan."
+      ],
+      "costs": {
+        "campaign_total_sek": 31.32,
+        "ordinary_total_sek": 37.6,
+        "total_discount_sek": 6.28,
+        "cost_per_portion_sek": 15.66
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 420 kcal per portion",
+      "points_estimate": "Uppskattat WW-värde: ~8 points"
+    }
+  ],
+  "quality_check": {
+    "json_valid": true,
+    "price_status_consistent": true,
+    "all_prices_simple": true,
+    "all_sources_simple": true,
+    "store_structure_valid": true,
+    "method_structure_valid": true
+  },
+  "delivery_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik eller på willys.se."
+}
