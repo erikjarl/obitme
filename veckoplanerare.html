@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Veckoplaneraren – Jarl/Adamsson</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .vp-hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .vp-hero h1 { margin: 0; }
+      .vp-meta {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .vp-meta .stat {
+        background: var(--accent-soft);
+        padding: 6px 14px;
+        border-radius: 40px;
+        font-size: .9rem;
+        font-weight: 600;
+        color: var(--accent);
+        border: 1px solid #f4c8be;
+      }
+      .vp-overview {
+        background: var(--panel-soft);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 18px 22px;
+        margin-top: 16px;
+        font-size: .95rem;
+        line-height: 1.65;
+        color: var(--text);
+      }
+      .vp-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        margin-top: 20px;
+      }
+      .vp-day {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 16px;
+        box-shadow: var(--shadow);
+        transition: box-shadow .15s;
+      }
+      .vp-day.free {
+        background: var(--panel-soft);
+        border-style: dashed;
+      }
+      .vp-day-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .vp-day-header h3 {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .vp-badge {
+        font-size: .7rem;
+        background: var(--accent-soft);
+        color: var(--accent);
+        padding: 3px 10px;
+        border-radius: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+      }
+      .vp-badge.free-badge {
+        background: #e4f5e7;
+        color: #2a7a3b;
+      }
+      .vp-events {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .vp-event {
+        font-size: .88rem;
+        padding: 6px 10px;
+        background: #fff;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+      }
+      .vp-event-time {
+        font-weight: 600;
+        color: var(--accent);
+        margin-right: 6px;
+      }
+      .vp-event-cal {
+        font-size: .78rem;
+        color: var(--muted);
+        margin-left: 6px;
+      }
+      .vp-suggestions {
+        margin-top: 10px;
+        padding: 10px 12px;
+        background: #f0f7ff;
+        border-radius: 14px;
+        border: 1px solid #d0e2f5;
+      }
+      .vp-suggestions h4 {
+        font-size: .82rem;
+        margin: 0 0 6px;
+        color: #2c6ba0;
+      }
+      .vp-suggestion {
+        font-size: .85rem;
+        color: var(--text);
+        padding: 4px 0;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+      .vp-suggestion .cat {
+        font-size: .7rem;
+        background: #e2eefe;
+        padding: 2px 8px;
+        border-radius: 30px;
+        color: #2c6ba0;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .vp-suggestion .dur {
+        font-size: .78rem;
+        color: var(--muted);
+      }
+      .vp-empty {
+        text-align: center;
+        padding: 40px 20px;
+        color: var(--muted);
+      }
+      .vp-refresh {
+        margin-top: 20px;
+        text-align: right;
+        font-size: .85rem;
+        color: var(--muted);
+      }
+      .vp-day-full { grid-column: span 2; }
+
+      @media (max-width: 700px) {
+        .vp-grid { grid-template-columns: 1fr; }
+        .vp-day-full { grid-column: span 1; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hero">
+        <div class="eyebrow">Planering</div>
+        <div class="vp-hero">
+          <h1>Veckoplaneraren 🗓️</h1>
+          <div class="vp-meta" id="vpMeta"></div>
+        </div>
+        <p id="vpSubtitle">Laddar kalenderdata…</p>
+      </header>
+
+      <div class="vp-overview" id="vpOverview">Laddar veckoöversikt…</div>
+
+      <div class="vp-grid" id="vpGrid"></div>
+
+      <div class="vp-refresh" id="vpFoot"></div>
+
+      <div style="margin-top:28px">
+        <a href="./portal.html">&larr; Tillbaka till projektportalen</a>
+      </div>
+    </div>
+
+    <script>
+      (async function() {
+        const root = document.getElementById('vpGrid');
+        const meta = document.getElementById('vpMeta');
+        const subtitle = document.getElementById('vpSubtitle');
+        const overview = document.getElementById('vpOverview');
+        const foot = document.getElementById('vpFoot');
+
+        function capitalize(str) {
+          return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        try {
+          const res = await fetch('./veckodata.json?t=' + Date.now(), { cache: 'no-store' });
+          if (!res.ok) throw new Error('Kunde inte ladda (' + res.status + ')');
+          const data = await res.json();
+
+          if (data.error) {
+            root.innerHTML = '<div class="vp-empty">⚠️ ' + data.error + '</div>';
+            subtitle.textContent = 'Kalendern är inte tillgänglig just nu.';
+            return;
+          }
+
+          // Meta
+          meta.innerHTML = '<span class="stat">📅 ' + data.week_start + ' – ' + data.week_end + '</span>' +
+            '<span class="stat">📌 ' + data.total_events + ' händelser</span>' +
+            '<span class="stat">✅ ' + data.free_days + ' lediga dagar</span>';
+
+          subtitle.textContent = data.busy_days + ' dagar med planering · ' + data.free_days + ' dagar utan – se förslag nedan';
+
+          // Overview
+          overview.textContent = data.week_overview;
+
+          // Days grid
+          let html = '';
+          data.days.forEach(function(day) {
+            const isFree = !day.has_events;
+            const dayClass = isFree ? 'vp-day free' : 'vp-day';
+            const badgeClass = isFree ? 'vp-badge free-badge' : 'vp-badge';
+            const badgeText = isFree ? 'Ledig' : day.events.length + ' händelse' + (day.events.length > 1 ? 'r' : '');
+
+            let evHtml = '';
+            if (day.has_events) {
+              evHtml = '<div class="vp-events">';
+              day.events.forEach(function(ev) {
+                let timeHtml = '';
+                if (!ev.is_all_day && ev.start) {
+                  const s = new Date(ev.start);
+                  const e = ev.end ? new Date(ev.end) : null;
+                  const ts = s.toLocaleTimeString('sv-SE', {hour:'2-digit',minute:'2-digit'});
+                  const te = e ? e.toLocaleTimeString('sv-SE', {hour:'2-digit',minute:'2-digit'}) : '';
+                  timeHtml = '<span class="vp-event-time">' + ts + (te ? '–' + te : '') + '</span>';
+                }
+                const calHtml = ev.calendar !== 'Hem' ? '<span class="vp-event-cal">[' + ev.calendar + ']</span>' : '';
+                evHtml += '<div class="vp-event">' + timeHtml + ev.title + calHtml + '</div>';
+              });
+              evHtml += '</div>';
+            }
+
+            let sugHtml = '';
+            if (day.suggestions && day.suggestions.length > 0) {
+              sugHtml = '<div class="vp-suggestions"><h4>💡 Förslag för ' + capitalize(day.weekday) + '</h4>';
+              day.suggestions.forEach(function(s) {
+                sugHtml += '<div class="vp-suggestion"><span class="cat">' + s.category + '</span> ' + s.activity + ' <span class="dur">(' + s.duration + ')</span></div>';
+              });
+              sugHtml += '</div>';
+            }
+
+            html += '<div class="' + dayClass + '">' +
+              '<div class="vp-day-header">' +
+                '<h3>' + capitalize(day.weekday) + ' <span style="color:var(--muted);font-weight:400">' + day.date.slice(-5) + '</span></h3>' +
+                '<span class="' + badgeClass + '">' + badgeText + '</span>' +
+              '</div>' +
+              evHtml +
+              sugHtml +
+            '</div>';
+          });
+          root.innerHTML = html;
+
+          foot.innerHTML = '🔄 Uppdaterad ' + new Date(data.generated_at).toLocaleString('sv-SE');
+
+        } catch(err) {
+          console.error(err);
+          root.innerHTML = '<div class="vp-empty">⚠️ Kunde inte ladda veckodata.<br><span style="font-size:.85rem">' + err.message + '</span></div>';
+          subtitle.textContent = 'Kunde inte synka med kalendern.';
+        }
+      })();
+    </script>
+  </body>
+</html>

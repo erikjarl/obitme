@@ -1,0 +1,292 @@
+{
+  "generated_at": "2026-04-24T13:56:28.924946",
+  "week_start": "2026-04-24",
+  "week_end": "2026-05-07",
+  "days_covered": 14,
+  "busy_days": 7,
+  "free_days": 7,
+  "total_events": 8,
+  "week_overview": "Fredag 04-24 – ledig | Lördag 04-25 – ledig | Söndag 04-26 – Gamla linköping antikmarknad 11-16 09:00–10:00 [Ida&Erik Jarls familjekalender ] | Måndag 04-27 – ledig | Tisdag 04-28 – ledig | Onsdag 04-29 – 12:30 bvc 10 mån besök 10:30–11:30 [Ida&Erik Jarls familjekalender ] | Torsdag 04-30 – 20:00 brasa på åsundabadet 18:00–19:00 [Ida&Erik Jarls familjekalender ] | Fredag 05-01 – Marknad stäfsäter  07:00–08:00 [Ida&Erik Jarls familjekalender ] | Lördag 05-02 – Hjalmar kalas förmiddag när? 08:00–09:00 [Ida&Erik Jarls familjekalender ] | Söndag 05-03 – ledig | Måndag 05-04 – Ansökan stänger utbildning platschef 16:00–17:00 [Ida&Erik Jarls familjekalender ] | Tisdag 05-05 – ledig | Onsdag 05-06 – ledig | Torsdag 05-07 – Seminariegrupp 18-20 08:00–09:00 [Ida&Erik Jarls familjekalender ]",
+  "days": [
+    {
+      "date": "2026-04-24",
+      "weekday": "fredag",
+      "events": [],
+      "has_events": false,
+      "summary": "Fredag 04-24 – ledig",
+      "suggestions": [
+        {
+          "activity": "Boka tid hos frisör",
+          "category": "ärenden",
+          "duration": "15 min"
+        },
+        {
+          "activity": "Middag med vänner",
+          "category": "socialt",
+          "duration": "3 h"
+        },
+        {
+          "activity": "Gå på loppis",
+          "category": "ute",
+          "duration": "1,5 h"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "weekday": "lördag",
+      "events": [],
+      "has_events": false,
+      "summary": "Lördag 04-25 – ledig",
+      "suggestions": [
+        {
+          "activity": "Åk till biblioteket",
+          "category": "ute",
+          "duration": "1 h"
+        },
+        {
+          "activity": "Titta på en dokumentär",
+          "category": "hemma",
+          "duration": "1 h"
+        },
+        {
+          "activity": "Gör rygg- och coreövningar",
+          "category": "träning",
+          "duration": "20 min"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "weekday": "söndag",
+      "events": [
+        {
+          "title": "Gamla linköping antikmarknad 11-16",
+          "start": "2026-04-26T09:00:00",
+          "end": "2026-04-26T10:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Söndag 04-26 – Gamla linköping antikmarknad 11-16 09:00–10:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    },
+    {
+      "date": "2026-04-27",
+      "weekday": "måndag",
+      "events": [],
+      "has_events": false,
+      "summary": "Måndag 04-27 – ledig",
+      "suggestions": [
+        {
+          "activity": "Bjud in någon på fika",
+          "category": "socialt",
+          "duration": "1,5 h"
+        },
+        {
+          "activity": "Plocka svamp/bär (höst)",
+          "category": "ute",
+          "duration": "2 h"
+        },
+        {
+          "activity": "Testa ett nytt gympapass",
+          "category": "träning",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "weekday": "tisdag",
+      "events": [],
+      "has_events": false,
+      "summary": "Tisdag 04-28 – ledig",
+      "suggestions": [
+        {
+          "activity": "Åk till simhallen",
+          "category": "aktivitet",
+          "duration": "1,5 h"
+        },
+        {
+          "activity": "Åk till återvinningsstationen",
+          "category": "ärenden",
+          "duration": "30 min"
+        },
+        {
+          "activity": "Ta en promenad i skogen",
+          "category": "ute",
+          "duration": "45 min"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "weekday": "onsdag",
+      "events": [
+        {
+          "title": "12:30 bvc 10 mån besök",
+          "start": "2026-04-29T10:30:00",
+          "end": "2026-04-29T11:30:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Onsdag 04-29 – 12:30 bvc 10 mån besök 10:30–11:30 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    },
+    {
+      "date": "2026-04-30",
+      "weekday": "torsdag",
+      "events": [
+        {
+          "title": "20:00 brasa på åsundabadet",
+          "start": "2026-04-30T18:00:00",
+          "end": "2026-04-30T19:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Torsdag 04-30 – 20:00 brasa på åsundabadet 18:00–19:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    },
+    {
+      "date": "2026-05-01",
+      "weekday": "fredag",
+      "events": [
+        {
+          "title": "Marknad stäfsäter ",
+          "start": "2026-05-01T07:00:00",
+          "end": "2026-05-01T08:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Fredag 05-01 – Marknad stäfsäter  07:00–08:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    },
+    {
+      "date": "2026-05-02",
+      "weekday": "lördag",
+      "events": [
+        {
+          "title": "Hjalmar kalas förmiddag när?",
+          "start": "2026-05-02T08:00:00",
+          "end": "2026-05-02T09:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Lördag 05-02 – Hjalmar kalas förmiddag när? 08:00–09:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    },
+    {
+      "date": "2026-05-03",
+      "weekday": "söndag",
+      "events": [],
+      "has_events": false,
+      "summary": "Söndag 05-03 – ledig",
+      "suggestions": [
+        {
+          "activity": "Läs en bok på balkongen",
+          "category": "återhämtning",
+          "duration": "1 h"
+        },
+        {
+          "activity": "Gå en runda på stan",
+          "category": "ute",
+          "duration": "1,5 h"
+        },
+        {
+          "activity": "Åk och handla veckans mat",
+          "category": "ärenden",
+          "duration": "1,5 h"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "weekday": "måndag",
+      "events": [
+        {
+          "title": "Ansökan stänger utbildning platschef",
+          "start": "2026-05-04T16:00:00",
+          "end": "2026-05-04T17:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Måndag 05-04 – Ansökan stänger utbildning platschef 16:00–17:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    },
+    {
+      "date": "2026-05-05",
+      "weekday": "tisdag",
+      "events": [],
+      "has_events": false,
+      "summary": "Tisdag 05-05 – ledig",
+      "suggestions": [
+        {
+          "activity": "Skriv en veckoplan för nästa vecka",
+          "category": "planering",
+          "duration": "30 min"
+        },
+        {
+          "activity": "Städa ett rum i taget",
+          "category": "hemma",
+          "duration": "30 min"
+        },
+        {
+          "activity": "Testa ett nytt recept",
+          "category": "mat",
+          "duration": "1 h"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "weekday": "onsdag",
+      "events": [],
+      "has_events": false,
+      "summary": "Onsdag 05-06 – ledig",
+      "suggestions": [
+        {
+          "activity": "Boka in en massage",
+          "category": "välmående",
+          "duration": "1 h"
+        },
+        {
+          "activity": "Åk och bada (sommar)",
+          "category": "ute",
+          "duration": "3 h"
+        },
+        {
+          "activity": "Laga en nyttig middag",
+          "category": "mat",
+          "duration": "1 h"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "weekday": "torsdag",
+      "events": [
+        {
+          "title": "Seminariegrupp 18-20",
+          "start": "2026-05-07T08:00:00",
+          "end": "2026-05-07T09:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Torsdag 05-07 – Seminariegrupp 18-20 08:00–09:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    }
+  ]
+}
