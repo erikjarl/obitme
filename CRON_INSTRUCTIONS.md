@@ -41,3 +41,13 @@ Förslag ska filtreras enligt:
 
 ## Regel
 Veckoplaneraren ska alltid försöka göra webbsökning/webbhämtning först och bara falla tillbaka till interna förslag om webbkällorna inte ger något användbart.
+
+## iMessage-format
+När veckoplaneraren skickar iMessage ska texten vara extra kort och mobilvänlig:
+- max ungefär 350 tecken före länken
+- nämn bara 2-3 viktigaste hållpunkterna
+- nämn högst 1-2 förslag
+- välj bort överflödiga detaljer, klockslag och upprepningar om texten blir lång
+- skriv hellre en elegant sammanfattning än en full genomgång
+- avsluta alltid med två radbrytningar och sedan exakt:
+  `Gå in på Veckoplaneraren här: https://erikjarl.github.io/obitme/index.html`
