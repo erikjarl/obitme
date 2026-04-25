@@ -18,6 +18,61 @@ Använd i första hand dessa publika källor om de går att läsa:
    - https://www.kulturkvarteret.com/kalender/
    - Bra för musik, kultur och vissa familjevänliga program.
 
+## Extra loppis-sökning
+Veckoplaneraren ska dessutom försöka hitta loppisar, bakluckeloppisar, loppmarknader och liknande evenemang i området kring:
+- Rimforsa
+- Kisa
+- Linköping
+- närliggande orter som Åtvidaberg, Mjölby, Mantorp, Vikingstad, Bestorp, Brokind och Malmslätt
+
+### Regler för loppis-sökningen
+- Använd bara offentligt tillgänglig information.
+- Logga inte in på Facebook.
+- Försök inte kringgå inloggning, captcha eller tekniska spärrar.
+- Om ett Facebook-event inte kan läsas utan inloggning: hoppa över det eller använd endast det som syns publikt.
+- Prioritera öppna källor: kommuners evenemangskalendrar, lokala föreningar, marknadssidor, Eventbrite/Billetto samt publika Facebook-event.
+- Spara alltid käll-länk när en träff används.
+
+### Sökfraser att använda som vägledning
+- "loppis Linköping helgen"
+- "bakluckeloppis Linköping"
+- "loppmarknad Linköping"
+- "loppis Rimforsa"
+- "loppis Kisa"
+- "loppis Åtvidaberg"
+- "loppis Mjölby"
+- "loppis Östergötland helgen"
+- "site.com/events loppis Linköping"
+- "site.com/events loppis Östergötland"
+- "bakluckeloppis Östergötland"
+
+### Extrahera helst dessa fält
+- titel
+- datum
+- tid
+- plats
+- kommun
+- arrangör
+- kort_beskrivning
+- källa_url
+- säkerhet (hög/medel/låg)
+
+### Filtrera bort
+- permanenta second hand-butiker utan specifikt event
+- gamla event
+- event utan datum
+- dubbletter
+
+### Sortering
+- kommande datum först
+- närmast Rimforsa/Kisa/Linköping först
+- högst säkerhet först
+
+### Om inga säkra loppisar hittas
+- skriv att inga säkra aktuella loppisar hittades
+- lista eventuella osäkra träffar separat
+- använd sedan bara de träffar som faktiskt är tillräckligt relevanta för veckoplaneraren
+
 ## Om källor är svårlästa
 - Vissa sajter renderar events via tung JavaScript och kan vara delvis tomma i web_fetch.
 - Om en källa inte går att läsa stabilt: använd den bara som svag signal eller hoppa över den.
