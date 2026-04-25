@@ -10,11 +10,16 @@ Använd i första hand dessa publika källor om de går att läsa:
    - https://visitlinkoping.se/evenemang/
    - Bra för marknader, loppisar, musik, scenkonst, större familjeaktiviteter.
 
-2. Gamla Linköping
+2. Kinda Turism – Evenemang i Kinda
+   - https://evenemang.kindaturism.se/
+   - Mycket relevant för Kisa, Rimforsa och övriga Kindaområdet.
+   - Sidan går att nå och läsa, men eventlistan verkar delvis JS-renderad. Använd därför som stark lokal signal och använd konkreta event bara när de faktiskt går att extrahera.
+
+3. Gamla Linköping
    - https://www.gamlalinkoping.info/evenemang
    - Bra för marknader, antik/retro, familjedagar och säsongsaktiviteter.
 
-3. Kulturkvarteret
+4. Kulturkvarteret
    - https://www.kulturkvarteret.com/kalender/
    - Bra för musik, kultur och vissa familjevänliga program.
 
