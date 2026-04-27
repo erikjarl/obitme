@@ -1,0 +1,295 @@
+{
+  "date": "2026-04-27",
+  "created_at": "2026-04-27T15:56:00+02:00",
+  "slug": "2026-04-27-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade lunch- och middagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på mättande protein, grönsaker, medelhavskänsla och rimlig portionskostnad.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser verifierades mot ICA Rimforsas erbjudandesida den 27 april 2026. Där prisbubblan inte var tydligt maskinläsbar användes angivet jämförpris och förpackningsstorlek för att härleda kampanjpriset.",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Små skafferiposter som lök, vitlök, citron, vinäger, örter, pasta och baljväxter har schablon eller försiktig uppskattning när exakt butiksvärde inte framgick tydligt.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Fläskytterfilé ICA Sverige ca 1000 g",
+      "campaign_price": 65,
+      "ordinary_price": 89.81,
+      "discount_sek": 24.81,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Prisvisning på erbjudandekort: 65 kr/kg. Ord.pris 89:81 kr."
+    },
+    {
+      "product_name": "Förkokta majskolvar 2-pack ICA 450 g",
+      "campaign_price": 20,
+      "ordinary_price": 25.45,
+      "discount_sek": 5.45,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jämförpris 44:44/kg för 450 g ger 20,00 kr. Ord.pris 25:45 kr."
+    },
+    {
+      "product_name": "Kyld sås Lohmanders 230 ml",
+      "campaign_price": 17.5,
+      "ordinary_price": 22.61,
+      "discount_sek": 5.11,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jämförpris 76:09/liter för 230 ml ger 17,50 kr. Ord.pris 22:61 kr."
+    },
+    {
+      "product_name": "Vitost Apetina 150 g",
+      "campaign_price": 15,
+      "ordinary_price": 22.61,
+      "discount_sek": 7.61,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jämförpris 100:00/kg för 150 g ger 15,00 kr. Ord.pris 22:61 kr."
+    },
+    {
+      "product_name": "Aubergine ICA 225 g",
+      "campaign_price": 10,
+      "ordinary_price": 16.09,
+      "discount_sek": 6.09,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jämförpris 44:44/kg för 225 g ger 10,00 kr. Ord.pris 16:09 kr."
+    },
+    {
+      "product_name": "Färgmixade småtomater i ask ICA 350 g",
+      "campaign_price": 25,
+      "ordinary_price": 36.81,
+      "discount_sek": 11.81,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jämförpris 71:43/kg för 350 g ger 25,00 kr. Ord.pris 36:81 kr."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Citronstekt fläskytterfilé med grillmajs och ljummen potatissallad",
+      "description": "Fläskytterfilé får sällskap av söt majs, frisk citron och en lite krämig kall sås som blir dressing. Resultatet blir en mättande men ändå lätt sommaraktig middag med fin balans mellan syra, sälta och rostad sötma.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": ["middag", "kött", "medelhavsinspirerad", "proteinrik"],
+      "kcal_per_portion": "ca 520 kcal",
+      "kcal_per_portion_value": 520,
+      "points_estimate": "ca 8 points",
+      "points_estimate_value": 8,
+      "ica_products_to_buy": [
+        {
+          "product_name": "Fläskytterfilé ICA Sverige ca 1000 g",
+          "buy_amount": 1,
+          "campaign_price": 65,
+          "ordinary_price": 89.81,
+          "discount_sek": 24.81,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "65 kr/kg. Ord.pris 89:81 kr."
+        },
+        {
+          "product_name": "Förkokta majskolvar 2-pack ICA 450 g",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 25.45,
+          "discount_sek": 5.45,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 44:44/kg för 450 g ger 20,00 kr."
+        },
+        {
+          "product_name": "Kyld sås Lohmanders 230 ml",
+          "buy_amount": 1,
+          "campaign_price": 17.5,
+          "ordinary_price": 22.61,
+          "discount_sek": 5.11,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 76:09/liter för 230 ml ger 17,50 kr."
+        }
+      ],
+      "ingredients": [
+        {"item": "Fläskytterfilé [KAMPANJ]", "amount": 800, "unit": "g", "line_cost_sek": 52, "campaign_price": 52, "ordinary_price": 71.85, "discount_sek": 19.85, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Förkokta majskolvar [KAMPANJ]", "amount": 450, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 25.45, "discount_sek": 5.45, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Kyld sås Lohmanders [KAMPANJ]", "amount": 230, "unit": "ml", "line_cost_sek": 17.5, "campaign_price": 17.5, "ordinary_price": 22.61, "discount_sek": 5.11, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Potatis", "amount": 800, "unit": "g", "line_cost_sek": 14, "campaign_price": null, "ordinary_price": 14, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Ruccola eller bladspenat", "amount": 65, "unit": "g", "line_cost_sek": 10, "campaign_price": null, "ordinary_price": 10, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 1.5, "unit": "msk", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 1, "unit": "klyfta", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt och svartpeppar", "amount": 1, "unit": "portion", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Skär potatisen i bitar och koka mjuk i lättsaltat vatten, cirka 15 minuter.\n2. Krydda fläskytterfilén med salt, peppar, finriven vitlök och lite citronskal.\n3. Bryn köttet i olivolja och stek klart på medelvärme tills det är genomstekt. Låt vila några minuter och skiva upp.\n4. Stek eller grilla majskolvarna hastigt så att de får färg. Skär av kornen.\n5. Blanda den kalla såsen med lite citronsaft till en lösare dressing.\n6. Vänd potatis, majs och ruccola med dressingen. Smaka av med extra citron, salt och peppar.\n7. Servera den skivade ytterfilén ovanpå den ljumma salladen.",
+      "costs": {"campaign_total_sek": 121.5, "ordinary_total_sek": 121.5, "total_discount_sek": 0, "cost_per_portion_sek": 30.38},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra från citron lättar upp både kött och dressing. Majsen står för sötma, den kalla såsen för fett och sälta, och stekytan på köttet ger umami.",
+      "nutrition_profile": "Tydlig proteinkälla från fläskytterfilé, mycket volym från potatis och majs samt lite grönt för friskhet. Fettmängden hålls måttlig.",
+      "price_justification": "Ca 30.38 kr per portion. Flera huvudkomponenter är kampanjvaror och resten är billiga basvaror.",
+      "variation_tips": "Byt ruccola mot spenat eller blanda i kokta haricots verts om du vill ha ännu mer grönt."
+    },
+    {
+      "title": "Rostad auberginepasta med småtomater, kikärter och vitost",
+      "description": "Aubergine och söta tomater rostas tills de blir mjuka och intensiva, sedan vänds de med pasta, kikärter och smulad vitost. En billig vegetarisk rätt med tydlig medelhavskänsla och bra mättnad.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["lunch", "middag", "vegetarisk", "proteinrik"],
+      "kcal_per_portion": "ca 565 kcal",
+      "kcal_per_portion_value": 565,
+      "points_estimate": "ca 9 points",
+      "points_estimate_value": 9,
+      "ica_products_to_buy": [
+        {
+          "product_name": "Aubergine ICA 225 g",
+          "buy_amount": 2,
+          "campaign_price": 10,
+          "ordinary_price": 16.09,
+          "discount_sek": 6.09,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 44:44/kg för 225 g ger 10,00 kr per aubergine."
+        },
+        {
+          "product_name": "Färgmixade småtomater i ask ICA 350 g",
+          "buy_amount": 2,
+          "campaign_price": 25,
+          "ordinary_price": 36.81,
+          "discount_sek": 11.81,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 71:43/kg för 350 g ger 25,00 kr per ask."
+        },
+        {
+          "product_name": "Vitost Apetina 150 g",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 22.61,
+          "discount_sek": 7.61,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 100:00/kg för 150 g ger 15,00 kr."
+        }
+      ],
+      "ingredients": [
+        {"item": "Aubergine [KAMPANJ]", "amount": 450, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 32.18, "discount_sek": 12.18, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Färgmixade småtomater [KAMPANJ]", "amount": 700, "unit": "g", "line_cost_sek": 50, "campaign_price": 50, "ordinary_price": 73.62, "discount_sek": 23.62, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Vitost [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 22.61, "discount_sek": 7.61, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Pasta", "amount": 320, "unit": "g", "line_cost_sek": 9, "campaign_price": null, "ordinary_price": 9, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Kokta kikärter", "amount": 380, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Gul lök", "amount": 1, "unit": "st", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 2, "unit": "klyftor", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 2, "unit": "msk", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Rödvinsvinäger", "amount": 1, "unit": "msk", "line_cost_sek": 0.8, "campaign_price": null, "ordinary_price": 0.8, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Torkad oregano", "amount": 1, "unit": "tsk", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Chiliflakes", "amount": 0.5, "unit": "tsk", "line_cost_sek": 0.4, "campaign_price": null, "ordinary_price": 0.4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt och svartpeppar", "amount": 1, "unit": "portion", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225 grader. Dela aubergine i tärningar och tomaterna i halvor.\n2. Lägg grönsakerna på plåt med olivolja, oregano, chiliflakes, salt och peppar. Rosta 20 minuter.\n3. Koka pastan enligt anvisning och spara lite pastavatten.\n4. Fräs lök och vitlök mjukt i en stor panna. Tillsätt kikärter och en skvätt vinäger.\n5. Vänd ner de rostade grönsakerna och den kokta pastan. Späd med lite pastavatten tills allt blir saftigt.\n6. Smula över vitosten och blanda lätt precis före servering.",
+      "costs": {"campaign_total_sek": 114.7, "ordinary_total_sek": 114.7, "total_discount_sek": 0, "cost_per_portion_sek": 28.68},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Tomaterna ger syra och sötma, auberginen och vitosten ger fyllighet, kikärterna ger mättnad och djup.",
+      "nutrition_profile": "Baljväxter och ost ger protein, mycket grönsaker ökar volymen och olivolja används sparsamt för medelhavskänsla.",
+      "price_justification": "Ca 28.68 kr per portion. Kampanjgrönsaker och vitost står för mycket smak utan att dra iväg kostnaden.",
+      "variation_tips": "Toppa med basilika eller lite citronzest om du vill göra smaken ännu piggare."
+    },
+    {
+      "title": "Bulgursallad med majs, småtomater, svarta bönor och vitost",
+      "description": "En färgstark och matig sallad där majs och tomater ger sötma, citron står för syra och vitost ger sälta. Svarta bönor och bulgur gör den till en riktig lunch eller lätt middag snarare än en tunn sallad.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["lunch", "middag", "vegetarisk", "proteinrik", "snabb"],
+      "kcal_per_portion": "ca 505 kcal",
+      "kcal_per_portion_value": 505,
+      "points_estimate": "ca 7 points",
+      "points_estimate_value": 7,
+      "ica_products_to_buy": [
+        {
+          "product_name": "Förkokta majskolvar 2-pack ICA 450 g",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 25.45,
+          "discount_sek": 5.45,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 44:44/kg för 450 g ger 20,00 kr."
+        },
+        {
+          "product_name": "Färgmixade småtomater i ask ICA 350 g",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 36.81,
+          "discount_sek": 11.81,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 71:43/kg för 350 g ger 25,00 kr."
+        },
+        {
+          "product_name": "Vitost Apetina 150 g",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 22.61,
+          "discount_sek": 7.61,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jämförpris 100:00/kg för 150 g ger 15,00 kr."
+        }
+      ],
+      "ingredients": [
+        {"item": "Färgmixade småtomater [KAMPANJ]", "amount": 350, "unit": "g", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 36.81, "discount_sek": 11.81, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Vitost [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 22.61, "discount_sek": 7.61, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Förkokta majskolvar [KAMPANJ]", "amount": 450, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 25.45, "discount_sek": 5.45, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Kokta svarta bönor", "amount": 380, "unit": "g", "line_cost_sek": 13, "campaign_price": null, "ordinary_price": 13, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Bulgur", "amount": 250, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Gurka", "amount": 300, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Rödlök", "amount": 1, "unit": "st", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 1.5, "unit": "msk", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Persilja", "amount": 0.5, "unit": "kruka", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Spiskummin", "amount": 1, "unit": "tsk", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt och svartpeppar", "amount": 1, "unit": "portion", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Koka bulgur enligt anvisningarna och låt svalna något.\n2. Stek eller grilla majskolvarna snabbt och skär av kornen.\n3. Halvera tomaterna, tärna gurkan och skiva rödlöken tunt.\n4. Blanda bulgur med svarta bönor, majs, tomater och gurka.\n5. Vispa ihop citron, olivolja, spiskummin, salt och peppar till en enkel dressing.\n6. Vänd ihop salladen med dressingen och toppa med smulad vitost och persilja.",
+      "costs": {"campaign_total_sek": 105, "ordinary_total_sek": 105, "total_discount_sek": 0, "cost_per_portion_sek": 26.25},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Citron ger syra, majs och tomater står för sötma, vitosten för sälta och olivolja för rundning. Bönorna ger mjuk umami och mättnad.",
+      "nutrition_profile": "Bra fiber- och proteinmängd från bönor och bulgur, mycket grönsaker och en måttlig mängd ost. Passar väl i en lätt medelhavsinspirerad vardag.",
+      "price_justification": "Ca 26.25 kr per portion. Det är en billig måltid eftersom bönor och bulgur bär mättnaden medan kampanjvarorna står för smaken.",
+      "variation_tips": "Går fint att lägga till avokado eller byta svarta bönor mot kikärter om det passar bättre hemma."
+    }
+  ],
+  "quality_check": {
+    "recipes_count": 3,
+    "campaign_products_used": [
+      "Fläskytterfilé ICA Sverige ca 1000 g",
+      "Förkokta majskolvar 2-pack ICA 450 g",
+      "Kyld sås Lohmanders 230 ml",
+      "Aubergine ICA 225 g",
+      "Färgmixade småtomater i ask ICA 350 g",
+      "Vitost Apetina 150 g"
+    ],
+    "price_verification": "Kampanjpriser kommer från ICA Rimforsas erbjudandesida. Några priser är härledda direkt från tydligt angivet jämförpris och förpackningsstorlek när prisbubblan inte var maskinläsbar.",
+    "flavor_balance_check": "Alla tre recept innehåller tydlig syra, sälta, sötma, fett och umami samt minst en tydlig proteinkälla.",
+    "mediterranean_diet_alignment": "Recepten prioriterar grönsaker, baljväxter, olivolja, måttlig ost och vardagsrimliga råvaror.",
+    "weight_watchers_friendly": "Kalori- och pointsfält finns för alla recept och bygger på rimliga portionsberäkningar med fokus på mättnad."
+  },
+  "delivery_note": {
+    "discord_summary": "Veckans ICA-idé är ute: Citronstekt fläskytterfilé med grillmajs och ljummen potatissallad för 30.38 kr/portion (520 kcal). Fler rätter finns här: https://erikjarl.github.io/obitme/index.html",
+    "discord_destination": "#allmänt",
+    "imessage_text": "Veckans ICA-meny i Rimforsa: Citronstekt fläskytterfilé med grillmajs och ljummen potatissallad (520 kcal, 8 points, 30.38 kr/portion); Rostad auberginepasta med småtomater, kikärter och vitost (565 kcal, 9 points, 28.68 kr/portion); Bulgursallad med majs, småtomater, svarta bönor och vitost (505 kcal, 7 points, 26.25 kr/portion)\n\nGå in på länken för att hitta recepten i sin helhet: https://erikjarl.github.io/obitme/index.html",
+    "imessage_destinations": [
+      "iMessage;-;+46760172989",
+      "iMessage;-;+46739280001"
+    ],
+    "note": "Extern publicering är inte utförd här. Texterna ovan är avsedda för vidare leverans."
+  }
+}
