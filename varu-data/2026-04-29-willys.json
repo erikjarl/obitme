@@ -1,0 +1,623 @@
+{
+  "date": "2026-04-29",
+  "created_at": "2026-04-29T20:02:00Z",
+  "slug": "willys-2026-04-29",
+  "title": "Willys vecka 18: Italiensk kyckling, vegetarisk bolognese och smoothiebowl",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden vecka 18. Priser är uppskattade baserat på historiska kampanjer.",
+  "store": {
+    "name": "Willys",
+    "url": "https://www.willys.se/erbjudanden"
+  },
+  "source_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik.",
+  "pricing_method": "uppskattad",
+  "fyndlista": [
+    {
+      "product_name": "Kycklingfilé",
+      "campaign_price": 89.9,
+      "ordinary_price": 119.9,
+      "discount_sek": 30.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Pasta 500g",
+      "campaign_price": 14.9,
+      "ordinary_price": 17.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Krossade tomater 500g",
+      "campaign_price": 12.9,
+      "ordinary_price": 15.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Soltorkade tomater 200g",
+      "campaign_price": 29.9,
+      "ordinary_price": 34.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Parmesan 150g",
+      "campaign_price": 39.9,
+      "ordinary_price": 49.9,
+      "discount_sek": 10.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Spenat 250g",
+      "campaign_price": 19.9,
+      "ordinary_price": 24.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Vitlök 3-pack",
+      "campaign_price": 12.9,
+      "ordinary_price": 14.9,
+      "discount_sek": 2.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Lök 1kg",
+      "campaign_price": 14.9,
+      "ordinary_price": 17.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Morötter 1kg",
+      "campaign_price": 14.9,
+      "ordinary_price": 17.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Röda linser 500g",
+      "campaign_price": 19.9,
+      "ordinary_price": 23.9,
+      "discount_sek": 4.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Olivolja 500ml",
+      "campaign_price": 49.9,
+      "ordinary_price": 59.9,
+      "discount_sek": 10.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Bananer 1kg",
+      "campaign_price": 24.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Frysta bär 500g",
+      "campaign_price": 29.9,
+      "ordinary_price": 34.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Matlagningsyoghurt 500g",
+      "campaign_price": 24.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Havregryn 1kg",
+      "campaign_price": 19.9,
+      "ordinary_price": 22.9,
+      "discount_sek": 3.0,
+      "price_status": "uppskattad",
+      "source": null
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Italiensk kycklingrygga med spenat och soltorkade tomater",
+      "description": "Krämig pastarätt med kyckling, spenat och soltorkade tomater, toppad med parmesan. En mättande medelhavsklassiker för hela familjen.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["huvudrätt", "kyckling", "medelhav", "pasta"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kycklingfilé",
+          "buy_amount": "500 g",
+          "campaign_price": 89.9,
+          "ordinary_price": 119.9,
+          "discount_sek": 30.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt Willys-erbjudande för kyckling"
+        },
+        {
+          "product_name": "Pasta 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris pasta"
+        },
+        {
+          "product_name": "Spenat 250g",
+          "buy_amount": "2 förpackningar",
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Vanligt grönsakspris"
+        },
+        {
+          "product_name": "Soltorkade tomater 200g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Parmesan 150g",
+          "buy_amount": "1 påse",
+          "campaign_price": 39.9,
+          "ordinary_price": 49.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för riven parmesan"
+        },
+        {
+          "product_name": "Vitlök 3-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kryddpris"
+        },
+        {
+          "product_name": "Olivolja 500ml",
+          "buy_amount": "1 flaska",
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt kampanjpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kycklingfilé",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 89.9,
+          "campaign_price": 89.9,
+          "ordinary_price": 119.9,
+          "discount_sek": 30.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Pasta",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 11.92,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Färsk spenat",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 39.8,
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Soltorkade tomater",
+          "amount": 60,
+          "unit": "g",
+          "line_cost_sek": 8.97,
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Parmesan",
+          "amount": 60,
+          "unit": "g",
+          "line_cost_sek": 15.96,
+          "campaign_price": 39.9,
+          "ordinary_price": 49.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Vitlök",
+          "amount": 3,
+          "unit": "klyftor",
+          "line_cost_sek": 4.3,
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Olivolja",
+          "amount": 30,
+          "unit": "ml",
+          "line_cost_sek": 2.99,
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Koka pastan enligt anvisning på förpackningen. Spara 1 dl pastavatten före avhällning.",
+        "Skär kycklingfilén i strimlor. Stek i olivolja på medelvärme tills gyllenbrun, ca 6-8 minuter.",
+        "Tillsätt finhackad vitlök och strimlade soltorkade tomater. Stek 1 minut.",
+        "Lägg i spenaten i omgångar och låt den sjunka ihop under omrörning.",
+        "Vänd ner den färdigkokta pastan och späd med pastavattnet till önskad krämig konsistens.",
+        "Riv parmesan över och servera direkt."
+      ],
+      "costs": {
+        "campaign_total_sek": 173.84,
+        "ordinary_total_sek": 221.3,
+        "total_discount_sek": 47.46,
+        "cost_per_portion_sek": 43.46
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 520 kcal per portion",
+      "kcal_per_portion_value": 520,
+      "points_estimate": "Uppskattat WW-värde: ~10 points",
+      "points_estimate_value": 10
+    },
+    {
+      "title": "Vegetarisk linsbolognese med morot och lök",
+      "description": "Billig och mustig bolognese på röda linser istället för köttfärs. Full av fiber och protein – perfekt för matlådor.",
+      "servings": 4,
+      "servings_label": "4 stora portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["vegetariskt", "huvudrätt", "billigt", "matlåda"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Röda linser 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 23.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris för baljväxter"
+        },
+        {
+          "product_name": "Krossade tomater 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 15.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Pasta 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Lök 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Morötter 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Vitlök 3-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kryddpris"
+        },
+        {
+          "product_name": "Olivolja 500ml",
+          "buy_amount": "1 flaska (om den inte redan finns)",
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Tillagning"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Röda linser",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 11.94,
+          "campaign_price": 19.9,
+          "ordinary_price": 23.9,
+          "discount_sek": 4.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Krossade tomater",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 12.9,
+          "campaign_price": 12.9,
+          "ordinary_price": 15.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Pasta",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 11.92,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Lök",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 2.98,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Morötter",
+          "amount": 3,
+          "unit": "st",
+          "line_cost_sek": 2.98,
+          "campaign_price": 14.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Vitlök",
+          "amount": 2,
+          "unit": "klyftor",
+          "line_cost_sek": 2.87,
+          "campaign_price": 12.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 2.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Olivolja",
+          "amount": 20,
+          "unit": "ml",
+          "line_cost_sek": 2.0,
+          "campaign_price": 49.9,
+          "ordinary_price": 59.9,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Hacka lök, morötter och vitlök fint.",
+        "Fräs grönsakerna i olivolja i en gryta i 3-4 minuter.",
+        "Tillsätt krossade tomater, 2 dl vatten och röda linser.",
+        "Låt sjuda under lock i 15 minuter tills linserna är mjuka. Rör om då och då.",
+        "Koka pastan under tiden enligt anvisning.",
+        "Smaka av linsbolognesen med salt, peppar och eventuellt en nypa oregano eller basilika.",
+        "Servera bolognesen över pastan."
+      ],
+      "costs": {
+        "campaign_total_sek": 47.59,
+        "ordinary_total_sek": 57.3,
+        "total_discount_sek": 9.71,
+        "cost_per_portion_sek": 11.9
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 380 kcal per portion",
+      "kcal_per_portion_value": 380,
+      "points_estimate": "Uppskattat WW-värde: ~5 points",
+      "points_estimate_value": 5
+    },
+    {
+      "title": "Bär- och banansmoothiebowl med knaprigt havretäcke",
+      "description": "Lyxig men enkel frukostbowl med frysta bär, banan och yoghurt, toppad med rostad havregryn. Mättar länge!",
+      "servings": 2,
+      "servings_label": "2 portioner",
+      "cook_time": "10 min",
+      "meal_flags": ["frukost", "mellanmål", "enkel", "proteinrik"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Frysta bär 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris frysta bär"
+        },
+        {
+          "product_name": "Bananer 1kg",
+          "buy_amount": "1 klas",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Matlagningsyoghurt 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Havregryn 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 22.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Frysta bär (hallon, blåbär)",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 11.96,
+          "campaign_price": 29.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Banan",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 4.98,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Matlagningsyoghurt",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 14.94,
+          "campaign_price": 24.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Havregryn",
+          "amount": 60,
+          "unit": "g",
+          "line_cost_sek": 1.19,
+          "campaign_price": 19.9,
+          "ordinary_price": 22.9,
+          "discount_sek": 3.0,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Mixa 150 g frysta bär med 200 g yoghurt och 1 banan till en slät smoothiebas.",
+        "Rosta havregrynen i en torr stekpanna på medelvärme i 2-3 minuter tills de doftar nötigt.",
+        "Häll smoothiebasen i två skålar.",
+        "Toppa med resterande bär, bananskivor och de rostade havregrynen.",
+        "Klicka på resterande yoghurt och servera direkt."
+      ],
+      "costs": {
+        "campaign_total_sek": 33.07,
+        "ordinary_total_sek": 38.3,
+        "total_discount_sek": 5.23,
+        "cost_per_portion_sek": 16.54
+      },
+      "sources": [
+        null
+      ],
+      "kcal_per_portion": "≈ 340 kcal per portion",
+      "kcal_per_portion_value": 340,
+      "points_estimate": "Uppskattat WW-värde: ~5 points",
+      "points_estimate_value": 5
+    }
+  ],
+  "quality_check": {
+    "json_valid": true,
+    "price_status_consistent": true,
+    "all_prices_simple": true,
+    "all_sources_simple": true,
+    "store_structure_valid": true,
+    "method_structure_valid": true
+  },
+  "delivery_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik eller på willys.se."
+}
