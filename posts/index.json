@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-29",
+    "slug": "skolbaserad-kbt-lagrisk-barn-unga-prevention",
+    "title": "Skolbaserad universell KBT för barn och unga: liten effekt, men möjlig långsiktig preventionsnytta",
+    "summary": "En bayesiansk meta-analys i Journal of Clinical Psychology 2026 sammanfattade 31 randomiserade studier av skolbaserad KBT för barn och ungdomar i låg-riskpopulationer och fann små men statistiskt säkra preventiva effekter på depressiva och ångestrelaterade symtom, med signal om att effekterna kunde hålla i sig upp till ett år. Kliniskt är det intressant därför att frågan inte gäller behandling av redan sjuka patienter utan om universella KBT-insatser i skolan faktiskt kan förebygga framtida psykisk ohälsa. Svaret verkar vara: kanske, men än så länge med modest effektstorlek och för svag evidenskvalitet för att motivera storskalig självsäker implementering."
+  },
+  {
     "date": "2026-04-28",
     "slug": "cbt-hjarnskada-depression-angest-meta-analys",
     "title": "KBT efter hjärnskada: små men kliniskt relevanta effekter på depression och ångest",
