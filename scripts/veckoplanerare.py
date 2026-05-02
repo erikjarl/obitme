@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Veckoplaneraren – macOS Calendar sync + family-aware week overview + suggestions
-import sqlite3, json, datetime, os, sys, random, re, urllib.request, urllib.error
+import sqlite3, json, datetime, os, sys, random, re, urllib.request, urllib.error, ssl, html
 
 CAL_CACHE = os.path.expanduser("~/Library/Calendars/Calendar Cache")
 CD_REF = datetime.datetime(2001, 1, 1, 0, 0, 0)
@@ -45,9 +45,15 @@ POOL = [
 ]
 
 LOCAL_EVENT_SOURCES = [
-    {'name': 'Visit Linköping', 'url': 'https://visitlinkoping.se/evenemang/', 'area': 'Linköping'},
-    {'name': 'Visit Kinda', 'url': 'https://www.visitkinda.se/evenemang', 'area': 'Kinda/Rimforsa/Kisa'}
+    {'name': 'Visit Linköping', 'url': 'https://visitlinkoping.se/evenemang/', 'area': 'Linköping', 'parser': 'visitlinkoping'},
+    {'name': 'Visit Kinda', 'url': 'https://www.visitkinda.se/evenemang', 'area': 'Kinda/Rimforsa/Kisa', 'parser': 'visitkinda'},
+    {'name': 'Gamla Linköping', 'url': 'https://www.gamlalinkoping.info/evenemang', 'area': 'Linköping', 'parser': 'generic'},
+    {'name': 'Kulturkvarteret', 'url': 'https://www.kulturkvarteret.com/kalender/', 'area': 'Linköping', 'parser': 'generic'}
 ]
+
+SSL_CTX = ssl.create_default_context()
+SSL_CTX.check_hostname = False
+SSL_CTX.verify_mode = ssl.CERT_NONE
 
 def cd2dt(ts):
     if not ts:
@@ -98,59 +104,118 @@ def get_cal(days=7, start_dt=None):
 
 
 def fetch_url(url, timeout=8):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode('utf-8', errors='ignore')
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7'
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.read().decode('utf-8', errors='ignore')
+    except Exception:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX) as resp:
+            return resp.read().decode('utf-8', errors='ignore')
 
 
-def parse_visitlinkoping_candidates(html):
-    text = re.sub(r'<script[\s\S]*?</script>', ' ', html, flags=re.I)
+def html_to_lines(raw_html):
+    raw_html = html.unescape(raw_html)
+    text = re.sub(r'<script[\s\S]*?</script>', ' ', raw_html, flags=re.I)
     text = re.sub(r'<style[\s\S]*?</style>', ' ', text, flags=re.I)
     text = re.sub(r'<[^>]+>', '\n', text)
     lines = [re.sub(r'\s+', ' ', line).strip() for line in text.splitlines()]
-    lines = [line for line in lines if 6 <= len(line) <= 80]
+    return [line for line in lines if line]
 
-    keywords = ('loppis', 'utställning', 'konsert', 'marknad', 'familjedag', 'barnteater', 'teater', 'musik', 'festival')
-    banned = ('kunde inte hitta', 'försök med', 'evenemang i linköping', 'upptäck linköping', 'stora evenemang', 'fascinerande', 'spännande scenkonst', 'guidade turer', 'magiska konserter')
 
+def is_plausible_event_title(line):
+    low = line.lower().strip()
+    if not (8 <= len(line) <= 120):
+        return False
+    banned_substrings = [
+        'kunde inte hitta', 'försök med', 'alla musikgenrer', 'teater och underhållning', 'festivaler',
+        'upptäck linköping', 'stora evenemang', 'guidade turer', 'magiska konserter', 'kalender -',
+        '{{', '}}', 'event.categories', 'event.title', 'calendarprovider', 'inga event kunde hittas',
+        'prenumerera', 'nyhetsbrev', 'flera platser', 'hem', 'utforska allt som händer'
+    ]
+    if any(b in low for b in banned_substrings):
+        return False
+    if re.search(r'^[\W_]+$', line):
+        return False
+    keyword_hit = any(k in low for k in ('loppis', 'marknad', 'konsert', 'utställ', 'barn', 'musik', 'teater', 'vernissage', 'familj'))
+    date_hit = bool(re.search(r'\b\d{1,2}\s*(maj|juni|juli|aug|sep|okt|nov|dec|jan|feb|mar|apr)\b', low))
+    if not keyword_hit and not date_hit:
+        return False
+    word_count = len(line.split())
+    if word_count < 2 or word_count > 16:
+        return False
+    return True
+
+
+def parse_visitlinkoping_candidates(raw_html):
+    lines = html_to_lines(raw_html)
     candidates = []
     seen = set()
     for line in lines:
-        low = line.lower()
-        if any(b in low for b in banned):
+        if not is_plausible_event_title(line):
             continue
-        if any(k in low for k in keywords):
-            cleaned = line.strip(' ,-')
-            if cleaned and cleaned.lower() not in seen:
-                seen.add(cleaned.lower())
-                candidates.append({'title': cleaned, 'source': 'Visit Linköping', 'area': 'Linköping'})
+        cleaned = re.sub(r'\s+', ' ', line.strip(' ,-'))
+        key = cleaned.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        candidates.append({'title': cleaned, 'source': 'Visit Linköping', 'area': 'Linköping'})
+        if len(candidates) >= 6:
+            break
+    return candidates[:6]
+
+
+def parse_generic_candidates(raw_html, source_name, area):
+    lines = html_to_lines(raw_html)
+    candidates = []
+    seen = set()
+    for line in lines:
+        if not is_plausible_event_title(line):
+            continue
+        cleaned = re.sub(r'\s+', ' ', line.strip(' ,-'))
+        key = cleaned.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        candidates.append({'title': cleaned, 'source': source_name, 'area': area})
         if len(candidates) >= 6:
             break
     return candidates[:6]
 
 
 def get_local_event_candidates():
-    candidates = []
-    try:
-        html = fetch_url('https://visitlinkoping.se/evenemang/')
-        candidates.extend(parse_visitlinkoping_candidates(html))
-    except Exception:
-        pass
-
-    fallback = [
-        {'title': 'lokal loppis eller marknad i Linköpingstrakten', 'source': 'fallback', 'area': 'Linköping'},
-        {'title': 'barnvänlig aktivitet eller familjedag i Kinda', 'source': 'fallback', 'area': 'Kinda/Rimforsa'},
-        {'title': 'mindre konstutställning eller musikarrangemang i Linköping', 'source': 'fallback', 'area': 'Linköping'}
-    ]
+    scraped_candidates = []
+    scrape_debug = []
+    for source in LOCAL_EVENT_SOURCES:
+        try:
+            page = fetch_url(source['url'])
+            parser = source.get('parser', 'generic')
+            if parser == 'visitlinkoping':
+                parsed = parse_visitlinkoping_candidates(page)
+            else:
+                parsed = parse_generic_candidates(page, source['name'], source['area'])
+            scraped_candidates.extend(parsed)
+            scrape_debug.append({
+                'source': source['name'],
+                'url': source['url'],
+                'status': 'ok',
+                'count': len(parsed),
+                'sample_titles': [p['title'] for p in parsed[:3]]
+            })
+        except Exception as e:
+            scrape_debug.append({'source': source['name'], 'url': source['url'], 'status': 'error', 'error': str(e)})
 
     seen = set()
     final = []
-    for item in candidates + fallback:
+    for item in scraped_candidates:
         key = item['title'].lower()
         if key not in seen:
             seen.add(key)
             final.append(item)
-    return final[:6]
+    return final[:8], scrape_debug
 
 
 def classify_load(day_events):
@@ -177,7 +242,7 @@ def choose_suggestions(day, local_candidates, used):
                 'category': 'lokalt evenemang',
                 'duration': 'halvdag',
                 'family_fit': 'familjevänligt',
-                'reason': f"nära {c['area']} och i linje med era intressen"
+                'reason': f"hämtat från {c['source']} och nära {c['area']}"
             })
             used.add(c['title'])
 
@@ -311,7 +376,7 @@ def build(days=7):
     if err:
         return {'error': err}
 
-    local_candidates = get_local_event_candidates()
+    local_candidates, scrape_debug = get_local_event_candidates()
     used = set()
     days_data = []
 
@@ -363,6 +428,8 @@ def build(days=7):
         'family_profile': FAMILY_PROFILE,
         'local_event_sources': LOCAL_EVENT_SOURCES,
         'local_event_candidates': local_candidates,
+        'scrape_debug': scrape_debug,
+        'scraped_event_count': len(local_candidates),
         'week_overview': build_narrative(days_data),
         'days': days_data
     }

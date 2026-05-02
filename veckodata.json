@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T08:00:13.696775",
+  "generated_at": "2026-05-02T21:50:26.507114",
   "publish_mode": "next_calendar_week",
   "week_number": 19,
   "week_start": "2026-05-04",
@@ -57,12 +57,26 @@
     {
       "name": "Visit Linköping",
       "url": "https://visitlinkoping.se/evenemang/",
-      "area": "Linköping"
+      "area": "Linköping",
+      "parser": "visitlinkoping"
     },
     {
       "name": "Visit Kinda",
       "url": "https://www.visitkinda.se/evenemang",
-      "area": "Kinda/Rimforsa/Kisa"
+      "area": "Kinda/Rimforsa/Kisa",
+      "parser": "visitkinda"
+    },
+    {
+      "name": "Gamla Linköping",
+      "url": "https://www.gamlalinkoping.info/evenemang",
+      "area": "Linköping",
+      "parser": "generic"
+    },
+    {
+      "name": "Kulturkvarteret",
+      "url": "https://www.kulturkvarteret.com/kalender/",
+      "area": "Linköping",
+      "parser": "generic"
     }
   ],
   "local_event_candidates": [
@@ -72,31 +86,79 @@
       "area": "Linköping"
     },
     {
-      "title": "Festivaler",
+      "title": "Marknad & loppis",
       "source": "Visit Linköping",
       "area": "Linköping"
     },
     {
-      "title": "Marknad &amp; loppis",
+      "title": "Övrig musik",
       "source": "Visit Linköping",
       "area": "Linköping"
     },
     {
-      "title": "Teater och underhållning",
+      "title": "Övrig teater/underhållning",
       "source": "Visit Linköping",
       "area": "Linköping"
     },
     {
-      "title": "Alla Musikgenrer",
+      "title": "Alla Familj",
       "source": "Visit Linköping",
       "area": "Linköping"
     },
     {
-      "title": "Julkonsert",
+      "title": "Musik för barn",
       "source": "Visit Linköping",
+      "area": "Linköping"
+    },
+    {
+      "title": "Barn och ungdom",
+      "source": "Kulturkvarteret",
+      "area": "Linköping"
+    },
+    {
+      "title": "Digital konsert",
+      "source": "Kulturkvarteret",
       "area": "Linköping"
     }
   ],
+  "scrape_debug": [
+    {
+      "source": "Visit Linköping",
+      "url": "https://visitlinkoping.se/evenemang/",
+      "status": "ok",
+      "count": 6,
+      "sample_titles": [
+        "Levande musik från stadens mindre scener",
+        "Marknad & loppis",
+        "Övrig musik"
+      ]
+    },
+    {
+      "source": "Visit Kinda",
+      "url": "https://www.visitkinda.se/evenemang",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "Gamla Linköping",
+      "url": "https://www.gamlalinkoping.info/evenemang",
+      "status": "ok",
+      "count": 0,
+      "sample_titles": []
+    },
+    {
+      "source": "Kulturkvarteret",
+      "url": "https://www.kulturkvarteret.com/kalender/",
+      "status": "ok",
+      "count": 6,
+      "sample_titles": [
+        "Barn och ungdom",
+        "Digital konsert",
+        "Litteratur- & musikkväll"
+      ]
+    }
+  ],
+  "scraped_event_count": 8,
   "week_overview": "Vecka 19 innehåller några fasta punkter, bland annat Ansökan stänger utbildning platschef på måndag, Seminariegrupp 18-20 på torsdag, Kisa marknad på lördag och Växtloppis  10:00 på lördag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. Lördagen har redan saker på gång, som Kisa marknad, Växtloppis  10:00, medan söndagen ser lugnare ut och kan passa för återhämtning eller något enkelt tillsammans. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund. Det finns en punkt i veckan som kan må bra av lite lugn kvällen innan, så det kan vara klokt att inte fylla på för mycket just där. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress med små barn.",
   "days": [
     {
@@ -264,14 +326,14 @@
           "category": "lokalt evenemang",
           "duration": "halvdag",
           "family_fit": "familjevänligt",
-          "reason": "nära Linköping och i linje med era intressen"
+          "reason": "hämtat från Visit Linköping och nära Linköping"
         },
         {
-          "activity": "kolla om Festivaler passar familjen",
+          "activity": "kolla om Marknad & loppis passar familjen",
           "category": "lokalt evenemang",
           "duration": "halvdag",
           "family_fit": "familjevänligt",
-          "reason": "nära Linköping och i linje med era intressen"
+          "reason": "hämtat från Visit Linköping och nära Linköping"
         },
         {
           "activity": "hitta någon musikupplevelse i närheten",
