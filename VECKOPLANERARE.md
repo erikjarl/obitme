@@ -27,3 +27,12 @@
 - `veckodata.json` ska innehålla `scrape_debug` med källa, status och antal träffar.
 - `scraped_event_count` ska visa hur många verifierade webbevent som faktiskt användes som kandidater.
 - Om skrapning misslyckas ska veckoplaneraren fortfarande fungera med kalenderdata, men det ska vara tydligt att webbundretlag saknades eller var tunt.
+
+## Långsiktig urvalsmodell
+
+- Nya skrapkällor ska normaliseras till samma eventformat: `title`, `source`, `area`, `url`, `date_hint`, `location`, `tags`.
+- Urvalet ska inte hårdkodas per enskild sida längre än nödvändigt; källor får gärna vara olika, men matchningen mot familjen ska vara gemensam.
+- Varje event ska få en `family_match_score` baserat på familjens intressen, geografi, barnvänlighet, tydlighet och konkret datum/info.
+- Specifika event med tydlig titel, datum och länk ska prioriteras över generiska kategorisidor.
+- Generiska rubriker och samlingsetiketter ska få så låg poäng eller filtreras bort så att de inte vinner över riktiga event.
+- Veckans förslag ska i första hand använda de högst rankade verkliga eventen, och först därefter fylla ut med generiska familjeförslag om webbundretlag saknas.

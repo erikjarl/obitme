@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T21:50:26.507114",
+  "generated_at": "2026-05-03T09:29:50.931681",
   "publish_mode": "next_calendar_week",
   "week_number": 19,
   "week_start": "2026-05-04",
@@ -53,112 +53,102 @@
       "färdigställa vardagsrummet"
     ]
   },
-  "local_event_sources": [
+  "scrape_sources": [
     {
-      "name": "Visit Linköping",
-      "url": "https://visitlinkoping.se/evenemang/",
-      "area": "Linköping",
-      "parser": "visitlinkoping"
+      "name": "Visit Linköping highlights",
+      "kind": "manual_event_pages",
+      "items": [
+        {
+          "title": "Vårens Östgötadagar 2026",
+          "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
+          "area": "Linköping",
+          "date_hint": "9-10 maj 2026",
+          "tags": [
+            "loppis",
+            "marknad",
+            "familj",
+            "utflykt"
+          ]
+        },
+        {
+          "title": "Evenemang för dig & dina barn i Linköping",
+          "url": "https://visitlinkoping.se/evenemang/familj/",
+          "area": "Linköping",
+          "date_hint": null,
+          "tags": [
+            "familj",
+            "barnaktivitet"
+          ]
+        }
+      ]
     },
     {
-      "name": "Visit Kinda",
-      "url": "https://www.visitkinda.se/evenemang",
-      "area": "Kinda/Rimforsa/Kisa",
-      "parser": "visitkinda"
-    },
-    {
-      "name": "Gamla Linköping",
-      "url": "https://www.gamlalinkoping.info/evenemang",
-      "area": "Linköping",
-      "parser": "generic"
-    },
-    {
-      "name": "Kulturkvarteret",
-      "url": "https://www.kulturkvarteret.com/kalender/",
-      "area": "Linköping",
-      "parser": "generic"
+      "name": "loppisar.com Östergötland",
+      "kind": "loppisar_feed",
+      "url": "https://www.loppisar.com/sokning.html?slanID=21&skommunID=alla&srange=framat&srangetime=6&do_search=S%C3%B6k+nu!&do_search=1"
     }
   ],
   "local_event_candidates": [
     {
-      "title": "Levande musik från stadens mindre scener",
-      "source": "Visit Linköping",
-      "area": "Linköping"
+      "title": "Vårens Östgötadagar 2026 (9-10 maj 2026)",
+      "source": "Visit Linköping highlights",
+      "area": "Linköping",
+      "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
+      "date_hint": "9-10 maj 2026",
+      "location": "Linköping",
+      "tags": [
+        "barnaktivitet",
+        "familj",
+        "loppis",
+        "marknad",
+        "natur",
+        "utflykt"
+      ],
+      "family_match_score": 24
     },
     {
-      "title": "Marknad & loppis",
-      "source": "Visit Linköping",
-      "area": "Linköping"
-    },
-    {
-      "title": "Övrig musik",
-      "source": "Visit Linköping",
-      "area": "Linköping"
-    },
-    {
-      "title": "Övrig teater/underhållning",
-      "source": "Visit Linköping",
-      "area": "Linköping"
-    },
-    {
-      "title": "Alla Familj",
-      "source": "Visit Linköping",
-      "area": "Linköping"
-    },
-    {
-      "title": "Musik för barn",
-      "source": "Visit Linköping",
-      "area": "Linköping"
-    },
-    {
-      "title": "Barn och ungdom",
-      "source": "Kulturkvarteret",
-      "area": "Linköping"
-    },
-    {
-      "title": "Digital konsert",
-      "source": "Kulturkvarteret",
-      "area": "Linköping"
+      "title": "Evenemang för dig & dina barn i Linköping",
+      "source": "Visit Linköping highlights",
+      "area": "Linköping",
+      "url": "https://visitlinkoping.se/evenemang/familj/",
+      "date_hint": null,
+      "location": "Linköping",
+      "tags": [
+        "barnaktivitet",
+        "familj",
+        "natur"
+      ],
+      "family_match_score": 16
     }
   ],
   "scrape_debug": [
     {
-      "source": "Visit Linköping",
-      "url": "https://visitlinkoping.se/evenemang/",
+      "source": "Visit Linköping highlights",
+      "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
       "status": "ok",
-      "count": 6,
+      "count": 1,
       "sample_titles": [
-        "Levande musik från stadens mindre scener",
-        "Marknad & loppis",
-        "Övrig musik"
+        "Vårens Östgötadagar 2026 (9-10 maj 2026)"
       ]
     },
     {
-      "source": "Visit Kinda",
-      "url": "https://www.visitkinda.se/evenemang",
-      "status": "error",
-      "error": "HTTP Error 404: Not Found"
+      "source": "Visit Linköping highlights",
+      "url": "https://visitlinkoping.se/evenemang/familj/",
+      "status": "ok",
+      "count": 1,
+      "sample_titles": [
+        "Evenemang för dig & dina barn i Linköping"
+      ]
     },
     {
-      "source": "Gamla Linköping",
-      "url": "https://www.gamlalinkoping.info/evenemang",
+      "source": "loppisar.com Östergötland",
+      "url": "https://www.loppisar.com/sokning.html?slanID=21&skommunID=alla&srange=framat&srangetime=6&do_search=S%C3%B6k+nu!&do_search=1",
       "status": "ok",
       "count": 0,
       "sample_titles": []
-    },
-    {
-      "source": "Kulturkvarteret",
-      "url": "https://www.kulturkvarteret.com/kalender/",
-      "status": "ok",
-      "count": 6,
-      "sample_titles": [
-        "Barn och ungdom",
-        "Digital konsert",
-        "Litteratur- & musikkväll"
-      ]
     }
   ],
-  "scraped_event_count": 8,
+  "scraped_event_count": 2,
   "week_overview": "Vecka 19 innehåller några fasta punkter, bland annat Ansökan stänger utbildning platschef på måndag, Seminariegrupp 18-20 på torsdag, Kisa marknad på lördag och Växtloppis  10:00 på lördag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. Lördagen har redan saker på gång, som Kisa marknad, Växtloppis  10:00, medan söndagen ser lugnare ut och kan passa för återhämtning eller något enkelt tillsammans. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund. Det finns en punkt i veckan som kan må bra av lite lugn kvällen innan, så det kan vara klokt att inte fylla på för mycket just där. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress med små barn.",
   "days": [
     {
@@ -322,18 +312,24 @@
       "summary": "Söndag 05-10 – ledig",
       "suggestions": [
         {
-          "activity": "kolla om Levande musik från stadens mindre scener passar familjen",
+          "activity": "kolla om Vårens Östgötadagar 2026 (9-10 maj 2026) passar familjen",
           "category": "lokalt evenemang",
           "duration": "halvdag",
           "family_fit": "familjevänligt",
-          "reason": "hämtat från Visit Linköping och nära Linköping"
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
+          "match_score": 24
         },
         {
-          "activity": "kolla om Marknad & loppis passar familjen",
+          "activity": "kolla om Evenemang för dig & dina barn i Linköping passar familjen",
           "category": "lokalt evenemang",
           "duration": "halvdag",
           "family_fit": "familjevänligt",
-          "reason": "hämtat från Visit Linköping och nära Linköping"
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/familj/",
+          "match_score": 16
         },
         {
           "activity": "hitta någon musikupplevelse i närheten",
