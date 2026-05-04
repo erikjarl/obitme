@@ -1,0 +1,366 @@
+{
+  "date": "2026-05-04",
+  "created_at": "2026-05-04T20:03:00+02:00",
+  "slug": "2026-05-04-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på tomater, mozzarella, baljväxter, örter och ett extra fiskspår för en lite lyxigare vardagsmiddag.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser verifierades mot ICA Rimforsas erbjudandesida den 4 maj 2026 genom sidans weeklyOffers-data. Flerpriser har räknats om till styckpris när recepten använder enskilda förpackningar.",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Potatis, pasta, lök, vitlök och olivolja är försiktigt uppskattade basvaror när exakt butiksvärde inte framgick i kampanjflödet.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Babyplommontomater i ask ICA 500 g",
+      "campaign_price": 30,
+      "ordinary_price": 42.24,
+      "discount_sek": 12.24,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "30 kr/st. Ord.pris 42:24 kr. 500 g."
+    },
+    {
+      "product_name": "Mozzarella Galbani 125-150 g",
+      "campaign_price": 14,
+      "ordinary_price": 18.83,
+      "discount_sek": 4.83,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 28 kr ger 14,00 kr/st. Ord.pris 18:83-25:45 kr."
+    },
+    {
+      "product_name": "Färska kryddor i kruka ICA I love eco",
+      "campaign_price": 14.5,
+      "ordinary_price": 18.83,
+      "discount_sek": 4.33,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 29 kr ger 14,50 kr/st. Ord.pris 18:83-20:72 kr."
+    },
+    {
+      "product_name": "Lime Brasilien klass 1",
+      "campaign_price": 2.5,
+      "ordinary_price": 6.53,
+      "discount_sek": 4.03,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "4 för 10 kr ger 2,50 kr/st. Ord.pris 6:53 kr."
+    },
+    {
+      "product_name": "Champinjoner, Majskorn och Vita bönor ICA 380 g",
+      "campaign_price": 7,
+      "ordinary_price": 9.36,
+      "discount_sek": 2.36,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "5 för 35 kr ger 7,00 kr/st. Ord.pris 9:36-13:15 kr."
+    },
+    {
+      "product_name": "Fryst laxfilé Pacific 500 g",
+      "campaign_price": 64.5,
+      "ordinary_price": 86.02,
+      "discount_sek": 21.52,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 129 kr ger 64,50 kr/st. Ord.pris 86:02 kr."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Krämig tomatpasta med mozzarella, vita bönor och basilika",
+      "description": "Rostade tomater, mjuk mozzarella och vita bönor ger en snabb vardagspasta som känns både generös och balanserad. Liten syra från lime och mycket basilika gör att rätten håller sig pigg trots sin krämighet.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["middag", "vegetarisk", "medelhavsinspirerad", "proteinrik"],
+      "kcal_per_portion": "ca 635 kcal",
+      "kcal_per_portion_value": 635,
+      "points_estimate": "≈ 6.1 p/portion",
+      "points_estimate_value": 6.1,
+      "total_points_estimate": 24.5,
+      "points_uncertainty": "låg",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Babyplommontomater i ask ICA 500 g",
+          "buy_amount": 1,
+          "campaign_price": 30,
+          "ordinary_price": 42.24,
+          "discount_sek": 12.24,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "30 kr/st. Ord.pris 42:24 kr."
+        },
+        {
+          "product_name": "Mozzarella Galbani 125-150 g",
+          "buy_amount": 1,
+          "campaign_price": 14,
+          "ordinary_price": 18.83,
+          "discount_sek": 4.83,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 28 kr ger 14,00 kr/st."
+        },
+        {
+          "product_name": "Färska kryddor i kruka ICA I love eco",
+          "buy_amount": 1,
+          "campaign_price": 14.5,
+          "ordinary_price": 18.83,
+          "discount_sek": 4.33,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 29 kr ger 14,50 kr/st."
+        },
+        {
+          "product_name": "Lime Brasilien klass 1",
+          "buy_amount": 1,
+          "campaign_price": 2.5,
+          "ordinary_price": 6.53,
+          "discount_sek": 4.03,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "4 för 10 kr ger 2,50 kr/st."
+        },
+        {
+          "product_name": "Champinjoner, Majskorn och Vita bönor ICA 380 g",
+          "buy_amount": 2,
+          "campaign_price": 7,
+          "ordinary_price": 9.36,
+          "discount_sek": 2.36,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "5 för 35 kr ger 7,00 kr/st."
+        }
+      ],
+      "ingredients": [
+        {"item": "Babyplommontomater [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 30, "campaign_price": 30, "ordinary_price": 42.24, "discount_sek": 12.24, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Mozzarella [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 14, "campaign_price": 14, "ordinary_price": 18.83, "discount_sek": 4.83, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Vita bönor [KAMPANJ]", "amount": 760, "unit": "g", "line_cost_sek": 14, "campaign_price": 14, "ordinary_price": 18.72, "discount_sek": 4.72, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Pasta", "amount": 320, "unit": "g", "line_cost_sek": 9, "campaign_price": null, "ordinary_price": 9, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Färska örter [KAMPANJ]", "amount": 1, "unit": "kruka", "line_cost_sek": 14.5, "campaign_price": 14.5, "ordinary_price": 18.83, "discount_sek": 4.33, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Gul lök", "amount": 1, "unit": "st", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 2, "unit": "klyftor", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Lime [KAMPANJ]", "amount": 1, "unit": "st", "line_cost_sek": 2.5, "campaign_price": 2.5, "ordinary_price": 6.53, "discount_sek": 4.03, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Olivolja", "amount": 20, "unit": "ml", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Chiliflakes", "amount": 0.5, "unit": "tsk", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225 grader. Halvera tomaterna och lägg dem i en ugnsform med 10 ml olivolja, chiliflakes och lite salt. Rosta 15 minuter.\n2. Koka pastan al dente. Spara lite pastavatten.\n3. Fräs lök och vitlök mjukt i resten av oljan.\n4. Tillsätt de avrunna vita bönorna och de rostade tomaterna. Pressa över lime och låt allt bli varmt.\n5. Vänd ner pastan och lite pastavatten så att det blir blankt och saftigt.\n6. Riv ner större delen av basilikan och bryt mozzarellan i bitar över pastan precis före servering.",
+      "costs": {"campaign_total_sek": 91, "ordinary_total_sek": 119.15, "total_discount_sek": 28.15, "cost_per_portion_sek": 22.75},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Tomater och lime ger syra, mozzarella står för mild sälta och fett, bönorna ger mättnad och basilikan lyfter hela rätten.",
+      "nutrition_profile": "Baljväxter och pasta ger energi och fiber, mozzarellan håller proteinet uppe och den stora tomatmängden ger mycket volym.",
+      "price_justification": "Ca 22.75 kr per portion. Kampanjtomater, bönor och mozzarella ger mycket smak per krona.",
+      "variation_tips": "Byt basilika mot timjan om du vill ha ett mer rustikt uttryck."
+    },
+    {
+      "title": "Ljummen potatissallad med mozzarella, vita bönor och örttomater",
+      "description": "Det här är en matig sallad snarare än ett tillbehör: varm potatis suger upp lime, olivolja och tomatsaft, medan mozzarella och vita bönor gör rätten stadig nog för lunch eller lätt middag.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["lunch", "middag", "vegetarisk", "medelhavsinspirerad", "glutenfri"],
+      "kcal_per_portion": "ca 535 kcal",
+      "kcal_per_portion_value": 535,
+      "points_estimate": "≈ 5.7 p/portion",
+      "points_estimate_value": 5.7,
+      "total_points_estimate": 22.8,
+      "points_uncertainty": "låg",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Babyplommontomater i ask ICA 500 g",
+          "buy_amount": 1,
+          "campaign_price": 30,
+          "ordinary_price": 42.24,
+          "discount_sek": 12.24,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "30 kr/st. Ord.pris 42:24 kr."
+        },
+        {
+          "product_name": "Mozzarella Galbani 125-150 g",
+          "buy_amount": 1,
+          "campaign_price": 14,
+          "ordinary_price": 18.83,
+          "discount_sek": 4.83,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 28 kr ger 14,00 kr/st."
+        },
+        {
+          "product_name": "Färska kryddor i kruka ICA I love eco",
+          "buy_amount": 1,
+          "campaign_price": 14.5,
+          "ordinary_price": 18.83,
+          "discount_sek": 4.33,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 29 kr ger 14,50 kr/st."
+        },
+        {
+          "product_name": "Finbladiga sallater i påse ICA 65 g",
+          "buy_amount": 1,
+          "campaign_price": 12,
+          "ordinary_price": 18.83,
+          "discount_sek": 6.83,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 24 kr ger 12,00 kr/st."
+        },
+        {
+          "product_name": "Champinjoner, Majskorn och Vita bönor ICA 380 g",
+          "buy_amount": 2,
+          "campaign_price": 7,
+          "ordinary_price": 9.36,
+          "discount_sek": 2.36,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "5 för 35 kr ger 7,00 kr/st."
+        },
+        {
+          "product_name": "Lime Brasilien klass 1",
+          "buy_amount": 1,
+          "campaign_price": 2.5,
+          "ordinary_price": 6.53,
+          "discount_sek": 4.03,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "4 för 10 kr ger 2,50 kr/st."
+        }
+      ],
+      "ingredients": [
+        {"item": "Potatis", "amount": 1000, "unit": "g", "line_cost_sek": 18, "campaign_price": null, "ordinary_price": 18, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Babyplommontomater [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 30, "campaign_price": 30, "ordinary_price": 42.24, "discount_sek": 12.24, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Mozzarella [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 14, "campaign_price": 14, "ordinary_price": 18.83, "discount_sek": 4.83, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Vita bönor [KAMPANJ]", "amount": 760, "unit": "g", "line_cost_sek": 14, "campaign_price": 14, "ordinary_price": 18.72, "discount_sek": 4.72, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Finbladig sallat [KAMPANJ]", "amount": 65, "unit": "g", "line_cost_sek": 12, "campaign_price": 12, "ordinary_price": 18.83, "discount_sek": 6.83, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Färska örter [KAMPANJ]", "amount": 1, "unit": "kruka", "line_cost_sek": 14.5, "campaign_price": 14.5, "ordinary_price": 18.83, "discount_sek": 4.33, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Rödlök", "amount": 1, "unit": "st", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Lime [KAMPANJ]", "amount": 1, "unit": "st", "line_cost_sek": 2.5, "campaign_price": 2.5, "ordinary_price": 6.53, "discount_sek": 4.03, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Olivolja", "amount": 15, "unit": "ml", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Koka potatisen mjuk och låt den ånga av några minuter.\n2. Dela tomaterna och skiva rödlöken tunt.\n3. Vispa ihop limejuice, olivolja, lite salt och peppar.\n4. Blanda varm potatis med avrunna vita bönor, hälften av örterna och dressingen så att smakerna går in i potatisen.\n5. Vänd försiktigt ner tomater, sallat och bitar av mozzarella.\n6. Toppa med resten av örterna och servera ljummen.",
+      "costs": {"campaign_total_sek": 111, "ordinary_total_sek": 147.8, "total_discount_sek": 36.8, "cost_per_portion_sek": 27.75},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Lime ger tydlig syra, tomaterna bidrar med sötma, mozzarellan rundar av och bönorna ger djup och mättnad.",
+      "nutrition_profile": "Potatis och bönor ger både energi och fiber, sallat och tomater gör rätten volymrik och mozzarella håller den mer komplett som måltid.",
+      "price_justification": "Ca 24.25 kr per portion. Basen är billig potatis och bönor, medan kampanjtomater och mozzarella står för mycket av karaktären.",
+      "variation_tips": "Går fint att lägga till kapris eller oliver om du vill ha lite mer sälta hemma från skafferiet."
+    },
+    {
+      "title": "Limebakad lax med potatis, tomatsallad och gröna örter",
+      "description": "Veckans lite lyxigare spår: laxen bakas försiktigt med lime och serveras med enkel kokt potatis och en frisk tomatsallad. Det är rent, snabbt och somrigt utan att bli dyrt per portion.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["middag", "fisk", "medelhavsinspirerad", "glutenfri"],
+      "kcal_per_portion": "ca 530 kcal",
+      "kcal_per_portion_value": 530,
+      "points_estimate": "okänt",
+      "points_estimate_value": null,
+      "total_points_estimate": null,
+      "points_uncertainty": "hög",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Fryst laxfilé Pacific 500 g",
+          "buy_amount": 2,
+          "campaign_price": 64.5,
+          "ordinary_price": 86.02,
+          "discount_sek": 21.52,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 129 kr ger 64,50 kr/st. Ord.pris 86:02 kr."
+        },
+        {
+          "product_name": "Babyplommontomater i ask ICA 500 g",
+          "buy_amount": 1,
+          "campaign_price": 30,
+          "ordinary_price": 42.24,
+          "discount_sek": 12.24,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "30 kr/st. Ord.pris 42:24 kr."
+        },
+        {
+          "product_name": "Färska kryddor i kruka ICA I love eco",
+          "buy_amount": 1,
+          "campaign_price": 14.5,
+          "ordinary_price": 18.83,
+          "discount_sek": 4.33,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 29 kr ger 14,50 kr/st."
+        },
+        {
+          "product_name": "Finbladiga sallater i påse ICA 65 g",
+          "buy_amount": 1,
+          "campaign_price": 12,
+          "ordinary_price": 18.83,
+          "discount_sek": 6.83,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 24 kr ger 12,00 kr/st."
+        },
+        {
+          "product_name": "Lime Brasilien klass 1",
+          "buy_amount": 2,
+          "campaign_price": 2.5,
+          "ordinary_price": 6.53,
+          "discount_sek": 4.03,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "4 för 10 kr ger 2,50 kr/st."
+        }
+      ],
+      "ingredients": [
+        {"item": "Fryst laxfilé [KAMPANJ]", "amount": 800, "unit": "g", "line_cost_sek": 103.2, "campaign_price": 103.2, "ordinary_price": 137.63, "discount_sek": 34.43, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Potatis", "amount": 1000, "unit": "g", "line_cost_sek": 18, "campaign_price": null, "ordinary_price": 18, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Babyplommontomater [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 30, "campaign_price": 30, "ordinary_price": 42.24, "discount_sek": 12.24, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Finbladig sallat [KAMPANJ]", "amount": 65, "unit": "g", "line_cost_sek": 12, "campaign_price": 12, "ordinary_price": 18.83, "discount_sek": 6.83, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Färska örter [KAMPANJ]", "amount": 1, "unit": "kruka", "line_cost_sek": 14.5, "campaign_price": 14.5, "ordinary_price": 18.83, "discount_sek": 4.33, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Lime [KAMPANJ]", "amount": 2, "unit": "st", "line_cost_sek": 5, "campaign_price": 5, "ordinary_price": 13.06, "discount_sek": 8.06, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Olivolja", "amount": 20, "unit": "ml", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 1, "unit": "klyfta", "line_cost_sek": 0.8, "campaign_price": null, "ordinary_price": 0.8, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Tina laxen om den är fryst. Sätt ugnen på 175 grader.\n2. Lägg laxen i en form, riv över lite limeskal och pressa över saften från en lime. Salta lätt och ringla över lite olivolja.\n3. Baka laxen i ugnen 15–18 minuter tills den precis går isär i lameller.\n4. Koka potatisen under tiden.\n5. Blanda halverade tomater, sallat, örter, finriven vitlök, saften från den andra limen och resten av oljan till en snabb sallad.\n6. Servera laxen med potatis och den friska tomatsalladen.",
+      "costs": {"campaign_total_sek": 186, "ordinary_total_sek": 251.89, "total_discount_sek": 65.89, "cost_per_portion_sek": 46.5},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Lime står för syra, laxen för fylligt fett och umami, tomaterna för sötma och örterna för frisk grön topp.",
+      "nutrition_profile": "Laxen ger rikligt med protein och nyttiga fetter, potatisen ger stadig energi och salladen håller helheten lättare.",
+      "price_justification": "Ca 46.50 kr per portion. Det är veckans dyraste recept men fortfarande rimligt för en laxmiddag där kampanjpriset gör stor skillnad.",
+      "variation_tips": "Byt potatis mot kokt matvete eller bulgur om du vill göra den ännu mer salladslik nästa gång."
+    }
+  ],
+  "quality_check": {
+    "recipes_count": 3,
+    "campaign_products_used": [
+      "Babyplommontomater i ask ICA 500 g",
+      "Mozzarella Galbani 125-150 g",
+      "Färska kryddor i kruka ICA I love eco",
+      "Lime Brasilien klass 1",
+      "Champinjoner, Majskorn och Vita bönor ICA 380 g",
+      "Fryst laxfilé Pacific 500 g",
+      "Finbladiga sallater i påse ICA 65 g"
+    ],
+    "price_verification": "Kampanjpriser kommer från ICA Rimforsas weeklyOffers-data. Flerpriser har räknats om till styckpris där det behövdes.",
+    "flavor_balance_check": "Alla tre recept innehåller tydlig syra, sälta, sötma, fett och minst en komponent som står för umami eller djup.",
+    "mediterranean_diet_alignment": "Recepten prioriterar tomater, baljväxter, örter, olivolja, potatis och måttliga mängder ost eller fisk.",
+    "weight_watchers_friendly": "Två recept har beräknade points från ingrediensmängder enligt pointsmotorn. Laxreceptet markeras som okänt eftersom viktig råvara saknar säker kvantitativ regel i pointsmotorn."
+  },
+  "delivery_note": {
+    "discord_summary": "Veckans ICA-recept är ute: krämig tomatpasta med mozzarella, vita bönor och basilika landar på 22.75 kr/portion och ca 635 kcal. Hela menyn finns här: https://erikjarl.github.io/obitme/index.html",
+    "discord_destination": "#allmänt",
+    "imessage_text": "Veckans ICA-meny i Rimforsa: Krämig tomatpasta med mozzarella, vita bönor och basilika (635 kcal, 6.1 points, 22.75 kr/portion); Ljummen potatissallad med mozzarella, vita bönor och örttomater (535 kcal, 5.7 points, 27.75 kr/portion); Limebakad lax med potatis, tomatsallad och gröna örter (530 kcal, okänt, 46.5 kr/portion)\n\nGå in på länken för att hitta recepten i sin helhet: https://erikjarl.github.io/obitme/index.html",
+    "imessage_destinations": [
+      "iMessage;-;+46760172989",
+      "iMessage;-;+46739280001"
+    ],
+    "note": "Extern publicering är inte utförd här. Texterna ovan är avsedda för vidare leverans."
+  }
+}
