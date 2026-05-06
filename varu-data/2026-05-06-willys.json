@@ -1,0 +1,734 @@
+{
+  "date": "2026-05-06",
+  "created_at": "2026-05-06T20:00:00Z",
+  "slug": "willys-2026-05-06",
+  "title": "Willys vecka 19: Kycklingsallad med halloumi, vegetarisk gryta och proteinsmoothie",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden vecka 19 (4/5–10/5). Priser är uppskattade baserat på historiska kampanjer.",
+  "store": {
+    "name": "Willys",
+    "url": "https://www.willys.se/erbjudanden"
+  },
+  "source_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik.",
+  "pricing_method": "uppskattad",
+  "fyndlista": [
+    {
+      "product_name": "Kycklingfilé",
+      "campaign_price": 89.90,
+      "ordinary_price": 119.90,
+      "discount_sek": 30.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Halloumi 200g",
+      "campaign_price": 29.90,
+      "ordinary_price": 39.90,
+      "discount_sek": 10.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Babyspenat 250g",
+      "campaign_price": 19.90,
+      "ordinary_price": 24.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Körsbärstomater 250g",
+      "campaign_price": 19.90,
+      "ordinary_price": 24.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Avokado",
+      "campaign_price": 14.90,
+      "ordinary_price": 19.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Rödlök 500g",
+      "campaign_price": 12.90,
+      "ordinary_price": 15.90,
+      "discount_sek": 3.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Citron",
+      "campaign_price": 5.90,
+      "ordinary_price": 7.90,
+      "discount_sek": 2.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Olivolja 500ml",
+      "campaign_price": 49.90,
+      "ordinary_price": 64.90,
+      "discount_sek": 15.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Kikärtor 400g (tetra)",
+      "campaign_price": 14.90,
+      "ordinary_price": 17.90,
+      "discount_sek": 3.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Krossade tomater 500g",
+      "campaign_price": 10.90,
+      "ordinary_price": 14.90,
+      "discount_sek": 4.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Kokosmjölk 400ml",
+      "campaign_price": 19.90,
+      "ordinary_price": 24.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Spiskummin",
+      "campaign_price": 14.90,
+      "ordinary_price": 17.90,
+      "discount_sek": 3.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Ris 1kg (basmati)",
+      "campaign_price": 24.90,
+      "ordinary_price": 29.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Frysta mangobitar 500g",
+      "campaign_price": 29.90,
+      "ordinary_price": 34.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Naturell yoghurt 1kg",
+      "campaign_price": 24.90,
+      "ordinary_price": 29.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Bananer 1kg",
+      "campaign_price": 24.90,
+      "ordinary_price": 29.90,
+      "discount_sek": 5.00,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Proteinpulver (vanilj) 500g",
+      "campaign_price": 149.90,
+      "ordinary_price": 179.90,
+      "discount_sek": 30.00,
+      "price_status": "uppskattad",
+      "source": null
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Medelhavssallad med kryddig kyckling och halloumi",
+      "description": "Matig sallad med saftig kyckling, gyllen stekt halloumi, avokado och babyspenat – en fräsch och proteinrik måltid som fungerar lika bra till lunch som middag.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["huvudrätt", "kyckling", "medelhav", "sallad", "proteinrik"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kycklingfilé",
+          "buy_amount": "500 g",
+          "campaign_price": 89.90,
+          "ordinary_price": 119.90,
+          "discount_sek": 30.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Typiskt Willys-erbjudande för kyckling"
+        },
+        {
+          "product_name": "Halloumi 200g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.90,
+          "ordinary_price": 39.90,
+          "discount_sek": 10.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Vanligt kampanjpris halloumi"
+        },
+        {
+          "product_name": "Babyspenat 250g",
+          "buy_amount": "1 påse",
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris grönt"
+        },
+        {
+          "product_name": "Körsbärstomater 250g",
+          "buy_amount": "1 ask",
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Avokado",
+          "buy_amount": "2 st",
+          "campaign_price": 14.90,
+          "ordinary_price": 19.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris" 
+        },
+        {
+          "product_name": "Rödlök 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.90,
+          "ordinary_price": 15.90,
+          "discount_sek": 3.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Citron",
+          "buy_amount": "1 st",
+          "campaign_price": 5.90,
+          "ordinary_price": 7.90,
+          "discount_sek": 2.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Olivolja 500ml",
+          "buy_amount": "1 flaska",
+          "campaign_price": 49.90,
+          "ordinary_price": 64.90,
+          "discount_sek": 15.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kampanjpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kycklingfilé",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 89.90,
+          "campaign_price": 89.90,
+          "ordinary_price": 119.90,
+          "discount_sek": 30.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Halloumi",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 29.90,
+          "campaign_price": 29.90,
+          "ordinary_price": 39.90,
+          "discount_sek": 10.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Babyspenat",
+          "amount": 100,
+          "unit": "g",
+          "line_cost_sek": 7.96,
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Körsbärstomater",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 19.90,
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Avokado",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 29.80,
+          "campaign_price": 14.90,
+          "ordinary_price": 19.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Rödlök",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 2.58,
+          "campaign_price": 12.90,
+          "ordinary_price": 15.90,
+          "discount_sek": 3.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Citron",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 5.90,
+          "campaign_price": 5.90,
+          "ordinary_price": 7.90,
+          "discount_sek": 2.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Olivolja",
+          "amount": 40,
+          "unit": "ml",
+          "line_cost_sek": 3.99,
+          "campaign_price": 49.90,
+          "ordinary_price": 64.90,
+          "discount_sek": 15.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Salt, peppar, paprikapulver",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Krydda kycklingfiléerna med salt, peppar och paprikapulver. Stek i 1 msk olivolja på medelvärme 6-7 min per sida tills innertemp 72°C. Låt vila 5 minuter.",
+        "Skär halloumin i 1 cm tjocka skivor. Stek i torr stekpanna på medelhög värme 2-3 min per sida tills gyllenbrun.",
+        "Halvera körsbärstomaterna. Skiva avokadon och rödlöken tunt.",
+        "Fördela babyspenat på tallrikar. Toppa med tomater, avokado, rödlök och skivad halloumi.",
+        "Skiva kycklingen och lägg ovanpå salladen. Pressa över citronsaft och ringla över resterande olivolja. Servera direkt."
+      ],
+      "costs": {
+        "campaign_total_sek": 189.93,
+        "ordinary_total_sek": 247.10,
+        "total_discount_sek": 57.17,
+        "cost_per_portion_sek": 47.48
+      },
+      "sources": [null],
+      "kcal_per_portion": "≈ 540 kcal per portion",
+      "kcal_per_portion_value": 540,
+      "points_estimate": "≈ 10 p/portion",
+      "points_estimate_value": 10,
+      "total_points_estimate": 40,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Krämig kikärtsgryta med kokos och spenat",
+      "description": "Billig, vegetarisk gryta på kikärtor i kokossås med spenat och kryddor. Mättande, proteinrik och klar på 25 minuter – perfekt vardagsmat.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["vegetariskt", "huvudrätt", "billigt", "gryta", "matlåda"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kikärtor 400g (tetra)",
+          "buy_amount": "2 tetra",
+          "campaign_price": 14.90,
+          "ordinary_price": 17.90,
+          "discount_sek": 3.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris baljväxter"
+        },
+        {
+          "product_name": "Krossade tomater 500g",
+          "buy_amount": "1 tetra",
+          "campaign_price": 10.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 4.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvarapris"
+        },
+        {
+          "product_name": "Kokosmjölk 400ml",
+          "buy_amount": "1 burk",
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Babyspenat 250g",
+          "buy_amount": "1 påse",
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris grönt"
+        },
+        {
+          "product_name": "Rödlök 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.90,
+          "ordinary_price": 15.90,
+          "discount_sek": 3.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kryddpris"
+        },
+        {
+          "product_name": "Olivolja 500ml",
+          "buy_amount": "1 flaska (om den inte redan finns)",
+          "campaign_price": 49.90,
+          "ordinary_price": 64.90,
+          "discount_sek": 15.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Tillagning"
+        },
+        {
+          "product_name": "Ris 1kg (basmati)",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Basvara"
+        },
+        {
+          "product_name": "Spiskummin",
+          "buy_amount": "1 burk (om du inte har hemma)",
+          "campaign_price": 14.90,
+          "ordinary_price": 17.90,
+          "discount_sek": 3.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kryddpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kikärtor",
+          "amount": 480,
+          "unit": "g",
+          "line_cost_sek": 29.80,
+          "campaign_price": 14.90,
+          "ordinary_price": 17.90,
+          "discount_sek": 3.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Krossade tomater",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 10.90,
+          "campaign_price": 10.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 4.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Kokosmjölk",
+          "amount": 400,
+          "unit": "ml",
+          "line_cost_sek": 19.90,
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Babyspenat",
+          "amount": 100,
+          "unit": "g",
+          "line_cost_sek": 7.96,
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Rödlök",
+          "amount": 1,
+          "unit": "st",
+          "line_cost_sek": 2.58,
+          "campaign_price": 12.90,
+          "ordinary_price": 15.90,
+          "discount_sek": 3.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Vitlök (från kryddhyllan)",
+          "amount": 3,
+          "unit": "klyftor",
+          "line_cost_sek": 2.00,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Olivolja",
+          "amount": 20,
+          "unit": "ml",
+          "line_cost_sek": 2.00,
+          "campaign_price": 49.90,
+          "ordinary_price": 64.90,
+          "discount_sek": 15.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Basmatiris",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 7.47,
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Spiskummin, salt, peppar",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Koka basmatiriset enligt anvisning på förpackningen (ca 10-12 min).",
+        "Hacka rödlök och vitlök fint. Fräs i olivolja i en gryta på medelvärme i 3 minuter.",
+        "Tillsätt spiskummin och fräs ytterligare 30 sekunder.",
+        "Häll i krossade tomater och kokosmjölk. Rör om. Låt sjuda i 10 minuter.",
+        "Skölj kikärtorna och häll ner dem i grytan. Låt sjuda 5 minuter till.",
+        "Vänd ner spenaten och låt den sjunka ihop. Smaka av med salt och peppar.",
+        "Servera den krämiga grytan över riset."
+      ],
+      "costs": {
+        "campaign_total_sek": 82.51,
+        "ordinary_total_sek": 103.10,
+        "total_discount_sek": 20.59,
+        "cost_per_portion_sek": 20.63
+      },
+      "sources": [null],
+      "kcal_per_portion": "≈ 490 kcal per portion",
+      "kcal_per_portion_value": 490,
+      "points_estimate": "≈ 5 p/portion",
+      "points_estimate_value": 5,
+      "total_points_estimate": 20,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Grön proteinsmoothiebowl med mango och banan",
+      "description": "Enkel och snabb frukost eller mellanmål med spenat, mango, banan och proteinpulver. Mättar länge och passar perfekt som återhämtning efter träning.",
+      "servings": 2,
+      "servings_label": "2 portioner",
+      "cook_time": "10 min",
+      "meal_flags": ["frukost", "mellanmål", "enkel", "proteinrik", "smoothie"],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Frysta mangobitar 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.90,
+          "ordinary_price": 34.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris fryst frukt"
+        },
+        {
+          "product_name": "Naturell yoghurt 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Bananer 1kg",
+          "buy_amount": "1 klas",
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Babyspenat 250g",
+          "buy_amount": "1 påse",
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Standardpris"
+        },
+        {
+          "product_name": "Proteinpulver (vanilj) 500g",
+          "buy_amount": "1 burk",
+          "campaign_price": 149.90,
+          "ordinary_price": 179.90,
+          "discount_sek": 30.00,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Kampanjpris"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Frysta mangobitar",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 11.96,
+          "campaign_price": 29.90,
+          "ordinary_price": 34.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Banan",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 4.98,
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Babyspenat",
+          "amount": 60,
+          "unit": "g",
+          "line_cost_sek": 4.78,
+          "campaign_price": 19.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Naturell yoghurt",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 7.47,
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Proteinpulver (vanilj)",
+          "amount": 30,
+          "unit": "g",
+          "line_cost_sek": 8.99,
+          "campaign_price": 149.90,
+          "ordinary_price": 179.90,
+          "discount_sek": 30.00,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Topping: kokosflarn, chiafrön, färska bär",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Lägg fryst mango, banan, babyspenat, yoghurt och proteinpulver i en mixer.",
+        "Mixa på hög hastighet tills slät och krämig, ca 30-60 sekunder. Späd med lite vatten om den är för tjock.",
+        "Häll upp smoothien i två skålar.",
+        "Toppa med valfritt: kokosflarn, chiafrön, färska bär eller skivad banan.",
+        "Servera direkt som en näringsrik frukost eller mellanmål."
+      ],
+      "costs": {
+        "campaign_total_sek": 38.18,
+        "ordinary_total_sek": 50.23,
+        "total_discount_sek": 12.05,
+        "cost_per_portion_sek": 19.09
+      },
+      "sources": [null],
+      "kcal_per_portion": "≈ 380 kcal per portion",
+      "kcal_per_portion_value": 380,
+      "points_estimate": "≈ 4 p/portion",
+      "points_estimate_value": 4,
+      "total_points_estimate": 8,
+      "points_uncertainty": "medel"
+    }
+  ],
+  "quality_check": {
+    "json_valid": true,
+    "price_status_consistent": true,
+    "all_prices_simple": true,
+    "all_sources_simple": true,
+    "store_structure_valid": true,
+    "method_structure_valid": true
+  },
+  "delivery_note": "Priser är uppskattade baserat på typiska Willys-kampanjer. Kolla alltid aktuella priser i butik eller på willys.se."
+}
