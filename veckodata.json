@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-03T09:29:50.931681",
+  "generated_at": "2026-05-09T08:00:12.874785",
   "publish_mode": "next_calendar_week",
-  "week_number": 19,
-  "week_start": "2026-05-04",
-  "week_end": "2026-05-10",
+  "week_number": 20,
+  "week_start": "2026-05-11",
+  "week_end": "2026-05-17",
   "days_covered": 7,
-  "busy_days": 3,
-  "free_days": 4,
-  "total_events": 4,
+  "busy_days": 4,
+  "free_days": 3,
+  "total_events": 5,
   "family_profile": {
     "members": [
       {
@@ -149,30 +149,45 @@
     }
   ],
   "scraped_event_count": 2,
-  "week_overview": "Vecka 19 innehåller några fasta punkter, bland annat Ansökan stänger utbildning platschef på måndag, Seminariegrupp 18-20 på torsdag, Kisa marknad på lördag och Växtloppis  10:00 på lördag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. Lördagen har redan saker på gång, som Kisa marknad, Växtloppis  10:00, medan söndagen ser lugnare ut och kan passa för återhämtning eller något enkelt tillsammans. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund. Det finns en punkt i veckan som kan må bra av lite lugn kvällen innan, så det kan vara klokt att inte fylla på för mycket just där. Det ser ut att finnas sociala eller utflyktsbetonade aktiviteter, så det kan vara klokt att lämna lite luft runt omkring för att slippa stress med små barn.",
+  "week_overview": "Vecka 20 innehåller några fasta punkter, bland annat 13:30 ish gå förbi granne  på måndag, Skriva urvalsprov  på måndag, 10:40 läkarbesök elliot huvud  på onsdag och Kalas lage på lördag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund.",
   "days": [
     {
-      "date": "2026-05-04",
+      "date": "2026-05-11",
       "weekday": "måndag",
       "events": [
         {
-          "title": "Ansökan stänger utbildning platschef",
-          "start": "2026-05-04T16:00:00",
-          "end": "2026-05-04T17:00:00",
+          "title": "13:30 ish gå förbi granne ",
+          "start": "2026-05-11T11:30:00",
+          "end": "2026-05-11T12:30:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        },
+        {
+          "title": "Skriva urvalsprov ",
+          "start": "2026-05-11T16:00:00",
+          "end": "2026-05-11T17:00:00",
           "is_all_day": false,
           "calendar": "Ida&Erik Jarls familjekalender "
         }
       ],
       "has_events": true,
-      "summary": "Måndag 05-04 – Ansökan stänger utbildning platschef 16:00–17:00 [Ida&Erik Jarls familjekalender ]",
-      "suggestions": []
+      "summary": "Måndag 05-11 – 13:30 ish gå förbi granne  11:30–12:30 [Ida&Erik Jarls familjekalender ]; Skriva urvalsprov  16:00–17:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": [
+        {
+          "activity": "prioritera återhämtning och håll resten av dagen enkel",
+          "category": "återhämtning",
+          "duration": "flex",
+          "family_fit": "familjevänligt",
+          "reason": "dagen verkar redan ganska full"
+        }
+      ]
     },
     {
-      "date": "2026-05-05",
+      "date": "2026-05-12",
       "weekday": "tisdag",
       "events": [],
       "has_events": false,
-      "summary": "Tisdag 05-05 – ledig",
+      "summary": "Tisdag 05-12 – ledig",
       "suggestions": [
         {
           "activity": "gå på en barnvänlig aktivitet i närområdet",
@@ -198,11 +213,27 @@
       ]
     },
     {
-      "date": "2026-05-06",
+      "date": "2026-05-13",
       "weekday": "onsdag",
+      "events": [
+        {
+          "title": "10:40 läkarbesök elliot huvud ",
+          "start": "2026-05-13T08:40:00",
+          "end": "2026-05-13T09:40:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Onsdag 05-13 – 10:40 läkarbesök elliot huvud  08:40–09:40 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
+    },
+    {
+      "date": "2026-05-14",
+      "weekday": "torsdag",
       "events": [],
       "has_events": false,
-      "summary": "Onsdag 05-06 – ledig",
+      "summary": "Torsdag 05-14 – ledig",
       "suggestions": [
         {
           "activity": "ta ett lugnt pass med planering av trallbygget",
@@ -228,27 +259,11 @@
       ]
     },
     {
-      "date": "2026-05-07",
-      "weekday": "torsdag",
-      "events": [
-        {
-          "title": "Seminariegrupp 18-20",
-          "start": "2026-05-07T08:00:00",
-          "end": "2026-05-07T09:00:00",
-          "is_all_day": false,
-          "calendar": "Ida&Erik Jarls familjekalender "
-        }
-      ],
-      "has_events": true,
-      "summary": "Torsdag 05-07 – Seminariegrupp 18-20 08:00–09:00 [Ida&Erik Jarls familjekalender ]",
-      "suggestions": []
-    },
-    {
-      "date": "2026-05-08",
+      "date": "2026-05-15",
       "weekday": "fredag",
       "events": [],
       "has_events": false,
-      "summary": "Fredag 05-08 – ledig",
+      "summary": "Fredag 05-15 – ledig",
       "suggestions": [
         {
           "activity": "ta en kort familjeutflykt i naturen",
@@ -274,71 +289,36 @@
       ]
     },
     {
-      "date": "2026-05-09",
+      "date": "2026-05-16",
       "weekday": "lördag",
       "events": [
         {
-          "title": "Kisa marknad",
-          "start": "2026-05-09T00:00:00",
-          "end": "2026-05-10T00:00:00",
-          "is_all_day": true,
-          "calendar": "Ida&Erik Jarls familjekalender "
-        },
-        {
-          "title": "Växtloppis  10:00",
-          "start": "2026-05-09T08:00:00",
-          "end": "2026-05-09T09:00:00",
+          "title": "Kalas lage",
+          "start": "2026-05-16T12:00:00",
+          "end": "2026-05-16T13:00:00",
           "is_all_day": false,
           "calendar": "Ida&Erik Jarls familjekalender "
         }
       ],
       "has_events": true,
-      "summary": "Lördag 05-09 – Kisa marknad [Ida&Erik Jarls familjekalender ]; Växtloppis  10:00 08:00–09:00 [Ida&Erik Jarls familjekalender ]",
-      "suggestions": [
-        {
-          "activity": "prioritera återhämtning och håll resten av dagen enkel",
-          "category": "återhämtning",
-          "duration": "flex",
-          "family_fit": "familjevänligt",
-          "reason": "dagen verkar redan ganska full"
-        }
-      ]
+      "summary": "Lördag 05-16 – Kalas lage 12:00–13:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
     },
     {
-      "date": "2026-05-10",
+      "date": "2026-05-17",
       "weekday": "söndag",
-      "events": [],
-      "has_events": false,
-      "summary": "Söndag 05-10 – ledig",
-      "suggestions": [
+      "events": [
         {
-          "activity": "kolla om Vårens Östgötadagar 2026 (9-10 maj 2026) passar familjen",
-          "category": "lokalt evenemang",
-          "duration": "halvdag",
-          "family_fit": "familjevänligt",
-          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
-          "source": "Visit Linköping highlights",
-          "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
-          "match_score": 24
-        },
-        {
-          "activity": "kolla om Evenemang för dig & dina barn i Linköping passar familjen",
-          "category": "lokalt evenemang",
-          "duration": "halvdag",
-          "family_fit": "familjevänligt",
-          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
-          "source": "Visit Linköping highlights",
-          "url": "https://visitlinkoping.se/evenemang/familj/",
-          "match_score": 16
-        },
-        {
-          "activity": "hitta någon musikupplevelse i närheten",
-          "category": "musik",
-          "duration": "2 h",
-          "family_fit": "familjevänligt",
-          "reason": "passar ert intresse för musik om veckan känns lagom luftig"
+          "title": "Lages barnkalas",
+          "start": "2026-05-17T12:00:00",
+          "end": "2026-05-17T13:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
         }
-      ]
+      ],
+      "has_events": true,
+      "summary": "Söndag 05-17 – Lages barnkalas 12:00–13:00 [Ida&Erik Jarls familjekalender ]",
+      "suggestions": []
     }
   ]
 }
