@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-11",
+  "created_at": "2026-05-11T17:00:21.230Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 6 köpvanevaror. Starkaste träffar: Kyckling → Kycklinglårfilé minutstrimlor 550-600 g Kronfågel. Ursprung Sverige (-23,86 kr); Köttbullar → Köttbullar Potatismos Gräddsås 370-400 g Gooh (-15,17 kr); Chips → Redhead Chips 150 g (-9,24 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Kycklinglårfilé minutstrimlor 550-600 g Kronfågel. Ursprung Sverige",
+      "match_type": "alias",
+      "ordinary_price": 88.86,
+      "campaign_price": 65,
+      "campaign_label": "65 kr/st",
+      "discount_sek": 23.86,
+      "discount_percent": 26.85,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kycklingl%C3%A5rfil%C3%A9%20minutstrimlor%20550-600%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färsk Minutfilé | 65 kr/st | Ord.pris 88:86 kr. | 550-600 g | Kronfågel. Ursprung Sverige | Match: kycklinglårfilé finns i Kycklinglårfilé minutstrimlor 550-600 g Kronfågel. Ursprung Sverige",
+      "category": "Färskvaror",
+      "restriction": "Max 2 köp/hushåll",
+      "comparison_price": "108:33-118:18/kg",
+      "raw_offer_id": "5003959559"
+    },
+    {
+      "habit_name": "Köttbullar",
+      "matched_product_name": "Köttbullar Potatismos Gräddsås 370-400 g Gooh",
+      "match_type": "keyword",
+      "ordinary_price": 67.17,
+      "campaign_price": 52,
+      "campaign_label": "52 kr/st",
+      "discount_sek": 15.17,
+      "discount_percent": 22.58,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=K%C3%B6ttbullar%20Potatismos%20Gr%C3%A4dds%C3%A5s%20370-400",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färska portionsrätter | 52 kr/st | Ord.pris 67:17 kr. | 370-400 g | Gooh | Match: Köttbullar finns i Köttbullar Potatismos Gräddsås 370-400 g Gooh",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "130:00-140:54/kg",
+      "raw_offer_id": "5003959596"
+    },
+    {
+      "habit_name": "Chips",
+      "matched_product_name": "Redhead Chips 150 g",
+      "match_type": "keyword",
+      "ordinary_price": 29.24,
+      "campaign_price": 20,
+      "campaign_label": "2 för 40 kr",
+      "discount_sek": 9.24,
+      "discount_percent": 31.6,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Redhead%20Chips%20150%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Chips | 2 för 40 kr | Ord.pris 29:24 kr. | 150 g | Redhead | Match: Chips finns i Redhead Chips 150 g",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "133:33/kg",
+      "raw_offer_id": "5003959589"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Grillad majs med smör 150 g Redhead",
+      "match_type": "keyword",
+      "ordinary_price": 29.24,
+      "campaign_price": 20,
+      "campaign_label": "2 för 40 kr",
+      "discount_sek": 9.24,
+      "discount_percent": 31.6,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Grillad%20majs%20med%20sm%C3%B6r",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Chips | 2 för 40 kr | Ord.pris 29:24 kr. | 150 g | Redhead | Match: Smör finns i Grillad majs med smör 150 g Redhead",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "133:33/kg",
+      "raw_offer_id": "5003959589"
+    },
+    {
+      "habit_name": "Lax",
+      "matched_product_name": "Lax & ostburgare 220 g ICA",
+      "match_type": "keyword",
+      "ordinary_price": 35.86,
+      "campaign_price": 29.5,
+      "campaign_label": "2 för 59 kr",
+      "discount_sek": 6.36,
+      "discount_percent": 17.74,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Lax%20%26%20ostburgare%20220",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Laxburgare, Västkustburgare | 2 för 59 kr | Ord.pris 35:86 kr. | 220 g | ICA | Match: Lax finns i Lax & ostburgare 220 g ICA",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "134:09/kg",
+      "raw_offer_id": "5003959576"
+    },
+    {
+      "habit_name": "Tortilla",
+      "matched_product_name": "Tortilla Original Small 320 g, 200 g, 230 g, 185 g Santa Maria",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 11.25,
+      "campaign_label": "4 för 45 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Tortilla%20Original%20Small%20320",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Tortillabröd, Tacosås, Chips | 4 för 45 kr | Ord.pris 14:10-23:56 kr. | 320 g, 200 g, 230 g, 185 g | Santa Maria | Match: Tortilla finns i Tortilla Original Small 320 g, 200 g, 230 g, 185 g Santa Maria",
+      "category": "Skafferivaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "35:16-60:81/kg",
+      "raw_offer_id": "5003959558"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Kyckling: Kycklinglårfilé minutstrimlor 550-600 g Kronfågel. Ursprung Sverige (ord. 88,86 kr, 65 kr/st, -23,86 kr, 27 %)\n• Köttbullar: Köttbullar Potatismos Gräddsås 370-400 g Gooh (ord. 67,17 kr, 52 kr/st, -15,17 kr, 23 %)\n• Chips: Redhead Chips 150 g (ord. 29,24 kr, 2 för 40 kr, -9,24 kr, 32 %)\n• Smör: Grillad majs med smör 150 g Redhead (ord. 29,24 kr, 2 för 40 kr, -9,24 kr, 32 %)\n• Lax: Lax & ostburgare 220 g ICA (ord. 35,86 kr, 2 för 59 kr, -6,36 kr, 18 %)\n• Tortilla: Tortilla Original Small 320 g, 200 g, 230 g, 185 g Santa Maria (4 för 45 kr)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 355
+}

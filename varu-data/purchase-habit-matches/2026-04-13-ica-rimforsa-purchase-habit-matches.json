@@ -1,0 +1,196 @@
+{
+  "date": "2026-04-13",
+  "created_at": "2026-04-13T20:36:39.697Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 7 köpvanevaror. Starkaste träffar: Kyckling → Kronfågel Färsk Kycklingfilé ca 925 g (-54,31 kr); Chips → Fish & chips 340-400 g Findus (-9,22 kr); Pasta → Pasta Alfredo 340-400 g Findus (-9,22 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Kronfågel Färsk Kycklingfilé ca 925 g",
+      "match_type": "alias",
+      "ordinary_price": 153.31,
+      "campaign_price": 99,
+      "campaign_label": "99 kr/kg",
+      "discount_sek": 54.31,
+      "discount_percent": 35.42,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kronf%C3%A5gel%20F%C3%A4rsk%20Kycklingfil%C3%A9%20ca",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färsk Kycklingfilé | 99 kr/kg | Ord.pris 153:31 kr. | ca 925 g | Kronfågel | Match: kycklingfilé finns i Kronfågel Färsk Kycklingfilé ca 925 g",
+      "category": "Färskvaror",
+      "restriction": "Max 2 köp/hushåll",
+      "comparison_price": null,
+      "raw_offer_id": "5003932484"
+    },
+    {
+      "habit_name": "Chips",
+      "matched_product_name": "Fish & chips 340-400 g Findus",
+      "match_type": "keyword",
+      "ordinary_price": 33.97,
+      "campaign_price": 24.75,
+      "campaign_label": "4 för 99 kr",
+      "discount_sek": 9.22,
+      "discount_percent": 27.14,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Fish%20%26%20chips%20340-400",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Frysta enportionsrätter | 4 för 99 kr | Ord.pris 33:97 kr. | 340-400 g | Findus | Match: Chips finns i Fish & chips 340-400 g Findus",
+      "category": "Djupfryst",
+      "restriction": null,
+      "comparison_price": "61:88-72:79/kg",
+      "raw_offer_id": "5003863520"
+    },
+    {
+      "habit_name": "Pasta",
+      "matched_product_name": "Pasta Alfredo 340-400 g Findus",
+      "match_type": "keyword",
+      "ordinary_price": 33.97,
+      "campaign_price": 24.75,
+      "campaign_label": "4 för 99 kr",
+      "discount_sek": 9.22,
+      "discount_percent": 27.14,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Pasta%20Alfredo%20340-400%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Frysta enportionsrätter | 4 för 99 kr | Ord.pris 33:97 kr. | 340-400 g | Findus | Match: Pasta finns i Pasta Alfredo 340-400 g Findus",
+      "category": "Djupfryst",
+      "restriction": null,
+      "comparison_price": "61:88-72:79/kg",
+      "raw_offer_id": "5003863520"
+    },
+    {
+      "habit_name": "Köttbullar",
+      "matched_product_name": "Köttbullar med mos 340-400 g Findus",
+      "match_type": "keyword",
+      "ordinary_price": 33.97,
+      "campaign_price": 24.75,
+      "campaign_label": "4 för 99 kr",
+      "discount_sek": 9.22,
+      "discount_percent": 27.14,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=K%C3%B6ttbullar%20med%20mos%20340-400",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Frysta enportionsrätter | 4 för 99 kr | Ord.pris 33:97 kr. | 340-400 g | Findus | Match: Köttbullar finns i Köttbullar med mos 340-400 g Findus",
+      "category": "Djupfryst",
+      "restriction": null,
+      "comparison_price": "61:88-72:79/kg",
+      "raw_offer_id": "5003863520"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Brynt smör & rödlö 150 g Gårdschips",
+      "match_type": "keyword",
+      "ordinary_price": 27.35,
+      "campaign_price": 20,
+      "campaign_label": "2 för 40 kr",
+      "discount_sek": 7.35,
+      "discount_percent": 26.87,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Brynt%20sm%C3%B6r%20%26%20r%C3%B6dl%C3%B6",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Chips | 2 för 40 kr | Ord.pris 27:35 kr. | 150 g | Gårdschips | Match: Smör finns i Brynt smör & rödlö 150 g Gårdschips",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "133:33/kg",
+      "raw_offer_id": "5003932505"
+    },
+    {
+      "habit_name": "Rapsolja",
+      "matched_product_name": "Arla Smör- & rapsolja 500 ml",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 23,
+      "campaign_label": "23 kr/st",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Arla%20Sm%C3%B6r-%20%26%20rapsolja",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Smör- & rapsolja | 23 kr/st | Ord.pris 25:45-33:97 kr. | 500 ml | Arla | Match: Rapsolja finns i Arla Smör- & rapsolja 500 ml",
+      "category": "Mejeri",
+      "restriction": null,
+      "comparison_price": "46:00/liter",
+      "raw_offer_id": "5003863524"
+    },
+    {
+      "habit_name": "Ägg",
+      "matched_product_name": "ICA Ägg 10-pack 10-pack",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 20,
+      "campaign_label": "20 kr/st",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=ICA%20%C3%84gg%2010-pack%2010-pack",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Ägg 10-pack | 20 kr/st | Ord.pris 30:19-32:08 kr. | 10-pack | ICA | Match: Ägg finns i ICA Ägg 10-pack 10-pack",
+      "category": "Mejeri",
+      "restriction": null,
+      "comparison_price": "2:00/st",
+      "raw_offer_id": "5004043245"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Kyckling: Kronfågel Färsk Kycklingfilé ca 925 g (ord. 153,31 kr, 99 kr/kg, -54,31 kr, 35 %)\n• Chips: Fish & chips 340-400 g Findus (ord. 33,97 kr, 4 för 99 kr, -9,22 kr, 27 %)\n• Pasta: Pasta Alfredo 340-400 g Findus (ord. 33,97 kr, 4 för 99 kr, -9,22 kr, 27 %)\n• Köttbullar: Köttbullar med mos 340-400 g Findus (ord. 33,97 kr, 4 för 99 kr, -9,22 kr, 27 %)\n• Smör: Brynt smör & rödlö 150 g Gårdschips (ord. 27,35 kr, 2 för 40 kr, -7,35 kr, 27 %)\n• Rapsolja: Arla Smör- & rapsolja 500 ml (23 kr/st)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 353
+}

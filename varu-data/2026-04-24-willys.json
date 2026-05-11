@@ -139,7 +139,12 @@
       "servings": 4,
       "servings_label": "4 portioner",
       "cook_time": "40 min",
-      "meal_flags": ["huvudrätt", "kyckling", "medelhav", "tagine"],
+      "meal_flags": [
+        "huvudrätt",
+        "kyckling",
+        "medelhav",
+        "tagine"
+      ],
       "ica_products_to_buy": [
         {
           "product_name": "Kycklinglårfilé",
@@ -332,7 +337,9 @@
         null
       ],
       "kcal_per_portion": "≈ 490 kcal per portion",
-      "points_estimate": "Uppskattat WW-värde: ~10 points"
+      "points_estimate": "Uppskattat WW-värde: ~10 points",
+      "points_estimate_value": 10,
+      "kcal_per_portion_value": 490
     },
     {
       "title": "Krämig röd lins- och sötpotatiscurry",
@@ -340,7 +347,12 @@
       "servings": 4,
       "servings_label": "4 portioner",
       "cook_time": "30 min",
-      "meal_flags": ["vegetariskt", "huvudrätt", "billigt", "curry"],
+      "meal_flags": [
+        "vegetariskt",
+        "huvudrätt",
+        "billigt",
+        "curry"
+      ],
       "ica_products_to_buy": [
         {
           "product_name": "Röda linser 500g",
@@ -490,7 +502,9 @@
         null
       ],
       "kcal_per_portion": "≈ 370 kcal per portion",
-      "points_estimate": "Uppskattat WW-värde: ~5 points"
+      "points_estimate": "Uppskattat WW-värde: ~5 points",
+      "points_estimate_value": 5,
+      "kcal_per_portion_value": 370
     },
     {
       "title": "Mango-havrefrukost med krispig äggtoast",
@@ -498,7 +512,12 @@
       "servings": 2,
       "servings_label": "2 portioner",
       "cook_time": "10 min",
-      "meal_flags": ["frukost", "mellanmål", "enkel", "proteinrik"],
+      "meal_flags": [
+        "frukost",
+        "mellanmål",
+        "enkel",
+        "proteinrik"
+      ],
       "ica_products_to_buy": [
         {
           "product_name": "Fryst mango 500g",
@@ -626,7 +645,9 @@
         null
       ],
       "kcal_per_portion": "≈ 420 kcal per portion",
-      "points_estimate": "Uppskattat WW-värde: ~8 points"
+      "points_estimate": "Uppskattat WW-värde: ~8 points",
+      "points_estimate_value": 8,
+      "kcal_per_portion_value": 420
     }
   ],
   "quality_check": {

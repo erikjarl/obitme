@@ -1,0 +1,196 @@
+{
+  "date": "2026-04-27",
+  "created_at": "2026-04-27T17:15:07.679Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 7 köpvanevaror. Starkaste träffar: Byxblöjor → Libero Blöjor 20-43-pack (-15,40 kr); Nötfärs → ICA I love eco. Ursprung Sverige Ekologisk nötfärs 500 g (-14,51 kr); Kyckling → Kyckling Grillad 90g Lönneberg 90-105 g Lönneberga (-9,29 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Byxblöjor",
+      "matched_product_name": "Libero Blöjor 20-43-pack",
+      "match_type": "alias",
+      "ordinary_price": 99.9,
+      "campaign_price": 84.5,
+      "campaign_label": "2 för 169 kr",
+      "discount_sek": 15.4,
+      "discount_percent": 15.42,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Libero%20Bl%C3%B6jor%2020-43-pack",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Blöjor | 2 för 169 kr | Ord.pris 99:90 kr. | 20-43-pack | Libero | Match: blöjor finns i Libero Blöjor 20-43-pack",
+      "category": "Hem & fritid",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "1:97-4:22/st",
+      "raw_offer_id": "5003932642"
+    },
+    {
+      "habit_name": "Nötfärs",
+      "matched_product_name": "ICA I love eco. Ursprung Sverige Ekologisk nötfärs 500 g",
+      "match_type": "keyword",
+      "ordinary_price": 93.51,
+      "campaign_price": 79,
+      "campaign_label": "79 kr/st",
+      "discount_sek": 14.51,
+      "discount_percent": 15.52,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=ICA%20I%20love%20eco.",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Ekologisk nötfärs | 79 kr/st | Ord.pris 93:51 kr. | 500 g | ICA I love eco. Ursprung Sverige | Match: Nötfärs finns i ICA I love eco. Ursprung Sverige Ekologisk nötfärs 500 g",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "158:00/kg",
+      "raw_offer_id": "5003932678"
+    },
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Kyckling Grillad 90g Lönneberg 90-105 g Lönneberga",
+      "match_type": "keyword",
+      "ordinary_price": 28.29,
+      "campaign_price": 19,
+      "campaign_label": "2 för 38 kr",
+      "discount_sek": 9.29,
+      "discount_percent": 32.84,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kyckling%20Grillad%2090g%20L%C3%B6nneberg",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Smörgåsmat | 2 för 38 kr | Ord.pris 28:29 kr. | 90-105 g | Lönneberga | Match: Kyckling finns i Kyckling Grillad 90g Lönneberg 90-105 g Lönneberga",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "180:95-211:11/kg",
+      "raw_offer_id": "5003932638"
+    },
+    {
+      "habit_name": "Falukorv",
+      "matched_product_name": "Scan Falukorv 800 g",
+      "match_type": "keyword",
+      "ordinary_price": 38.7,
+      "campaign_price": 32.5,
+      "campaign_label": "2 för 65 kr",
+      "discount_sek": 6.2,
+      "discount_percent": 16.02,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Scan%20Falukorv%20800%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Falukorv | 2 för 65 kr | Ord.pris 38:70 kr. | 800 g | Scan | Match: Falukorv finns i Scan Falukorv 800 g",
+      "category": "Färskvaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "40:62/kg",
+      "raw_offer_id": "5003932628"
+    },
+    {
+      "habit_name": "Chips",
+      "matched_product_name": "Chips Lättsaltade 200-275 g OLW",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 23,
+      "campaign_label": "2 för 46 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Chips%20L%C3%A4ttsaltade%20200-275%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Chips, Ostbågar | 2 för 46 kr | Ord.pris 30:19-32:08 kr. | 200-275 g | OLW | Match: Chips finns i Chips Lättsaltade 200-275 g OLW",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "83:64-115:00/kg",
+      "raw_offer_id": "5003932660"
+    },
+    {
+      "habit_name": "Pasta",
+      "matched_product_name": "Fusilli 400 g, 500 g Zeta",
+      "match_type": "alias",
+      "ordinary_price": null,
+      "campaign_price": 13.33,
+      "campaign_label": "3 för 40 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Fusilli%20400%20g%2C%20500",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Pasta, Spaghetti, Risoni | 3 för 40 kr | Ord.pris 16:94-25:45 kr. | 400 g, 500 g | Zeta | Match: fusilli finns i Fusilli 400 g, 500 g Zeta",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "26:67-33:33/kg",
+      "raw_offer_id": "5003932676"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Chips Brynt smör/Ramslök 200-275 g OLW",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 23,
+      "campaign_label": "2 för 46 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Chips%20Brynt%20sm%C3%B6r%2FRamsl%C3%B6k%20200-275",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Chips, Ostbågar | 2 för 46 kr | Ord.pris 30:19-32:08 kr. | 200-275 g | OLW | Match: Smör finns i Chips Brynt smör/Ramslök 200-275 g OLW",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "83:64-115:00/kg",
+      "raw_offer_id": "5003932660"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Byxblöjor: Libero Blöjor 20-43-pack (ord. 99,90 kr, 2 för 169 kr, -15,40 kr, 15 %)\n• Nötfärs: ICA I love eco. Ursprung Sverige Ekologisk nötfärs 500 g (ord. 93,51 kr, 79 kr/st, -14,51 kr, 16 %)\n• Kyckling: Kyckling Grillad 90g Lönneberg 90-105 g Lönneberga (ord. 28,29 kr, 2 för 38 kr, -9,29 kr, 33 %)\n• Falukorv: Scan Falukorv 800 g (ord. 38,70 kr, 2 för 65 kr, -6,20 kr, 16 %)\n• Chips: Chips Lättsaltade 200-275 g OLW (2 för 46 kr)\n• Pasta: Fusilli 400 g, 500 g Zeta (3 för 40 kr)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 496
+}

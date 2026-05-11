@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-20",
+  "created_at": "2026-04-20T17:00:11.044Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 8 köpvanevaror. Starkaste träffar: Lax → Ravioli Rökt Lax/Mascarpone 250 g Rana (-18,38 kr); Pasta → Rana Färsk fylld pasta 250 g (-18,38 kr); Kyckling → Kyckling Curry med Krämig sås/ 370-400 g Gooh (-17,09 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Lax",
+      "matched_product_name": "Ravioli Rökt Lax/Mascarpone 250 g Rana",
+      "match_type": "keyword",
+      "ordinary_price": 44.38,
+      "campaign_price": 26,
+      "campaign_label": "5 för 130 kr",
+      "discount_sek": 18.38,
+      "discount_percent": 41.42,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Ravioli%20R%C3%B6kt%20Lax%2FMascarpone%20250",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färsk fylld pasta | 5 för 130 kr | Ord.pris 44:38 kr. | 250 g | Rana | Match: Lax finns i Ravioli Rökt Lax/Mascarpone 250 g Rana",
+      "category": "Färskvaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "104:00/kg",
+      "raw_offer_id": "5004025959"
+    },
+    {
+      "habit_name": "Pasta",
+      "matched_product_name": "Rana Färsk fylld pasta 250 g",
+      "match_type": "keyword",
+      "ordinary_price": 44.38,
+      "campaign_price": 26,
+      "campaign_label": "5 för 130 kr",
+      "discount_sek": 18.38,
+      "discount_percent": 41.42,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Rana%20F%C3%A4rsk%20fylld%20pasta",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färsk fylld pasta | 5 för 130 kr | Ord.pris 44:38 kr. | 250 g | Rana | Match: Pasta finns i Rana Färsk fylld pasta 250 g",
+      "category": "Färskvaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "104:00/kg",
+      "raw_offer_id": "5004025959"
+    },
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Kyckling Curry med Krämig sås/ 370-400 g Gooh",
+      "match_type": "keyword",
+      "ordinary_price": 67.09,
+      "campaign_price": 50,
+      "campaign_label": "2 för 100 kr",
+      "discount_sek": 17.09,
+      "discount_percent": 25.47,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kyckling%20Curry%20med%20Kr%C3%A4mig",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färska portionsrätter | 2 för 100 kr | Ord.pris 67:09 kr. | 370-400 g | Gooh | Match: Kyckling finns i Kyckling Curry med Krämig sås/ 370-400 g Gooh",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "125:00-135:14/kg",
+      "raw_offer_id": "5003932589"
+    },
+    {
+      "habit_name": "Köttbullar",
+      "matched_product_name": "Köttbullar Potatismos Gräddsås 370-400 g Gooh",
+      "match_type": "keyword",
+      "ordinary_price": 67.09,
+      "campaign_price": 50,
+      "campaign_label": "2 för 100 kr",
+      "discount_sek": 17.09,
+      "discount_percent": 25.47,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=K%C3%B6ttbullar%20Potatismos%20Gr%C3%A4dds%C3%A5s%20370-400",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färska portionsrätter | 2 för 100 kr | Ord.pris 67:09 kr. | 370-400 g | Gooh | Match: Köttbullar finns i Köttbullar Potatismos Gräddsås 370-400 g Gooh",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "125:00-135:14/kg",
+      "raw_offer_id": "5003932589"
+    },
+    {
+      "habit_name": "Byxblöjor",
+      "matched_product_name": "Pampers Blöjor Baby Dry Pants 29-42-pack, Premium Pro Pants 27-31-pack, Premium Prot 30-48-pack",
+      "match_type": "alias",
+      "ordinary_price": null,
+      "campaign_price": 99.5,
+      "campaign_label": "2 för 199 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Pampers%20Bl%C3%B6jor%20Baby%20Dry",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Blöjor | 2 för 199 kr | Ord.pris 117:00-121:00 kr. | Baby Dry Pants 29-42-pack, Premium Pro Pants 27-31-pack, Premium Prot 30-48-pack | Pampers | Match: blöjor finns i Pampers Blöjor Baby Dry Pants 29-42-pack, Premium Pro Pants 27-31-pack, Premium Prot 30-48-pack",
+      "category": "Hem & fritid",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "2:07-3:69/st",
+      "raw_offer_id": "5003932564"
+    },
+    {
+      "habit_name": "Chips",
+      "matched_product_name": "Pommes Chips 600 - 900 g Felix",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 22.5,
+      "campaign_label": "2 för 45 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Pommes%20Chips%20600%20-",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Pommes | 2 för 45 kr | Ord.pris 27:35-31:13 kr. | 600 - 900 g | Felix | Match: Chips finns i Pommes Chips 600 - 900 g Felix",
+      "category": "Djupfryst",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "25:00-37:50/kg",
+      "raw_offer_id": "5003932558"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Smör & Raps Normalsaltat Mindr 500 g Arla",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 40,
+      "campaign_label": "40 kr/st",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Sm%C3%B6r%20%26%20Raps%20Normalsaltat",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Bregott | 40 kr/st | Ord.pris 51:01-60:47 kr. | 500 g | Arla | Match: Smör finns i Smör & Raps Normalsaltat Mindr 500 g Arla",
+      "category": "Mejeri",
+      "restriction": "Max 2 köp/hushåll",
+      "comparison_price": "80:00/kg",
+      "raw_offer_id": "5003932543"
+    },
+    {
+      "habit_name": "Tandkräm",
+      "matched_product_name": "Sensodyne Tandkräm 75 ml",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 24,
+      "campaign_label": "2 för 48 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Sensodyne%20Tandkr%C3%A4m%2075%20ml",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Tandkräm | 2 för 48 kr | Ord.pris 30:90-36:90 kr. | 75 ml | Sensodyne | Match: Tandkräm finns i Sensodyne Tandkräm 75 ml",
+      "category": "Hälsa & skönhet",
+      "restriction": null,
+      "comparison_price": "320:00/liter",
+      "raw_offer_id": "5003932566"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Lax: Ravioli Rökt Lax/Mascarpone 250 g Rana (ord. 44,38 kr, 5 för 130 kr, -18,38 kr, 41 %)\n• Pasta: Rana Färsk fylld pasta 250 g (ord. 44,38 kr, 5 för 130 kr, -18,38 kr, 41 %)\n• Kyckling: Kyckling Curry med Krämig sås/ 370-400 g Gooh (ord. 67,09 kr, 2 för 100 kr, -17,09 kr, 25 %)\n• Köttbullar: Köttbullar Potatismos Gräddsås 370-400 g Gooh (ord. 67,09 kr, 2 för 100 kr, -17,09 kr, 25 %)\n• Byxblöjor: Pampers Blöjor Baby Dry Pants 29-42-pack, Premium Pro Pants 27-31-pack, Premium Prot 30-48-pack (2 för 199 kr)\n• Chips: Pommes Chips 600 - 900 g Felix (2 för 45 kr)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 576
+}

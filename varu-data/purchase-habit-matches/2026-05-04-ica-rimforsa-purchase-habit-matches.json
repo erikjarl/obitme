@@ -1,0 +1,217 @@
+{
+  "date": "2026-05-04",
+  "created_at": "2026-05-04T17:02:06.822Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 8 köpvanevaror. Starkaste träffar: Nötfärs → Ekologisk nötfärs 500 g (-14,51 kr); Kyckling → Wrap Caesar kyckling 300 g ICA (-13,43 kr); Lax → Wrap Kallrökt lax 300 g ICA (-13,43 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Nötfärs",
+      "matched_product_name": "Ekologisk nötfärs 500 g",
+      "match_type": "keyword",
+      "ordinary_price": 93.51,
+      "campaign_price": 79,
+      "campaign_label": "79 kr/st",
+      "discount_sek": 14.51,
+      "discount_percent": 15.52,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Ekologisk%20n%C3%B6tf%C3%A4rs%20500%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Ekologisk nötfärs | 79 kr/st | Ord.pris 93:51 kr. | 500 g | Match: Nötfärs finns i Ekologisk nötfärs 500 g",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "158:00/kg",
+      "raw_offer_id": "2003569267"
+    },
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Wrap Caesar kyckling 300 g ICA",
+      "match_type": "keyword",
+      "ordinary_price": 43.43,
+      "campaign_price": 30,
+      "campaign_label": "30 kr/st",
+      "discount_sek": 13.43,
+      "discount_percent": 30.92,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Wrap%20Caesar%20kyckling%20300",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Wraps | 30 kr/st | Ord.pris 43:43 kr. | 300 g | ICA | Match: Kyckling finns i Wrap Caesar kyckling 300 g ICA",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "100:00/kg",
+      "raw_offer_id": "5003959534"
+    },
+    {
+      "habit_name": "Lax",
+      "matched_product_name": "Wrap Kallrökt lax 300 g ICA",
+      "match_type": "keyword",
+      "ordinary_price": 43.43,
+      "campaign_price": 30,
+      "campaign_label": "30 kr/st",
+      "discount_sek": 13.43,
+      "discount_percent": 30.92,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Wrap%20Kallr%C3%B6kt%20lax%20300",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Wraps | 30 kr/st | Ord.pris 43:43 kr. | 300 g | ICA | Match: Lax finns i Wrap Kallrökt lax 300 g ICA",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "100:00/kg",
+      "raw_offer_id": "5003959534"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Smördeg på smör 280 g ICA",
+      "match_type": "keyword",
+      "ordinary_price": 29.24,
+      "campaign_price": 17.5,
+      "campaign_label": "2 för 35 kr",
+      "discount_sek": 11.74,
+      "discount_percent": 40.15,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Sm%C3%B6rdeg%20p%C3%A5%20sm%C3%B6r%20280",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Smördeg, Pajdeg | 2 för 35 kr | Ord.pris 29:24 kr. | 280 g | ICA | Match: Smör finns i Smördeg på smör 280 g ICA",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "62:50/kg",
+      "raw_offer_id": "5003959494"
+    },
+    {
+      "habit_name": "Polarbröd",
+      "matched_product_name": "Polarbröd Norrlands-Leväjn 440 g",
+      "match_type": "keyword",
+      "ordinary_price": 30.85,
+      "campaign_price": 22,
+      "campaign_label": "22 kr/st",
+      "discount_sek": 8.85,
+      "discount_percent": 28.69,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Polarbr%C3%B6d%20Norrlands-Lev%C3%A4jn%20440%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Norrlands-Leväjn | 22 kr/st | Ord.pris 30:85 kr. | 440 g | Polarbröd | Match: Polarbröd finns i Polarbröd Norrlands-Leväjn 440 g",
+      "category": "Bröd, kex & bageri",
+      "restriction": null,
+      "comparison_price": "50:00/kg",
+      "raw_offer_id": "5003959532"
+    },
+    {
+      "habit_name": "Barnmat",
+      "matched_product_name": "Barnmat Fruktmums blåbär med h 110 g, 120 g Semper",
+      "match_type": "keyword",
+      "ordinary_price": 14.1,
+      "campaign_price": 10,
+      "campaign_label": "10 för 100 kr",
+      "discount_sek": 4.1,
+      "discount_percent": 29.08,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Barnmat%20Fruktmums%20bl%C3%A5b%C3%A4r%20med",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Fruktmums, Grötklämmis | 10 för 100 kr | Ord.pris 14:10 kr. | 110 g, 120 g | Semper | Match: Barnmat finns i Barnmat Fruktmums blåbär med h 110 g, 120 g Semper",
+      "category": "Skafferivaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "83:33-90:91/kg",
+      "raw_offer_id": "5004062247"
+    },
+    {
+      "habit_name": "Ägg",
+      "matched_product_name": "ICA I love eco Ekologiska ägg 12-pack 12-pack",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 35,
+      "campaign_label": "35 kr/st",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=ICA%20I%20love%20eco",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Ekologiska ägg 12-pack | 35 kr/st | Ord.pris 45:42-50:06 kr. | 12-pack | ICA I love eco | Match: Ägg finns i ICA I love eco Ekologiska ägg 12-pack 12-pack",
+      "category": "Mejeri",
+      "restriction": null,
+      "comparison_price": null,
+      "raw_offer_id": "5004076552"
+    },
+    {
+      "habit_name": "Tandkräm",
+      "matched_product_name": "Tandkräm Sensitive Multiprotec 50-75 ml, 1-pack Colgate",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 15,
+      "campaign_label": "3 för 45 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Tandkr%C3%A4m%20Sensitive%20Multiprotec%2050-75",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Tandkräm, Tandborste | 3 för 45 kr | Ord.pris 18:90-25:90 kr. | 50-75 ml, 1-pack | Colgate | Match: Tandkräm finns i Tandkräm Sensitive Multiprotec 50-75 ml, 1-pack Colgate",
+      "category": "Hälsa & skönhet",
+      "restriction": null,
+      "comparison_price": "200:00-300:00/liter, 15:00/st",
+      "raw_offer_id": "5003959510"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Nötfärs: Ekologisk nötfärs 500 g (ord. 93,51 kr, 79 kr/st, -14,51 kr, 16 %)\n• Kyckling: Wrap Caesar kyckling 300 g ICA (ord. 43,43 kr, 30 kr/st, -13,43 kr, 31 %)\n• Lax: Wrap Kallrökt lax 300 g ICA (ord. 43,43 kr, 30 kr/st, -13,43 kr, 31 %)\n• Smör: Smördeg på smör 280 g ICA (ord. 29,24 kr, 2 för 35 kr, -11,74 kr, 40 %)\n• Polarbröd: Polarbröd Norrlands-Leväjn 440 g (ord. 30,85 kr, 22 kr/st, -8,85 kr, 29 %)\n• Barnmat: Barnmat Fruktmums blåbär med h 110 g, 120 g Semper (ord. 14,10 kr, 10 för 100 kr, -4,10 kr, 29 %)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 359
+}

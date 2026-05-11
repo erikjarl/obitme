@@ -1,0 +1,308 @@
+{
+  "date": "2026-05-11",
+  "created_at": "2026-05-11T20:00:00+02:00",
+  "slug": "2026-05-11-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på färsk laxsida, fetaost, paprika och tomater – med en somrig medelhavskänsla.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser verifierades mot ICA Rimforsas erbjudandesida den 11 maj 2026. Priserna gäller vecka 20 (11–17 maj 2026).",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Potatis, pasta, lök, vitlök och olivolja är försiktigt uppskattade basvaror när exakt butiksvärde inte framgick i kampanjflödet.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Färsk laxsida ASC ICA Gott liv/Pacific ca 1200 g",
+      "campaign_price": 159,
+      "ordinary_price": 227.76,
+      "discount_sek": 68.76,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Stammispris. Ord.pris 227:76-235:65 kr. Ca 1200 g."
+    },
+    {
+      "product_name": "Fetaost ICA 150 g",
+      "campaign_price": 13.5,
+      "ordinary_price": 21.67,
+      "discount_sek": 8.17,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Ord.pris 21:67 kr. Jmfpris 111:11/kg."
+    },
+    {
+      "product_name": "Crème Fraiche Arla Köket 2 dl",
+      "campaign_price": 10,
+      "ordinary_price": 12.24,
+      "discount_sek": 2.24,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Max 1 köp/hushåll. Ord.pris 12:24-17:88 kr."
+    },
+    {
+      "product_name": "Paprika 2-pack i påse ICA 350 g",
+      "campaign_price": 20,
+      "ordinary_price": 28.29,
+      "discount_sek": 8.29,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Ord.pris 28:29 kr. Jmfpris 57:14/kg."
+    },
+    {
+      "product_name": "Piccolinitomater i ask ICA Selection 200 g",
+      "campaign_price": 25,
+      "ordinary_price": 32.29,
+      "discount_sek": 7.29,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Ord.pris 32:29 kr. Jmfpris 100:00/kg."
+    },
+    {
+      "product_name": "Hallon i ask ICA 125 g",
+      "campaign_price": 30,
+      "ordinary_price": 40.61,
+      "discount_sek": 10.61,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Ord.pris 40:61 kr. Jmfpris 200:00/kg."
+    },
+    {
+      "product_name": "Minivattenmeloner Spanien/Italien",
+      "campaign_price": 25,
+      "ordinary_price": 37.4,
+      "discount_sek": 12.4,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Ord.pris 37:40 kr."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Ugnsbakad lax med fetacremé, rostad paprika och piccolinitomater",
+      "description": "Färsk laxsida möter krämig fetaoströra och ugnsrostade grönsaker – en rätt som känns lyxig men är förvånansvärt enkel att svänga ihop. Syrlig crème fraiche och fetaost balanserar laxens fyllighet, medan paprikan och tomaterna ger sötma och färg.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": ["middag", "fisk", "medelhavsinspirerad", "glutenfri", "proteinrik"],
+      "kcal_per_portion": "ca 545 kcal",
+      "kcal_per_portion_value": 545,
+      "points_estimate": "≈ 6.5 p/portion",
+      "points_estimate_value": 6.5,
+      "total_points_estimate": 26,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Färsk laxsida ASC ICA Gott liv/Pacific ca 1200 g",
+          "buy_amount": 1,
+          "campaign_price": 159,
+          "ordinary_price": 227.76,
+          "discount_sek": 68.76,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "159 kr/st. Ord.pris 227:76 kr. Ca 1200 g."
+        },
+        {
+          "product_name": "Fetaost ICA 150 g",
+          "buy_amount": 1,
+          "campaign_price": 13.5,
+          "ordinary_price": 21.67,
+          "discount_sek": 8.17,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "13:50 kr/st. Ord.pris 21:67 kr."
+        },
+        {
+          "product_name": "Crème Fraiche Arla Köket 2 dl",
+          "buy_amount": 1,
+          "campaign_price": 10,
+          "ordinary_price": 12.24,
+          "discount_sek": 2.24,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Ord.pris 12:24-17:88 kr."
+        },
+        {
+          "product_name": "Paprika 2-pack i påse ICA 350 g",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 28.29,
+          "discount_sek": 8.29,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "20 kr/st. Ord.pris 28:29 kr."
+        },
+        {
+          "product_name": "Piccolinitomater i ask ICA Selection 200 g",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 32.29,
+          "discount_sek": 7.29,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 32:29 kr."
+        }
+      ],
+      "ingredients": [
+        {"item": "Färsk laxsida [KAMPANJ]", "amount": 600, "unit": "g", "line_cost_sek": 79.5, "campaign_price": 79.5, "ordinary_price": 113.88, "discount_sek": 34.38, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Fetaost [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 13.5, "campaign_price": 13.5, "ordinary_price": 21.67, "discount_sek": 8.17, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Crème Fraiche [KAMPANJ]", "amount": 200, "unit": "ml", "line_cost_sek": 10, "campaign_price": 10, "ordinary_price": 12.24, "discount_sek": 2.24, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Paprika [KAMPANJ]", "amount": 350, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 28.29, "discount_sek": 8.29, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Piccolinitomater [KAMPANJ]", "amount": 200, "unit": "g", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 32.29, "discount_sek": 7.29, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Potatis", "amount": 800, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Vitlök", "amount": 3, "unit": "klyftor", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 30, "unit": "ml", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt, peppar, oregano", "amount": 1, "unit": "kryddmått", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 200°C. Dela paprikorna i stora bitar och lägg på en plåt med piccolinitomater, 1 msk olivolja, hela vitlöksklyftor, salt och peppar. Rosta 20 minuter.\n2. Koka potatisen mjuk.\n3. Rör ihop fetaost med crème fraiche, rivet citronskal och en nypa oregano till en slät cremé.\n4. Lägg laxen i en ugnsform, salta lätt och pressa över lite citron. Baka i ugnen de sista 12–15 minuterna av grönsakernas tid.\n5. Servera laxen med den rostade paprikan, tomaterna, krämig fetaostcremé och kokt potatis.",
+      "costs": {"campaign_total_sek": 172, "ordinary_total_sek": 232.37, "total_discount_sek": 60.37, "cost_per_portion_sek": 43},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Laxens fetma möter syrlig fetaost och crème fraiche, medan rostad paprika och tomater ger sötma och djup. Citronen lyfter helheten.",
+      "nutrition_profile": "Laxen ger omega-3 och högkvalitativt protein, potatis och grönsaker bidrar med fibrer och vitamin C från paprikan.",
+      "price_justification": "Ca 43 kr per portion. Laxen är den stora kostnaden men kampanjpriset på 159 kr för 1,2 kg gör den till ett bra köp. Feta och crème fraiche är prisvärda kampanjvaror.",
+      "variation_tips": "Byt ut potatisen mot bulgur eller couscous för en snabbare kolhydrat."
+    },
+    {
+      "title": "Paprika- och fetaostfyllda tortillas med tomatsalsa och crème fraiche",
+      "description": "En snabb och vegetarisk middag med ugnsrostad paprika, krämig fetaost och en fräsch tomatsalsa. Perfekt när du vill ha något somrigt och mättande på under 25 minuter.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["middag", "vegetarisk", "medelhavsinspirerad", "snabb"],
+      "kcal_per_portion": "ca 490 kcal",
+      "kcal_per_portion_value": 490,
+      "points_estimate": "≈ 7 p/portion",
+      "points_estimate_value": 7,
+      "total_points_estimate": 28,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Paprika 2-pack i påse ICA 350 g",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 28.29,
+          "discount_sek": 8.29,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "20 kr/st. Ord.pris 28:29 kr."
+        },
+        {
+          "product_name": "Fetaost ICA 150 g",
+          "buy_amount": 1,
+          "campaign_price": 13.5,
+          "ordinary_price": 21.67,
+          "discount_sek": 8.17,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "13:50 kr/st. Ord.pris 21:67 kr."
+        },
+        {
+          "product_name": "Crème Fraiche Arla Köket 2 dl",
+          "buy_amount": 1,
+          "campaign_price": 10,
+          "ordinary_price": 12.24,
+          "discount_sek": 2.24,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Ord.pris 12:24-17:88 kr."
+        },
+        {
+          "product_name": "Piccolinitomater i ask ICA Selection 200 g",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 32.29,
+          "discount_sek": 7.29,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 32:29 kr."
+        }
+      ],
+      "ingredients": [
+        {"item": "Paprika [KAMPANJ]", "amount": 350, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 28.29, "discount_sek": 8.29, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Fetaost [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 13.5, "campaign_price": 13.5, "ordinary_price": 21.67, "discount_sek": 8.17, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Crème Fraiche [KAMPANJ]", "amount": 100, "unit": "ml", "line_cost_sek": 5, "campaign_price": 5, "ordinary_price": 6.12, "discount_sek": 1.12, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Piccolinitomater [KAMPANJ]", "amount": 200, "unit": "g", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 32.29, "discount_sek": 7.29, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Tortillabröd", "amount": 8, "unit": "st", "line_cost_sek": 20, "campaign_price": null, "ordinary_price": 20, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Rödlök", "amount": 1, "unit": "st", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Färsk basilika", "amount": 0.5, "unit": "kruka", "line_cost_sek": 10, "campaign_price": null, "ordinary_price": 10, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Olivolja", "amount": 15, "unit": "ml", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Lime", "amount": 0.5, "unit": "st", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt, peppar, spiskummin", "amount": 1, "unit": "kryddmått", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225°C. Skär paprikorna i breda strimlor, lägg på en plåt med 1 msk olivolja, salt, peppar och spiskummin. Rosta 15 minuter.\n2. Under tiden: hacka tomaterna och rödlöken fint. Blanda med hackad basilika, en skvätt lime, salt och peppar till en salsa.\n3. Smula fetaosten och blanda med crème fraiche.\n4. Värm tortillabröden snabbt i torr stekpanna eller micro.\n5. Fyll tortillabröden med rostad paprika, fetaoströra och tomatsalsa. Vik ihop och servera.",
+      "costs": {"campaign_total_sek": 102.5, "ordinary_total_sek": 127.37, "total_discount_sek": 24.87, "cost_per_portion_sek": 25.63},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Rostad paprika ger sötma och rökighet, fetaosten står för sälta och fyllighet, tomatsalsan syra och lime ger fräschör.",
+      "nutrition_profile": "Paprika är rik på vitamin C, fetaost och crème fraiche ger protein och kalcium. Tortillabröd håller energin uppe.",
+      "price_justification": "Ca 25.63 kr per portion. Paprika och fetaost på kampanj håller portionskostnaden låg, och basvaror som tortillabröd och lök är billiga.",
+      "variation_tips": "Lägg till avokado eller svarta bönor om du har hemma för extra mättnad och krämighet."
+    },
+    {
+      "title": "Melon- och hallonsallad med fetaost, mynta och lime",
+      "description": "En fräsch och nyttig sommarrätt som funkar som lätt lunch, förrätt eller tillbehör till grillat. Den salta fetaosten och syrliga limen balanserar vattenmelonens sötma och hallonens syrlighet.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "10 min",
+      "meal_flags": ["lunch", "förrätt", "vegetarisk", "glutenfri", "snabb", "medelhavsinspirerad"],
+      "kcal_per_portion": "ca 195 kcal",
+      "kcal_per_portion_value": 195,
+      "points_estimate": "≈ 3.3 p/portion",
+      "points_estimate_value": 3.3,
+      "total_points_estimate": 13,
+      "points_uncertainty": "låg",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Minivattenmeloner Spanien/Italien",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 37.4,
+          "discount_sek": 12.4,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 37:40 kr."
+        },
+        {
+          "product_name": "Hallon i ask ICA 125 g",
+          "buy_amount": 1,
+          "campaign_price": 30,
+          "ordinary_price": 40.61,
+          "discount_sek": 10.61,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "30 kr/st. Ord.pris 40:61 kr."
+        },
+        {
+          "product_name": "Fetaost ICA 150 g",
+          "buy_amount": 1,
+          "campaign_price": 13.5,
+          "ordinary_price": 21.67,
+          "discount_sek": 8.17,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "13:50 kr/st. Ord.pris 21:67 kr."
+        }
+      ],
+      "ingredients": [
+        {"item": "Minivattenmelon [KAMPANJ]", "amount": 1500, "unit": "g", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 37.4, "discount_sek": 12.4, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Hallon [KAMPANJ]", "amount": 125, "unit": "g", "line_cost_sek": 30, "campaign_price": 30, "ordinary_price": 40.61, "discount_sek": 10.61, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Fetaost [KAMPANJ]", "amount": 75, "unit": "g", "line_cost_sek": 6.75, "campaign_price": 6.75, "ordinary_price": 10.84, "discount_sek": 4.09, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Mynta", "amount": 0.5, "unit": "kruka", "line_cost_sek": 10, "campaign_price": null, "ordinary_price": 10, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Lime", "amount": 1, "unit": "st", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 10, "unit": "ml", "line_cost_sek": 1.5, "campaign_price": null, "ordinary_price": 1.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Halvera minivattenmelonen, gröp ur köttet och skär i lagom stora tärningar. Lägg i en stor skål.\n2. Vänd ner hallonen försiktigt.\n3. Smula fetaosten grovt över bären.\n4. Riv myntabladen grovt och strö över.\n5. Pressa lime över, ringla över olivolja och dra ett par varv med svartpeppar. Servera genast.",
+      "costs": {"campaign_total_sek": 86.25, "ordinary_total_sek": 113.52, "total_discount_sek": 27.27, "cost_per_portion_sek": 21.56},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Söt vattenmelon, syrliga hallon och lime, salt fetaost och fräsch mynta. En perfekt balans av somriga smaker.",
+      "nutrition_profile": "Lågkalorirätt med mycket vätska, vitaminer och antioxidanter från melon och hallon, plus protein och kalcium från fetaosten.",
+      "price_justification": "Ca 21.56 kr per portion. Två kampanjprodukter (melon och hallon) plus fetaost på kampanj gör rätten väldigt prisvärd för att vara en bärig sommarsallad.",
+      "variation_tips": "Snabbfixad lunch: lägg till ruccola och en skiva surdegsbröd. För grillkvällen: servera som svalkande tillbehör."
+    }
+  ]
+}
