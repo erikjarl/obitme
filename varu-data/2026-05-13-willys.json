@@ -1,0 +1,633 @@
+{
+  "date": "2026-05-13",
+  "created_at": "2026-05-13T20:00:00Z",
+  "slug": "willys-2026-05-13",
+  "title": "Willys vecka 20: Medelhavsbiffar, chorizopasta och yoghurtbowl",
+  "summary": "Tre recept baserade på Willys e-handelserbjudanden onsdag 13/5 2026. Priser är hämtade från willys.se.",
+  "store": {
+    "name": "Willys",
+    "url": "https://www.willys.se/erbjudanden/ehandel"
+  },
+  "source_note": "Priser hämtade från Willys e-handelserbjudanden onsdag 13/5 2026. Erbjudanden kan vara tidsbegränsade och butiksberoende.",
+  "pricing_method": "willys.se e-handel",
+  "fyndlista": [
+    {
+      "product_name": "Blandfärs 20% ca 1kg",
+      "campaign_price": 79.9,
+      "ordinary_price": 98.9,
+      "discount_sek": 19.0,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Tomater Cocktail Klass 1 250g",
+      "campaign_price": 9.9,
+      "ordinary_price": 17.9,
+      "discount_sek": 8.0,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Fetaost Kassos 100g",
+      "campaign_price": 12.5,
+      "ordinary_price": 14.1,
+      "discount_sek": 1.6,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Pitabröd 4pack Bread Of The W 420g",
+      "campaign_price": 18.83,
+      "ordinary_price": 18.83,
+      "discount_sek": 0.0,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Grekisk Yoghurt 10% Arla Köket 1kg",
+      "campaign_price": 29.9,
+      "ordinary_price": 33.9,
+      "discount_sek": 4.0,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Olivolja Grekisk Garant 500ml",
+      "campaign_price": 59.9,
+      "ordinary_price": 66.15,
+      "discount_sek": 6.25,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Chorizo Garant 300g",
+      "campaign_price": 22.9,
+      "ordinary_price": 28.29,
+      "discount_sek": 5.39,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Fettucine Eldorado 500g",
+      "campaign_price": 22.9,
+      "ordinary_price": 28.29,
+      "discount_sek": 5.39,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Valnötter Reell Food 250g",
+      "campaign_price": 29.9,
+      "ordinary_price": 33.97,
+      "discount_sek": 4.07,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Pulled Pork Garant 450g",
+      "campaign_price": 39.9,
+      "ordinary_price": 50.06,
+      "discount_sek": 10.16,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Lantbröd Grekiskt Dafgårds 560g",
+      "campaign_price": 19.9,
+      "ordinary_price": 28.29,
+      "discount_sek": 8.39,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Yoghurt & Feta Röra 21% Garant 200g",
+      "campaign_price": 24.9,
+      "ordinary_price": 33.02,
+      "discount_sek": 8.12,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Bearnaisesås Klassisk Garant 220ml",
+      "campaign_price": 15.0,
+      "ordinary_price": 18.83,
+      "discount_sek": 3.83,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Jasminris Garant 1kg",
+      "campaign_price": 28.9,
+      "ordinary_price": 33.02,
+      "discount_sek": 4.12,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    },
+    {
+      "product_name": "Allround Grilloil Santa Maria 400ml",
+      "campaign_price": 27.9,
+      "ordinary_price": 31.13,
+      "discount_sek": 3.23,
+      "price_status": "bekräftad",
+      "source": "willys.se"
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Medelhavsbiffar med grekisk sallad och pitabröd",
+      "description": "Saftiga blandfärsbiffar med fetaost och grekisk yoghurt, serverade med cocktailtomater, pitabröd och en klick bearnaisesås. Medelhavsinspirerad huvudrätt som passar hela familjen.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": [
+        "huvudrätt",
+        "kött",
+        "medelhav",
+        "familj",
+        "proteinrik"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Blandfärs 20% ca 1kg",
+          "buy_amount": "500 g",
+          "campaign_price": 39.95,
+          "ordinary_price": 49.45,
+          "discount_sek": 9.5,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "79.90 kr/kg kampanj → halva priset för 500g"
+        },
+        {
+          "product_name": "Fetaost Kassos 100g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 12.5,
+          "ordinary_price": 14.1,
+          "discount_sek": 1.6,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "2 för 25 kr → 12.50 kr/st"
+        },
+        {
+          "product_name": "Tomater Cocktail Klass 1 250g",
+          "buy_amount": "1 ask",
+          "campaign_price": 9.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 8.0,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 8 kr/st"
+        },
+        {
+          "product_name": "Grekisk Yoghurt 10% Arla Köket 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 33.9,
+          "discount_sek": 4.0,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 4 kr/st"
+        },
+        {
+          "product_name": "Pitabröd 4pack Bread Of The W 420g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 18.83,
+          "ordinary_price": 18.83,
+          "discount_sek": 0.0,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Tillfälligt parti"
+        },
+        {
+          "product_name": "Olivolja Grekisk Garant 500ml",
+          "buy_amount": "1 flaska",
+          "campaign_price": 59.9,
+          "ordinary_price": 66.15,
+          "discount_sek": 6.25,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 6.25 kr/st"
+        },
+        {
+          "product_name": "Bearnaisesås Klassisk Garant 220ml",
+          "buy_amount": "1 flaska",
+          "campaign_price": 15.0,
+          "ordinary_price": 18.83,
+          "discount_sek": 3.83,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "2 för 30 kr"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Blandfärs 20%",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 39.95,
+          "campaign_price": 79.9,
+          "ordinary_price": 98.9,
+          "discount_sek": 9.5,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Fetaost",
+          "amount": 100,
+          "unit": "g",
+          "line_cost_sek": 12.5,
+          "campaign_price": 12.5,
+          "ordinary_price": 14.1,
+          "discount_sek": 1.6,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Grekisk yoghurt 10%",
+          "amount": 150,
+          "unit": "g",
+          "line_cost_sek": 4.49,
+          "campaign_price": 29.9,
+          "ordinary_price": 33.9,
+          "discount_sek": 4.0,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Cocktailtomater",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 9.9,
+          "campaign_price": 9.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 8.0,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Pitabröd",
+          "amount": 4,
+          "unit": "st",
+          "line_cost_sek": 18.83,
+          "campaign_price": 18.83,
+          "ordinary_price": 18.83,
+          "discount_sek": 0.0,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Olivolja",
+          "amount": 30,
+          "unit": "ml",
+          "line_cost_sek": 3.59,
+          "campaign_price": 59.9,
+          "ordinary_price": 66.15,
+          "discount_sek": 6.25,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Bearnaisesås",
+          "amount": 100,
+          "unit": "ml",
+          "line_cost_sek": 6.82,
+          "campaign_price": 15.0,
+          "ordinary_price": 18.83,
+          "discount_sek": 3.83,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Salt, svartpeppar, vitlökspulver",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Smula fetaosten. Blanda blandfärs, smulad fetaost, 2 msk grekisk yoghurt, salt, peppar och vitlökspulver i en skål. Forma till 8-12 små biffar.",
+        "Hetta upp 1 msk olivolja i en stekpanna på medelhög värme. Stek biffarna 4-5 min per sida tills genomstekta.",
+        "Halvera cocktailtomaterna. Värm pitabröden snabbt i torr stekpanna eller i brödrost.",
+        "Servera biffarna med pitabröd, cocktailtomater, en klick bearnaisesås och resterande grekisk yoghurt vid sidan om."
+      ],
+      "costs": {
+        "campaign_total_sek": 96.08,
+        "ordinary_total_sek": 117.97,
+        "total_discount_sek": 21.89,
+        "cost_per_portion_sek": 24.02
+      },
+      "sources": [
+        "willys.se"
+      ],
+      "kcal_per_portion": "≈ 580 kcal per portion",
+      "kcal_per_portion_value": 580,
+      "points_estimate": "≈ 10 p/portion",
+      "points_estimate_value": 10,
+      "total_points_estimate": 40,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Chorizopasta med färska tomater och valnötter",
+      "description": "Billig och smakrik pastarätt med chorizo, fettucine, cocktailtomater och krossade valnötter. En vegetarisk veckodag eller snabb vardagsmiddag som mättar ordentligt.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "20 min",
+      "meal_flags": [
+        "huvudrätt",
+        "billigt",
+        "pasta",
+        "snabb",
+        "vardagsmat"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Chorizo Garant 300g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 22.9,
+          "ordinary_price": 28.29,
+          "discount_sek": 5.39,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 5.39 kr/st"
+        },
+        {
+          "product_name": "Fettucine Eldorado 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 22.9,
+          "ordinary_price": 28.29,
+          "discount_sek": 5.39,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 5.39 kr/st"
+        },
+        {
+          "product_name": "Tomater Cocktail Klass 1 250g",
+          "buy_amount": "1 ask",
+          "campaign_price": 9.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 8.0,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 8 kr/st"
+        },
+        {
+          "product_name": "Valnötter Reell Food 250g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 33.97,
+          "discount_sek": 4.07,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 4.07 kr/st"
+        },
+        {
+          "product_name": "Olivolja Grekisk Garant 500ml",
+          "buy_amount": "1 flaska (om du inte redan har)",
+          "campaign_price": 59.9,
+          "ordinary_price": 66.15,
+          "discount_sek": 6.25,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 6.25 kr/st"
+        },
+        {
+          "product_name": "Yoghurt & Feta Röra 21% Garant 200g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.9,
+          "ordinary_price": 33.02,
+          "discount_sek": 8.12,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 8.12 kr/st"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Chorizo",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 22.9,
+          "campaign_price": 22.9,
+          "ordinary_price": 28.29,
+          "discount_sek": 5.39,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Fettucine (torr vikt)",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 18.32,
+          "campaign_price": 22.9,
+          "ordinary_price": 28.29,
+          "discount_sek": 5.39,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Cocktailtomater",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 9.9,
+          "campaign_price": 9.9,
+          "ordinary_price": 17.9,
+          "discount_sek": 8.0,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Valnötter",
+          "amount": 50,
+          "unit": "g",
+          "line_cost_sek": 5.98,
+          "campaign_price": 29.9,
+          "ordinary_price": 33.97,
+          "discount_sek": 4.07,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Olivolja",
+          "amount": 20,
+          "unit": "ml",
+          "line_cost_sek": 2.4,
+          "campaign_price": 59.9,
+          "ordinary_price": 66.15,
+          "discount_sek": 6.25,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Yoghurt & Feta Röra",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 24.9,
+          "campaign_price": 24.9,
+          "ordinary_price": 33.02,
+          "discount_sek": 8.12,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Salt, svartpeppar, oregano",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Koka fettucinen enligt anvisning på förpackningen (ca 8-10 minuter). Spara 1 dl pastavatten.",
+        "Skiva chorizon i tunna slantar. Hetta upp olivolja i en stekpanna och stek chorizon 3-4 minuter tills den börjar få färg.",
+        "Halvera cocktailtomaterna och lägg i pannan. Stek 2 minuter. Krossa valnötterna grovt och strö över.",
+        "Vänd ner den kokta pastan i pannan. Tillsätt yoghurt & feta-röran och blanda väl. Späd med lite pastavatten om det blir för tjockt.",
+        "Smaka av med salt, peppar och oregano. Servera direkt."
+      ],
+      "costs": {
+        "campaign_total_sek": 84.4,
+        "ordinary_total_sek": 104.88,
+        "total_discount_sek": 20.48,
+        "cost_per_portion_sek": 21.1
+      },
+      "sources": [
+        "willys.se"
+      ],
+      "kcal_per_portion": "≈ 650 kcal per portion",
+      "kcal_per_portion_value": 650,
+      "points_estimate": "≈ 8 p/portion",
+      "points_estimate_value": 8,
+      "total_points_estimate": 32,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Grekisk yoghurtbowl med valnötter, honung och lantbröd",
+      "description": "Enkel och näringsrik frukost eller mellanmål med krämig grekisk yoghurt, rostade valnötter och lantbröd. Perfekt start på dagen för både vuxna och barn.",
+      "servings": 2,
+      "servings_label": "2 portioner",
+      "cook_time": "10 min",
+      "meal_flags": [
+        "frukost",
+        "mellanmål",
+        "enkel",
+        "snabbt",
+        "mejeririkt"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Grekisk Yoghurt 10% Arla Köket 1kg",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 33.9,
+          "discount_sek": 4.0,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 4 kr/st"
+        },
+        {
+          "product_name": "Valnötter Reell Food 250g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.9,
+          "ordinary_price": 33.97,
+          "discount_sek": 4.07,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 4.07 kr/st"
+        },
+        {
+          "product_name": "Lantbröd Grekiskt Dafgårds 560g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 28.29,
+          "discount_sek": 8.39,
+          "price_status": "bekräftad",
+          "source": "willys.se",
+          "evidence": "Spara 8.39 kr/st"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Grekisk yoghurt 10%",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 11.96,
+          "campaign_price": 29.9,
+          "ordinary_price": 33.9,
+          "discount_sek": 4.0,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Valnötter",
+          "amount": 40,
+          "unit": "g",
+          "line_cost_sek": 4.78,
+          "campaign_price": 29.9,
+          "ordinary_price": 33.97,
+          "discount_sek": 4.07,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Lantbröd Grekiskt",
+          "amount": 4,
+          "unit": "skivor",
+          "line_cost_sek": 5.68,
+          "campaign_price": 19.9,
+          "ordinary_price": 28.29,
+          "discount_sek": 8.39,
+          "price_status": "bekräftad",
+          "source": "willys.se"
+        },
+        {
+          "item": "Honung (från skafferiet)",
+          "amount": 20,
+          "unit": "g",
+          "line_cost_sek": 2.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": "willys.se"
+        }
+      ],
+      "method": [
+        "Rosta valnötterna lätt i torr stekpanna på medelvärme i 2-3 minuter tills de doftar.",
+        "Rosta lantbrödet i brödrost eller i ugnen på 200°C i 5 minuter tills gyllene.",
+        "Fördela den grekiska yoghurten i två skålar. Toppa med rostade valnötter och ringla över honung.",
+        "Servera med det rostade lantbrödet vid sidan om."
+      ],
+      "costs": {
+        "campaign_total_sek": 24.42,
+        "ordinary_total_sek": 33.59,
+        "total_discount_sek": 9.17,
+        "cost_per_portion_sek": 12.21
+      },
+      "sources": [
+        "willys.se"
+      ],
+      "kcal_per_portion": "≈ 410 kcal per portion",
+      "kcal_per_portion_value": 410,
+      "points_estimate": "≈ 8 p/portion",
+      "points_estimate_value": 8,
+      "total_points_estimate": 16,
+      "points_uncertainty": "medel"
+    }
+  ],
+  "quality_check": {
+    "json_valid": true,
+    "price_status_consistent": true,
+    "all_prices_simple": true,
+    "all_sources_simple": true,
+    "store_structure_valid": true,
+    "method_structure_valid": true
+  },
+  "delivery_note": "Priser hämtade från Willys e-handelserbjudanden onsdag 13/5 2026. Erbjudanden kan variera i butik och över tid."
+}
