@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-09T08:00:12.874785",
+  "generated_at": "2026-05-16T08:00:12.796873",
   "publish_mode": "next_calendar_week",
-  "week_number": 20,
-  "week_start": "2026-05-11",
-  "week_end": "2026-05-17",
+  "week_number": 21,
+  "week_start": "2026-05-18",
+  "week_end": "2026-05-24",
   "days_covered": 7,
-  "busy_days": 4,
-  "free_days": 3,
-  "total_events": 5,
+  "busy_days": 2,
+  "free_days": 5,
+  "total_events": 2,
   "family_profile": {
     "members": [
       {
@@ -149,45 +149,14 @@
     }
   ],
   "scraped_event_count": 2,
-  "week_overview": "Vecka 20 innehåller några fasta punkter, bland annat 13:30 ish gå förbi granne  på måndag, Skriva urvalsprov  på måndag, 10:40 läkarbesök elliot huvud  på onsdag och Kalas lage på lördag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund.",
+  "week_overview": "Vecka 21 innehåller några fasta punkter, bland annat Erik konsert med farfar  på onsdag och Ida examen på plats på fredag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund.",
   "days": [
     {
-      "date": "2026-05-11",
+      "date": "2026-05-18",
       "weekday": "måndag",
-      "events": [
-        {
-          "title": "13:30 ish gå förbi granne ",
-          "start": "2026-05-11T11:30:00",
-          "end": "2026-05-11T12:30:00",
-          "is_all_day": false,
-          "calendar": "Ida&Erik Jarls familjekalender "
-        },
-        {
-          "title": "Skriva urvalsprov ",
-          "start": "2026-05-11T16:00:00",
-          "end": "2026-05-11T17:00:00",
-          "is_all_day": false,
-          "calendar": "Ida&Erik Jarls familjekalender "
-        }
-      ],
-      "has_events": true,
-      "summary": "Måndag 05-11 – 13:30 ish gå förbi granne  11:30–12:30 [Ida&Erik Jarls familjekalender ]; Skriva urvalsprov  16:00–17:00 [Ida&Erik Jarls familjekalender ]",
-      "suggestions": [
-        {
-          "activity": "prioritera återhämtning och håll resten av dagen enkel",
-          "category": "återhämtning",
-          "duration": "flex",
-          "family_fit": "familjevänligt",
-          "reason": "dagen verkar redan ganska full"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-12",
-      "weekday": "tisdag",
       "events": [],
       "has_events": false,
-      "summary": "Tisdag 05-12 – ledig",
+      "summary": "Måndag 05-18 – ledig",
       "suggestions": [
         {
           "activity": "gå på en barnvänlig aktivitet i närområdet",
@@ -213,27 +182,11 @@
       ]
     },
     {
-      "date": "2026-05-13",
-      "weekday": "onsdag",
-      "events": [
-        {
-          "title": "10:40 läkarbesök elliot huvud ",
-          "start": "2026-05-13T08:40:00",
-          "end": "2026-05-13T09:40:00",
-          "is_all_day": false,
-          "calendar": "Ida&Erik Jarls familjekalender "
-        }
-      ],
-      "has_events": true,
-      "summary": "Onsdag 05-13 – 10:40 läkarbesök elliot huvud  08:40–09:40 [Ida&Erik Jarls familjekalender ]",
-      "suggestions": []
-    },
-    {
-      "date": "2026-05-14",
-      "weekday": "torsdag",
+      "date": "2026-05-19",
+      "weekday": "tisdag",
       "events": [],
       "has_events": false,
-      "summary": "Torsdag 05-14 – ledig",
+      "summary": "Tisdag 05-19 – ledig",
       "suggestions": [
         {
           "activity": "ta ett lugnt pass med planering av trallbygget",
@@ -259,11 +212,19 @@
       ]
     },
     {
-      "date": "2026-05-15",
-      "weekday": "fredag",
-      "events": [],
-      "has_events": false,
-      "summary": "Fredag 05-15 – ledig",
+      "date": "2026-05-20",
+      "weekday": "onsdag",
+      "events": [
+        {
+          "title": "Erik konsert med farfar ",
+          "start": "2026-05-20T17:00:00",
+          "end": "2026-05-20T18:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Onsdag 05-20 – Erik konsert med farfar  17:00–18:00 [Ida&Erik Jarls familjekalender ]",
       "suggestions": [
         {
           "activity": "ta en kort familjeutflykt i naturen",
@@ -289,35 +250,72 @@
       ]
     },
     {
-      "date": "2026-05-16",
-      "weekday": "lördag",
+      "date": "2026-05-21",
+      "weekday": "torsdag",
+      "events": [],
+      "has_events": false,
+      "summary": "Torsdag 05-21 – ledig",
+      "suggestions": [
+        {
+          "activity": "hitta någon musikupplevelse i närheten",
+          "category": "musik",
+          "duration": "2 h",
+          "family_fit": "familjevänligt",
+          "reason": "passar ert intresse för musik om veckan känns lagom luftig"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "weekday": "fredag",
       "events": [
         {
-          "title": "Kalas lage",
-          "start": "2026-05-16T12:00:00",
-          "end": "2026-05-16T13:00:00",
+          "title": "Ida examen på plats",
+          "start": "2026-05-22T09:00:00",
+          "end": "2026-05-22T10:00:00",
           "is_all_day": false,
           "calendar": "Ida&Erik Jarls familjekalender "
         }
       ],
       "has_events": true,
-      "summary": "Lördag 05-16 – Kalas lage 12:00–13:00 [Ida&Erik Jarls familjekalender ]",
+      "summary": "Fredag 05-22 – Ida examen på plats 09:00–10:00 [Ida&Erik Jarls familjekalender ]",
       "suggestions": []
     },
     {
-      "date": "2026-05-17",
-      "weekday": "söndag",
-      "events": [
+      "date": "2026-05-23",
+      "weekday": "lördag",
+      "events": [],
+      "has_events": false,
+      "summary": "Lördag 05-23 – ledig",
+      "suggestions": [
         {
-          "title": "Lages barnkalas",
-          "start": "2026-05-17T12:00:00",
-          "end": "2026-05-17T13:00:00",
-          "is_all_day": false,
-          "calendar": "Ida&Erik Jarls familjekalender "
+          "activity": "kolla om Vårens Östgötadagar 2026 (9-10 maj 2026) passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
+          "match_score": 24
+        },
+        {
+          "activity": "kolla om Evenemang för dig & dina barn i Linköping passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/familj/",
+          "match_score": 16
         }
-      ],
-      "has_events": true,
-      "summary": "Söndag 05-17 – Lages barnkalas 12:00–13:00 [Ida&Erik Jarls familjekalender ]",
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "weekday": "söndag",
+      "events": [],
+      "has_events": false,
+      "summary": "Söndag 05-24 – ledig",
       "suggestions": []
     }
   ]
