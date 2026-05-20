@@ -1,0 +1,679 @@
+{
+  "date": "2026-05-20",
+  "created_at": "2026-05-20T20:00:00Z",
+  "slug": "willys-2026-05-20",
+  "title": "Willys vecka 21: Kebabpizza, salsicciapasta och kvargfrukost",
+  "summary": "Tre recept baserade på Willys kampanjvaror vecka 21 (18/5–24/5 2026). Priser är hämtade från dinareklamblad.se.",
+  "store": {
+    "name": "Willys",
+    "url": "https://www.willys.se/erbjudanden/ehandel"
+  },
+  "source_note": "Priser hämtade från Willys reklamblad vecka 21 (18/5–24/5 2026) via dinareklamblad.se. Kampanjpriser är bekräftade. Ordinarie priser är uppskattade.",
+  "pricing_method": "dinareklamblad.se reklamblad (kampanjpriser bekräftade)",
+  "fyndlista": [
+    {
+      "product_name": "Kycklingkebab",
+      "campaign_price": 79.0,
+      "ordinary_price": 92.0,
+      "discount_sek": 13.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Salsicciafärs",
+      "campaign_price": 34.9,
+      "ordinary_price": 49.9,
+      "discount_sek": 15.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Kycklingfilé",
+      "campaign_price": 73.9,
+      "ordinary_price": 89.9,
+      "discount_sek": 16.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Kvisttomater",
+      "campaign_price": 19.9,
+      "ordinary_price": 25.9,
+      "discount_sek": 6.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Turkisk yoghurt naturell",
+      "campaign_price": 17.9,
+      "ordinary_price": 24.9,
+      "discount_sek": 7.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Naturell kvarg",
+      "campaign_price": 25.0,
+      "ordinary_price": 30.0,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Grillkorv",
+      "campaign_price": 27.9,
+      "ordinary_price": 34.9,
+      "discount_sek": 7.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Rökt lax / gravad lax",
+      "campaign_price": 39.9,
+      "ordinary_price": 49.9,
+      "discount_sek": 10.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Getost",
+      "campaign_price": 23.9,
+      "ordinary_price": 29.9,
+      "discount_sek": 6.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Salladsost",
+      "campaign_price": 30.0,
+      "ordinary_price": 35.0,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Röd spetspaprika 200g",
+      "campaign_price": 14.9,
+      "ordinary_price": 19.9,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Grön zucchini",
+      "campaign_price": 9.9,
+      "ordinary_price": 14.9,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Champinjoner 250g",
+      "campaign_price": 14.9,
+      "ordinary_price": 19.9,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Förkokt majs 2-pack",
+      "campaign_price": 19.9,
+      "ordinary_price": 24.9,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    },
+    {
+      "product_name": "Potatissallad",
+      "campaign_price": 11.8,
+      "ordinary_price": 16.9,
+      "discount_sek": 5.1,
+      "price_status": "bekräftad",
+      "source": "dinareklamblad.se"
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Kebabpizza med kycklingkebab, getost och paprika",
+      "description": "Hemmagjord kebabpizza med kycklingkebab, smulad getost, röd paprika och färska champinjoner. En medelhavsinspirerad helgfavorit som är rolig att göra med familjen.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "40 min",
+      "meal_flags": [
+        "huvudrätt",
+        "kött",
+        "medelhav",
+        "familj",
+        "ugn"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kycklingkebab",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 79.0,
+          "ordinary_price": 92.0,
+          "discount_sek": 13.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Getost",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 23.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Röd spetspaprika 200g",
+          "buy_amount": "1 påse",
+          "campaign_price": 14.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Champinjoner 250g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Kvisttomater",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 25.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Turkisk yoghurt naturell",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 17.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Kycklingkebab",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 79.0,
+          "campaign_price": 79.0,
+          "ordinary_price": 92.0,
+          "discount_sek": 13.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Pizzadeg (färdig eller hemmagjord)",
+          "amount": 500,
+          "unit": "g",
+          "line_cost_sek": 15.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Getost",
+          "amount": 100,
+          "unit": "g",
+          "line_cost_sek": 23.9,
+          "campaign_price": 23.9,
+          "ordinary_price": 29.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Röd spetspaprika",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 14.9,
+          "campaign_price": 14.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Champinjoner",
+          "amount": 150,
+          "unit": "g",
+          "line_cost_sek": 8.94,
+          "campaign_price": 14.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Kvisttomater",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 19.9,
+          "campaign_price": 19.9,
+          "ordinary_price": 25.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Turkisk yoghurt",
+          "amount": 100,
+          "unit": "ml",
+          "line_cost_sek": 3.58,
+          "campaign_price": 17.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Pizza/tomatsås (burk)",
+          "amount": 200,
+          "unit": "ml",
+          "line_cost_sek": 8.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Ost (riven, till pizza)",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 18.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Salt, peppar, oregano",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Sätt ugnen på 225°C. Kavla ut pizzadegen på en plåt med bakplåtspapper.",
+        "Bred tomatsås över degen. Strö över riven ost.",
+        "Skiva kycklingkebaben, strimla paprikan och skiva champinjonerna. Fördela över pizzan. Smula getosten över.",
+        "Grädda mitt i ugnen 15–18 minuter tills gyllene och krispig.",
+        "Toppa med halverade kvisttomater och klicka över turkisk yoghurt vid servering. Avsluta med oregano."
+      ],
+      "costs": {
+        "campaign_total_sek": 191.22,
+        "ordinary_total_sek": 222.5,
+        "total_discount_sek": 31.28,
+        "cost_per_portion_sek": 47.81
+      },
+      "sources": [
+        "dinareklamblad.se"
+      ],
+      "kcal_per_portion": "≈ 620 kcal per portion",
+      "kcal_per_portion_value": 620,
+      "points_estimate": "≈ 13 p/portion",
+      "points_estimate_value": 13,
+      "total_points_estimate": 52,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Salsicciapasta med zucchini, champinjoner och kvisttomater",
+      "description": "Billig och smakrik pastarätt med salsicciafärs, zucchini, champinjoner och kvisttomater. Snabb vardagsmiddag som mättar hela familjen.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": [
+        "huvudrätt",
+        "kött",
+        "billigt",
+        "snabb",
+        "vardagsmat",
+        "pasta"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Salsicciafärs",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 34.9,
+          "ordinary_price": 49.9,
+          "discount_sek": 15.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Grön zucchini",
+          "buy_amount": "1 st",
+          "campaign_price": 9.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Champinjoner 250g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Kvisttomater",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 25.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Salladsost",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 30.0,
+          "ordinary_price": 35.0,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Salsicciafärs",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 34.9,
+          "campaign_price": 34.9,
+          "ordinary_price": 49.9,
+          "discount_sek": 15.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Pasta (t.ex. penne eller fusilli)",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 18.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Grön zucchini",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 9.9,
+          "campaign_price": 9.9,
+          "ordinary_price": 14.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Champinjoner",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 11.92,
+          "campaign_price": 14.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Kvisttomater",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 19.9,
+          "campaign_price": 19.9,
+          "ordinary_price": 25.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Salladsost",
+          "amount": 100,
+          "unit": "g",
+          "line_cost_sek": 30.0,
+          "campaign_price": 30.0,
+          "ordinary_price": 35.0,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Olivolja, salt, peppar, basilika",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Koka pastan enligt anvisning. Spara 1 dl pastavatten.",
+        "Hetta upp olivolja i en stekpanna. Stek salsicciafärsen på medelhög värme tills den är genomstekt och smulig, ca 8 minuter.",
+        "Skiva zucchini och champinjoner. Lägg i pannan och stek 4–5 minuter.",
+        "Halvera kvisttomaterna och vänd ner. Stek 2 minuter. Smula i salladsosten och vänd runt.",
+        "Blanda ner pasta och späd med pastavatten till krämig konsistens. Smaka av med salt, peppar och basilika."
+      ],
+      "costs": {
+        "campaign_total_sek": 124.62,
+        "ordinary_total_sek": 155.5,
+        "total_discount_sek": 30.88,
+        "cost_per_portion_sek": 31.16
+      },
+      "sources": [
+        "dinareklamblad.se"
+      ],
+      "kcal_per_portion": "≈ 580 kcal per portion",
+      "kcal_per_portion_value": 580,
+      "points_estimate": "≈ 10 p/portion",
+      "points_estimate_value": 10,
+      "total_points_estimate": 40,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Kvarg- och frukostbowl med grillkorv, majs och potatissallad",
+      "description": "En lätt sommarmåltid som passar både lunch och middag – grillad korv med potatissallad, förkokt majs och en klick turkisk yoghurt vid sidan. Barnvänlig och snabb att fixa.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "15 min",
+      "meal_flags": [
+        "enkel",
+        "lunch",
+        "grillning",
+        "barnvänlig",
+        "snabbt"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Grillkorv",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 27.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Potatissallad",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 11.8,
+          "ordinary_price": 16.9,
+          "discount_sek": 5.1,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Förkokt majs 2-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Turkisk yoghurt naturell",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 17.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        },
+        {
+          "product_name": "Kvisttomater",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.9,
+          "ordinary_price": 25.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se",
+          "evidence": "Reklamblad vecka 21"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Grillkorv",
+          "amount": 8,
+          "unit": "st",
+          "line_cost_sek": 27.9,
+          "campaign_price": 27.9,
+          "ordinary_price": 34.9,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Potatissallad",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 11.8,
+          "campaign_price": 11.8,
+          "ordinary_price": 16.9,
+          "discount_sek": 5.1,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Förkokt majs (2 st)",
+          "amount": 2,
+          "unit": "st",
+          "line_cost_sek": 19.9,
+          "campaign_price": 19.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Turkisk yoghurt",
+          "amount": 200,
+          "unit": "ml",
+          "line_cost_sek": 7.16,
+          "campaign_price": 17.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Kvisttomater",
+          "amount": 250,
+          "unit": "g",
+          "line_cost_sek": 19.9,
+          "campaign_price": 19.9,
+          "ordinary_price": 25.9,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "dinareklamblad.se"
+        },
+        {
+          "item": "Smör (till stekning)",
+          "amount": 15,
+          "unit": "g",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Grilla eller stek korvarna i smör i en stekpanna 5–7 minuter tills de är genomvarma och fått färg.",
+        "Koka upp den förkokta majsen enligt anvisning, eller värm i mikron. Dela varje majskolv i 2–3 bitar.",
+        "Lägg upp potatissallad, korv, majsbitar och halverade kvisttomater på tallrikar eller ett stort fat.",
+        "Servera med en klick turkisk yoghurt vid sidan om."
+      ],
+      "costs": {
+        "campaign_total_sek": 86.56,
+        "ordinary_total_sek": 107.5,
+        "total_discount_sek": 20.94,
+        "cost_per_portion_sek": 21.64
+      },
+      "sources": [
+        "dinareklamblad.se"
+      ],
+      "kcal_per_portion": "≈ 450 kcal per portion",
+      "kcal_per_portion_value": 450,
+      "points_estimate": "≈ 9 p/portion",
+      "points_estimate_value": 9,
+      "total_points_estimate": 36,
+      "points_uncertainty": "medel"
+    }
+  ],
+  "quality_check": {
+    "json_valid": true,
+    "price_status_consistent": true,
+    "all_prices_simple": true,
+    "all_sources_simple": true,
+    "store_structure_valid": true,
+    "method_structure_valid": true
+  },
+  "delivery_note": "Priser hämtade från Willys reklamblad vecka 21 (18/5–24/5 2026) via dinareklamblad.se. Ordinarie priser är uppskattade. Kampanjpriser är bekräftade från reklamblad."
+}
