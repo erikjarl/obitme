@@ -1,0 +1,698 @@
+{
+  "date": "2026-05-27",
+  "created_at": "2026-05-27T20:00:00Z",
+  "slug": "willys-2026-05-27",
+  "title": "Willys vecka 22: Fläskkotlettragu, tortillapizza och baguettefrukost",
+  "summary": "Tre recept baserade på Willys kampanjvaror vecka 22 (25/5–31/5 2026). Priser är hämtade från hittaerbjudanden.com.",
+  "store": {
+    "name": "Willys",
+    "url": "https://www.willys.se/erbjudanden/ehandel"
+  },
+  "source_note": "Priser hämtade från Willys veckoblad vecka 22 (25/5–31/5 2026) via hittaerbjudanden.com. Kampanjpriser är bekräftade från annons. Ordinarie priser är uppskattade baserat på genomsnittliga Willys-priser.",
+  "pricing_method": "hittaerbjudanden.com reklamblad (kampanjpriser bekräftade)",
+  "fyndlista": [
+    {
+      "product_name": "Kvisttomat Klass 1 250g",
+      "campaign_price": 14.90,
+      "ordinary_price": 21.90,
+      "discount_sek": 7.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Fläskkotlett med ben, skivad Sverige",
+      "campaign_price": 59.90,
+      "ordinary_price": 74.90,
+      "discount_sek": 15.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Taleggio Dop 26% (per st)",
+      "campaign_price": 39.90,
+      "ordinary_price": 49.90,
+      "discount_sek": 10.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Baguette surdeg stenugnsbakad",
+      "campaign_price": 13.90,
+      "ordinary_price": 19.90,
+      "discount_sek": 6.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Antipasto Misto skivad",
+      "campaign_price": 38.90,
+      "ordinary_price": 45.90,
+      "discount_sek": 7.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Kakaodadlar",
+      "campaign_price": 17.90,
+      "ordinary_price": 22.90,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Tortilla original medium",
+      "campaign_price": 13.40,
+      "ordinary_price": 18.90,
+      "discount_sek": 5.50,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Tomater krossade 500g",
+      "campaign_price": 9.90,
+      "ordinary_price": 14.90,
+      "discount_sek": 5.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Melon mini vatten eko Klass 1",
+      "campaign_price": 18.90,
+      "ordinary_price": 24.90,
+      "discount_sek": 6.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Jordgubbar original 400g",
+      "campaign_price": 19.90,
+      "ordinary_price": 29.90,
+      "discount_sek": 10.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Keso naturell 500g",
+      "campaign_price": 24.90,
+      "ordinary_price": 29.90,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Ägg 10-pack",
+      "campaign_price": 29.90,
+      "ordinary_price": 34.90,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Gul lök 1 kg",
+      "campaign_price": 9.90,
+      "ordinary_price": 14.90,
+      "discount_sek": 5.0,
+      "price_status": "uppskattad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Färskpotatis 1 kg",
+      "campaign_price": 19.90,
+      "ordinary_price": 29.90,
+      "discount_sek": 10.0,
+      "price_status": "uppskattad",
+      "source": "hittaerbjudanden.com"
+    },
+    {
+      "product_name": "Kidneybönor (burk)",
+      "campaign_price": 10.00,
+      "ordinary_price": 11.90,
+      "discount_sek": 1.90,
+      "price_status": "uppskattad",
+      "source": null
+    },
+    {
+      "product_name": "Klassisk toalettpapper 12-pack",
+      "campaign_price": 64.90,
+      "ordinary_price": 74.90,
+      "discount_sek": 10.0,
+      "price_status": "bekräftad",
+      "source": "hittaerbjudanden.com"
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Fläskkotlett med tomat- och bönragu och färskpotatis",
+      "description": "Saftiga fläskkotletter i en mustig tomat- och bönragu med kidneybönor, lök och vitlök. Serveras med kokt färskpotatis. En mättande medelhavsinspirerad vardagsmiddag som passar hela familjen.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": [
+        "huvudrätt",
+        "kött",
+        "medelhav",
+        "familj",
+        "vardagsmat"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Fläskkotlett med ben, skivad Sverige",
+          "buy_amount": "1 förpackning (ca 600 g)",
+          "campaign_price": 59.90,
+          "ordinary_price": 74.90,
+          "discount_sek": 15.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Tomater krossade 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 9.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Färskpotatis 1 kg",
+          "buy_amount": "1 påse",
+          "campaign_price": 19.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Veckoerbjudande"
+        },
+        {
+          "product_name": "Gul lök 1 kg",
+          "buy_amount": "1 påse",
+          "campaign_price": 9.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Veckoerbjudande"
+        },
+        {
+          "product_name": "Kidneybönor (burk)",
+          "buy_amount": "1 burk",
+          "campaign_price": 10.00,
+          "ordinary_price": 11.90,
+          "discount_sek": 1.90,
+          "price_status": "uppskattad",
+          "source": null,
+          "evidence": "Baspris"
+        },
+        {
+          "product_name": "Kvisttomat Klass 1 250g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.90,
+          "ordinary_price": 21.90,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Fläskkotlett med ben",
+          "amount": 600,
+          "unit": "g",
+          "line_cost_sek": 59.90,
+          "campaign_price": 59.90,
+          "ordinary_price": 74.90,
+          "discount_sek": 15.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Tomater krossade",
+          "amount": 400,
+          "unit": "ml",
+          "line_cost_sek": 9.90,
+          "campaign_price": 9.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Kidneybönor (avsköljda)",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 5.00,
+          "campaign_price": 10.00,
+          "ordinary_price": 11.90,
+          "discount_sek": 1.90,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Färskpotatis",
+          "amount": 600,
+          "unit": "g",
+          "line_cost_sek": 11.94,
+          "campaign_price": 19.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 10.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Gul lök",
+          "amount": 150,
+          "unit": "g",
+          "line_cost_sek": 1.49,
+          "campaign_price": 9.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Vitlök",
+          "amount": 3,
+          "unit": "klyftor",
+          "line_cost_sek": 2.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Olivolja",
+          "amount": 30,
+          "unit": "ml",
+          "line_cost_sek": 3.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Kvisttomater",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 11.92,
+          "campaign_price": 14.90,
+          "ordinary_price": 21.90,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Salt, peppar, timjan, lagerblad",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Skrubba potatisen och koka den mjuk i lättsaltat vatten, ca 12–15 minuter. Håll varm.",
+        "Salta och peppra kotletterna rikligt. Hetta upp hälften av oljan i en stekpanna och bryn kotletterna på hög värme, 2–3 minuter per sida. Ta upp och lägg åt sidan.",
+        "Hacka lök och vitlök. Fräs i resten av oljan i samma panna på medelvärme tills mjukt, ca 3 minuter. Häll i krossade tomater, sköljda kidneybönor, timjan och lagerblad. Låt puttra 5 minuter.",
+        "Lägg tillbaka kotletterna i pannan och vänd ner halverade kvisttomater. Låt allt puttra på svag värme i 8–10 minuter. Smaka av med salt och peppar.",
+        "Servera kotletterna rikligt täckta av tomatragun tillsammans med den kokta färskpotatisen."
+      ],
+      "costs": {
+        "campaign_total_sek": 105.15,
+        "ordinary_total_sek": 135.30,
+        "total_discount_sek": 30.15,
+        "cost_per_portion_sek": 26.29
+      },
+      "sources": [
+        "hittaerbjudanden.com"
+      ],
+      "kcal_per_portion": "≈ 550 kcal per portion",
+      "kcal_per_portion_value": 550,
+      "points_estimate": "≈ 4 p/portion",
+      "points_estimate_value": 4,
+      "total_points_estimate": 16,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Tortillapizza med antipasto, taleggio och kvisttomater",
+      "description": "Krispiga mini-pizzor på tortillabröd med mustig tomatsås, krämig taleggio, antipasto och färska kvisttomater. En vegetarisk favorit som går på 15 minuter – barnen kan vara med och toppa!",
+      "servings": 4,
+      "servings_label": "4 portioner (2 mini-pizzor per person)",
+      "cook_time": "15 min",
+      "meal_flags": [
+        "vegetarisk",
+        "snabb",
+        "barnvänlig",
+        "ugn",
+        "medelhav",
+        "billig"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Tortilla original medium (förpackning 8 st)",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 13.40,
+          "ordinary_price": 18.90,
+          "discount_sek": 5.50,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Antipasto Misto skivad",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 38.90,
+          "ordinary_price": 45.90,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Taleggio Dop 26%",
+          "buy_amount": "1 st (ca 200 g)",
+          "campaign_price": 39.90,
+          "ordinary_price": 49.90,
+          "discount_sek": 10.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Kvisttomat Klass 1 250g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 14.90,
+          "ordinary_price": 21.90,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Tomater krossade 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 9.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Tortilla original medium",
+          "amount": 8,
+          "unit": "st",
+          "line_cost_sek": 13.40,
+          "campaign_price": 13.40,
+          "ordinary_price": 18.90,
+          "discount_sek": 5.50,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Antipasto Misto (marinerade grönsaker, oliver, kronärtskocka)",
+          "amount": 150,
+          "unit": "g",
+          "line_cost_sek": 29.18,
+          "campaign_price": 38.90,
+          "ordinary_price": 45.90,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Taleggio",
+          "amount": 150,
+          "unit": "g",
+          "line_cost_sek": 29.93,
+          "campaign_price": 39.90,
+          "ordinary_price": 49.90,
+          "discount_sek": 10.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Kvisttomater",
+          "amount": 200,
+          "unit": "g",
+          "line_cost_sek": 11.92,
+          "campaign_price": 14.90,
+          "ordinary_price": 21.90,
+          "discount_sek": 7.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Tomater krossade (till sås)",
+          "amount": 100,
+          "unit": "ml",
+          "line_cost_sek": 1.98,
+          "campaign_price": 9.90,
+          "ordinary_price": 14.90,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Olivolja",
+          "amount": 15,
+          "unit": "ml",
+          "line_cost_sek": 1.50,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        },
+        {
+          "item": "Oregano, salt, peppar",
+          "amount": 0,
+          "unit": "efter smak",
+          "line_cost_sek": null,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Sätt ugnen på 225°C varmluft.",
+        "Mosa krossade tomater med en gaffel, smaksätt med oregano, salt och peppar. Bred ett tunt lager på varje tortillabröd.",
+        "Skiva taleggion och fördela över tortillorna. Toppa med antipasto och halverade kvisttomater. Ringla över olivolja.",
+        "Lägg tortillorna på två bakplåtar med bakplåtspapper. Grädda 8–10 minuter tills osten smält och kanterna är gyllene och krispiga.",
+        "Servera direkt – gärna med en liten sallad till."
+      ],
+      "costs": {
+        "campaign_total_sek": 87.91,
+        "ordinary_total_sek": 112.40,
+        "total_discount_sek": 24.49,
+        "cost_per_portion_sek": 21.98
+      },
+      "sources": [
+        "hittaerbjudanden.com"
+      ],
+      "kcal_per_portion": "≈ 480 kcal per portion",
+      "kcal_per_portion_value": 480,
+      "points_estimate": "≈ 5 p/portion",
+      "points_estimate_value": 5,
+      "total_points_estimate": 20,
+      "points_uncertainty": "medel"
+    },
+    {
+      "title": "Baguettefrukost med jordgubbar, melon, ägg och keso",
+      "description": "En lätt sommarmåltid som fungerar till frukost, brunch eller som en snabb middag. Rostat surdegsbröd med keso, säsongens jordgubbar, sval vattenmelon och ett löskokt ägg. Kakaodadlar till det söta.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "10 min",
+      "meal_flags": [
+        "frukost",
+        "mellanmål",
+        "enkel",
+        "sommarmat",
+        "vegetarisk",
+        "snabb"
+      ],
+      "ica_products_to_buy": [
+        {
+          "product_name": "Baguette surdeg stenugnsbakad",
+          "buy_amount": "2 st",
+          "campaign_price": 27.80,
+          "ordinary_price": 39.80,
+          "discount_sek": 12.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Jordgubbar original 400g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 19.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 10.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Melon mini vatten eko Klass 1",
+          "buy_amount": "1 st",
+          "campaign_price": 18.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        },
+        {
+          "product_name": "Keso naturell 500g",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Kampanjpris uppskattat"
+        },
+        {
+          "product_name": "Ägg 10-pack",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 29.90,
+          "ordinary_price": 34.90,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Veckoerbjudande"
+        },
+        {
+          "product_name": "Kakaodadlar",
+          "buy_amount": "1 förpackning",
+          "campaign_price": 17.90,
+          "ordinary_price": 22.90,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com",
+          "evidence": "Reklamblad vecka 22"
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "Baguette surdeg",
+          "amount": 2,
+          "unit": "st (ca 300 g)",
+          "line_cost_sek": 27.80,
+          "campaign_price": 13.90,
+          "ordinary_price": 19.90,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Jordgubbar färska",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 14.93,
+          "campaign_price": 19.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 10.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Vattenmelon mini",
+          "amount": 400,
+          "unit": "g",
+          "line_cost_sek": 18.90,
+          "campaign_price": 18.90,
+          "ordinary_price": 24.90,
+          "discount_sek": 6.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Keso naturell",
+          "amount": 300,
+          "unit": "g",
+          "line_cost_sek": 14.94,
+          "campaign_price": 24.90,
+          "ordinary_price": 29.90,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Ägg",
+          "amount": 4,
+          "unit": "st",
+          "line_cost_sek": 11.96,
+          "campaign_price": 29.90,
+          "ordinary_price": 34.90,
+          "discount_sek": 5.0,
+          "price_status": "uppskattad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Kakaodadlar",
+          "amount": 8,
+          "unit": "st (ca 80 g)",
+          "line_cost_sek": 7.16,
+          "campaign_price": 17.90,
+          "ordinary_price": 22.90,
+          "discount_sek": 5.0,
+          "price_status": "bekräftad",
+          "source": "hittaerbjudanden.com"
+        },
+        {
+          "item": "Smör (till bröd)",
+          "amount": 20,
+          "unit": "g",
+          "line_cost_sek": 2.0,
+          "campaign_price": null,
+          "ordinary_price": null,
+          "discount_sek": null,
+          "price_status": "uppskattad",
+          "source": null
+        }
+      ],
+      "method": [
+        "Skiva baguetterna på snedden och rosta i ugn på 200°C i 5 minuter, eller i brödrost.",
+        "Koka äggen: låt sjuda i 6,5 minuter för löskokta. Spola i kallt vatten och skala.",
+        "Skär vattenmelonen i tärningar. Skölj jordgubbarna, plocka bort fästena och halvera eller skiva dem.",
+        "Lägg upp rostad baguette på tallrikar. Bred på smör och klicka över keso. Arrangera jordgubbar, melon, ägghalvor och kakaodadlar vid sidan om."
+      ],
+      "costs": {
+        "campaign_total_sek": 97.69,
+        "ordinary_total_sek": 126.20,
+        "total_discount_sek": 28.51,
+        "cost_per_portion_sek": 24.42
+      },
+      "sources": [
+        "hittaerbjudanden.com"
+      ],
+      "kcal_per_portion": "≈ 450 kcal per portion",
+      "kcal_per_portion_value": 450,
+      "points_estimate": "≈ 4 p/portion",
+      "points_estimate_value": 4,
+      "total_points_estimate": 16,
+      "points_uncertainty": "medel"
+    }
+  ],
+  "quality_check": {
+    "json_valid": true,
+    "price_status_consistent": true,
+    "all_prices_simple": true,
+    "all_sources_simple": true,
+    "store_structure_valid": true,
+    "method_structure_valid": true
+  },
+  "delivery_note": "Priser hämtade från Willys reklamblad vecka 22 (25/5–31/5 2026) via hittaerbjudanden.com. Kampanjpriser är bekräftade från annons. Ordinarie priser är uppskattade."
+}
