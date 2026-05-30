@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-23T08:00:14.698453",
+  "generated_at": "2026-05-30T08:00:12.991751",
   "publish_mode": "next_calendar_week",
-  "week_number": 22,
-  "week_start": "2026-05-25",
-  "week_end": "2026-05-31",
+  "week_number": 23,
+  "week_start": "2026-06-01",
+  "week_end": "2026-06-07",
   "days_covered": 7,
-  "busy_days": 3,
-  "free_days": 4,
-  "total_events": 4,
+  "busy_days": 2,
+  "free_days": 5,
+  "total_events": 3,
   "family_profile": {
     "members": [
       {
@@ -149,14 +149,14 @@
     }
   ],
   "scraped_event_count": 2,
-  "week_overview": "Vecka 22 innehåller några fasta punkter, bland annat Seminariegrupp18-20 på torsdag, Sommarfest förskolan 17-18 på torsdag, Tjejhelg  på lördag och Mors dag  på söndag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund. Det finns en punkt i veckan som kan må bra av lite lugn kvällen innan, så det kan vara klokt att inte fylla på för mycket just där.",
+  "week_overview": "Vecka 23 innehåller några fasta punkter, bland annat 8:30 Lage 4 årskontroll i rimforsa (utan elliot)  på fredag och Familjens dag lördag? Söndag? på söndag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund.",
   "days": [
     {
-      "date": "2026-05-25",
+      "date": "2026-06-01",
       "weekday": "måndag",
       "events": [],
       "has_events": false,
-      "summary": "Måndag 05-25 – ledig",
+      "summary": "Måndag 06-01 – ledig",
       "suggestions": [
         {
           "activity": "gå på en barnvänlig aktivitet i närområdet",
@@ -182,11 +182,11 @@
       ]
     },
     {
-      "date": "2026-05-26",
+      "date": "2026-06-02",
       "weekday": "tisdag",
       "events": [],
       "has_events": false,
-      "summary": "Tisdag 05-26 – ledig",
+      "summary": "Tisdag 06-02 – ledig",
       "suggestions": [
         {
           "activity": "ta ett lugnt pass med planering av trallbygget",
@@ -212,11 +212,11 @@
       ]
     },
     {
-      "date": "2026-05-27",
+      "date": "2026-06-03",
       "weekday": "onsdag",
       "events": [],
       "has_events": false,
-      "summary": "Onsdag 05-27 – ledig",
+      "summary": "Onsdag 06-03 – ledig",
       "suggestions": [
         {
           "activity": "ta en kort familjeutflykt i naturen",
@@ -242,42 +242,11 @@
       ]
     },
     {
-      "date": "2026-05-28",
+      "date": "2026-06-04",
       "weekday": "torsdag",
-      "events": [
-        {
-          "title": "Seminariegrupp18-20",
-          "start": "2026-05-28T08:00:00",
-          "end": "2026-05-28T09:00:00",
-          "is_all_day": false,
-          "calendar": "Ida&Erik Jarls familjekalender "
-        },
-        {
-          "title": "Sommarfest förskolan 17-18",
-          "start": "2026-05-28T15:00:00",
-          "end": "2026-05-28T16:00:00",
-          "is_all_day": false,
-          "calendar": "Ida&Erik Jarls familjekalender "
-        }
-      ],
-      "has_events": true,
-      "summary": "Torsdag 05-28 – Seminariegrupp18-20 08:00–09:00 [Ida&Erik Jarls familjekalender ]; Sommarfest förskolan 17-18 15:00–16:00 [Ida&Erik Jarls familjekalender ]",
-      "suggestions": [
-        {
-          "activity": "prioritera återhämtning och håll resten av dagen enkel",
-          "category": "återhämtning",
-          "duration": "flex",
-          "family_fit": "familjevänligt",
-          "reason": "dagen verkar redan ganska full"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-29",
-      "weekday": "fredag",
       "events": [],
       "has_events": false,
-      "summary": "Fredag 05-29 – ledig",
+      "summary": "Torsdag 06-04 – ledig",
       "suggestions": [
         {
           "activity": "hitta någon musikupplevelse i närheten",
@@ -289,35 +258,64 @@
       ]
     },
     {
-      "date": "2026-05-30",
-      "weekday": "lördag",
+      "date": "2026-06-05",
+      "weekday": "fredag",
       "events": [
         {
-          "title": "Tjejhelg ",
-          "start": "2026-05-30T00:00:00",
-          "end": "2026-06-01T00:00:00",
-          "is_all_day": true,
+          "title": "8:30 Lage 4 årskontroll i rimforsa (utan elliot) ",
+          "start": "2026-06-05T06:30:00",
+          "end": "2026-06-05T07:30:00",
+          "is_all_day": false,
           "calendar": "Ida&Erik Jarls familjekalender "
         }
       ],
       "has_events": true,
-      "summary": "Lördag 05-30 – Tjejhelg  [Ida&Erik Jarls familjekalender ]",
+      "summary": "Fredag 06-05 – 8:30 Lage 4 årskontroll i rimforsa (utan elliot)  06:30–07:30 [Ida&Erik Jarls familjekalender ]",
       "suggestions": []
     },
     {
-      "date": "2026-05-31",
+      "date": "2026-06-06",
+      "weekday": "lördag",
+      "events": [],
+      "has_events": false,
+      "summary": "Lördag 06-06 – ledig",
+      "suggestions": [
+        {
+          "activity": "kolla om Vårens Östgötadagar 2026 (9-10 maj 2026) passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
+          "match_score": 24
+        },
+        {
+          "activity": "kolla om Evenemang för dig & dina barn i Linköping passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/familj/",
+          "match_score": 16
+        }
+      ]
+    },
+    {
+      "date": "2026-06-07",
       "weekday": "söndag",
       "events": [
         {
-          "title": "Mors dag ",
-          "start": "2026-05-31T09:00:00",
-          "end": "2026-05-31T10:00:00",
+          "title": "Familjens dag lördag? Söndag?",
+          "start": "2026-06-07T12:00:00",
+          "end": "2026-06-07T13:00:00",
           "is_all_day": false,
-          "calendar": "Hem"
+          "calendar": "Ida&Erik Jarls familjekalender "
         }
       ],
       "has_events": true,
-      "summary": "Söndag 05-31 – Mors dag  09:00–10:00",
+      "summary": "Söndag 06-07 – Familjens dag lördag? Söndag? 12:00–13:00 [Ida&Erik Jarls familjekalender ]",
       "suggestions": []
     }
   ]
