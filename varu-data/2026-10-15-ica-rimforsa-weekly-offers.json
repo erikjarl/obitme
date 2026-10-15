@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-15",
+  "created_at": "2026-10-15T17:40:00+02:00",
+  "slug": "2026-10-15-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre nya höstrecept byggda på ICA Rimforsas kampanjer: Alaska pollock, kassler, lövbiff, champinjoner, zucchini och delikatesspotatis. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser hämtade från ICA Rimforsas erbjudandesida den 15 oktober 2026. Priserna gäller aktuell kampanjperiod hösten 2026.",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Basvaror som citron, vitlök, olivolja, dill, senap och tortillabröd är försiktigt uppskattade när exakt butiksvärde inte framgick i kampanjflödet.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Alaska pollock ICA Basic 400 g",
+      "campaign_price": 27.5,
+      "ordinary_price": 35.1,
+      "discount_sek": 7.6,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 55 kr. Ord.pris 35:10 kr. Kampanjpris härlett till 27,50 kr/st."
+    },
+    {
+      "product_name": "Kassler ICA ca 600 g",
+      "campaign_price": 41.4,
+      "ordinary_price": 95.25,
+      "discount_sek": 53.85,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "69 kr/kg. Ord.pris 92:85-97:65 kr för ca 600 g. Kampanjpris härlett till 41,40 kr/st."
+    },
+    {
+      "product_name": "Lövbiff av innanlår ICA ca 450 g",
+      "campaign_price": 105.75,
+      "ordinary_price": 113.32,
+      "discount_sek": 7.57,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "235 kr/kg. Ord.pris 251:83 kr/kg. Kampanjpris härlett till 105,75 kr för ca 450 g."
+    },
+    {
+      "product_name": "Champinjoner i ask ICA 250 g",
+      "campaign_price": 15,
+      "ordinary_price": 16.85,
+      "discount_sek": 1.85,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "15 kr/st. Ord.pris 16:85 kr. 250 g."
+    },
+    {
+      "product_name": "Zucchini Spanien 360 g",
+      "campaign_price": 10,
+      "ordinary_price": 12.85,
+      "discount_sek": 2.85,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "10 kr/st. Ord.pris 12:85 kr. 360 g."
+    },
+    {
+      "product_name": "Delikatesspotatis i påse ICA 900 g",
+      "campaign_price": 15,
+      "ordinary_price": 23.56,
+      "discount_sek": 8.56,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "15 kr/st. Ord.pris 23:56 kr. 900 g."
+    },
+    {
+      "product_name": "Purjolök Sverige",
+      "campaign_price": 20,
+      "ordinary_price": 26.9,
+      "discount_sek": 6.9,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "20 kr/kg. Ord.pris 26:90 kr/kg."
+    },
+    {
+      "product_name": "Crème Fraiche Arla 2 dl",
+      "campaign_price": 10,
+      "ordinary_price": 15.5,
+      "discount_sek": 5.5,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 20 kr. Ord.pris 13:15-17:88 kr. Kampanjpris härlett till 10,00 kr/st."
+    },
+    {
+      "product_name": "Yoghurt Yoggi 1000 g",
+      "campaign_price": 19,
+      "ordinary_price": 25.45,
+      "discount_sek": 6.45,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 38 kr. Ord.pris 25:45-26:40 kr. Kampanjpris härlett till 19,00 kr/st."
+    },
+    {
+      "product_name": "Fish & Crisp Findus 480-490 g",
+      "campaign_price": 45,
+      "ordinary_price": 56.87,
+      "discount_sek": 11.87,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 90 kr. Ord.pris 54:22-59:52 kr. Kampanjpris härlett till 45,00 kr/st."
+    },
+    {
+      "product_name": "Äppelmust Kiviks Musteri 1 liter",
+      "campaign_price": 22.5,
+      "ordinary_price": 29.24,
+      "discount_sek": 6.74,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 45 kr. Ord.pris 29:24 kr. Kampanjpris härlett till 22,50 kr/st."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Ugnsbakad Alaska pollock med kassler, delikatesspotatis och dillcrème",
+      "description": "Mild, vit fisk möter rökt sälta från kassler, söt rostning från delikatesspotatis och en sval dillcrème. En höstig plåträtt som känns lyxig men är billig och enkel att laga.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "40 min",
+      "meal_flags": ["middag", "fisk", "medelhavsinspirerad", "vardag"],
+      "kcal_per_portion": "ca 520 kcal",
+      "kcal_per_portion_value": 520,
+      "points_estimate": "≈ 6 p/portion",
+      "points_estimate_value": 6,
+      "total_points_estimate": 24,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Alaska pollock ICA Basic 400 g",
+          "buy_amount": 2,
+          "campaign_price": 27.5,
+          "ordinary_price": 35.1,
+          "discount_sek": 7.6,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 55 kr. Ord.pris 35:10 kr. Kampanjpris härlett till 27,50 kr/st."
+        },
+        {
+          "product_name": "Kassler ICA ca 600 g",
+          "buy_amount": 1,
+          "campaign_price": 41.4,
+          "ordinary_price": 95.25,
+          "discount_sek": 53.85,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "69 kr/kg. Ord.pris 92:85-97:65 kr för ca 600 g. Kampanjpris härlett till 41,40 kr/st."
+        },
+        {
+          "product_name": "Delikatesspotatis i påse ICA 900 g",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 23.56,
+          "discount_sek": 8.56,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "15 kr/st. Ord.pris 23:56 kr. 900 g."
+        },
+        {
+          "product_name": "Zucchini Spanien 360 g",
+          "buy_amount": 1,
+          "campaign_price": 10,
+          "ordinary_price": 12.85,
+          "discount_sek": 2.85,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "10 kr/st. Ord.pris 12:85 kr. 360 g."
+        },
+        {
+          "product_name": "Crème Fraiche Arla 2 dl",
+          "buy_amount": 1,
+          "campaign_price": 10,
+          "ordinary_price": 15.5,
+          "discount_sek": 5.5,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 20 kr. Ord.pris 13:15-17:88 kr. Kampanjpris härlett till 10,00 kr/st."
+        },
+        {
+          "product_name": "Purjolök Sverige",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 26.9,
+          "discount_sek": 6.9,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "20 kr/kg. Ord.pris 26:90 kr/kg."
+        }
+      ],
+      "ingredients": [
+        {"item": "Alaska pollock [KAMPANJ]", "amount": 800, "unit": "g", "line_cost_sek": 55, "campaign_price": 55, "ordinary_price": 70.2, "discount_sek": 15.2, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Kassler [KAMPANJ]", "amount": 300, "unit": "g", "line_cost_sek": 20.7, "campaign_price": 20.7, "ordinary_price": 47.63, "discount_sek": 26.93, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Delikatesspotatis [KAMPANJ]", "amount": 900, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 23.56, "discount_sek": 8.56, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Zucchini [KAMPANJ]", "amount": 360, "unit": "g", "line_cost_sek": 10, "campaign_price": 10, "ordinary_price": 12.85, "discount_sek": 2.85, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Crème fraiche [KAMPANJ]", "amount": 200, "unit": "ml", "line_cost_sek": 10, "campaign_price": 10, "ordinary_price": 15.5, "discount_sek": 5.5, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Purjolök [KAMPANJ]", "amount": 200, "unit": "g", "line_cost_sek": 4, "campaign_price": 4, "ordinary_price": 5.38, "discount_sek": 1.38, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 3, "unit": "klyftor", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Färsk dill", "amount": 15, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Olivolja", "amount": 20, "unit": "ml", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225°C. Dela potatisen, lägg på plåt med hälften av oljan, salt och peppar och rosta i 20 minuter.\n2. Tillsätt zucchiniskivor och purjolök i ringar, ringla resten av oljan och rosta vidare i 12–15 minuter.\n3. Lägg pollocken i en ugnsform, krydda med citronskal, vitlök, salt och peppar. Toppa med tunt skivad kassler.\n4. Grädda fisken i mitten av ugnen i ca 12–14 minuter tills den är genomlagad.\n5. Rör ihop crème fraiche med dill, citronsaft och en nypa salt. Servera fisken med rotfrukterna och dillcrèmen.",
+      "costs": {"campaign_total_sek": 129.7, "ordinary_total_sek": 188.12, "total_discount_sek": 58.42, "cost_per_portion_sek": 32.43},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra från citron, sälta och umami från kassler, sötma från rostade rotsaker, fett från crème fraiche och olivolja samt fräschör från dill.",
+      "nutrition_profile": "Mager vit fisk ger mycket protein per krona, potatis och zucchini ger volym och fibrer medan crème fraiche doseras sparsamt för att hålla pointsen nere.",
+      "price_justification": "Pollock, kassler, potatis, zucchini och crème fraiche är alla kampanjvaror i samma rätt, vilket ger en ovanligt prisvärd fiskmiddag för fyra.",
+      "variation_tips": "Byt pollock mot torsk eller sej om du hittar det billigare, eller tillsätt kapris för ännu mer syra."
+    },
+    {
+      "title": "Fish & Crisp-tacos med champinjoner, purjolök och citronyoghurt",
+      "description": "Krispig fisk i varma tortillas med stekt svamp, söt purjolök och en kall citronyoghurt. Snabb vardagsmat med tydlig smakbalans där syra och krisp möter mjukt och sält.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["middag", "fisk", "vardag", "familjevänlig"],
+      "kcal_per_portion": "ca 540 kcal",
+      "kcal_per_portion_value": 540,
+      "points_estimate": "≈ 6.5 p/portion",
+      "points_estimate_value": 6.5,
+      "total_points_estimate": 26,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Fish & Crisp Findus 480-490 g",
+          "buy_amount": 1,
+          "campaign_price": 45,
+          "ordinary_price": 56.87,
+          "discount_sek": 11.87,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 90 kr. Ord.pris 54:22-59:52 kr. Kampanjpris härlett till 45,00 kr/st."
+        },
+        {
+          "product_name": "Champinjoner i ask ICA 250 g",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 16.85,
+          "discount_sek": 1.85,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "15 kr/st. Ord.pris 16:85 kr. 250 g."
+        },
+        {
+          "product_name": "Zucchini Spanien 360 g",
+          "buy_amount": 1,
+          "campaign_price": 10,
+          "ordinary_price": 12.85,
+          "discount_sek": 2.85,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "10 kr/st. Ord.pris 12:85 kr. 360 g."
+        },
+        {
+          "product_name": "Purjolök Sverige",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 26.9,
+          "discount_sek": 6.9,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "20 kr/kg. Ord.pris 26:90 kr/kg."
+        },
+        {
+          "product_name": "Yoghurt Yoggi 1000 g",
+          "buy_amount": 1,
+          "campaign_price": 19,
+          "ordinary_price": 25.45,
+          "discount_sek": 6.45,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 38 kr. Ord.pris 25:45-26:40 kr. Kampanjpris härlett till 19,00 kr/st."
+        }
+      ],
+      "ingredients": [
+        {"item": "Fish & Crisp [KAMPANJ]", "amount": 490, "unit": "g", "line_cost_sek": 45, "campaign_price": 45, "ordinary_price": 56.87, "discount_sek": 11.87, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Champinjoner [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 16.85, "discount_sek": 1.85, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Zucchini [KAMPANJ]", "amount": 360, "unit": "g", "line_cost_sek": 10, "campaign_price": 10, "ordinary_price": 12.85, "discount_sek": 2.85, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Purjolök [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 3, "campaign_price": 3, "ordinary_price": 4.04, "discount_sek": 1.04, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Yoghurt [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 9.5, "campaign_price": 9.5, "ordinary_price": 12.73, "discount_sek": 3.23, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Tortillabröd", "amount": 8, "unit": "st", "line_cost_sek": 25, "campaign_price": null, "ordinary_price": 25, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 2, "unit": "klyftor", "line_cost_sek": 1.5, "campaign_price": null, "ordinary_price": 1.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 15, "unit": "ml", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Rökt paprikapulver", "amount": 5, "unit": "g", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 220°C och tillaga Fish & Crisp enligt anvisning tills den är krispig.\n2. Skiva champinjoner, zucchini och purjolök. Stek svampen först så den får färg, tillsätt sedan zucchini och purjolök med vitlök och rökt paprikapulver.\n3. Rör ihop yoghurt med citronsaft, rivet citronskal, salt och svartpeppar.\n4. Värm tortillabröden snabbt i torr panna.\n5. Lägg fisk, grönsaker och citronyoghurt i bröden och servera genast.",
+      "costs": {"campaign_total_sek": 101, "ordinary_total_sek": 135.06, "total_discount_sek": 34.06, "cost_per_portion_sek": 25.25},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra från citronyoghurt, sälta från fisken, sötma från stekt purjolök och zucchini, krisp från paneringen och ett milt sting från rökt paprikapulver.",
+      "nutrition_profile": "Fisk ger protein och omega-3, grönsakerna volym och fibrer och yoghurten står för syra och mättnad. Tortillabröden håller rätten familjevänlig men portionsstyrda.",
+      "price_justification": "Fisk, svamp, zucchini, purjolök och yoghurt är alla kampanjvaror, så en tacomiddag för fyra landar klart under hundralappen i kampanjpris.",
+      "variation_tips": "Byt tortilla mot salladsblad för lägre points, eller lägg till en enkel tomatsalsa om du vill ha mer friskhet."
+    },
+    {
+      "title": "Lövbiff med champinjonsås, purjolökspotatis och äppelmustglaze",
+      "description": "Snabbt stekt lövbiff med krämig champinjonsås, mjuk purjolökspotatis och en blank äppelmustglaze. En höstig helgmiddag där syra och sötma lyfter det köttiga.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "40 min",
+      "meal_flags": ["middag", "kött", "helg", "medelhavsinspirerad"],
+      "kcal_per_portion": "ca 610 kcal",
+      "kcal_per_portion_value": 610,
+      "points_estimate": "≈ 9.5 p/portion",
+      "points_estimate_value": 9.5,
+      "total_points_estimate": 38,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Lövbiff av innanlår ICA ca 450 g",
+          "buy_amount": 1,
+          "campaign_price": 105.75,
+          "ordinary_price": 113.32,
+          "discount_sek": 7.57,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "235 kr/kg. Ord.pris 251:83 kr/kg. Kampanjpris härlett till 105,75 kr för ca 450 g."
+        },
+        {
+          "product_name": "Champinjoner i ask ICA 250 g",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 16.85,
+          "discount_sek": 1.85,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "15 kr/st. Ord.pris 16:85 kr. 250 g."
+        },
+        {
+          "product_name": "Delikatesspotatis i påse ICA 900 g",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 23.56,
+          "discount_sek": 8.56,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "15 kr/st. Ord.pris 23:56 kr. 900 g."
+        },
+        {
+          "product_name": "Purjolök Sverige",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 26.9,
+          "discount_sek": 6.9,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "20 kr/kg. Ord.pris 26:90 kr/kg."
+        },
+        {
+          "product_name": "Crème Fraiche Arla 2 dl",
+          "buy_amount": 1,
+          "campaign_price": 10,
+          "ordinary_price": 15.5,
+          "discount_sek": 5.5,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 20 kr. Ord.pris 13:15-17:88 kr. Kampanjpris härlett till 10,00 kr/st."
+        },
+        {
+          "product_name": "Äppelmust Kiviks Musteri 1 liter",
+          "buy_amount": 1,
+          "campaign_price": 22.5,
+          "ordinary_price": 29.24,
+          "discount_sek": 6.74,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 45 kr. Ord.pris 29:24 kr. Kampanjpris härlett till 22,50 kr/st."
+        }
+      ],
+      "ingredients": [
+        {"item": "Lövbiff av innanlår [KAMPANJ]", "amount": 450, "unit": "g", "line_cost_sek": 105.75, "campaign_price": 105.75, "ordinary_price": 113.32, "discount_sek": 7.57, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Champinjoner [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 16.85, "discount_sek": 1.85, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Delikatesspotatis [KAMPANJ]", "amount": 900, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 23.56, "discount_sek": 8.56, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Purjolök [KAMPANJ]", "amount": 200, "unit": "g", "line_cost_sek": 4, "campaign_price": 4, "ordinary_price": 5.38, "discount_sek": 1.38, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Crème fraiche [KAMPANJ]", "amount": 200, "unit": "ml", "line_cost_sek": 10, "campaign_price": 10, "ordinary_price": 15.5, "discount_sek": 5.5, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Äppelmust [KAMPANJ]", "amount": 100, "unit": "ml", "line_cost_sek": 2.25, "campaign_price": 2.25, "ordinary_price": 2.92, "discount_sek": 0.67, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Dijonsenap", "amount": 20, "unit": "g", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 3, "unit": "klyftor", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Smör", "amount": 30, "unit": "g", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Färsk timjan", "amount": 10, "unit": "g", "line_cost_sek": 6, "campaign_price": null, "ordinary_price": 6, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"}
+      ],
+      "method": "1. Koka delikatesspotatisen mjuk i saltat vatten. Håll varm.\n2. Stek lövbiffen hastigt i smör på hög värme, salta och peppra. Lägg åt sidan och låt vila.\n3. Stek champinjoner och purjolök i samma panna, tillsätt vitlök och timjan. Häll i äppelmust och låt koka in.\n4. Tillsätt crème fraiche och dijonsenap, låt såsen sjuda ihop. Smaka av med salt och peppar.\n5. Vänd den kokta potatisen med resten av purjolöken. Lägg upp lövbiffen med sås och potatis och ringla över lite glaze från pannan.",
+      "costs": {"campaign_total_sek": 165, "ordinary_total_sek": 203.03, "total_discount_sek": 38.03, "cost_per_portion_sek": 41.25},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra och sötma från dijonsenap och äppelmust, sälta från köttet, fett från smör och crème fraiche och en örtig, jordig ton från timjan och champinjoner.",
+      "nutrition_profile": "Lövbiff är magert nötkött med hög proteinhalt, svamp och purjolök ger volym och umami medan potatisen mättar. En lyxigare rätt som med fördel äts som helgmiddag.",
+      "price_justification": "Lövbiffen är veckans dyraste kampanjvara men ändå prisvärd per portion, och eftersom svamp, purjolök, potatis, crème fraiche och äppelmust också är kampanjvaror hålls helhetspriset nere.",
+      "variation_tips": "Byt lövbiff mot kassler för en billigare variant, eller servera en grön sallad vid sidan om för extra fräschör."
+    }
+  ],
+  "quality_check": {
+    "evaluation_rounds": 2,
+    "json_valid": true,
+    "index_valid": true,
+    "notes": "Självutvärdering gjord i två rundor. Pointsvärden kontrollerade mot portionsantal och alla obligatoriska normaliserade fält finns eller är tydligt null/okänt. Butiksvaror matchar receptens ingredients."
+  },
+  "delivery_note": {
+    "discord_channel": "#allmänt",
+    "discord_channel_id": "1490438999494492415",
+    "imessage_recipients": [
+      "iMessage;-;+46760172989",
+      "iMessage;-;+46739280001"
+    ]
+  }
+}
