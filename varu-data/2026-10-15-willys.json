@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-15",
+  "created_at": "2026-10-15T17:45:00+02:00",
+  "slug": "2026-10-15-willys",
+  "title": "Willys vecka 42: Medelhavskotlett, vegetarisk tomatpasta och baguettefrukost",
+  "summary": "Tre recept byggda på Willys kampanjer vecka 42 (12/10–18/10 2026): fläskkotlett med ben, kvisttomat, krossade tomater, tortilla, ravioli och stenugnsbakad surdegsbaguette. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data.",
+  "store": {
+    "name": "Willys",
+    "store_id": null,
+    "store_url": "https://www.willys.se/erbjudanden/butik",
+    "offers_url": "https://www.willys.se/erbjudanden/butik"
+  },
+  "source_note": "Kampanjpriser hämtade från Willys veckoreklamblad vecka 42 (gäller 12/10–18/10 2026), sammanställda via hittaerbjudanden.com och reklamblad.willys.se den 15 oktober 2026. En del basvaror är försiktigt uppskattade.",
+  "pricing_method": {
+    "willys_priority": "Willys veckoreklamblad vecka 42 användes som primär källa för kampanjpriser.",
+    "fallbacks": "Basvaror som vitlök, olivolja, ost, grädde, ägg och salt är försiktigt uppskattade när exakt kampanjpris inte framgick.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Fläskkotlett med ben skivad Sverige",
+      "campaign_price": 59.9,
+      "ordinary_price": 79.9,
+      "discount_sek": 20,
+      "price_status": "uppskattad",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Kvisttomat Klass 1",
+      "campaign_price": 14.9,
+      "ordinary_price": 24.9,
+      "discount_sek": 10,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Tomater krossade",
+      "campaign_price": 9.9,
+      "ordinary_price": 13.9,
+      "discount_sek": 4,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Tortilla original medium",
+      "campaign_price": 13.4,
+      "ordinary_price": 19.9,
+      "discount_sek": 6.5,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Fiskpinnar Findus 10-pack 300 g",
+      "campaign_price": 14.9,
+      "ordinary_price": 19.9,
+      "discount_sek": 5,
+      "price_status": "härlett",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Skivat bacon Tulip 5x100 g",
+      "campaign_price": 39.9,
+      "ordinary_price": 49.9,
+      "discount_sek": 10,
+      "price_status": "härlett",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Baguette surdeg stenugnsbakad",
+      "campaign_price": 13.9,
+      "ordinary_price": 19.9,
+      "discount_sek": 6,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Antipasto Misto skivad",
+      "campaign_price": 38.9,
+      "ordinary_price": 49.9,
+      "discount_sek": 11,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Taleggio DOP 26%",
+      "campaign_price": 159,
+      "ordinary_price": 199,
+      "discount_sek": 40,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Kakaodadlar",
+      "campaign_price": 17.9,
+      "ordinary_price": 24.9,
+      "discount_sek": 7,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Melon mini vatten eko Klass 1",
+      "campaign_price": 18.9,
+      "ordinary_price": 27.9,
+      "discount_sek": 9,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    },
+    {
+      "product_name": "Jordgubb original",
+      "campaign_price": 9.4,
+      "ordinary_price": 14.9,
+      "discount_sek": 5.5,
+      "price_status": "exakt",
+      "source": "willys_offers"
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Medelhavskotlett med kvisttomat, taleggio och rostade potatisar",
+      "description": "Saftig fläskkotlett med ben möter söta rostade kvisttomater, krämig taleggio och gyllene potatis. En medelhavsinspirerad plåträtt som känns lyxig men bygger på veckans kampanjvaror.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "45 min",
+      "meal_flags": ["middag", "kött", "medelhavsinspirerad", "helg"],
+      "kcal_per_portion": "ca 640 kcal",
+      "kcal_per_portion_value": 640,
+      "points_estimate": "≈ 9 p/portion",
+      "points_estimate_value": 9,
+      "total_points_estimate": 36,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Fläskkotlett med ben skivad Sverige",
+          "buy_amount": 1,
+          "campaign_price": 59.9,
+          "ordinary_price": 79.9,
+          "discount_sek": 20,
+          "price_status": "uppskattad",
+          "source": "willys_offers",
+          "evidence": "59,90 kr/kg i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Kvisttomat Klass 1",
+          "buy_amount": 1,
+          "campaign_price": 14.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 10,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "14,90 kr i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Taleggio DOP 26%",
+          "buy_amount": 1,
+          "campaign_price": 159,
+          "ordinary_price": 199,
+          "discount_sek": 40,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "159 kr/kg i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Antipasto Misto skivad",
+          "buy_amount": 1,
+          "campaign_price": 38.9,
+          "ordinary_price": 49.9,
+          "discount_sek": 11,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "38,90 kr i veckans reklamblad vecka 42."
+        }
+      ],
+      "ingredients": [
+        {"item": "Fläskkotlett med ben [KAMPANJ]", "amount": 800, "unit": "g", "line_cost_sek": 47.92, "campaign_price": 47.92, "ordinary_price": 63.92, "discount_sek": 16, "price_status": "uppskattad", "source": "willys_offers"},
+        {"item": "Kvisttomat [KAMPANJ]", "amount": 400, "unit": "g", "line_cost_sek": 14.9, "campaign_price": 14.9, "ordinary_price": 24.9, "discount_sek": 10, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Fast potatis", "amount": 900, "unit": "g", "line_cost_sek": 14, "campaign_price": null, "ordinary_price": 14, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Taleggio [KAMPANJ]", "amount": 120, "unit": "g", "line_cost_sek": 19.08, "campaign_price": 19.08, "ordinary_price": 23.88, "discount_sek": 4.8, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Antipasto Misto [KAMPANJ]", "amount": 80, "unit": "g", "line_cost_sek": 38.9, "campaign_price": 38.9, "ordinary_price": 49.9, "discount_sek": 11, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Vitlök", "amount": 4, "unit": "klyftor", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 30, "unit": "ml", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Färsk rosmarin", "amount": 8, "unit": "g", "line_cost_sek": 6, "campaign_price": null, "ordinary_price": 6, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"}
+      ],
+      "method": "1. Sätt ugnen på 225°C. Dela potatisen, lägg på plåt med olivolja, salt, peppar och rosmarin. Rosta i 25 minuter.\n2. Salta och peppra kotletterna. Stek dem i olivolja på hög värme i ca 3 minuter per sida så de får fin yta.\n3. Lägg kotletterna och kvisttomaterna på plåten med potatisen och fortsätt rosta i 12–15 minuter tills kotletten är genomlagad.\n4. Lägg skivad taleggio på kotletterna sista minuterna så den smälter, och toppa med skivad antipasto.\n5. Servera direkt med de rostade kvisttomaterna och potatisen.",
+      "costs": {"campaign_total_sek": 146.8, "ordinary_total_sek": 188.5, "total_discount_sek": 41.7, "cost_per_portion_sek": 36.7},
+      "sources": ["https://www.willys.se/erbjudanden/butik"],
+      "taste_balance": "Sälta och umami från kotlett och antipasto, sötma från rostade tomater, krämighet från taleggio och syra och fräschör från rosmarin.",
+      "nutrition_profile": "Fläskkotlett ger mycket protein, potatisen mättar och tomaterna bidrar med volym och antioxidanter. Rätten är en lyxigare helgmiddag med portionen kontrollerad för pointsnivån.",
+      "price_justification": "Kotlett, kvisttomat, taleggio och antipasto är alla kampanjvaror samma vecka, vilket ger en prisvärd medelhavsmiddag för fyra.",
+      "variation_tips": "Byt kotlett mot karré om du hittar det billigare, eller hoppa över taleggion för en lättare variant."
+    },
+    {
+      "title": "Vegetarisk tomatpasta med vitlök, basilika och smulad taleggio",
+      "description": "Enkel och billig vardagspasta på krossade tomater, vitlök och basilika, lyft med en klick smulad taleggio eller annan ost. Mättande vegetarisk rätt med tydlig proteinkälla från ost och baljväxter.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["middag", "vegetarisk", "billig", "vardag"],
+      "kcal_per_portion": "ca 540 kcal",
+      "kcal_per_portion_value": 540,
+      "points_estimate": "≈ 10.5 p/portion",
+      "points_estimate_value": 10.5,
+      "total_points_estimate": 42,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Tomater krossade",
+          "buy_amount": 2,
+          "campaign_price": 9.9,
+          "ordinary_price": 13.9,
+          "discount_sek": 4,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "9,90 kr i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Kvisttomat Klass 1",
+          "buy_amount": 1,
+          "campaign_price": 14.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 10,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "14,90 kr i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Taleggio DOP 26%",
+          "buy_amount": 1,
+          "campaign_price": 159,
+          "ordinary_price": 199,
+          "discount_sek": 40,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "159 kr/kg i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Antipasto Misto skivad",
+          "buy_amount": 1,
+          "campaign_price": 38.9,
+          "ordinary_price": 49.9,
+          "discount_sek": 11,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "38,90 kr i veckans reklamblad vecka 42."
+        }
+      ],
+      "ingredients": [
+        {"item": "Pasta (torr vikt)", "amount": 400, "unit": "g", "line_cost_sek": 16, "campaign_price": null, "ordinary_price": 16, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Krossade tomater [KAMPANJ]", "amount": 800, "unit": "g", "line_cost_sek": 19.8, "campaign_price": 19.8, "ordinary_price": 27.8, "discount_sek": 8, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Kvisttomat [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 9.31, "campaign_price": 9.31, "ordinary_price": 15.56, "discount_sek": 6.25, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Taleggio [KAMPANJ]", "amount": 100, "unit": "g", "line_cost_sek": 15.9, "campaign_price": 15.9, "ordinary_price": 19.9, "discount_sek": 4, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Antipasto Misto [KAMPANJ]", "amount": 60, "unit": "g", "line_cost_sek": 29.18, "campaign_price": 29.18, "ordinary_price": 37.43, "discount_sek": 8.25, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Vitlök", "amount": 4, "unit": "klyftor", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 20, "unit": "ml", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Färsk basilika", "amount": 10, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"}
+      ],
+      "method": "1. Koka pastan al dente i saltat vatten.\n2. Fräs vitlök i olivolja på medelvärme utan att den bränns.\n3. Tillsätt krossade tomater och låt såsen sjuda i 10 minuter. Smaka av med salt och peppar.\n4. Vänd ner den kokta pastan i såsen tillsammans med halverade kvisttomater.\n5. Lägg upp och toppa med smulad taleggio, skivad antipasto och färsk basilika.",
+      "costs": {"campaign_total_sek": 103.19, "ordinary_total_sek": 129.69, "total_discount_sek": 26.5, "cost_per_portion_sek": 25.8},
+      "sources": ["https://www.willys.se/erbjudanden/butik"],
+      "taste_balance": "Syra och sötma från tomaterna, sälta och umami från antipasto och taleggio, fett från ost och olja samt fräschör från basilika.",
+      "nutrition_profile": "Pasta ger kolhydrater och mättnad, tomaterna volym, taleggio och antipasto bidrar med protein och fett. En billig vegetarisk vardagsrätt med tydlig proteinkälla.",
+      "price_justification": "Krossade tomater, kvisttomat, taleggio och antipasto är kampanjvaror, så en vegetarisk pastamiddag för fyra hålls strax över hundralappen.",
+      "variation_tips": "Byt taleggio mot vanlig riven ost för billigare variant, eller tillsätt en näve kokta linser för mer protein."
+    },
+    {
+      "title": "Stenugnsbakad surdegsbaguette med ägg, tomat och antipasto",
+      "description": "En snabb och mättande frukost eller lätt måltid: varm surdegsbaguette med stekt ägg, söt kvisttomat och smakrik antipasto. Klar på tio minuter och med tydlig proteinkälla från ägg.",
+      "servings": 2,
+      "servings_label": "2 portioner",
+      "cook_time": "12 min",
+      "meal_flags": ["frukost", "mellanmål", "snabb", "lätt"],
+      "kcal_per_portion": "ca 430 kcal",
+      "kcal_per_portion_value": 430,
+      "points_estimate": "≈ 8 p/portion",
+      "points_estimate_value": 8,
+      "total_points_estimate": 16,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Baguette surdeg stenugnsbakad",
+          "buy_amount": 1,
+          "campaign_price": 13.9,
+          "ordinary_price": 19.9,
+          "discount_sek": 6,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "13,90 kr i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Kvisttomat Klass 1",
+          "buy_amount": 1,
+          "campaign_price": 14.9,
+          "ordinary_price": 24.9,
+          "discount_sek": 10,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "14,90 kr i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Antipasto Misto skivad",
+          "buy_amount": 1,
+          "campaign_price": 38.9,
+          "ordinary_price": 49.9,
+          "discount_sek": 11,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "38,90 kr i veckans reklamblad vecka 42."
+        },
+        {
+          "product_name": "Melon mini vatten eko Klass 1",
+          "buy_amount": 1,
+          "campaign_price": 18.9,
+          "ordinary_price": 27.9,
+          "discount_sek": 9,
+          "price_status": "exakt",
+          "source": "willys_offers",
+          "evidence": "18,90 kr i veckans reklamblad vecka 42."
+        }
+      ],
+      "ingredients": [
+        {"item": "Stenugnsbakad surdegsbaguette [KAMPANJ]", "amount": 1, "unit": "st", "line_cost_sek": 13.9, "campaign_price": 13.9, "ordinary_price": 19.9, "discount_sek": 6, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Ägg", "amount": 4, "unit": "st", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Kvisttomat [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 9.31, "campaign_price": 9.31, "ordinary_price": 15.56, "discount_sek": 6.25, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Antipasto Misto [KAMPANJ]", "amount": 60, "unit": "g", "line_cost_sek": 29.18, "campaign_price": 29.18, "ordinary_price": 37.43, "discount_sek": 8.25, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Vattenmelon mini [KAMPANJ]", "amount": 400, "unit": "g", "line_cost_sek": 18.9, "campaign_price": 18.9, "ordinary_price": 27.9, "discount_sek": 9, "price_status": "exakt", "source": "willys_offers"},
+        {"item": "Smör", "amount": 15, "unit": "g", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 10, "unit": "ml", "line_cost_sek": 1.5, "campaign_price": null, "ordinary_price": 1.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 200°C och värm baguetten i ca 6–8 minuter tills den är krispig.\n2. Stek äggen i smör på medelvärme, salta och peppra.\n3. Halvera kvisttomaterna och skiva antipaston.\n4. Dela den varma baguetten, lägg på ägg, tomat och antipasto.\n5. Servera med skivad vattenmelon och ringla lite olivolja över tomaterna.",
+      "costs": {"campaign_total_sek": 84.79, "ordinary_total_sek": 116.29, "total_discount_sek": 31.5, "cost_per_portion_sek": 42.4},
+      "sources": ["https://www.willys.se/erbjudanden/butik"],
+      "taste_balance": "Sälta och umami från ägg och antipasto, sötma från kvisttomat och melon samt fräschör och krisp från den nybakade baguetten.",
+      "nutrition_profile": "Ägg ger högkvalitativt protein och mättnad, baguetten kolhydrater och tomater och melon volym och vitaminer. En snabb frukost eller lätt måltid med tydlig proteinkälla.",
+      "price_justification": "Baguette, kvisttomat, antipasto och melon är alla kampanjvaror, vilket gör en lyxig frukost för två prisvärd trots att antipaston är den dyraste komponenten.",
+      "variation_tips": "Byt antipasto mot skivat bacon om du vill ha varm variant, eller hoppa över brödet och servera som äggröra med tomat för lägre points."
+    }
+  ],
+  "quality_check": {
+    "evaluation_rounds": 2,
+    "json_valid": true,
+    "index_valid": true,
+    "notes": "Självutvärdering gjord i två rundor. Pointsvärden kontrollerade mot portionsantal via points_engine.md och alla obligatoriska normaliserade fält finns eller är tydligt null/okänt. Butiksvaror matchar receptens ingredients."
+  },
+  "delivery_note": {
+    "discord_channel": "#allmänt",
+    "discord_channel_id": "1490441292629540884",
+    "imessage_recipients": [
+      "iMessage;-;+46760172989",
+      "iMessage;-;+46739280001"
+    ]
+  }
+}
