@@ -1,0 +1,339 @@
+{
+  "date": "2026-05-18",
+  "created_at": "2026-05-18T20:00:00+02:00",
+  "slug": "2026-05-18-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på kycklingfilé, tomater, svamp, feta och pasta – med både mättnad och somrig fräschör.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser verifierades mot ICA Rimforsas erbjudandesida den 18 maj 2026. Priserna gäller vecka 21 (18–24 maj 2026).",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Potatis, kikärtor, lök, vitlök, ruccola, olivolja och kryddor är försiktigt uppskattade basvaror när exakt butiksvärde inte framgick i kampanjflödet.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Kronfågel Färsk Kycklingfilé ca 925 g",
+      "campaign_price": 100.83,
+      "ordinary_price": 152.55,
+      "discount_sek": 51.72,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "109 kr/kg. Ord.pris 152:55 kr. ca 925 g."
+    },
+    {
+      "product_name": "Romanticatomater i ask",
+      "campaign_price": 25,
+      "ordinary_price": 50.65,
+      "discount_sek": 25.65,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "25 kr/st. Ord.pris 50:65 kr. 400 g."
+    },
+    {
+      "product_name": "Champinjoner i ask",
+      "campaign_price": 15,
+      "ordinary_price": 18.87,
+      "discount_sek": 3.87,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "15 kr/st. Ord.pris 18:87 kr. 250 g."
+    },
+    {
+      "product_name": "Zeta Feta/Getost 130-150 g",
+      "campaign_price": 20,
+      "ordinary_price": 26.4,
+      "discount_sek": 6.4,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "3 för 60 kr. Ord.pris från 26:40 kr. 130-150 g."
+    },
+    {
+      "product_name": "Barilla pasta 500 g",
+      "campaign_price": 11.25,
+      "ordinary_price": 17.88,
+      "discount_sek": 6.63,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "4 för 45 kr. Ord.pris från 17:88 kr. 500 g."
+    },
+    {
+      "product_name": "ICA Färsk pasta 200-250 g",
+      "campaign_price": 10,
+      "ordinary_price": 17.85,
+      "discount_sek": 7.85,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "10 kr/st. Ord.pris 17:85 kr. 200-250 g."
+    },
+    {
+      "product_name": "Mogen avokado 3-pack",
+      "campaign_price": 25,
+      "ordinary_price": 38.69,
+      "discount_sek": 13.69,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "25 kr/st. Ord.pris 38:69 kr. 330 g."
+    },
+    {
+      "product_name": "Färsk vitkål",
+      "campaign_price": 25,
+      "ordinary_price": 29.57,
+      "discount_sek": 4.57,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "25 kr/kg. Ord.pris 29:57 kr."
+    },
+    {
+      "product_name": "Salakis Turkisk/Grekisk yoghurt 1 kg",
+      "campaign_price": 25,
+      "ordinary_price": 31.26,
+      "discount_sek": 6.26,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "25 kr/st. Ord.pris från 31:26 kr. 1 kg."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Citronkyckling med rostad vitkål, champinjoner och örtyoghurt",
+      "description": "Saftig kycklingfilé får sällskap av sötrostad vitkål, stekta champinjoner och en kall yoghurtsås med citron och örter. En vardagsrätt som känns lätt men ändå mättar ordentligt.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": ["middag", "kyckling", "medelhavsinspirerad", "proteinrik", "glutenfri"],
+      "kcal_per_portion": "ca 430 kcal",
+      "kcal_per_portion_value": 430,
+      "points_estimate": "≈ 3 p/portion",
+      "points_estimate_value": 3,
+      "total_points_estimate": 12,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kronfågel Färsk Kycklingfilé ca 925 g",
+          "buy_amount": 1,
+          "campaign_price": 100.83,
+          "ordinary_price": 152.55,
+          "discount_sek": 51.72,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "109 kr/kg. Ord.pris 152:55 kr. ca 925 g."
+        },
+        {
+          "product_name": "Färsk vitkål",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 29.57,
+          "discount_sek": 4.57,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/kg. Ord.pris 29:57 kr."
+        },
+        {
+          "product_name": "Champinjoner i ask",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 18.87,
+          "discount_sek": 3.87,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "15 kr/st. Ord.pris 18:87 kr. 250 g."
+        },
+        {
+          "product_name": "Salakis Turkisk/Grekisk yoghurt 1 kg",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 31.26,
+          "discount_sek": 6.26,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris från 31:26 kr. 1 kg."
+        }
+      ],
+      "ingredients": [
+        {"item": "Kycklingfilé [KAMPANJ]", "amount": 600, "unit": "g", "line_cost_sek": 65.4, "campaign_price": 65.4, "ordinary_price": 91.11, "discount_sek": 25.71, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Färsk vitkål [KAMPANJ]", "amount": 600, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 17.74, "discount_sek": 2.74, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Champinjoner [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 18.87, "discount_sek": 3.87, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Grekisk yoghurt [KAMPANJ]", "amount": 200, "unit": "g", "line_cost_sek": 5, "campaign_price": 5, "ordinary_price": 6.25, "discount_sek": 1.25, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Potatis", "amount": 800, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 3, "unit": "klyftor", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 20, "unit": "ml", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Persilja", "amount": 0.5, "unit": "kruka", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Salt, peppar, oregano", "amount": 1, "unit": "kryddmått", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225°C. Klyfta vitkålen och lägg på plåt med hälften av olivoljan, salt och peppar. Rosta 20–25 minuter tills kålen får färg.\n2. Krydda kycklingen med oregano, salt och peppar. Stek eller ugnsbaka tills den är genomlagad.\n3. Stek champinjonerna i resten av oljan tills vätskan kokat bort och de fått fin yta.\n4. Rör ihop yoghurt med finriven vitlök, citronskal, lite citronsaft och hackad persilja.\n5. Koka potatisen mjuk och servera med skivad kyckling, rostad vitkål, champinjoner och örtyoghurt.",
+      "costs": {"campaign_total_sek": 131.4, "ordinary_total_sek": 164.97, "total_discount_sek": 33.57, "cost_per_portion_sek": 32.85},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Citron och yoghurt ger syra, kycklingen står för mild umami och den rostade vitkålen bidrar med sötma och djup.",
+      "nutrition_profile": "Hög proteinnivå från kyckling, mycket grönsaker och en måttlig mängd potatis gör rätten balanserad och vardagsvänlig.",
+      "price_justification": "Kycklingen driver kostnaden men kampanjpriset per kilo gör rätten prisvärd. Vitkål, yoghurt och svamp håller totalen nere.",
+      "variation_tips": "Byt potatis mot kokta linser eller bulgur om du vill göra rätten ännu snabbare."
+    },
+    {
+      "title": "Krämig tomatpasta med feta, champinjoner och kikärtor",
+      "description": "Söta romantica-tomater rostas tills de nästan blir en sås och blandas med pasta, svamp, kikärtor och smulad feta. En billig vegetarisk middag med bra sälta och mycket smak.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["middag", "vegetarisk", "medelhavsinspirerad", "baljväxter"],
+      "kcal_per_portion": "ca 510 kcal",
+      "kcal_per_portion_value": 510,
+      "points_estimate": "≈ 4.8 p/portion",
+      "points_estimate_value": 4.8,
+      "total_points_estimate": 19.3,
+      "points_uncertainty": "låg",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Barilla pasta 500 g",
+          "buy_amount": 1,
+          "campaign_price": 11.25,
+          "ordinary_price": 17.88,
+          "discount_sek": 6.63,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "4 för 45 kr. Ord.pris från 17:88 kr. 500 g."
+        },
+        {
+          "product_name": "Romanticatomater i ask",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 50.65,
+          "discount_sek": 25.65,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 50:65 kr. 400 g."
+        },
+        {
+          "product_name": "Champinjoner i ask",
+          "buy_amount": 1,
+          "campaign_price": 15,
+          "ordinary_price": 18.87,
+          "discount_sek": 3.87,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "15 kr/st. Ord.pris 18:87 kr. 250 g."
+        },
+        {
+          "product_name": "Zeta Feta/Getost 130-150 g",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 26.4,
+          "discount_sek": 6.4,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "3 för 60 kr. Ord.pris från 26:40 kr. 130-150 g."
+        }
+      ],
+      "ingredients": [
+        {"item": "Barilla pasta [KAMPANJ]", "amount": 320, "unit": "g", "line_cost_sek": 7.2, "campaign_price": 7.2, "ordinary_price": 11.44, "discount_sek": 4.24, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Romanticatomater [KAMPANJ]", "amount": 400, "unit": "g", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 50.65, "discount_sek": 25.65, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Champinjoner [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 18.87, "discount_sek": 3.87, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Fetaost [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 26.4, "discount_sek": 6.4, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Kikärtor", "amount": 240, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Gul lök", "amount": 1, "unit": "st", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 2, "unit": "klyftor", "line_cost_sek": 1.5, "campaign_price": null, "ordinary_price": 1.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 20, "unit": "ml", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Chili flakes, basilika, salt, peppar", "amount": 1, "unit": "kryddmått", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225°C. Lägg tomaterna i en form med hälften av olivoljan, salt och chili flakes. Rosta 20 minuter tills de faller ihop.\n2. Koka pastan al dente. Spara lite pastavatten.\n3. Stek skivad svamp och hackad lök i resten av oljan tills de får färg. Tillsätt vitlök och kikärtor sista minuten.\n4. Tryck sönder de rostade tomaterna till en grov sås och blanda med svampfräset. Vänd ner pastan och lite pastavatten.\n5. Smula över fetaost och avsluta med basilika och svartpeppar.",
+      "costs": {"campaign_total_sek": 84.7, "ordinary_total_sek": 124.46, "total_discount_sek": 39.76, "cost_per_portion_sek": 21.18},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Tomaterna ger sötma och syra, fetaosten sälta och krämighet, medan svamp och kikärtor tillför djup och mättnad.",
+      "nutrition_profile": "Baljväxter och pasta ger energi och fibrer, medan tomater och svamp bidrar med volym och grönsaksandel.",
+      "price_justification": "Kampanjtomater, svamp och prispressad pasta gör att rätten landar lågt i pris trots rik smakbild.",
+      "variation_tips": "Toppa med ruccola eller rivet citronskal för ännu piggare avslut."
+    },
+    {
+      "title": "Ljummen kyckling- och pastasallad med avokado, tomat och citronyoghurt",
+      "description": "En matig sallad där saftig kyckling möter mjuk avokado, söta tomater och citronfräsch yoghurt. Perfekt när du vill ha något som känns som både vardagsmiddag och lunchlåda.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "25 min",
+      "meal_flags": ["middag", "lunch", "kyckling", "medelhavsinspirerad", "matlådevänlig"],
+      "kcal_per_portion": "ca 500 kcal",
+      "kcal_per_portion_value": 500,
+      "points_estimate": "≈ 4 p/portion",
+      "points_estimate_value": 4,
+      "total_points_estimate": 16,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Kronfågel Färsk Kycklingfilé ca 925 g",
+          "buy_amount": 1,
+          "campaign_price": 100.83,
+          "ordinary_price": 152.55,
+          "discount_sek": 51.72,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "109 kr/kg. Ord.pris 152:55 kr. ca 925 g."
+        },
+        {
+          "product_name": "ICA Färsk pasta 200-250 g",
+          "buy_amount": 2,
+          "campaign_price": 10,
+          "ordinary_price": 17.85,
+          "discount_sek": 7.85,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "10 kr/st. Ord.pris 17:85 kr. 200-250 g."
+        },
+        {
+          "product_name": "Mogen avokado 3-pack",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 38.69,
+          "discount_sek": 13.69,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 38:69 kr. 330 g."
+        },
+        {
+          "product_name": "Romanticatomater i ask",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 50.65,
+          "discount_sek": 25.65,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 50:65 kr. 400 g."
+        },
+        {
+          "product_name": "Salakis Turkisk/Grekisk yoghurt 1 kg",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 31.26,
+          "discount_sek": 6.26,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris från 31:26 kr. 1 kg."
+        }
+      ],
+      "ingredients": [
+        {"item": "Kycklingfilé [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 54.5, "campaign_price": 54.5, "ordinary_price": 75.95, "discount_sek": 21.45, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Färsk pasta [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 35.7, "discount_sek": 15.7, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Mogen avokado [KAMPANJ]", "amount": 220, "unit": "g", "line_cost_sek": 16.67, "campaign_price": 16.67, "ordinary_price": 25.79, "discount_sek": 9.12, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Romanticatomater [KAMPANJ]", "amount": 400, "unit": "g", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 50.65, "discount_sek": 25.65, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Grekisk yoghurt [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 3.75, "campaign_price": 3.75, "ordinary_price": 4.69, "discount_sek": 0.94, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Ruccola", "amount": 65, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 15, "unit": "ml", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 1, "unit": "klyfta", "line_cost_sek": 0.5, "campaign_price": null, "ordinary_price": 0.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Salt, peppar", "amount": 1, "unit": "kryddmått", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Koka den färska pastan enligt anvisning och spola hastigt kall så den blir ljummen snarare än het.\n2. Stek eller grilla kycklingen med salt och peppar och skiva den tunt.\n3. Dela tomaterna, tärna avokadon och blanda med ruccola i en stor skål.\n4. Rör ihop yoghurt med citron, finriven vitlök, lite olivolja, salt och peppar.\n5. Vänd ihop pasta, kyckling och grönsaker. Ringla över citronyoghurten precis före servering.",
+      "costs": {"campaign_total_sek": 140.92, "ordinary_total_sek": 213.78, "total_discount_sek": 72.86, "cost_per_portion_sek": 35.23},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Avokadon rundar av, tomaterna ger söt syra och citronyoghurten lyfter hela salladen med friskhet.",
+      "nutrition_profile": "Kyckling och pasta ger mättnad, medan avokado och olivolja tillför nyttiga fetter och tomater samt ruccola ger grönt lyft.",
+      "price_justification": "Här används flera kampanjvaror samtidigt, vilket gör en annars ganska generös sallad förvånansvärt rimlig per portion.",
+      "variation_tips": "Byt ruccola mot finstrimlad vitkål om du vill göra rätten ännu billigare och mer krispig."
+    }
+  ]
+}

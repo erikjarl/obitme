@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-25",
+  "created_at": "2026-05-25T17:01:13.157Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 4 köpvanevaror. Starkaste träffar: Kyckling → Kronfågel. Ursprung Sverige Ätklar kyckling 200 g (-8,93 kr); Smör → Bearnaise med smör  230 ml ICA Selection (-7,01 kr); Falukorv → Scan Falukorv 800 g (-5,90 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Kronfågel. Ursprung Sverige Ätklar kyckling 200 g",
+      "match_type": "keyword",
+      "ordinary_price": 43.43,
+      "campaign_price": 34.5,
+      "campaign_label": "2 för 69 kr",
+      "discount_sek": 8.93,
+      "discount_percent": 20.56,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kronf%C3%A5gel.%20Ursprung%20Sverige%20%C3%84tklar",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Ätklar kyckling | 2 för 69 kr | Ord.pris 43:43 kr. | 200 g | Kronfågel. Ursprung Sverige | Match: Kyckling finns i Kronfågel. Ursprung Sverige Ätklar kyckling 200 g",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "172:50/kg",
+      "raw_offer_id": "5003959678"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Bearnaise med smör  230 ml ICA Selection",
+      "match_type": "keyword",
+      "ordinary_price": 24.51,
+      "campaign_price": 17.5,
+      "campaign_label": "2 för 35 kr",
+      "discount_sek": 7.01,
+      "discount_percent": 28.6,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Bearnaise%20med%20sm%C3%B6r%C2%A0%20230",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Kyld sås | 2 för 35 kr | Ord.pris 24:51 kr. | 230 ml | ICA Selection | Match: Smör finns i Bearnaise med smör  230 ml ICA Selection",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "76:09/liter",
+      "raw_offer_id": "5003918756"
+    },
+    {
+      "habit_name": "Falukorv",
+      "matched_product_name": "Scan Falukorv 800 g",
+      "match_type": "keyword",
+      "ordinary_price": 38.4,
+      "campaign_price": 32.5,
+      "campaign_label": "2 för 65 kr",
+      "discount_sek": 5.9,
+      "discount_percent": 15.36,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Scan%20Falukorv%20800%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Falukorv | 2 för 65 kr | Ord.pris 38:40 kr. | 800 g | Scan | Match: Falukorv finns i Scan Falukorv 800 g",
+      "category": "Färskvaror",
+      "restriction": "Max 1 köp/hushåll",
+      "comparison_price": "40:62/kg",
+      "raw_offer_id": "5003959713"
+    },
+    {
+      "habit_name": "Olivolja",
+      "matched_product_name": "Fontana Olivolja 750 ml",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 79,
+      "campaign_label": "79 kr/st",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Fontana%20Olivolja%20750%20ml",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Olivolja | 79 kr/st | Ord.pris 103:89-129:20 kr. 30dgr.pris 103:15-123:97 kr. | 750 ml | Fontana | Match: Olivolja finns i Fontana Olivolja 750 ml",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "105:33/liter",
+      "raw_offer_id": "5003959692"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Kyckling: Kronfågel. Ursprung Sverige Ätklar kyckling 200 g (ord. 43,43 kr, 2 för 69 kr, -8,93 kr, 21 %)\n• Smör: Bearnaise med smör  230 ml ICA Selection (ord. 24,51 kr, 2 för 35 kr, -7,01 kr, 29 %)\n• Falukorv: Scan Falukorv 800 g (ord. 38,40 kr, 2 för 65 kr, -5,90 kr, 15 %)\n• Olivolja: Fontana Olivolja 750 ml (79 kr/st)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 416
+}

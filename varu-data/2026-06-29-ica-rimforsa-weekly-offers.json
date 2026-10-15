@@ -1,0 +1,331 @@
+{
+  "date": "2026-06-29",
+  "created_at": "2026-06-29T20:00:00+02:00",
+  "slug": "2026-06-29-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre nya recept byggda på ICA Rimforsas kampanjer vecka 27 med fokus på kryddad kyckling, grillost, tomater, jordgubbar och smarta basvaror. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser verifierades mot ICA Rimforsas erbjudandesida den 29 juni 2026. Priserna gäller vecka 27 (29 juni–5 juli 2026).",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Basvaror som citrus, lök, olivolja, örter, bulgur och vissa grönsaker är försiktigt uppskattade när exakt butiksvärde inte framgick i kampanjflödet.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Fryst kryddad kyckling Guldfågeln 480-760 g",
+      "campaign_price": 70,
+      "ordinary_price": 86.02,
+      "discount_sek": 16.02,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 140 kr. Ord.pris 86:02-97:47 kr. Kampanjpris härlett till 70,00 kr/st som lägsta styckpris i multiköp."
+    },
+    {
+      "product_name": "Äggnudlar ICA Asia 250 g",
+      "campaign_price": 7.5,
+      "ordinary_price": 9.36,
+      "discount_sek": 1.86,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "4 för 30 kr. Ord.pris 9:36 kr. Kampanjpris härlett till 7,50 kr/st."
+    },
+    {
+      "product_name": "Majs 3-pack ICA 3x198 g",
+      "campaign_price": 20,
+      "ordinary_price": 24.21,
+      "discount_sek": 4.21,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 40 kr. Ord.pris 24:21 kr. Kampanjpris härlett till 20,00 kr/st."
+    },
+    {
+      "product_name": "Grillost/Halloumi ICA 200 g",
+      "campaign_price": 22.5,
+      "ordinary_price": 27.16,
+      "discount_sek": 4.66,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 45 kr. Ord.pris 27:16-28:29 kr. Kampanjpris härlett till 22,50 kr/st."
+    },
+    {
+      "product_name": "Finbladiga sallater ICA 65 g",
+      "campaign_price": 12,
+      "ordinary_price": 18.83,
+      "discount_sek": 6.83,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "2 för 24 kr. Ord.pris 18:83 kr. Kampanjpris härlett till 12,00 kr/st."
+    },
+    {
+      "product_name": "Romanticatomater ICA 400 g",
+      "campaign_price": 25,
+      "ordinary_price": 38.69,
+      "discount_sek": 13.69,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "25 kr/st. Ord.pris 38:69 kr. 400 g."
+    },
+    {
+      "product_name": "Grekisk/Turkisk yoghurt Arla Köket 1000 g",
+      "campaign_price": 28,
+      "ordinary_price": 33.02,
+      "discount_sek": 5.02,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "28 kr/st. Ord.pris 33:02-37:76 kr. 1000 g."
+    },
+    {
+      "product_name": "Fetaost Fontana 150 g",
+      "campaign_price": 20,
+      "ordinary_price": 31.13,
+      "discount_sek": 11.13,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "5 för 100 kr. Ord.pris 31:13-33:02 kr. Kampanjpris härlett till 20,00 kr/st."
+    },
+    {
+      "product_name": "Svenska jordgubbar ICA 500 g",
+      "campaign_price": 40,
+      "ordinary_price": 75,
+      "discount_sek": 35,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "40 kr/st. Ord.pris 75 kr. 500 g."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Limekyckling med rostade morötter, majs och äggnudlar",
+      "description": "Sötma från morötter och majs möter syrlig lime, sälta från soja och saftig kyckling. En snabb vardagsmiddag som använder flera av veckans starkaste kampanjvaror utan att bli tung.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": ["middag", "kyckling", "medelhavsinspirerad", "vardag"],
+      "kcal_per_portion": "ca 450 kcal",
+      "kcal_per_portion_value": 450,
+      "points_estimate": "≈ 2.9 p/portion",
+      "points_estimate_value": 2.9,
+      "total_points_estimate": 11.8,
+      "points_uncertainty": "låg",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Fryst kryddad kyckling Guldfågeln 480-760 g",
+          "buy_amount": 1,
+          "campaign_price": 70,
+          "ordinary_price": 86.02,
+          "discount_sek": 16.02,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 140 kr. Ord.pris 86:02-97:47 kr. Kampanjpris härlett till 70,00 kr/st som lägsta styckpris i multiköp."
+        },
+        {
+          "product_name": "Äggnudlar ICA Asia 250 g",
+          "buy_amount": 1,
+          "campaign_price": 7.5,
+          "ordinary_price": 9.36,
+          "discount_sek": 1.86,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "4 för 30 kr. Ord.pris 9:36 kr. Kampanjpris härlett till 7,50 kr/st."
+        },
+        {
+          "product_name": "Majs 3-pack ICA 3x198 g",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 24.21,
+          "discount_sek": 4.21,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 40 kr. Ord.pris 24:21 kr. Kampanjpris härlett till 20,00 kr/st."
+        }
+      ],
+      "ingredients": [
+        {"item": "Fryst kryddad kyckling [KAMPANJ]", "amount": 600, "unit": "g", "line_cost_sek": 70, "campaign_price": 70, "ordinary_price": 86.02, "discount_sek": 16.02, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Äggnudlar [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 7.5, "campaign_price": 7.5, "ordinary_price": 9.36, "discount_sek": 1.86, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Majs [KAMPANJ]", "amount": 300, "unit": "g", "line_cost_sek": 10.1, "campaign_price": 10.1, "ordinary_price": 12.22, "discount_sek": 2.12, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Morötter i knippe [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 15, "campaign_price": 15, "ordinary_price": 20.72, "discount_sek": 5.72, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Rödlök", "amount": 120, "unit": "g", "line_cost_sek": 4, "campaign_price": null, "ordinary_price": 4, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Vitlök", "amount": 3, "unit": "klyftor", "line_cost_sek": 2, "campaign_price": null, "ordinary_price": 2, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Lime", "amount": 1, "unit": "st", "line_cost_sek": 6, "campaign_price": null, "ordinary_price": 6, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Färsk koriander eller persilja", "amount": 15, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Olivolja", "amount": 15, "unit": "ml", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Soja", "amount": 15, "unit": "ml", "line_cost_sek": 1.5, "campaign_price": null, "ordinary_price": 1.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Sätt ugnen på 225°C. Lägg morötterna på plåt med hälften av oljan, lite salt och peppar och rosta i 20–25 minuter.\n2. Stek kycklingen gyllene i resten av oljan. Tillsätt rödlök, vitlök och majs mot slutet.\n3. Koka nudlarna enligt anvisning och vänd ihop med soja, limesaft och lite rivet limeskal.\n4. Vänd ner de rostade morötterna i kycklingpannan och smaka av med extra lime och svartpeppar.\n5. Toppa med koriander eller persilja och servera direkt.",
+      "costs": {"campaign_total_sek": 126.1, "ordinary_total_sek": 152.32, "total_discount_sek": 26.22, "cost_per_portion_sek": 31.53},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Syra från lime, sälta från soja, sötma från rostade morötter och majs, fett från en liten mängd olivolja och umami från stekytan på kycklingen.",
+      "nutrition_profile": "Kyckling ger mycket protein per krona, morötter och majs ger volym och fibrer och nudelmängden hålls rimlig för en mättande men fortfarande lättare vardagsrätt.",
+      "price_justification": "Kyckling, nudlar och majs är kampanjbärare här, medan resten består av billiga basvaror som håller portionskostnaden nere.",
+      "variation_tips": "Byt lime mot citron om det är vad du har hemma, eller lägg till chili för ett piggare sting."
+    },
+    {
+      "title": "Grillost med tomat-bulgur, feta och kall yoghurtsås",
+      "description": "En somrig tallrik där varm grillost får sällskap av saftiga tomater, örter, citron och en sval yoghurtsås. Fetaosten förstärker sälta och umami medan bulgur gör rätten stadig utan att bli tung.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["middag", "vegetarisk", "medelhavsinspirerad", "somrig"],
+      "kcal_per_portion": "ca 560 kcal",
+      "kcal_per_portion_value": 560,
+      "points_estimate": "≈ 9.5 p/portion",
+      "points_estimate_value": 9.5,
+      "total_points_estimate": 37.9,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Grillost/Halloumi ICA 200 g",
+          "buy_amount": 2,
+          "campaign_price": 22.5,
+          "ordinary_price": 27.16,
+          "discount_sek": 4.66,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 45 kr. Ord.pris 27:16-28:29 kr. Kampanjpris härlett till 22,50 kr/st."
+        },
+        {
+          "product_name": "Romanticatomater ICA 400 g",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 38.69,
+          "discount_sek": 13.69,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 38:69 kr. 400 g."
+        },
+        {
+          "product_name": "Finbladiga sallater ICA 65 g",
+          "buy_amount": 1,
+          "campaign_price": 12,
+          "ordinary_price": 18.83,
+          "discount_sek": 6.83,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "2 för 24 kr. Ord.pris 18:83 kr. Kampanjpris härlett till 12,00 kr/st."
+        },
+        {
+          "product_name": "Fetaost Fontana 150 g",
+          "buy_amount": 1,
+          "campaign_price": 20,
+          "ordinary_price": 31.13,
+          "discount_sek": 11.13,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "5 för 100 kr. Ord.pris 31:13-33:02 kr. Kampanjpris härlett till 20,00 kr/st."
+        },
+        {
+          "product_name": "Grekisk/Turkisk yoghurt Arla Köket 1000 g",
+          "buy_amount": 1,
+          "campaign_price": 28,
+          "ordinary_price": 33.02,
+          "discount_sek": 5.02,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "28 kr/st. Ord.pris 33:02-37:76 kr. 1000 g."
+        }
+      ],
+      "ingredients": [
+        {"item": "Grillost/Halloumi [KAMPANJ]", "amount": 400, "unit": "g", "line_cost_sek": 45, "campaign_price": 45, "ordinary_price": 54.32, "discount_sek": 9.32, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Romanticatomater [KAMPANJ]", "amount": 400, "unit": "g", "line_cost_sek": 25, "campaign_price": 25, "ordinary_price": 38.69, "discount_sek": 13.69, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Finbladig sallat [KAMPANJ]", "amount": 65, "unit": "g", "line_cost_sek": 12, "campaign_price": 12, "ordinary_price": 18.83, "discount_sek": 6.83, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Fetaost [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 20, "campaign_price": 20, "ordinary_price": 31.13, "discount_sek": 11.13, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Grekisk yoghurt [KAMPANJ]", "amount": 200, "unit": "g", "line_cost_sek": 5.6, "campaign_price": 5.6, "ordinary_price": 6.6, "discount_sek": 1, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Bulgur", "amount": 240, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Gurka", "amount": 300, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Rödlök", "amount": 80, "unit": "g", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 20, "unit": "ml", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Oregano eller mynta", "amount": 10, "unit": "g", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"}
+      ],
+      "method": "1. Koka bulgur enligt anvisning. Låt ånga av lätt.\n2. Halvera tomaterna och blanda med gurka, rödlök, örter, citronjuice och hälften av olivoljan. Vänd ner den varma bulgurn.\n3. Rör ihop yoghurt med lite citronzest, svartpeppar och en nypa salt.\n4. Stek eller grilla grillosten gyllene på båda sidor.\n5. Lägg upp bulgursalladen, smula över fetaost, toppa med grillost och servera med yoghurtsåsen.",
+      "costs": {"campaign_total_sek": 143.6, "ordinary_total_sek": 185.57, "total_discount_sek": 41.97, "cost_per_portion_sek": 35.9},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Citron står för syra, grillost och feta för sälta, tomater och rödlök för mild sötma, yoghurt och olivolja för rundhet och ostarna för tydlig umami.",
+      "nutrition_profile": "Grönsaksrik vegetarisk rätt i medelhavsstil med yoghurt, tomater, örter och balanserad mängd gryn. Energinivån är rimlig men osten driver både mättnad och points.",
+      "price_justification": "Tomater, sallat, grillost, feta och yoghurt är alla kampanjstöd i samma rätt, vilket gör att en annars ganska generös salladstallrik fortfarande landar vettigt i pris.",
+      "variation_tips": "Byt bulgur mot kokt potatis eller matvete om du vill, eller tillsätt oliver om du vill ha ännu mer sälta."
+    },
+    {
+      "title": "Jordgubbar med citronyoghurt och rostad skärgårdskaka",
+      "description": "Veckans enklaste sommarefterrätt eller lyxiga frukost. Söta jordgubbar möter frisk citronyoghurt och lite rostat bröd för textur och mättnad.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "15 min",
+      "meal_flags": ["frukost", "dessert", "somrig", "vegetarisk"],
+      "kcal_per_portion": "ca 290 kcal",
+      "kcal_per_portion_value": 290,
+      "points_estimate": "okänt",
+      "points_estimate_value": null,
+      "total_points_estimate": null,
+      "points_uncertainty": "hög",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Svenska jordgubbar ICA 500 g",
+          "buy_amount": 1,
+          "campaign_price": 40,
+          "ordinary_price": 75,
+          "discount_sek": 35,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "40 kr/st. Ord.pris 75 kr. 500 g."
+        },
+        {
+          "product_name": "Grekisk/Turkisk yoghurt Arla Köket 1000 g",
+          "buy_amount": 1,
+          "campaign_price": 28,
+          "ordinary_price": 33.02,
+          "discount_sek": 5.02,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "28 kr/st. Ord.pris 33:02-37:76 kr. 1000 g."
+        },
+        {
+          "product_name": "Skärgårdskaka Pågen 750 g",
+          "buy_amount": 1,
+          "campaign_price": 25,
+          "ordinary_price": 35.64,
+          "discount_sek": 10.64,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "25 kr/st. Ord.pris 35:64 kr. 750 g."
+        }
+      ],
+      "ingredients": [
+        {"item": "Svenska jordgubbar [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 40, "campaign_price": 40, "ordinary_price": 75, "discount_sek": 35, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Grekisk yoghurt [KAMPANJ]", "amount": 500, "unit": "g", "line_cost_sek": 14, "campaign_price": 14, "ordinary_price": 16.51, "discount_sek": 2.51, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Skärgårdskaka [KAMPANJ]", "amount": 240, "unit": "g", "line_cost_sek": 8, "campaign_price": 8, "ordinary_price": 11.4, "discount_sek": 3.4, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Citron", "amount": 0.5, "unit": "st", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Honung", "amount": 20, "unit": "g", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Mynta", "amount": 5, "unit": "g", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"}
+      ],
+      "method": "1. Rosta eller stek brödskivorna torra tills de blir gyllene och bryt dem i bitar.\n2. Rör ihop yoghurt med finrivet citronskal och honung.\n3. Dela jordgubbarna och vänd dem försiktigt med lite citronsaft.\n4. Lägg upp citronyoghurt i skålar, toppa med jordgubbar och avsluta med brödbitar och mynta.",
+      "costs": {"campaign_total_sek": 70, "ordinary_total_sek": 110.91, "total_discount_sek": 40.91, "cost_per_portion_sek": 17.5},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Jordgubbarna står för sötma, citronen för syra, yoghurten för mild fetma och rostad skärgårdskaka för nötig, lätt karamelliserad ton.",
+      "nutrition_profile": "En lättare sommarservering där yoghurt ger protein och jordgubbar står för volym och fräschör. Passar bättre som frukost, mellanmål eller dessert än som huvudmål.",
+      "price_justification": "Jordgubbskampanjen är veckans mest slående fynd och lite yoghurt plus några skivor kampanjbröd räcker långt till fyra personer.",
+      "variation_tips": "Byt myntan mot basilika för mer vuxen känsla, eller toppa med hackade nötter om du vill ha mer crunch."
+    }
+  ],
+  "quality_check": {
+    "evaluation_rounds": 2,
+    "json_valid": true,
+    "index_valid": true,
+    "notes": "Självutvärdering gjord i två rundor. Pointsvärden kontrollerade mot portionsantal och alla obligatoriska normaliserade fält finns eller är tydligt null/okänt."
+  },
+  "delivery_note": {
+    "discord_channel": "#allmänt",
+    "discord_channel_id": "1490438999494492415",
+    "imessage_recipients": [
+      "iMessage;-;+46760172989",
+      "iMessage;-;+46739280001"
+    ]
+  }
+}

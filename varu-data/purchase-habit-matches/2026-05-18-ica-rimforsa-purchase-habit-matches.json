@@ -1,0 +1,91 @@
+{
+  "date": "2026-05-18",
+  "created_at": "2026-05-18T17:01:16.509Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 2 köpvanevaror. Starkaste träffar: Kyckling → Kronfågel Färsk Kycklingfilé ca 925 g (-43,55 kr); Pasta → ICA Färsk pasta 200-250 g (-7,85 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Kronfågel Färsk Kycklingfilé ca 925 g",
+      "match_type": "alias",
+      "ordinary_price": 152.55,
+      "campaign_price": 109,
+      "campaign_label": "109 kr/kg",
+      "discount_sek": 43.55,
+      "discount_percent": 28.55,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kronf%C3%A5gel%20F%C3%A4rsk%20Kycklingfil%C3%A9%20ca",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färsk Kycklingfilé | 109 kr/kg | Ord.pris 152:55 kr. | ca 925 g | Kronfågel | Match: kycklingfilé finns i Kronfågel Färsk Kycklingfilé ca 925 g",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": null,
+      "raw_offer_id": "5003959625"
+    },
+    {
+      "habit_name": "Pasta",
+      "matched_product_name": "ICA Färsk pasta 200-250 g",
+      "match_type": "keyword",
+      "ordinary_price": 17.85,
+      "campaign_price": 10,
+      "campaign_label": "10 kr/st",
+      "discount_sek": 7.85,
+      "discount_percent": 43.98,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=ICA%20F%C3%A4rsk%20pasta%20200-250",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färsk pasta | 10 kr/st | Ord.pris 17:85 kr. | 200-250 g | ICA | Match: Pasta finns i ICA Färsk pasta 200-250 g",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "40:00-50:00/kg",
+      "raw_offer_id": "5003959621"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Kyckling: Kronfågel Färsk Kycklingfilé ca 925 g (ord. 152,55 kr, 109 kr/kg, -43,55 kr, 29 %)\n• Pasta: ICA Färsk pasta 200-250 g (ord. 17,85 kr, 10 kr/st, -7,85 kr, 44 %)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 278
+}

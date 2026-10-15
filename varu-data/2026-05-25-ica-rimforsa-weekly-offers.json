@@ -1,0 +1,285 @@
+{
+  "date": "2026-05-25",
+  "created_at": "2026-05-25T20:00:00+02:00",
+  "slug": "2026-05-25-ica-rimforsa-weekly-offers",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre recept byggda på veckans ICA-fynd i Rimforsa med fokus på grillost, torsk, mango och smarta basvaror. Somrig smakbalans, tydliga kostnader och konsekventa pointsfält.",
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "primary_store_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "source_note": "Kampanjpriser verifierades mot ICA Rimforsas erbjudandesida den 25 maj 2026. Priserna gäller vecka 22 (25–31 maj 2026).",
+  "pricing_method": {
+    "ica_priority": "ICA:s erbjudandesida användes som primär källa för kampanjpriser.",
+    "fallbacks": "Potatis, havregryn, grönsaker, örter och vissa skafferivaror är försiktigt uppskattade basvaror när exakt butiksvärde inte framgick i kampanjflödet.",
+    "rounding": "Belopp avrundas till två decimaler."
+  },
+  "fyndlista": [
+    {
+      "product_name": "Norrländsk grillost ICA 200 g",
+      "campaign_price": 16.67,
+      "ordinary_price": 28.28,
+      "discount_sek": 11.61,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 83:33/kg. Ord.pris 28:28 kr. 200 g."
+    },
+    {
+      "product_name": "Fryst mango ICA 250 g",
+      "campaign_price": 16.67,
+      "ordinary_price": 20.77,
+      "discount_sek": 4.1,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 66:67/kg. Ord.pris 20:77 kr. 250 g."
+    },
+    {
+      "product_name": "Cashewnötter ICA 500 g",
+      "campaign_price": 65,
+      "ordinary_price": 81.29,
+      "discount_sek": 16.29,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 130:00/kg. Ord.pris 81:29 kr. 500 g."
+    },
+    {
+      "product_name": "Kyld sås ICA Selection 230 ml",
+      "campaign_price": 17.5,
+      "ordinary_price": 24.51,
+      "discount_sek": 7.01,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 76:09/liter. Ord.pris 24:51 kr. 230 ml."
+    },
+    {
+      "product_name": "Laktosfri mjölkdryck Arla 1500 ml",
+      "campaign_price": 17.5,
+      "ordinary_price": 22.61,
+      "discount_sek": 5.11,
+      "price_status": "exakt",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 11:67/liter. Ord.pris 22:61 kr. 1500 ml."
+    },
+    {
+      "product_name": "Smör Arla 500 g",
+      "campaign_price": 45,
+      "ordinary_price": 62.03,
+      "discount_sek": 17.03,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 90:00/kg. Ord.pris från 62:03 kr. 500 g."
+    },
+    {
+      "product_name": "Torskryggfilé Royal Greenland 420 g",
+      "campaign_price": 119,
+      "ordinary_price": 150.47,
+      "discount_sek": 31.47,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 283:33/kg. Ord.pris 150:47 kr. 420 g."
+    },
+    {
+      "product_name": "Grillkorv extra fin ICA 500 g",
+      "campaign_price": 30,
+      "ordinary_price": 36.34,
+      "discount_sek": 6.34,
+      "price_status": "härlett",
+      "source": "ica_offers",
+      "evidence": "Jmfpris 60:00/kg. Ord.pris 36:34 kr. 500 g."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Ugnsrostad grillost med mango-gurksallad och citronpotatis",
+      "description": "Krispig grillost, syrlig mango-gurksallad och rostad potatis ger en somrig vardagsmiddag med bra sälta, friskhet och mättnad.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "35 min",
+      "meal_flags": ["middag", "vegetarisk", "medelhavsinspirerad", "somrig"],
+      "kcal_per_portion": "ca 560 kcal",
+      "kcal_per_portion_value": 560,
+      "points_estimate": "≈ 7.6 p/portion",
+      "points_estimate_value": 7.6,
+      "total_points_estimate": 30.5,
+      "points_uncertainty": "låg",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Norrländsk grillost ICA 200 g",
+          "buy_amount": 2,
+          "campaign_price": 16.67,
+          "ordinary_price": 28.28,
+          "discount_sek": 11.61,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 83:33/kg. Ord.pris 28:28 kr. 200 g."
+        },
+        {
+          "product_name": "Fryst mango ICA 250 g",
+          "buy_amount": 1,
+          "campaign_price": 16.67,
+          "ordinary_price": 20.77,
+          "discount_sek": 4.1,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 66:67/kg. Ord.pris 20:77 kr. 250 g."
+        },
+        {
+          "product_name": "Kyld sås ICA Selection 230 ml",
+          "buy_amount": 1,
+          "campaign_price": 17.5,
+          "ordinary_price": 24.51,
+          "discount_sek": 7.01,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 76:09/liter. Ord.pris 24:51 kr. 230 ml."
+        }
+      ],
+      "ingredients": [
+        {"item": "Norrländsk grillost [KAMPANJ]", "amount": 400, "unit": "g", "line_cost_sek": 33.34, "campaign_price": 33.34, "ordinary_price": 56.56, "discount_sek": 23.22, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Potatis", "amount": 900, "unit": "g", "line_cost_sek": 13.5, "campaign_price": null, "ordinary_price": 13.5, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Fryst mango [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 16.67, "campaign_price": 16.67, "ordinary_price": 20.77, "discount_sek": 4.1, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Kyld sås [KAMPANJ]", "amount": 150, "unit": "ml", "line_cost_sek": 11.41, "campaign_price": 11.41, "ordinary_price": 15.98, "discount_sek": 4.57, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Gurka", "amount": 300, "unit": "g", "line_cost_sek": 10, "campaign_price": null, "ordinary_price": 10, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Rödlök", "amount": 80, "unit": "g", "line_cost_sek": 3, "campaign_price": null, "ordinary_price": 3, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Olivolja", "amount": 15, "unit": "ml", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Mynta eller persilja", "amount": 15, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"}
+      ],
+      "method": "1. Sätt ugnen på 225°C. Klyfta potatisen och rosta med olivolja, salt och peppar i 25–30 minuter.\n2. Tina mangon lätt och blanda med tärnad gurka, finhackad rödlök, örter, citronjuice och lite salt.\n3. Skiva grillosten och stek eller baka den gyllene.\n4. Smaka upp den kylda såsen med extra citronzest och svartpeppar.\n5. Servera grillosten med citronpotatis, mango-gurksallad och kall sås.",
+      "costs": {"campaign_total_sek": 103.42, "ordinary_total_sek": 135.31, "total_discount_sek": 31.89, "cost_per_portion_sek": 25.86},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Sältan från grillosten möter söt mango, frisk citron och sval sås, medan potatisen gör rätten rund och mättande.",
+      "nutrition_profile": "Protein och kalcium från grillosten, grönsaker och frukt för volym samt en rimlig potatisbas ger en balanserad tallrik.",
+      "price_justification": "Grillosten är tydlig kampanjbärare och mango plus sås gör att rätten känns lyxigare utan att portionspriset drar iväg.",
+      "variation_tips": "Byt gurka mot finstrimlad vitkål om du vill ha mer crunch och ännu lägre kostnad."
+    },
+    {
+      "title": "Citronbakad torsk med dillmos och varm mangoärt-salsa",
+      "description": "Torskrygg bakas försiktigt med citron och serveras med grovt dillmos och en snabb salsa på mango och ärter som ger både sötma och färg.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "30 min",
+      "meal_flags": ["middag", "fisk", "medelhavsinspirerad", "barnvänlig"],
+      "kcal_per_portion": "ca 370 kcal",
+      "kcal_per_portion_value": 370,
+      "points_estimate": "≈ 2.6 p/portion",
+      "points_estimate_value": 2.6,
+      "total_points_estimate": 10.5,
+      "points_uncertainty": "medel",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Torskryggfilé Royal Greenland 420 g",
+          "buy_amount": 1,
+          "campaign_price": 119,
+          "ordinary_price": 150.47,
+          "discount_sek": 31.47,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 283:33/kg. Ord.pris 150:47 kr. 420 g."
+        },
+        {
+          "product_name": "Smör Arla 500 g",
+          "buy_amount": 1,
+          "campaign_price": 45,
+          "ordinary_price": 62.03,
+          "discount_sek": 17.03,
+          "price_status": "härlett",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 90:00/kg. Ord.pris från 62:03 kr. 500 g."
+        },
+        {
+          "product_name": "Fryst mango ICA 250 g",
+          "buy_amount": 1,
+          "campaign_price": 16.67,
+          "ordinary_price": 20.77,
+          "discount_sek": 4.1,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 66:67/kg. Ord.pris 20:77 kr. 250 g."
+        }
+      ],
+      "ingredients": [
+        {"item": "Torskryggfilé [KAMPANJ]", "amount": 420, "unit": "g", "line_cost_sek": 119, "campaign_price": 119, "ordinary_price": 150.47, "discount_sek": 31.47, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Potatis", "amount": 800, "unit": "g", "line_cost_sek": 12, "campaign_price": null, "ordinary_price": 12, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Smör [KAMPANJ]", "amount": 25, "unit": "g", "line_cost_sek": 2.25, "campaign_price": 2.25, "ordinary_price": 3.1, "discount_sek": 0.85, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Fryst mango [KAMPANJ]", "amount": 150, "unit": "g", "line_cost_sek": 10, "campaign_price": 10, "ordinary_price": 12.46, "discount_sek": 2.46, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Ärter", "amount": 200, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Citron", "amount": 1, "unit": "st", "line_cost_sek": 5, "campaign_price": null, "ordinary_price": 5, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Dill", "amount": 20, "unit": "g", "line_cost_sek": 10, "campaign_price": null, "ordinary_price": 10, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Vitlök", "amount": 2, "unit": "klyftor", "line_cost_sek": 1.5, "campaign_price": null, "ordinary_price": 1.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Koka potatisen mjuk.\n2. Lägg torsken i en form med citron, finhackad vitlök, salt och peppar. Baka på 175°C i 12–15 minuter tills fisken precis delar sig.\n3. Värm ärter och mango snabbt i en kastrull eller stekpanna och smaka upp med citron och dill.\n4. Mosa potatisen grovt med smör, lite varm vätska och hackad dill.\n5. Servera torsken med dillmos och den varma mangoärt-salsan.",
+      "costs": {"campaign_total_sek": 167.75, "ordinary_total_sek": 202.53, "total_discount_sek": 34.78, "cost_per_portion_sek": 41.94},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Citron och dill ger friskhet, mangon rund sötma och torsken mild sälta som fungerar fint med smörigt mos.",
+      "nutrition_profile": "Lätt men mättande fiskrätt med bra protein, grönsakstillskott från ärter och en måttlig energinivå.",
+      "price_justification": "Torsken är veckans premiumfynd, men potatis och ärter håller portionskostnaden på en rimlig nivå.",
+      "variation_tips": "Byt dill mot persilja och lägg till kapris om du vill ha ett piggare, vuxnare uttryck."
+    },
+    {
+      "title": "Mango overnight oats med cashew och citron",
+      "description": "En kall frukost eller mellis där söt mango, citron och rostade cashewnötter gör havregrynen både friskare och roligare.",
+      "servings": 4,
+      "servings_label": "4 portioner",
+      "cook_time": "10 min + vila över natten",
+      "meal_flags": ["frukost", "mellis", "vegetarisk", "meal prep"],
+      "kcal_per_portion": "ca 320 kcal",
+      "kcal_per_portion_value": 320,
+      "points_estimate": "okänt",
+      "points_estimate_value": null,
+      "total_points_estimate": null,
+      "points_uncertainty": "hög",
+      "ica_products_to_buy": [
+        {
+          "product_name": "Laktosfri mjölkdryck Arla 1500 ml",
+          "buy_amount": 1,
+          "campaign_price": 17.5,
+          "ordinary_price": 22.61,
+          "discount_sek": 5.11,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 11:67/liter. Ord.pris 22:61 kr. 1500 ml."
+        },
+        {
+          "product_name": "Fryst mango ICA 250 g",
+          "buy_amount": 1,
+          "campaign_price": 16.67,
+          "ordinary_price": 20.77,
+          "discount_sek": 4.1,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 66:67/kg. Ord.pris 20:77 kr. 250 g."
+        },
+        {
+          "product_name": "Cashewnötter ICA 500 g",
+          "buy_amount": 1,
+          "campaign_price": 65,
+          "ordinary_price": 81.29,
+          "discount_sek": 16.29,
+          "price_status": "exakt",
+          "source": "ica_offers",
+          "evidence": "Jmfpris 130:00/kg. Ord.pris 81:29 kr. 500 g."
+        }
+      ],
+      "ingredients": [
+        {"item": "Laktosfri mjölkdryck [KAMPANJ]", "amount": 600, "unit": "ml", "line_cost_sek": 7, "campaign_price": 7, "ordinary_price": 9.04, "discount_sek": 2.04, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Havregryn", "amount": 240, "unit": "g", "line_cost_sek": 6, "campaign_price": null, "ordinary_price": 6, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Fryst mango [KAMPANJ]", "amount": 250, "unit": "g", "line_cost_sek": 16.67, "campaign_price": 16.67, "ordinary_price": 20.77, "discount_sek": 4.1, "price_status": "exakt", "source": "ica_offers"},
+        {"item": "Cashewnötter [KAMPANJ]", "amount": 60, "unit": "g", "line_cost_sek": 7.8, "campaign_price": 7.8, "ordinary_price": 9.75, "discount_sek": 1.95, "price_status": "härlett", "source": "ica_offers"},
+        {"item": "Chiafrön", "amount": 40, "unit": "g", "line_cost_sek": 8, "campaign_price": null, "ordinary_price": 8, "discount_sek": null, "price_status": "uppskattat", "source": "uppskattat"},
+        {"item": "Kanel", "amount": 2, "unit": "tsk", "line_cost_sek": 1, "campaign_price": null, "ordinary_price": 1, "discount_sek": null, "price_status": "schablon", "source": "schablon"},
+        {"item": "Citron", "amount": 0.5, "unit": "st", "line_cost_sek": 2.5, "campaign_price": null, "ordinary_price": 2.5, "discount_sek": null, "price_status": "schablon", "source": "schablon"}
+      ],
+      "method": "1. Rör ihop havregryn, mjölkdryck, chiafrön, kanel och finrivet citronskal i en burk eller skål.\n2. Låt stå kallt över natten eller minst 6 timmar.\n3. Tina mangon lätt och mosa hälften grovt.\n4. Toppa gröten med mango och grovhackade cashewnötter vid servering.",
+      "costs": {"campaign_total_sek": 48.97, "ordinary_total_sek": 56.96, "total_discount_sek": 7.99, "cost_per_portion_sek": 12.24},
+      "sources": ["https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"],
+      "taste_balance": "Mango står för sötma, citron för syra och cashewnötter för rund fetma och crunch.",
+      "nutrition_profile": "Havre och chia ger fibrer, mango ger fruktighet och cashew bidrar med mättnad i en lättlagad frukost.",
+      "price_justification": "Mjölkdryck och mango är veckans tydliga basfynd och gör en annars enkel frukost betydligt mer attraktiv.",
+      "variation_tips": "Byt citron mot kardemumma eller toppa med några extra bär om du har hemma."
+    }
+  ]
+}

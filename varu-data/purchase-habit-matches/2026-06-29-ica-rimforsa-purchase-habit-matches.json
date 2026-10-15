@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-29",
+  "created_at": "2026-06-29T17:01:14.184Z",
+  "title": "Veckans ICA-erbjudanden matchade mot Köpvanelista",
+  "summary": "Matchade 5 köpvanevaror. Starkaste träffar: Kyckling → Kyckling Curry med Krämig sås/ 370-400 g Gooh (-15,17 kr); Köttbullar → Köttbullar Potatismos Gräddsås 370-400 g Gooh (-15,17 kr); Lax → Kattmat lax mousse 85 g Gourmet Perle, Gold (-2,40 kr).",
+  "source_links": [
+    "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "https://handlaprivatkund.ica.se/stores/1004066",
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  ],
+  "matched_items": [
+    {
+      "habit_name": "Kyckling",
+      "matched_product_name": "Kyckling Curry med Krämig sås/ 370-400 g Gooh",
+      "match_type": "keyword",
+      "ordinary_price": 67.17,
+      "campaign_price": 52,
+      "campaign_label": "52 kr/st",
+      "discount_sek": 15.17,
+      "discount_percent": 22.58,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kyckling%20Curry%20med%20Kr%C3%A4mig",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färska portionsrätter | 52 kr/st | Ord.pris 67:17 kr. | 370-400 g | Gooh | Match: Kyckling finns i Kyckling Curry med Krämig sås/ 370-400 g Gooh",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "130:00-140:54/kg",
+      "raw_offer_id": "5004073160"
+    },
+    {
+      "habit_name": "Köttbullar",
+      "matched_product_name": "Köttbullar Potatismos Gräddsås 370-400 g Gooh",
+      "match_type": "keyword",
+      "ordinary_price": 67.17,
+      "campaign_price": 52,
+      "campaign_label": "52 kr/st",
+      "discount_sek": 15.17,
+      "discount_percent": 22.58,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=K%C3%B6ttbullar%20Potatismos%20Gr%C3%A4dds%C3%A5s%20370-400",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Färska portionsrätter | 52 kr/st | Ord.pris 67:17 kr. | 370-400 g | Gooh | Match: Köttbullar finns i Köttbullar Potatismos Gräddsås 370-400 g Gooh",
+      "category": "Färskvaror",
+      "restriction": null,
+      "comparison_price": "130:00-140:54/kg",
+      "raw_offer_id": "5004073160"
+    },
+    {
+      "habit_name": "Lax",
+      "matched_product_name": "Kattmat lax mousse 85 g Gourmet Perle, Gold",
+      "match_type": "keyword",
+      "ordinary_price": 9.9,
+      "campaign_price": 7.5,
+      "campaign_label": "10 för 75 kr",
+      "discount_sek": 2.4,
+      "discount_percent": 24.24,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Kattmat%20lax%20mousse%2085",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Kattmat | 10 för 75 kr | Ord.pris 9:90 kr. | 85 g | Gourmet Perle, Gold | Match: Lax finns i Kattmat lax mousse 85 g Gourmet Perle, Gold",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "88:24/kg",
+      "raw_offer_id": "5004073174"
+    },
+    {
+      "habit_name": "Chips",
+      "matched_product_name": "Chips Lättsaltade 200-275 g OLW",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 21.67,
+      "campaign_label": "3 för 65 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Chips%20L%C3%A4ttsaltade%20200-275%20g",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Chips, Ostbågar | 3 för 65 kr | Ord.pris 30:19-32:08 kr. | 200-275 g | OLW | Match: Chips finns i Chips Lättsaltade 200-275 g OLW",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "78:79-108:33/kg",
+      "raw_offer_id": "5004073187"
+    },
+    {
+      "habit_name": "Smör",
+      "matched_product_name": "Chips Brynt smör/Ramslök 200-275 g OLW",
+      "match_type": "keyword",
+      "ordinary_price": null,
+      "campaign_price": 21.67,
+      "campaign_label": "3 för 65 kr",
+      "discount_sek": null,
+      "discount_percent": null,
+      "source": {
+        "type": "ica_offers_initial_data",
+        "url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+        "search_url": "https://handlaprivatkund.ica.se/stores/1004066/search?q=Chips%20Brynt%20sm%C3%B6r%2FRamsl%C3%B6k%20200-275",
+        "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation"
+      },
+      "evidence": "Chips, Ostbågar | 3 för 65 kr | Ord.pris 30:19-32:08 kr. | 200-275 g | OLW | Match: Smör finns i Chips Brynt smör/Ramslök 200-275 g OLW",
+      "category": "Skafferivaror",
+      "restriction": null,
+      "comparison_price": "78:79-108:33/kg",
+      "raw_offer_id": "5004073187"
+    }
+  ],
+  "message_preview": "Veckans relevanta ICA-erbjudanden för Köpvanelistan är klara:\n• Kyckling: Kyckling Curry med Krämig sås/ 370-400 g Gooh (ord. 67,17 kr, 52 kr/st, -15,17 kr, 23 %)\n• Köttbullar: Köttbullar Potatismos Gräddsås 370-400 g Gooh (ord. 67,17 kr, 52 kr/st, -15,17 kr, 23 %)\n• Lax: Kattmat lax mousse 85 g Gourmet Perle, Gold (ord. 9,90 kr, 10 för 75 kr, -2,40 kr, 24 %)\n• Chips: Chips Lättsaltade 200-275 g OLW (3 för 65 kr)\n• Smör: Chips Brynt smör/Ramslök 200-275 g OLW (3 för 65 kr)\n\nHela veckorapporten: https://erikjarl.github.io/obitme/varuovervakare.html\nICA-erbjudanden: https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/",
+  "discord_destination": {
+    "channel_id": "1490438999494492415",
+    "channel_name": "#allmänt",
+    "server": "Discord",
+    "note": "Återanvänds av både receptutskick och köpvaneliste-matchning om ingen bättre central konfiguration introduceras senare."
+  },
+  "no_matches": false,
+  "store": {
+    "name": "ICA Supermarket Rimforsa",
+    "store_id": "1004066",
+    "category_url": "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+    "store_url": "https://handlaprivatkund.ica.se/stores/1004066",
+    "search_url_template": "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}",
+    "offers_url": "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+  },
+  "matching_method": {
+    "order": [
+      "exact",
+      "normalized",
+      "alias_or_keyword",
+      "fuzzy_conservative"
+    ],
+    "fuzzy_threshold": 0.74,
+    "notes": "Konservativ matchning: hellre missad träff än fel produkt."
+  },
+  "scraping_method": {
+    "primary_source": "ICA erbjudandesida med window.__INITIAL_DATA__",
+    "supporting_sources": [
+      "https://handlaprivatkund.ica.se/stores/1004066/categories?source=navigation",
+      "https://handlaprivatkund.ica.se/stores/1004066",
+      "https://handlaprivatkund.ica.se/stores/1004066/search?q={query}"
+    ],
+    "note": "Denna körning extraherade stabil JSON från erbjudandesidan. Söklänkar och butikslänkar sparas som stöd/evidence för vidare verifiering."
+  },
+  "offers_considered": 410
+}
