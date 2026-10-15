@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-04T15:46:39.237501",
+  "generated_at": "2026-10-15T17:44:57.946903",
   "publish_mode": "next_calendar_week",
-  "week_number": 28,
-  "week_start": "2026-07-06",
-  "week_end": "2026-07-12",
+  "week_number": 43,
+  "week_start": "2026-10-19",
+  "week_end": "2026-10-25",
   "days_covered": 7,
   "busy_days": 0,
   "free_days": 7,
@@ -152,11 +152,11 @@
   "week_overview": "Veckan ser ovanligt luftig ut just nu, med gott om plats för både familjeliv, hemmaprojekt och spontana planer. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund.",
   "days": [
     {
-      "date": "2026-07-06",
+      "date": "2026-10-19",
       "weekday": "måndag",
       "events": [],
       "has_events": false,
-      "summary": "Måndag 07-06 – ledig",
+      "summary": "Måndag 10-19 – ledig",
       "suggestions": [
         {
           "activity": "gå på en barnvänlig aktivitet i närområdet",
@@ -182,11 +182,11 @@
       ]
     },
     {
-      "date": "2026-07-07",
+      "date": "2026-10-20",
       "weekday": "tisdag",
       "events": [],
       "has_events": false,
-      "summary": "Tisdag 07-07 – ledig",
+      "summary": "Tisdag 10-20 – ledig",
       "suggestions": [
         {
           "activity": "ta ett lugnt pass med planering av trallbygget",
@@ -212,11 +212,11 @@
       ]
     },
     {
-      "date": "2026-07-08",
+      "date": "2026-10-21",
       "weekday": "onsdag",
       "events": [],
       "has_events": false,
-      "summary": "Onsdag 07-08 – ledig",
+      "summary": "Onsdag 10-21 – ledig",
       "suggestions": [
         {
           "activity": "ta en kort familjeutflykt i naturen",
@@ -242,11 +242,11 @@
       ]
     },
     {
-      "date": "2026-07-09",
+      "date": "2026-10-22",
       "weekday": "torsdag",
       "events": [],
       "has_events": false,
-      "summary": "Torsdag 07-09 – ledig",
+      "summary": "Torsdag 10-22 – ledig",
       "suggestions": [
         {
           "activity": "hitta någon musikupplevelse i närheten",
@@ -258,19 +258,19 @@
       ]
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-10-23",
       "weekday": "fredag",
       "events": [],
       "has_events": false,
-      "summary": "Fredag 07-10 – ledig",
+      "summary": "Fredag 10-23 – ledig",
       "suggestions": []
     },
     {
-      "date": "2026-07-11",
+      "date": "2026-10-24",
       "weekday": "lördag",
       "events": [],
       "has_events": false,
-      "summary": "Lördag 07-11 – ledig",
+      "summary": "Lördag 10-24 – ledig",
       "suggestions": [
         {
           "activity": "kolla om Vårens Östgötadagar 2026 (9-10 maj 2026) passar familjen",
@@ -295,11 +295,11 @@
       ]
     },
     {
-      "date": "2026-07-12",
+      "date": "2026-10-25",
       "weekday": "söndag",
       "events": [],
       "has_events": false,
-      "summary": "Söndag 07-12 – ledig",
+      "summary": "Söndag 10-25 – ledig",
       "suggestions": []
     }
   ]
