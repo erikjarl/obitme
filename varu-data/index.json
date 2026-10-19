@@ -1,158 +1,164 @@
 [
-  {
-    "file": "2026-10-15-willys.json",
-    "date": "2026-10-15",
-    "title": "Willys vecka 42: Medelhavskotlett, vegetarisk tomatpasta och baguettefrukost",
-    "summary": "Tre recept byggda på Willys kampanjer vecka 42 (12/10–18/10 2026): fläskkotlett med ben, kvisttomat, krossade tomater, taleggio, antipasto och stenugnsbakad surdegsbaguette. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data."
-  },
-  {
-    "file": "2026-10-15-ica-rimforsa-weekly-offers.json",
-    "date": "2026-10-15",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre nya höstrecept byggda på ICA Rimforsas kampanjer: Alaska pollock, kassler, lövbiff, champinjoner, zucchini och delikatesspotatis. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data."
-  },
-  {
-    "file": "2026-06-29-ica-rimforsa-weekly-offers.json",
-    "date": "2026-06-29",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre nya recept byggda på ICA Rimforsas kampanjer vecka 27 med fokus på kryddad kyckling, grillost, tomater, jordgubbar och smarta basvaror. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data."
-  },
-  {
-    "file": "2026-05-27-willys.json",
-    "date": "2026-05-27",
-    "title": "Willys vecka 22: Fläskkotlettragu, tortillapizza och baguettefrukost",
-    "summary": "Tre recept baserade på Willys kampanjvaror vecka 22 (25/5–31/5 2026). Priser från hittaerbjudanden.com."
-  },
-  {
-    "file": "2026-05-25-ica-rimforsa-weekly-offers.json",
-    "date": "2026-05-25",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre recept byggda på veckans ICA-fynd i Rimforsa med fokus på grillost, torsk, mango och smarta basvaror. Somrig smakbalans, tydliga kostnader och konsekventa pointsfält."
-  },
-  {
-    "file": "2026-05-20-willys.json",
-    "date": "2026-05-20",
-    "title": "Willys vecka 21: Kebabpizza, salsicciapasta och kvargfrukost",
-    "summary": "Tre recept baserade på Willys kampanjvaror vecka 21 (18/5–24/5 2026). Priser är hämtade från dinareklamblad.se."
-  },
-  {
-    "file": "2026-05-18-ica-rimforsa-weekly-offers.json",
-    "date": "2026-05-18",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på kycklingfilé, tomater, svamp, feta och pasta – med både mättnad och somrig fräschör."
-  },
-  {
-    "file": "2026-05-13-willys.json",
-    "date": "2026-05-13",
-    "title": "Willys vecka 20: Medelhavsbiffar, chorizopasta och yoghurtbowl",
-    "summary": "Tre recept baserade på Willys e-handelserbjudanden onsdag 13/5 2026. Priser är hämtade från willys.se."
-  },
-  {
-    "file": "2026-05-11-ica-rimforsa-weekly-offers.json",
-    "date": "2026-05-11",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på färsk laxsida, fetaost, paprika och tomater – med en somrig medelhavskänsla."
-  },
-  {
-    "file": "2026-05-06-willys.json",
-    "date": "2026-05-06",
-    "title": "Willys vecka 19: Kycklingsallad med halloumi, vegetarisk gryta och proteinsmoothie",
-    "summary": "Tre recept baserade på typiska Willys-erbjudanden vecka 19 (4/5–10/5). Priser är uppskattade baserat på historiska kampanjer."
-  },
-  {
-    "file": "2026-05-04-ica-rimforsa-weekly-offers.json",
-    "date": "2026-05-04",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på tomater, mozzarella, baljväxter, örter och ett extra fiskspår för en lite lyxigare vardagsmiddag."
-  },
-  {
-    "file": "2026-04-29-willys.json",
-    "date": "2026-04-29",
-    "title": "Willys vecka 18: Italiensk kyckling, vegetarisk bolognese och smoothiebowl",
-    "summary": "Tre recept baserade på typiska Willys-erbjudanden vecka 18. Priser är uppskattade baserat på historiska kampanjer."
-  },
-  {
-    "file": "2026-04-27-ica-rimforsa-weekly-offers.json",
-    "date": "2026-04-27",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre smakbalanserade lunch- och middagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på mättande protein, grönsaker, medelhavskänsla och rimlig portionskostnad."
-  },
-  {
-    "file": "2026-04-24-willys.json",
-    "date": "2026-04-24",
-    "title": "Willys vecka 17: Medelhavsklassiker, vegetarisk curry och superfrukost",
-    "summary": "Tre recept baserade på typiska Willys-erbjudanden denna vecka. Priser är uppskattade baserat på historiska kampanjer."
-  },
-  {
-    "file": "2026-04-22-willys.json",
-    "date": "2026-04-22",
-    "title": "Willys vecka 16: Medelhavsmat, vegetariskt och enkel frukost",
-    "summary": "Tre recept baserade på typiska Willys-erbjudanden denna vecka. Priser är uppskattade baserat på historiska kampanjer."
-  },
-  {
-    "file": "2026-04-21-willys.json",
-    "date": "2026-04-21",
-    "title": "Veckans Willys-recept – Medelhavsinspirerade rätter",
-    "summary": "Tre smakbalanserade recept byggda på veckans Willys-erbjudanden med fokus på medelhavskostens principer och kostnadseffektivitet."
-  },
-  {
-    "file": "2026-04-20-ica-rimforsa-weekly-offers.json",
-    "date": "2026-04-20",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre smakbalanserade lunch- och middagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på mättande protein, grönsaker, medelhavskänsla och rimlig portionskostnad."
-  },
-  {
-    "file": "2026-04-16-willys.json",
-    "date": "2026-04-16",
-    "title": "Veckans Willys-recept – Medelhavsinspirerade rätter",
-    "summary": "Tre smakbalanserade recept byggda på veckans Willys-erbjudanden med fokus på medelhavskostens principer och kostnadseffektivitet."
-  },
-  {
-    "file": "2026-04-14-ica-rimforsa-weekly-offers.json",
-    "date": "2026-04-14",
-    "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
-    "summary": "Tre smakbalanserade recept med fokus på medelhavskostens principer och viktväktarvänliga ingredienser. Byggda på veckans bästa ICA-erbjudanden i Rimforsa med tydliga portionskostnader för 4 portioner."
-  },
-  {
-    "file": "2026-04-13-ica-rimforsa-weekly-offers-final.json",
-    "date": "2026-04-13",
-    "title": "Veckans familjerecept – ICA Supermarket Rimforsa (aprilvecka 2)",
-    "summary": "Tre prisvärda familjerätter byggda på veckans bästa ICA-erbjudanden i Rimforsa. Recepten är anpassade för 3 vuxna plus 2 matlådor med tydliga mängder, tillvägagångssätt och verifierade portionskostnader."
-  },
-  {
-    "file": "2026-04-12-ica-rimforsa-weekly-offers-v6.json",
-    "date": "2026-04-12",
-    "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v6)",
-    "summary": "Tre vardagsrimliga recept för 3 vuxna plus 2 matlådor, byggda på verifierade erbjudanden och ordinarie priser från ICA Supermarket Rimforsa. Stabilt frontend-kompatibelt JSON-schema med tydliga mängder, steg och portionskostnader."
-  },
-  {
-    "file": "2026-04-12-ica-rimforsa-weekly-offers-v5.json",
-    "date": "2026-04-12",
-    "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v5)",
-    "summary": "Tre vardagsrimliga recept för 3 vuxna plus 2 matlådor, byggda på verifierade erbjudanden och ordinarie priser från ICA Supermarket Rimforsa, med tydlig märkning av exakta, härledda och schabloniserade prisdelar."
-  },
-  {
-    "file": "2026-04-12-ica-rimforsa-weekly-offers-v4.json",
-    "date": "2026-04-12",
-    "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v4)",
-    "summary": "Tre frontend-klara recept för 3 vuxna plus 2 matlådor, byggda främst på verifierbara erbjudanden och produktpriser från ICA Supermarket Rimforsa, med exakta eller härledda kampanjpriser och minimalt med schabloner."
-  },
-  {
-    "file": "2026-04-11-ica-rimforsa-weekly-offers-v3.json",
-    "date": "2026-04-11",
-    "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v3)",
-    "summary": "Tre billiga, nyttiga recept på svenska för 3 vuxna plus 2 matlådor, byggda på verifierade ICA-erbjudanden i Rimforsa och kompletterade med tydligt märkta svenska webbpriser eller försiktiga uppskattningar där exakta webbpriser inte kunde hämtas stabilt i denna körning."
-  },
-  {
-    "file": "2026-04-11-ica-rimforsa-weekly-offers-v2.json",
-    "date": "2026-04-11",
-    "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (detaljerad veckokörning)",
-    "summary": "Tre billiga, nyttiga recept på svenska byggda runt aktuella ICA-erbjudanden i Rimforsa, med tydliga kampanjpriser, uppskattade kompletteringspriser och portionskostnader för 3 vuxna plus 2 matlådor."
-  },
-  {
-    "file": "2026-04-11-ica-rimforsa-weekly-offers.json",
-    "date": "2026-04-11",
-    "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa",
-    "summary": "Tre prispressade veckorecept byggda runt Rimforsa-erbjudanden, med praktiska kostnadsuppskattningar för 3 vuxna plus 2 matlådor."
-  }
+ {
+  "file": "2026-10-19-ica-rimforsa-weekly-offers.json",
+  "date": "2026-10-19",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre nya höstrecept från ICA Rimforsas kampanjer vecka 43 (19–25 okt 2026): ugnskyckling med brysselkål och tomater, rostad tomatsoppa med mozzarella samt krämig tortellini med svamp och spenat."
+ },
+ {
+  "file": "2026-10-15-willys.json",
+  "date": "2026-10-15",
+  "title": "Willys vecka 42: Medelhavskotlett, vegetarisk tomatpasta och baguettefrukost",
+  "summary": "Tre recept byggda på Willys kampanjer vecka 42 (12/10–18/10 2026): fläskkotlett med ben, kvisttomat, krossade tomater, taleggio, antipasto och stenugnsbakad surdegsbaguette. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data."
+ },
+ {
+  "file": "2026-10-15-ica-rimforsa-weekly-offers.json",
+  "date": "2026-10-15",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre nya höstrecept byggda på ICA Rimforsas kampanjer: Alaska pollock, kassler, lövbiff, champinjoner, zucchini och delikatesspotatis. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data."
+ },
+ {
+  "file": "2026-06-29-ica-rimforsa-weekly-offers.json",
+  "date": "2026-06-29",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre nya recept byggda på ICA Rimforsas kampanjer vecka 27 med fokus på kryddad kyckling, grillost, tomater, jordgubbar och smarta basvaror. Tydliga kostnader, konsekvent pointsmotor och mobilvänlig data."
+ },
+ {
+  "file": "2026-05-27-willys.json",
+  "date": "2026-05-27",
+  "title": "Willys vecka 22: Fläskkotlettragu, tortillapizza och baguettefrukost",
+  "summary": "Tre recept baserade på Willys kampanjvaror vecka 22 (25/5–31/5 2026). Priser från hittaerbjudanden.com."
+ },
+ {
+  "file": "2026-05-25-ica-rimforsa-weekly-offers.json",
+  "date": "2026-05-25",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre recept byggda på veckans ICA-fynd i Rimforsa med fokus på grillost, torsk, mango och smarta basvaror. Somrig smakbalans, tydliga kostnader och konsekventa pointsfält."
+ },
+ {
+  "file": "2026-05-20-willys.json",
+  "date": "2026-05-20",
+  "title": "Willys vecka 21: Kebabpizza, salsicciapasta och kvargfrukost",
+  "summary": "Tre recept baserade på Willys kampanjvaror vecka 21 (18/5–24/5 2026). Priser är hämtade från dinareklamblad.se."
+ },
+ {
+  "file": "2026-05-18-ica-rimforsa-weekly-offers.json",
+  "date": "2026-05-18",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på kycklingfilé, tomater, svamp, feta och pasta – med både mättnad och somrig fräschör."
+ },
+ {
+  "file": "2026-05-13-willys.json",
+  "date": "2026-05-13",
+  "title": "Willys vecka 20: Medelhavsbiffar, chorizopasta och yoghurtbowl",
+  "summary": "Tre recept baserade på Willys e-handelserbjudanden onsdag 13/5 2026. Priser är hämtade från willys.se."
+ },
+ {
+  "file": "2026-05-11-ica-rimforsa-weekly-offers.json",
+  "date": "2026-05-11",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på färsk laxsida, fetaost, paprika och tomater – med en somrig medelhavskänsla."
+ },
+ {
+  "file": "2026-05-06-willys.json",
+  "date": "2026-05-06",
+  "title": "Willys vecka 19: Kycklingsallad med halloumi, vegetarisk gryta och proteinsmoothie",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden vecka 19 (4/5–10/5). Priser är uppskattade baserat på historiska kampanjer."
+ },
+ {
+  "file": "2026-05-04-ica-rimforsa-weekly-offers.json",
+  "date": "2026-05-04",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade vardagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på tomater, mozzarella, baljväxter, örter och ett extra fiskspår för en lite lyxigare vardagsmiddag."
+ },
+ {
+  "file": "2026-04-29-willys.json",
+  "date": "2026-04-29",
+  "title": "Willys vecka 18: Italiensk kyckling, vegetarisk bolognese och smoothiebowl",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden vecka 18. Priser är uppskattade baserat på historiska kampanjer."
+ },
+ {
+  "file": "2026-04-27-ica-rimforsa-weekly-offers.json",
+  "date": "2026-04-27",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade lunch- och middagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på mättande protein, grönsaker, medelhavskänsla och rimlig portionskostnad."
+ },
+ {
+  "file": "2026-04-24-willys.json",
+  "date": "2026-04-24",
+  "title": "Willys vecka 17: Medelhavsklassiker, vegetarisk curry och superfrukost",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden denna vecka. Priser är uppskattade baserat på historiska kampanjer."
+ },
+ {
+  "file": "2026-04-22-willys.json",
+  "date": "2026-04-22",
+  "title": "Willys vecka 16: Medelhavsmat, vegetariskt och enkel frukost",
+  "summary": "Tre recept baserade på typiska Willys-erbjudanden denna vecka. Priser är uppskattade baserat på historiska kampanjer."
+ },
+ {
+  "file": "2026-04-21-willys.json",
+  "date": "2026-04-21",
+  "title": "Veckans Willys-recept – Medelhavsinspirerade rätter",
+  "summary": "Tre smakbalanserade recept byggda på veckans Willys-erbjudanden med fokus på medelhavskostens principer och kostnadseffektivitet."
+ },
+ {
+  "file": "2026-04-20-ica-rimforsa-weekly-offers.json",
+  "date": "2026-04-20",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade lunch- och middagsrecept byggda på veckans erbjudanden hos ICA Rimforsa. Fokus ligger på mättande protein, grönsaker, medelhavskänsla och rimlig portionskostnad."
+ },
+ {
+  "file": "2026-04-16-willys.json",
+  "date": "2026-04-16",
+  "title": "Veckans Willys-recept – Medelhavsinspirerade rätter",
+  "summary": "Tre smakbalanserade recept byggda på veckans Willys-erbjudanden med fokus på medelhavskostens principer och kostnadseffektivitet."
+ },
+ {
+  "file": "2026-04-14-ica-rimforsa-weekly-offers.json",
+  "date": "2026-04-14",
+  "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+  "summary": "Tre smakbalanserade recept med fokus på medelhavskostens principer och viktväktarvänliga ingredienser. Byggda på veckans bästa ICA-erbjudanden i Rimforsa med tydliga portionskostnader för 4 portioner."
+ },
+ {
+  "file": "2026-04-13-ica-rimforsa-weekly-offers-final.json",
+  "date": "2026-04-13",
+  "title": "Veckans familjerecept – ICA Supermarket Rimforsa (aprilvecka 2)",
+  "summary": "Tre prisvärda familjerätter byggda på veckans bästa ICA-erbjudanden i Rimforsa. Recepten är anpassade för 3 vuxna plus 2 matlådor med tydliga mängder, tillvägagångssätt och verifierade portionskostnader."
+ },
+ {
+  "file": "2026-04-12-ica-rimforsa-weekly-offers-v6.json",
+  "date": "2026-04-12",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v6)",
+  "summary": "Tre vardagsrimliga recept för 3 vuxna plus 2 matlådor, byggda på verifierade erbjudanden och ordinarie priser från ICA Supermarket Rimforsa. Stabilt frontend-kompatibelt JSON-schema med tydliga mängder, steg och portionskostnader."
+ },
+ {
+  "file": "2026-04-12-ica-rimforsa-weekly-offers-v5.json",
+  "date": "2026-04-12",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v5)",
+  "summary": "Tre vardagsrimliga recept för 3 vuxna plus 2 matlådor, byggda på verifierade erbjudanden och ordinarie priser från ICA Supermarket Rimforsa, med tydlig märkning av exakta, härledda och schabloniserade prisdelar."
+ },
+ {
+  "file": "2026-04-12-ica-rimforsa-weekly-offers-v4.json",
+  "date": "2026-04-12",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v4)",
+  "summary": "Tre frontend-klara recept för 3 vuxna plus 2 matlådor, byggda främst på verifierbara erbjudanden och produktpriser från ICA Supermarket Rimforsa, med exakta eller härledda kampanjpriser och minimalt med schabloner."
+ },
+ {
+  "file": "2026-04-11-ica-rimforsa-weekly-offers-v3.json",
+  "date": "2026-04-11",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (verifierad v3)",
+  "summary": "Tre billiga, nyttiga recept på svenska för 3 vuxna plus 2 matlådor, byggda på verifierade ICA-erbjudanden i Rimforsa och kompletterade med tydligt märkta svenska webbpriser eller försiktiga uppskattningar där exakta webbpriser inte kunde hämtas stabilt i denna körning."
+ },
+ {
+  "file": "2026-04-11-ica-rimforsa-weekly-offers-v2.json",
+  "date": "2026-04-11",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa (detaljerad veckokörning)",
+  "summary": "Tre billiga, nyttiga recept på svenska byggda runt aktuella ICA-erbjudanden i Rimforsa, med tydliga kampanjpriser, uppskattade kompletteringspriser och portionskostnader för 3 vuxna plus 2 matlådor."
+ },
+ {
+  "file": "2026-04-11-ica-rimforsa-weekly-offers.json",
+  "date": "2026-04-11",
+  "title": "Veckans billiga hälsorecept – ICA Supermarket Rimforsa",
+  "summary": "Tre prispressade veckorecept byggda runt Rimforsa-erbjudanden, med praktiska kostnadsuppskattningar för 3 vuxna plus 2 matlådor."
+ }
 ]

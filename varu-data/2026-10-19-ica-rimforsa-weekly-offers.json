@@ -1,0 +1,646 @@
+{
+ "date": "2026-10-19",
+ "created_at": "2026-10-19T18:05:00.000Z",
+ "slug": "2026-10-19-ica-rimforsa-weekly-offers",
+ "title": "Veckans medelhavsinspirerade recept – ICA Supermarket Rimforsa",
+ "summary": "Tre nya höstrecept från ICA Rimforsas kampanjer vecka 43 (19–25 okt 2026): ugnskyckling med brysselkål och tomater, rostad tomatsoppa med mozzarella samt krämig tortellini med svamp och spenat.",
+ "store": "ICA Supermarket Rimforsa",
+ "source_note": "Kampanjpriser hämtade från ICA:s erbjudandesida för butik 1004066 (giltiga till 2026-10-25). Vissa styckpriser är härledda från flerpackserbjudanden och markerade som sådana.",
+ "pricing_method": "Kampanjpris per förpackning där det finns, annars härlett från flerpack (t.ex. 2 för X kr). Basvaror utanför kampanj är schablonprissatta.",
+ "fyndlista": [
+  {
+   "product_name": "Kronfågel. Ursprung Sverige Färsk kycklinglårfilé 900 g",
+   "ordinary_price": 137.05,
+   "campaign_price": 109.0,
+   "discount_sek": 28.05,
+   "source": "ica_offers"
+  },
+  {
+   "product_name": "Valio Smör 500 g",
+   "ordinary_price": 61.42,
+   "campaign_price": 39.0,
+   "discount_sek": 22.42,
+   "source": "ica_offers"
+  },
+  {
+   "product_name": "Mutti Tomater på burk 400 g",
+   "ordinary_price": 19.78,
+   "campaign_price": 12.5,
+   "discount_sek": 7.28,
+   "source": "ica_offers"
+  },
+  {
+   "product_name": "Fast potatis i påse 1,2 kg",
+   "ordinary_price": 23.56,
+   "campaign_price": 12.5,
+   "discount_sek": 11.06,
+   "source": "ica_offers"
+  },
+  {
+   "product_name": "Brysselkål i påse 500 g",
+   "ordinary_price": 25.93,
+   "campaign_price": 20.0,
+   "discount_sek": 5.93,
+   "source": "ica_offers"
+  },
+  {
+   "product_name": "Svenska tomater",
+   "ordinary_price": 34.8,
+   "campaign_price": 30.0,
+   "discount_sek": 4.8,
+   "source": "ica_offers"
+  },
+  {
+   "product_name": "Rana Färsk fylld pasta 250 g",
+   "ordinary_price": 44.71,
+   "campaign_price": 35.0,
+   "discount_sek": 9.71,
+   "source": "ica_offers"
+  },
+  {
+   "product_name": "Nyskördade morötter i påse 1 kg",
+   "ordinary_price": 17.9,
+   "campaign_price": 10.0,
+   "discount_sek": 7.9,
+   "source": "ica_offers"
+  }
+ ],
+ "recipes": [
+  {
+   "title": "Ugnskyckling på plåt med brysselkål, tomater och brynt smör-citron",
+   "description": "Saftig kycklinglårfilé på plåt med rostade söta tomater och brysselkål som får färg och nötighet. Ett brynt smör med citron och honung lyfter hela plåten – höstmat som sköter sig själv i ugnen.",
+   "servings": 4,
+   "servings_label": "4 portioner",
+   "cook_time": "40 min",
+   "meal_flags": [
+    "middag",
+    "kyckling",
+    "medelhavsinspirerad",
+    "vardag",
+    "ugnsrätt"
+   ],
+   "kcal_per_portion": "ca 540 kcal",
+   "kcal_per_portion_value": 540,
+   "points_estimate": "≈ 6 p/portion",
+   "points_estimate_value": 6,
+   "total_points_estimate": 24,
+   "points_uncertainty": "låg",
+   "ica_products_to_buy": [
+    {
+     "product_name": "Kronfågel. Ursprung Sverige Färsk kycklinglårfilé 900 g",
+     "buy_amount": 1,
+     "campaign_price": 109,
+     "ordinary_price": 137.05,
+     "discount_sek": 28.05,
+     "price_status": "exakt",
+     "source": "ica_offers",
+     "evidence": "109 kr/st. Ord.pris 137:05 kr. 900 g."
+    },
+    {
+     "product_name": "Brysselkål i påse ICA 500 g",
+     "buy_amount": 1,
+     "campaign_price": 20,
+     "ordinary_price": 25.93,
+     "discount_sek": 5.93,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "20 kr/st. Ord.pris 23:56-28:29 kr. 500 g."
+    },
+    {
+     "product_name": "Svenska tomater",
+     "buy_amount": 800,
+     "campaign_price": 24,
+     "ordinary_price": 27.84,
+     "discount_sek": 3.84,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "30 kr/kg. Ord.pris 34:80 kr/kg. 0,8 kg = 24 kr."
+    },
+    {
+     "product_name": "Fast potatis i påse ICA 1,2 kg",
+     "buy_amount": 1,
+     "campaign_price": 12.5,
+     "ordinary_price": 23.56,
+     "discount_sek": 11.06,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "2 för 25 kr. Ord.pris 23:56 kr. Styckpris härlett."
+    },
+    {
+     "product_name": "Valio Smör 500 g",
+     "buy_amount": 1,
+     "campaign_price": 39,
+     "ordinary_price": 61.42,
+     "discount_sek": 22.42,
+     "price_status": "exakt",
+     "source": "ica_offers",
+     "evidence": "39 kr/st. Ord.pris 61:42 kr. 500 g."
+    }
+   ],
+   "ingredients": [
+    {
+     "item": "Kycklinglårfilé [KAMPANJ]",
+     "amount": 900,
+     "unit": "g",
+     "line_cost_sek": 109,
+     "campaign_price": 109,
+     "ordinary_price": 137.05,
+     "discount_sek": 28.05,
+     "price_status": "exakt",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Brysselkål [KAMPANJ]",
+     "amount": 500,
+     "unit": "g",
+     "line_cost_sek": 20,
+     "campaign_price": 20,
+     "ordinary_price": 25.93,
+     "discount_sek": 5.93,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Svenska tomater [KAMPANJ]",
+     "amount": 800,
+     "unit": "g",
+     "line_cost_sek": 24,
+     "campaign_price": 24,
+     "ordinary_price": 27.84,
+     "discount_sek": 3.84,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Fast potatis [KAMPANJ]",
+     "amount": 1200,
+     "unit": "g",
+     "line_cost_sek": 12.5,
+     "campaign_price": 12.5,
+     "ordinary_price": 23.56,
+     "discount_sek": 11.06,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Smör [KAMPANJ]",
+     "amount": 50,
+     "unit": "g",
+     "line_cost_sek": 3.9,
+     "campaign_price": 3.9,
+     "ordinary_price": 6.14,
+     "discount_sek": 2.24,
+     "price_status": "exakt",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Citron",
+     "amount": 1,
+     "unit": "st",
+     "line_cost_sek": 5,
+     "campaign_price": null,
+     "ordinary_price": 5,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Honung",
+     "amount": 10,
+     "unit": "g",
+     "line_cost_sek": 2,
+     "campaign_price": null,
+     "ordinary_price": 2,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Vitlök",
+     "amount": 3,
+     "unit": "klyftor",
+     "line_cost_sek": 2,
+     "campaign_price": null,
+     "ordinary_price": 2,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Olivolja",
+     "amount": 20,
+     "unit": "ml",
+     "line_cost_sek": 3,
+     "campaign_price": null,
+     "ordinary_price": 3,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    }
+   ],
+   "method": "1. Sätt ugnen på 225°C. Halvera potatisen, lägg på en plåt med olivolja, salt och peppar och rosta 15 minuter.\n2. Dela brysselkålen och lägg tomaterna hela på plåten. Rosta vidare 10 minuter.\n3. Putsa kycklingen, krydda med salt, peppar och pressad vitlök och lägg på plåten. Rosta 15–18 minuter tills innertemperaturen är 72°C.\n4. Bryn smöret lätt i en kastrull, ta av från värmen och rör ner honung, finrivet citronskal och en skvätt citronsaft.\n5. Ringla smöret över plåten vid servering.",
+   "costs": {
+    "campaign_total_sek": 181.4,
+    "ordinary_total_sek": 232.52,
+    "total_discount_sek": 51.12,
+    "cost_per_portion_sek": 45.35
+   },
+   "sources": [
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+   ],
+   "taste_balance": "Umami och sälta från kycklingen, syra från citron och tomater, sötma från honung och rostade tomater samt nötighet från brynt smör och brysselkål.",
+   "nutrition_profile": "Kycklinglårfilé ger mycket protein per krona, grönsakerna står för volym och fibrer och smöret doseras sparsamt men ger stor smak.",
+   "price_justification": "Fyra av fem huvudråvaror är veckans kampanjvaror, vilket gör en familjemiddag för fyra ovanligt billig.",
+   "variation_tips": "Byt brysselkål mot morötter om det passar barnen bättre, och tillsätt chiliflakes i smöret för vuxenversionen."
+  },
+  {
+   "title": "Rostad tomatsoppa med mozzarella och vitlöksbröd",
+   "description": "En sammetslen ugnsrostad tomatsoppa där tomater, vitlök och lök får koncentreras i ugnen innan de mixas. Toppas med mozzarella och krispigt vitlöksbröd – snäll mot plånboken och barnvänlig i smaken.",
+   "servings": 4,
+   "servings_label": "4 portioner",
+   "cook_time": "50 min",
+   "meal_flags": [
+    "middag",
+    "vegetarisk",
+    "medelhavsinspirerad",
+    "vardag",
+    "soppa"
+   ],
+   "kcal_per_portion": "ca 470 kcal",
+   "kcal_per_portion_value": 470,
+   "points_estimate": "≈ 9 p/portion",
+   "points_estimate_value": 9,
+   "total_points_estimate": 36,
+   "points_uncertainty": "medel",
+   "ica_products_to_buy": [
+    {
+     "product_name": "Mutti Tomater på burk 400 g",
+     "buy_amount": 2,
+     "campaign_price": 12.5,
+     "ordinary_price": 19.78,
+     "discount_sek": 7.28,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "4 för 50 kr. Ord.pris 18:83-20:72 kr. Styckpris härlett."
+    },
+    {
+     "product_name": "Svenska tomater",
+     "buy_amount": 800,
+     "campaign_price": 24,
+     "ordinary_price": 27.84,
+     "discount_sek": 3.84,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "30 kr/kg. Ord.pris 34:80 kr/kg. 0,8 kg = 24 kr."
+    },
+    {
+     "product_name": "Galbani Mozzarella 125 g",
+     "buy_amount": 2,
+     "campaign_price": 13.33,
+     "ordinary_price": 18.52,
+     "discount_sek": 5.19,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "3 för 40 kr. Ord.pris 18:52 kr. Styckpris härlett."
+    },
+    {
+     "product_name": "Fazer Lantbröd 600 g",
+     "buy_amount": 1,
+     "campaign_price": 25,
+     "ordinary_price": 33.96,
+     "discount_sek": 8.96,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "2 för 50 kr. Ord.pris 33:96 kr. Styckpris härlett."
+    },
+    {
+     "product_name": "Valio Smör 500 g",
+     "buy_amount": 1,
+     "campaign_price": 39,
+     "ordinary_price": 61.42,
+     "discount_sek": 22.42,
+     "price_status": "exakt",
+     "source": "ica_offers",
+     "evidence": "39 kr/st. Ord.pris 61:42 kr. 500 g."
+    }
+   ],
+   "ingredients": [
+    {
+     "item": "Svenska tomater [KAMPANJ]",
+     "amount": 800,
+     "unit": "g",
+     "line_cost_sek": 24,
+     "campaign_price": 24,
+     "ordinary_price": 27.84,
+     "discount_sek": 3.84,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Krossade tomater [KAMPANJ]",
+     "amount": 800,
+     "unit": "g",
+     "line_cost_sek": 25,
+     "campaign_price": 25,
+     "ordinary_price": 39.56,
+     "discount_sek": 14.56,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Mozzarella [KAMPANJ]",
+     "amount": 250,
+     "unit": "g",
+     "line_cost_sek": 26.66,
+     "campaign_price": 26.66,
+     "ordinary_price": 37.04,
+     "discount_sek": 10.38,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Lantbröd [KAMPANJ]",
+     "amount": 300,
+     "unit": "g",
+     "line_cost_sek": 12.5,
+     "campaign_price": 12.5,
+     "ordinary_price": 16.98,
+     "discount_sek": 4.48,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Smör [KAMPANJ]",
+     "amount": 40,
+     "unit": "g",
+     "line_cost_sek": 3.12,
+     "campaign_price": 3.12,
+     "ordinary_price": 4.91,
+     "discount_sek": 1.79,
+     "price_status": "exakt",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Gul lök",
+     "amount": 2,
+     "unit": "st",
+     "line_cost_sek": 4,
+     "campaign_price": null,
+     "ordinary_price": 4,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Vitlök",
+     "amount": 6,
+     "unit": "klyftor",
+     "line_cost_sek": 3,
+     "campaign_price": null,
+     "ordinary_price": 3,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Grönsaksbuljong",
+     "amount": 10,
+     "unit": "g",
+     "line_cost_sek": 3,
+     "campaign_price": null,
+     "ordinary_price": 3,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Olivolja",
+     "amount": 20,
+     "unit": "ml",
+     "line_cost_sek": 3,
+     "campaign_price": null,
+     "ordinary_price": 3,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Basilika",
+     "amount": 10,
+     "unit": "g",
+     "line_cost_sek": 8,
+     "campaign_price": null,
+     "ordinary_price": 8,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    }
+   ],
+   "method": "1. Sätt ugnen på 225°C. Halvera tomaterna, lägg med oskalade vitlöksklyftor och lök i klyftor på en plåt med olivolja, salt och peppar. Rosta 25 minuter.\n2. Koka upp buljongen med de krossade tomaterna och lägg ner det rostade. Låt sjuda 10 minuter.\n3. Mixa soppan slät med stavmixer, smaka av med salt, peppar och en klick smör.\n4. Skär brödet i skivor, rosta i ugnen med smör och pressad vitlök i 6–8 minuter.\n5. Servera soppan med mozzarella i bitar, basilika och vitlöksbrödet.",
+   "costs": {
+    "campaign_total_sek": 112.28,
+    "ordinary_total_sek": 147.33,
+    "total_discount_sek": 35.05,
+    "cost_per_portion_sek": 28.07
+   },
+   "sources": [
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+   ],
+   "taste_balance": "Sötma och umami från rostade tomater, syra från färska tomater, sälta och fett från mozzarella samt vitlökshetta som balanseras av brödet.",
+   "nutrition_profile": "Två sorters tomater ger mycket volym och lykopen, mozzarellan ger protein och mättnad medan brödet hålls till en rimlig mängd.",
+   "price_justification": "Tomater, krossade tomater, mozzarella, bröd och smör är alla kampanjvaror – en vegetarisk middag för fyra.",
+   "variation_tips": "Tillsätt en burk vita bönor för mer protein, eller byt mozzarella mot riven ost om du har det hemma."
+  },
+  {
+   "title": "Krämig tortellini med svamp, spenat och citron",
+   "description": "Färsk fylld pasta vänds i en krämig gräddsås med stekt svamp, vitlök och citronzest. Snabb vardagsrätt med festkänsla som barnen gillar och som vuxna kan lyfta med peppar och riven ost.",
+   "servings": 4,
+   "servings_label": "4 portioner",
+   "cook_time": "25 min",
+   "meal_flags": [
+    "middag",
+    "vegetarisk",
+    "pasta",
+    "snabb",
+    "vardag"
+   ],
+   "kcal_per_portion": "ca 580 kcal",
+   "kcal_per_portion_value": 580,
+   "points_estimate": "≈ 13 p/portion",
+   "points_estimate_value": 13,
+   "total_points_estimate": 52,
+   "points_uncertainty": "medel",
+   "ica_products_to_buy": [
+    {
+     "product_name": "Rana Färsk fylld pasta 250 g",
+     "buy_amount": 2,
+     "campaign_price": 35,
+     "ordinary_price": 44.71,
+     "discount_sek": 9.71,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "2 för 70 kr. Ord.pris 44:52-44:90 kr. Styckpris härlett."
+    },
+    {
+     "product_name": "Skånemejerier Vispgrädde 5 dl",
+     "buy_amount": 1,
+     "campaign_price": 25,
+     "ordinary_price": 31.26,
+     "discount_sek": 6.26,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "2 för 50 kr. Ord.pris 31:26 kr. Styckpris härlett."
+    },
+    {
+     "product_name": "Valio Smör 500 g",
+     "buy_amount": 1,
+     "campaign_price": 39,
+     "ordinary_price": 61.42,
+     "discount_sek": 22.42,
+     "price_status": "exakt",
+     "source": "ica_offers",
+     "evidence": "39 kr/st. Ord.pris 61:42 kr. 500 g."
+    },
+    {
+     "product_name": "ICA Riven ost 150 g",
+     "buy_amount": 1,
+     "campaign_price": 22.5,
+     "ordinary_price": 28.77,
+     "discount_sek": 6.27,
+     "price_status": "härlett",
+     "source": "ica_offers",
+     "evidence": "2 för 45 kr. Ord.pris 27:35-30:19 kr. Styckpris härlett."
+    }
+   ],
+   "ingredients": [
+    {
+     "item": "Färsk fylld pasta [KAMPANJ]",
+     "amount": 500,
+     "unit": "g",
+     "line_cost_sek": 70,
+     "campaign_price": 70,
+     "ordinary_price": 89.42,
+     "discount_sek": 19.42,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Vispgrädde [KAMPANJ]",
+     "amount": 250,
+     "unit": "ml",
+     "line_cost_sek": 12.5,
+     "campaign_price": 12.5,
+     "ordinary_price": 15.63,
+     "discount_sek": 3.13,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Riven ost [KAMPANJ]",
+     "amount": 75,
+     "unit": "g",
+     "line_cost_sek": 11.25,
+     "campaign_price": 11.25,
+     "ordinary_price": 14.39,
+     "discount_sek": 3.14,
+     "price_status": "härlett",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Smör [KAMPANJ]",
+     "amount": 20,
+     "unit": "g",
+     "line_cost_sek": 1.56,
+     "campaign_price": 1.56,
+     "ordinary_price": 2.46,
+     "discount_sek": 0.9,
+     "price_status": "exakt",
+     "source": "ica_offers"
+    },
+    {
+     "item": "Champinjoner",
+     "amount": 400,
+     "unit": "g",
+     "line_cost_sek": 28,
+     "campaign_price": null,
+     "ordinary_price": 28,
+     "discount_sek": null,
+     "price_status": "uppskattat",
+     "source": "uppskattat"
+    },
+    {
+     "item": "Babyspenat",
+     "amount": 150,
+     "unit": "g",
+     "line_cost_sek": 15,
+     "campaign_price": null,
+     "ordinary_price": 15,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Citron",
+     "amount": 1,
+     "unit": "st",
+     "line_cost_sek": 5,
+     "campaign_price": null,
+     "ordinary_price": 5,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Vitlök",
+     "amount": 3,
+     "unit": "klyftor",
+     "line_cost_sek": 2,
+     "campaign_price": null,
+     "ordinary_price": 2,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    },
+    {
+     "item": "Olivolja",
+     "amount": 15,
+     "unit": "ml",
+     "line_cost_sek": 2,
+     "campaign_price": null,
+     "ordinary_price": 2,
+     "discount_sek": null,
+     "price_status": "schablon",
+     "source": "schablon"
+    }
+   ],
+   "method": "1. Koka upp vatten och sätt på pastan enligt förpackningen.\n2. Stek champinjonerna i smör och olivolja på hög värme i 6–8 minuter tills de fått färg.\n3. Tillsätt vitlök och spenat, låt spenaten falla ihop.\n4. Häll i vispgrädden och en skvätt pastavatten, låt koka ihop 3–4 minuter och smaka av med citronzest, citronsaft, salt och peppar.\n5. Vänd ner pastan och osten i såsen och servera direkt.",
+   "costs": {
+    "campaign_total_sek": 147.31,
+    "ordinary_total_sek": 173.9,
+    "total_discount_sek": 26.59,
+    "cost_per_portion_sek": 36.83
+   },
+   "sources": [
+    "https://www.ica.se/erbjudanden/ica-supermarket-rimforsa-1004066/"
+   ],
+   "taste_balance": "Fett och sälta från grädde och ost, syra från citron, umami från svamp och mild sötma från den fyllda pastan.",
+   "nutrition_profile": "Vegetarisk proteinkälla centralt, men grädde och ost höjer energitätheten något – grönsakerna bär delar av portionen.",
+   "price_justification": "Fyra kampanjvaror bygger hela rätten, vilket gör en snabb pastamiddag för fyra prisvärd.",
+   "variation_tips": "Byt spenat mot broccoli, och tillsätt chili och citronskal på tallriken för vuxenvarianten."
+  }
+ ],
+ "quality_check": {
+  "evaluation_rounds": 2,
+  "json_valid": true,
+  "index_valid": true,
+  "notes": "Självutvärdering gjord i två rundor. Points kontrollerade mot points_engine.md, total = portion x 4. Alla normaliserade fält finns. Butiksvaror matchar receptens ingredienser."
+ },
+ "delivery_note": {
+  "discord_channel": "#allmänt",
+  "discord_channel_id": "1490438999494492415",
+  "imessage_recipients": [
+   "iMessage;-;+46760172989",
+   "iMessage;-;+46739280001"
+  ]
+ }
+}
