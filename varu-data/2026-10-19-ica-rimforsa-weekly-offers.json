@@ -641,6 +641,7 @@
   "imessage_recipients": [
    "iMessage;-;+46760172989",
    "iMessage;-;+46739280001"
-  ]
+  ],
+  "imessage_status": "failed - BlueBubbles/servern på 192.168.1.215:1234 svarade inte (connection refused), båda mottagarna misslyckades 2026-10-19 20:0x. Skicka om manuellt."
  }
 }
