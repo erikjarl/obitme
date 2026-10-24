@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-17T12:45:38.566571",
+  "generated_at": "2026-10-24T10:47:13.287171",
   "publish_mode": "next_calendar_week",
-  "week_number": 43,
-  "week_start": "2026-10-19",
-  "week_end": "2026-10-25",
+  "week_number": 44,
+  "week_start": "2026-10-26",
+  "week_end": "2026-11-01",
   "days_covered": 7,
-  "busy_days": 0,
-  "free_days": 7,
-  "total_events": 0,
+  "busy_days": 2,
+  "free_days": 5,
+  "total_events": 2,
   "family_profile": {
     "members": [
       {
@@ -88,36 +88,83 @@
       "url": "https://www.loppisar.com/sokning.html?slanID=21&skommunID=alla&srange=framat&srangetime=6&do_search=S%C3%B6k+nu!&do_search=1"
     }
   ],
-  "local_event_candidates": [],
+  "local_event_candidates": [
+    {
+      "title": "Vårens Östgötadagar 2026 (9-10 maj 2026)",
+      "source": "Visit Linköping highlights",
+      "area": "Linköping",
+      "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
+      "date_hint": "9-10 maj 2026",
+      "location": "Linköping",
+      "tags": [
+        "barnaktivitet",
+        "familj",
+        "loppis",
+        "marknad",
+        "natur",
+        "utflykt"
+      ],
+      "family_match_score": 24
+    },
+    {
+      "title": "Evenemang för dig & dina barn i Linköping",
+      "source": "Visit Linköping highlights",
+      "area": "Linköping",
+      "url": "https://visitlinkoping.se/evenemang/familj/",
+      "date_hint": null,
+      "location": "Linköping",
+      "tags": [
+        "barnaktivitet",
+        "familj",
+        "natur"
+      ],
+      "family_match_score": 16
+    }
+  ],
   "scrape_debug": [
     {
       "source": "Visit Linköping highlights",
       "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
-      "status": "error",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "ok",
+      "count": 1,
+      "sample_titles": [
+        "Vårens Östgötadagar 2026 (9-10 maj 2026)"
+      ]
     },
     {
       "source": "Visit Linköping highlights",
       "url": "https://visitlinkoping.se/evenemang/familj/",
-      "status": "error",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "ok",
+      "count": 1,
+      "sample_titles": [
+        "Evenemang för dig & dina barn i Linköping"
+      ]
     },
     {
       "source": "loppisar.com Östergötland",
       "url": "https://www.loppisar.com/sokning.html?slanID=21&skommunID=alla&srange=framat&srangetime=6&do_search=S%C3%B6k+nu!&do_search=1",
-      "status": "error",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "ok",
+      "count": 0,
+      "sample_titles": []
     }
   ],
-  "scraped_event_count": 0,
-  "week_overview": "Veckan ser ovanligt luftig ut just nu, med gott om plats för både familjeliv, hemmaprojekt och spontana planer. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att gå på en barnvänlig aktivitet i närområdet eller åka till biblioteket eller sagostund.",
+  "scraped_event_count": 2,
+  "week_overview": "Vecka 44 innehåller några fasta punkter, bland annat Höstlov  på måndag och Ljusvandring 17:30  på torsdag. Det finns fortfarande öppna luckor, vilket ger fint utrymme både för en liten utflykt och för att komma framåt med huset eller stugan. En av de lediga dagarna skulle kunna passa för att ta ett lugnt pass med planering av trallbygget eller ta det lugnt hemma och prioritera återhämtning.",
   "days": [
     {
-      "date": "2026-10-19",
+      "date": "2026-10-26",
       "weekday": "måndag",
-      "events": [],
-      "has_events": false,
-      "summary": "Måndag 10-19 – ledig",
+      "events": [
+        {
+          "title": "Höstlov ",
+          "start": "2026-10-26T07:00:00",
+          "end": "2026-10-30T08:00:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Måndag 10-26 – Höstlov  07:00–08:00 [Ida&Erik Jarls familjekalender ]",
       "suggestions": [
         {
           "activity": "gå på en barnvänlig aktivitet i närområdet",
@@ -143,11 +190,11 @@
       ]
     },
     {
-      "date": "2026-10-20",
+      "date": "2026-10-27",
       "weekday": "tisdag",
       "events": [],
       "has_events": false,
-      "summary": "Tisdag 10-20 – ledig",
+      "summary": "Tisdag 10-27 – ledig",
       "suggestions": [
         {
           "activity": "ta ett lugnt pass med planering av trallbygget",
@@ -173,11 +220,11 @@
       ]
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "weekday": "onsdag",
       "events": [],
       "has_events": false,
-      "summary": "Onsdag 10-21 – ledig",
+      "summary": "Onsdag 10-28 – ledig",
       "suggestions": [
         {
           "activity": "ta en kort familjeutflykt i naturen",
@@ -203,11 +250,19 @@
       ]
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-10-29",
       "weekday": "torsdag",
-      "events": [],
-      "has_events": false,
-      "summary": "Torsdag 10-22 – ledig",
+      "events": [
+        {
+          "title": "Ljusvandring 17:30 ",
+          "start": "2026-10-29T16:30:00",
+          "end": "2026-10-29T17:30:00",
+          "is_all_day": false,
+          "calendar": "Ida&Erik Jarls familjekalender "
+        }
+      ],
+      "has_events": true,
+      "summary": "Torsdag 10-29 – Ljusvandring 17:30  16:30–17:30 [Ida&Erik Jarls familjekalender ]",
       "suggestions": [
         {
           "activity": "hitta någon musikupplevelse i närheten",
@@ -219,27 +274,48 @@
       ]
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-30",
       "weekday": "fredag",
       "events": [],
       "has_events": false,
-      "summary": "Fredag 10-23 – ledig",
+      "summary": "Fredag 10-30 – ledig",
       "suggestions": []
     },
     {
-      "date": "2026-10-24",
+      "date": "2026-10-31",
       "weekday": "lördag",
       "events": [],
       "has_events": false,
-      "summary": "Lördag 10-24 – ledig",
-      "suggestions": []
+      "summary": "Lördag 10-31 – ledig",
+      "suggestions": [
+        {
+          "activity": "kolla om Vårens Östgötadagar 2026 (9-10 maj 2026) passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/varens-ostgotadagar-2026/",
+          "match_score": 24
+        },
+        {
+          "activity": "kolla om Evenemang för dig & dina barn i Linköping passar familjen",
+          "category": "lokalt evenemang",
+          "duration": "halvdag",
+          "family_fit": "familjevänligt",
+          "reason": "faktisk träff från Visit Linköping highlights, plats: Linköping",
+          "source": "Visit Linköping highlights",
+          "url": "https://visitlinkoping.se/evenemang/familj/",
+          "match_score": 16
+        }
+      ]
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "weekday": "söndag",
       "events": [],
       "has_events": false,
-      "summary": "Söndag 10-25 – ledig",
+      "summary": "Söndag 11-01 – ledig",
       "suggestions": []
     }
   ]
